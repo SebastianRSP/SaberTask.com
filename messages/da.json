@@ -1,0 +1,489 @@
+{
+  "nav": {
+    "home": "Hjem",
+    "features": "Funktioner",
+    "industries": "Brancher",
+    "pricing": "Priser",
+    "resources": "Ressourcer",
+    "about": "Om os",
+    "contact": "Kontakt",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "demo": "Book Demo",
+    "login": "Log ind",
+    "featuresDropdown": {
+      "overview": "Funktionsoversigt",
+      "routing": "Ruteplanlægning",
+      "tracking": "Udstyrssporing",
+      "reporting": "Rapportering & Analyse"
+    },
+    "industriesDropdown": {
+      "snowRemoval": "Snerydning",
+      "landscaping": "Havearbejde",
+      "cleaning": "Rengøringstjenester"
+    },
+    "resourcesDropdown": {
+      "faq": "FAQ",
+      "support": "Support"
+    }
+  },
+  "hero": {
+    "titleStart": "Fra",
+    "titleHighlight1": "dashboard",
+    "titleMiddle": "til",
+    "titleHighlight2": "fakturering",
+    "cta": "Book en demo",
+    "tagline": "Alt hvad du behover for at drive din servicevirksomhed",
+    "userCount": "500K +",
+    "trustedBy": "Betroet af mange brugere i over 10 lande",
+    "bannerTitle": "Alt hvad du behover et sted",
+    "bannerSubtitle": "Partnerskab med forende brands for at revolutionere servicebranchen",
+    "metaDescription": "SnowManager er alt-i-én platformen for snerydningsfirmaer. Planlæg ruter, spor mandskab i realtid, og automatisér fakturering."
+  },
+  "features": {
+    "badge": "Nøglefunktioner",
+    "titleStart": "Vores app er en",
+    "titleHighlight": "alt-i-én løsning",
+    "titleEnd": "til din virksomhed",
+    "subtitle": "Fra live dashboards til automatisk fakturering - SnowManager erstatter fragmenterede værktøjer og sparer dig tid, penge og besvær.",
+    "benefitLabel": "En af fordelene",
+    "learnMore": "Læs mere",
+    "painPoints": {
+      "title": "Smertepunkter"
+    },
+    "howWeHelp": {
+      "title": "Sådan hjælper vi"
+    },
+    "liveDashboard": {
+      "tabName": "Live Dashboard",
+      "title": "Live Dashboard",
+      "description": "Overvåg disponering, følg medarbejdernes fremskridt og reagér øjeblikkeligt på ændringer - eliminér kaos fra manuelle check-ins og spredt information.",
+      "painPoints": [
+        "Ledere mangler realtids-indsigt i medarbejdernes arbejde.",
+        "Branchen kører ofte på blind tillid - opgaver tildeles uden live opdateringer.",
+        "Svært at spore forsinkelser, fejl eller oversete opgaver."
+      ],
+      "solutions": [
+        "Viser live ruter, opgaver og medarbejder check-ins.",
+        "Omfordel øjeblikkeligt opgaver når personale er syge eller forsinkede.",
+        "Giver ledelsen et live \"kontrolcenter\" overblik."
+      ]
+    },
+    "subcontractorManagement": {
+      "tabName": "Underleverandørstyring",
+      "title": "Underleverandørstyring",
+      "description": "Administrer dit netværk af underleverandører problemfrit. Tildel opgaver, spor præstationer og håndter betalinger - alt ét sted.",
+      "painPoints": [
+        "Koordinering med underleverandører er kaotisk og tidskrævende.",
+        "Ingen synlighed i om underleverandørarbejde faktisk er udført.",
+        "Betalingstvister på grund af manglende dokumentation."
+      ],
+      "solutions": [
+        "Dedikeret portal hvor underleverandører modtager og udfører opgaver.",
+        "Realtidssporing og dokumentation for alt underleverandørarbejde.",
+        "Automatiseret betalingssporing med klar dokumentation."
+      ]
+    },
+    "automaticInvoicing": {
+      "tabName": "Automatisk Fakturering",
+      "title": "Automatisk Fakturering",
+      "description": "Generer og send fakturaer automatisk baseret på udført arbejde. Ikke mere manuel dataindtastning eller jagt på papirarbejde.",
+      "painPoints": [
+        "At oprette fakturaer manuelt er tidskrævende.",
+        "Opgaver slipper ofte igennem uden at blive faktureret.",
+        "Svært at bevise at tjenester blev udført."
+      ],
+      "solutions": [
+        "Auto-generer fakturaer fra fuldførte opgaver.",
+        "Inkluder GPS-verificerede tidsstempler og fotos som dokumentation.",
+        "Send fakturaer automatisk via email eller integrer med regnskab."
+      ]
+    },
+    "mobileApp": {
+      "tabName": "Mobil App",
+      "title": "Mobil App",
+      "description": "Giv dine feltmedarbejdere en kraftfuld mobil app. Stem ind, navigér ruter, tag billeder og opdater opgavestatus - alt fra deres telefon.",
+      "painPoints": [
+        "Feltarbejdere er afhængige af papir eller hukommelse til at spore deres arbejde.",
+        "Ingen nem måde at kommunikere ruteændringer i realtid.",
+        "Svært at indfange og organisere dokumentation for udført arbejde."
+      ],
+      "solutions": [
+        "Et-tryk ind/ud-stempling med GPS-verificering.",
+        "Turn-by-turn navigation integreret med opgavetildelinger.",
+        "Billedoptagelse og noter knyttet direkte til hver opgave."
+      ]
+    },
+    "customerDashboard": {
+      "tabName": "Kunde Dashboard",
+      "title": "Kunde Dashboard",
+      "description": "Giv dine kunder et professionelt dashboard til at se servicehistorik, følge kommende arbejde og tilgå rapporter når som helst.",
+      "painPoints": [
+        "Kunder ringer konstant og spørger efter opdateringer.",
+        "Ingen professionel måde at dele servicerapporter på.",
+        "Svært for kunder at verificere at arbejdet er udført."
+      ],
+      "solutions": [
+        "Branded dashboard hvor kunder ser realtids jobstatus.",
+        "Automatiske servicerapporter med billeder og tidsstempler.",
+        "Selvbetjeningsadgang til fakturaer og servicehistorik."
+      ]
+    },
+    "smartRouteBuilder": {
+      "tabName": "Smart Rutebygger",
+      "title": "Smart Rutebygger",
+      "description": "Byg optimerede ruter på sekunder. Vores smarte algoritme tager højde for lokation, prioritet og udstyr for at maksimere effektiviteten.",
+      "painPoints": [
+        "Ruter planlægges manuelt, hvilket spilder tid og brændstof.",
+        "Prioritetsområder bliver ofte overset eller serviceret for sent.",
+        "Ingen nem måde at justere ruter når forholdene ændrer sig."
+      ],
+      "solutions": [
+        "AI-optimerede ruter baseret på lokation, prioritet og vejr.",
+        "Træk-og-slip ruteeditering med øjeblikkelig genberegning.",
+        "Automatisk rebalancering når nye opgaver tilføjes."
+      ]
+    },
+    "drawingTool": {
+      "tabName": "Tegneværktøj",
+      "title": "Tegneværktøj",
+      "description": "Definer serviceområder med præcision ved hjælp af vores intuitive tegneværktøj. Markér indkørsler, gangstier, parkeringspladser og specialzoner på et kort.",
+      "painPoints": [
+        "Serviceområder beskrives vagt, hvilket fører til forvirring.",
+        "Nye medarbejdere ved ikke præcis hvor de skal servicere.",
+        "Tvister med kunder om hvilke områder der var inkluderet."
+      ],
+      "solutions": [
+        "Tegn præcise servicegrænser på satellitbilleder.",
+        "Farvekod forskellige zoner (indkørsler, gangstier, osv.).",
+        "Medarbejdere ser præcise områder at servicere på deres mobil app."
+      ]
+    }
+  },
+  "mobileApp": {
+    "badge": "Mobil App",
+    "title": "Hele din drift i lommen",
+    "description": "Giv dine feltmedarbejdere en kraftfuld mobil app. Stem ind, navigér ruter, tag billeder og opdater opgavestatus - alt fra deres telefon.",
+    "appTagline": "Feltoperations App",
+    "downloadOn": "Download i",
+    "getItOn": "Hent den på",
+    "features": {
+      "gpsTracking": {
+        "title": "GPS Sporing",
+        "description": "Realtids lokationssporing med automatisk ind/ud-stempling."
+      },
+      "revenueOverview": {
+        "title": "Omsætningsoverblik",
+        "description": "Følg indtjening og omsætning i realtid direkte fra din telefon."
+      },
+      "photoCapture": {
+        "title": "Billedoptagelse",
+        "description": "Dokumentér udført arbejde med tidsstemplede, geo-taggede billeder."
+      },
+      "taskManagement": {
+        "title": "Opgavestyring",
+        "description": "Se tildelinger, opdater status og kommuniker med disponering."
+      }
+    }
+  },
+  "benefits": {
+    "title": "Hvorfor Vælge SnowManager?",
+    "subtitle": "Slut dig til hundredvis af snerydningsfirmaer der har transformeret deres operationer",
+    "efficiency": {
+      "title": "Spar 30% på Drift",
+      "description": "Optimerede ruter og bedre planlægning betyder mindre brændstof, mindre tid og flere opgaver gennemført per dag."
+    },
+    "satisfaction": {
+      "title": "Gladere Kunder",
+      "description": "Realtidsopdateringer og professionel rapportering holder dine kunder informerede og tilfredse."
+    },
+    "growth": {
+      "title": "Skaler Din Virksomhed",
+      "description": "Håndter flere kunder og områder uden at tilføje administrativt overhead."
+    }
+  },
+  "pricing": {
+    "title": "Simpel, Gennemsigtig Prissætning",
+    "subtitle": "Vælg den plan der passer til din virksomhed. Ingen skjulte gebyrer.",
+    "metaDescription": "Udforsk SnowManagers prisplaner for snerydningsfirmaer i alle størrelser. Enkel og gennemsigtig prissætning uden skjulte gebyrer.",
+    "monthly": "Månedlig",
+    "yearly": "Årlig",
+    "savePercent": "Spar 20%",
+    "perMonth": "/måned",
+    "perYear": "/år",
+    "starter": {
+      "name": "Starter",
+      "description": "Perfekt til små operationer",
+      "price": "799",
+      "features": [
+        "Op til 5 køretøjer",
+        "Basis ruteplanlægning",
+        "Vejradvarsler",
+        "Email support"
+      ]
+    },
+    "professional": {
+      "name": "Professionel",
+      "description": "Til voksende virksomheder",
+      "price": "1.999",
+      "popular": "Mest Populær",
+      "features": [
+        "Op til 20 køretøjer",
+        "Avanceret ruteoptimering",
+        "Realtids GPS-sporing",
+        "Kunderapporteringsportal",
+        "Prioriteret support"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Til store operationer",
+      "price": "Tilpasset",
+      "features": [
+        "Ubegrænsede køretøjer",
+        "Tilpassede integrationer",
+        "Dedikeret account manager",
+        "24/7 telefonsupport",
+        "On-site træning"
+      ]
+    },
+    "cta": "Start Gratis Prøveperiode",
+    "ctaEnterprise": "Kontakt Salg"
+  },
+  "testimonials": {
+    "badge": "Udtalelser",
+    "title": "Hvem vi er og hvad vores brugere siger om os",
+    "subtitle": "Betroet af servicevirksomheder på tværs af brancher",
+    "featured": {
+      "quote": "Efter 20 år i servicestyring var vi frustrerede over at bruge 7+ forskellige værktøjer der ikke kommunikerede med hinanden. SnowManager blev bygget til at løse det — og spare virksomheder tid, penge og besvær.",
+      "author": "Sebastian & Martin",
+      "role": "Grundlæggere",
+      "company": "SnowManager"
+    },
+    "items": [
+      {
+        "quote": "SnowManager har fuldstændig transformeret hvordan vi opererer. Vi håndterer nu 40% flere kunder med samme flådestørrelse.",
+        "author": "Michael Jensen",
+        "role": "Ejer",
+        "company": "Nordic Snow Services"
+      },
+      {
+        "quote": "Vejrintegrationen alene har sparet os utallige timer. Vi ved præcis hvornår vi skal sende vores hold ud nu.",
+        "author": "Sarah Andersen",
+        "role": "Driftschef",
+        "company": "WhiteOut Plowing"
+      },
+      {
+        "quote": "Vores kunder elsker at få realtidsopdateringer. Det har løftet vores professionalisme til et helt nyt niveau.",
+        "author": "Thomas Nielsen",
+        "role": "CEO",
+        "company": "Clear Path Solutions"
+      },
+      {
+        "quote": "Rapporteringsfunktionerne gør fakturering til en leg. Hvad der plejede at tage timer tager nu minutter.",
+        "author": "Emma Larsen",
+        "role": "Kontorchef",
+        "company": "Snowfall Removal"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Ofte Stillede Spørgsmål",
+    "subtitle": "Har du spørgsmål? Vi har svar.",
+    "metaDescription": "Find svar på ofte stillede spørgsmål om SnowManager. Læs om prøveperioder, planer, datasikkerhed, træning og support.",
+    "items": [
+      {
+        "question": "Hvordan fungerer den gratis prøveperiode?",
+        "answer": "Du får fuld adgang til alle Professionel-funktioner i 14 dage, intet kreditkort påkrævet. Ved slutningen af din prøveperiode kan du vælge den plan der passer bedst til dine behov."
+      },
+      {
+        "question": "Kan jeg skifte plan senere?",
+        "answer": "Absolut! Du kan opgradere eller nedgradere din plan når som helst. Ændringer træder i kraft ved starten af din næste faktureringsperiode."
+      },
+{
+        "question": "Er mine data sikre?",
+        "answer": "Ja, vi bruger kryptering på bankniveau og er fuldt GDPR-kompatible. Dine data sikkerhedskopieres dagligt og opbevares sikkert i europæiske datacentre."
+      },
+      {
+        "question": "Tilbyder I træning?",
+        "answer": "Alle planer inkluderer adgang til vores videotutorials og vidensbase. Professionel og Enterprise planer inkluderer live onboarding-sessioner."
+      },
+      {
+        "question": "Hvad hvis jeg har brug for hjælp?",
+        "answer": "Vi tilbyder email support på alle planer, prioriteret support for Professionel, og 24/7 telefonsupport for Enterprise-kunder."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt Os",
+    "subtitle": "Klar til at transformere din snerydningsvirksomhed? Lad os tale.",
+    "form": {
+      "name": "Dit Navn",
+      "email": "Email Adresse",
+      "company": "Firmanavn",
+      "phone": "Telefonnummer",
+      "message": "Besked",
+      "submit": "Send Besked",
+      "success": "Tak! Vi vender tilbage hurtigst muligt.",
+      "error": "Noget gik galt. Prøv venligst igen."
+    },
+    "info": {
+      "title": "Kontaktinformation",
+      "email": "sebastian@snowmanager.com",
+      "phone": "+45 32 33 05 20"
+    }
+  },
+  "footer": {
+    "description": "Den komplette platform til moderne snerydningsoperationer.",
+    "product": {
+      "title": "Produkt",
+      "features": "Funktioner",
+      "pricing": "Priser",
+      "demo": "Book Demo"
+    },
+    "company": {
+      "title": "Virksomhed",
+      "about": "Om Os",
+      "blog": "Blog",
+      "contact": "Kontakt",
+      "careers": "Karriere"
+    },
+    "legal": {
+      "title": "Juridisk",
+      "privacy": "Privatlivspolitik",
+      "terms": "Handelsbetingelser"
+    },
+    "copyright": "© 2024 SnowManager. Alle rettigheder forbeholdes."
+  },
+  "about": {
+    "title": "Om SnowManager",
+    "subtitle": "Vi er på en mission for at gøre snerydningsoperationer mere effektive og professionelle.",
+    "story": {
+      "title": "Vores Historie",
+      "content": "SnowManager blev født ud af førstehåndserfaring i snerydningsbranchen. Vores grundlæggere brugte år på at administrere snerydningsoperationer og så de udfordringer der følger med koordinering af hold, styring af ruter og information til kunder. Vi byggede SnowManager for at løse disse problemer med moderne teknologi der faktisk er nem at bruge."
+    },
+    "mission": {
+      "title": "Vores Mission",
+      "content": "At styrke snerydningsprofessionelle med de værktøjer de har brug for til at drive mere effektive, profitable og professionelle operationer."
+    },
+    "values": {
+      "title": "Vores Værdier",
+      "simplicity": {
+        "title": "Enkelhed",
+        "description": "Teknologi skal gøre dit liv nemmere, ikke sværere."
+      },
+      "reliability": {
+        "title": "Pålidelighed",
+        "description": "Når sneen begynder at falde, kan du regne med os."
+      },
+      "partnership": {
+        "title": "Partnerskab",
+        "description": "Din succes er vores succes. Vi vokser sammen."
+      }
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Indsigt, tips og nyheder om vinterdrift og servicestyring.",
+    "noPosts": "Ingen indlæg endnu. Kom tilbage snart!",
+    "readMore": "Læs mere",
+    "backToBlog": "Tilbage til Blog",
+    "pageTitle": "Blog - SnowManager",
+    "pageDescription": "Læs de seneste indsigter, tips og nyheder om vinterdrift og servicestyring fra SnowManager-teamet.",
+    "metaDescription": "Læs indsigter, tips og nyheder om vinterdrift og snerydning fra SnowManager-teamet. Hold dig opdateret og klar til sæsonen."
+  },
+  "cta": {
+    "title": "Klar til at Komme i Gang?",
+    "subtitle": "Slut dig til hundredvis af snerydningsfirmaer der allerede bruger SnowManager.",
+    "button": "Start Din Gratis Prøveperiode"
+  },
+  "privacyPolicy": {
+    "title": "Privatlivspolitik",
+    "lastUpdated": "Sidst opdateret: Januar 2025",
+    "intro": "Hos SnowManager tager vi dit privatliv alvorligt. Denne privatlivspolitik forklarer, hvordan vi indsamler, bruger, videregiver og beskytter dine oplysninger, når du bruger vores tjeneste.",
+    "metaDescription": "Læs hvordan SnowManager indsamler, bruger og beskytter dine data. Vi er fuldt GDPR-kompatible med kryptering på bankniveau.",
+    "dataCollection": {
+      "title": "Oplysninger Vi Indsamler",
+      "content": "Vi indsamler oplysninger, som du giver os direkte, f.eks. når du opretter en konto, bruger vores tjenester eller kontakter os for support. Dette kan omfatte dit navn, e-mailadresse, firmanavn, telefonnummer og betalingsoplysninger. Vi indsamler også automatisk visse oplysninger, når du bruger vores tjenester, herunder enhedsoplysninger, IP-adresse og brugsdata."
+    },
+    "dataUsage": {
+      "title": "Hvordan Vi Bruger Dine Oplysninger",
+      "content": "Vi bruger de oplysninger, vi indsamler, til at levere, vedligeholde og forbedre vores tjenester, behandle transaktioner, sende dig tekniske meddelelser og supportbeskeder samt besvare dine kommentarer og spørgsmål. Vi kan også bruge dine oplysninger til at sende dig salgsfremmende kommunikation, selvom du til enhver tid kan framelde dig."
+    },
+    "dataSharing": {
+      "title": "Deling af Oplysninger",
+      "content": "Vi sælger, bytter eller udlejer ikke dine personlige oplysninger til tredjeparter. Vi kan dele dine oplysninger med tjenesteudbydere, der hjælper os med at drive vores platform, udføre vores forretning eller betjene vores brugere. Vi kan også dele oplysninger, når det kræves ved lov eller for at beskytte vores rettigheder."
+    },
+    "cookies": {
+      "title": "Cookies og Sporing",
+      "content": "Vi bruger cookies og lignende sporingsteknologier til at spore aktivitet på vores tjeneste og gemme visse oplysninger. Cookies er filer med en lille mængde data, der sendes til din browser fra et websted og gemmes på din enhed. Du kan instruere din browser til at afvise alle cookies eller angive, når en cookie sendes."
+    },
+    "security": {
+      "title": "Datasikkerhed",
+      "content": "Vi implementerer passende tekniske og organisatoriske sikkerhedsforanstaltninger for at beskytte dine personlige oplysninger. Vi bruger kryptering på bankniveau og er fuldt GDPR-kompatible. Dine data sikkerhedskopieres dagligt og opbevares sikkert i europæiske datacentre. Dog er ingen metode til transmission over internettet 100% sikker."
+    },
+    "rights": {
+      "title": "Dine Rettigheder",
+      "content": "Du har ret til at få adgang til, rette eller slette dine personlige oplysninger. Du kan også have ret til at begrænse eller gøre indsigelse mod visse behandlinger af dine data. For at udøve disse rettigheder, kontakt os venligst via oplysningerne nedenfor. Hvis du befinder dig i Det Europæiske Økonomiske Samarbejdsområde, har du ret til at indgive en klage til en tilsynsmyndighed."
+    },
+    "contact": {
+      "title": "Kontakt Os",
+      "content": "Hvis du har spørgsmål om denne privatlivspolitik, kontakt os venligst på <email>sebastian@snowmanager.com</email>."
+    }
+  },
+  "terms": {
+    "title": "Handelsbetingelser",
+    "lastUpdated": "Sidst opdateret: Januar 2025",
+    "intro": "Disse forretningsbetingelser (\"Forretningsbetingelserne\") gælder som aftaleforhold mellem kunden (\"Kunden\") og SaberTask LDA, cvr. nummer: PT518467546 (\"WinterManager\").",
+    "metaDescription": "Læs handelsbetingelserne for brug af SnowManager. Se vores serviceaftaler, priser, datasikkerhed og dine rettigheder.",
+    "companyInfo": "SaberTask LDA, CVR-nummer: PT518467546, Rua das Violetas n 145, Cascais, Lisboa, Portugal",
+    "service": {
+      "title": "Serviceydelsen",
+      "content": "WinterManager stiller en software til rådighed via sin hjemmeside, mobile platforme eller lignende (\"Softwaren\"), som muliggør, at Kunden via selvbetjening kan administrere og optimere vinterdrift. Kunden kan administrere kunder, adresser, underleverandører og ruter (i et hele benævnt \"Serviceydelsen\").\n\nOmfanget af Serviceydelsen defineres på baggrund af Kundens valg af servicepakke, som kan indeholde flere eller færre funktioner (\"Servicepakken\"). Valget foretages i samarbejde med WinterManager, og vil fremgå på aftalebrevet.\n\nIgennem forretningsforholdet mellem Kunden og WinterManager opnår Kunden en adgang til at anvende Softwaren, som ikke er eksklusiv. Kunden kommer således ikke til at eje Softwaren eller Serviceydelserne eller en kopi eller del heraf.\n\nAdgangen til at anvende Serviceydelsen, herunder Softwaren, kan alene ske til brug for Kundens formål og gælder udelukkende for Kunden og dennes underleverandører. Ved tilmelding til Serviceydelsen skal både Kunden og dennes underleverandører have deres eget unikke brugernavn og kodeord. Det er Kundens pligt at sikre, at Kunden og underleverandører opretholder den fornødne sikkerhed for at beskytte brugernavn og kodeord for at forhindre misbrug m.v. af Serviceydelsen."
+    },
+    "acceptance": {
+      "title": "Accept og Tilladelse",
+      "content": "Ved Kundens registrering på WinterManagers platform accepterer Kunden Forretningsbetingelserne for Serviceydelsen, og som det gældende aftaleforhold mellem Kunden og WinterManager. Forretningsbetingelserne gælder også for tredjemand, som på vegne af Kunden måtte udføre arbejde i relation til Serviceydelsen.\n\nServiceydelsen herunder tillægsydelser ydes til Kunden i egenskab af forretningsdrivende, herunder også selvom Kundens medarbejdere opnår adgang til hele eller dele af Softwaren.\n\nKunden samtykker til, at WinterManager og dets Tredjeparter kan foretage markedsføring overfor Kunden og Underleverandører. Kunden kan skriftlig tilbagekalde sådant samtykke.\n\nKunden accepterer WinterManagers øvrige politikker, herunder politik for persondata og Cookies, som er tilgængelige i den til enhver tid gældende udgave på WinterManagers hjemmeside. De øvrige politikker skal ses som værende en integreret del af disse Forretningsbetingelser."
+    },
+    "thirdParties": {
+      "title": "Tredjeparter",
+      "content": "For at kunne levere Serviceydelsen og eventuelle tillægsydelser kan WinterManager gøre brug af leverandører og lignende forretningspartnere (\"Tredjeparter\"). Kunden accepterer og tillader, at informationer der uploades i forbindelse med Serviceydelsen kan blive behandlet af og udvekslet med Tredjeparter, som arbejder med WinterManager, forudsat at WinterManager har indgået databehandleraftale med de relevante Tredjeparter.\n\nSåfremt Tredjeparter tilbyder tillægsydelser via WinterManagers API, er brugen af tillægsydelserne underlagt den pågældende Tredjeparts vilkår. Kunden fritager WinterManager for ethvert ansvar i forbindelse med brug af sådanne Tredjeparters tillægsydelser."
+    },
+    "customerResponsibilities": {
+      "title": "Kundens Pligter og Ansvar",
+      "content": "Det er udelukkende Kunden, herunder dennes Underleverandører, som er ansvarlige for rigtigheden og kvaliteten af de informationer som registreres og benyttes i Softwaren. Kunden skal selvstændigt sikre sig, at informationerne er registreret korrekt i Softwaren. Det er Kundens ansvar at sikre, at informationerne, der bruges i Serviceydelsen, til enhver tid er ajourført korrekt.\n\nAdgang til personlige informationer ved for eksempel at indtaste cpr. nummer kan være strafbart og erstatningspådragende. Det er Kundens ansvar at sikre, at Kunden og dennes medarbejdere ikke skaffer sig uautoriseret adgang til personlige informationer. Overtrædelse heraf kan medføre øjeblikkelig ophævelse af aftaleforholdet.\n\nKunden må ikke give andre adgang til Serviceydelsen, herunder Softwaren, uden at vedkommende har en direkte aftale med WinterManager.\n\nDet er Kundens ansvar, at Serviceydelsen ikke bliver anvendt på en måde, som er i strid med relevant lovgivning eller anden regulering, eller at WinterManagers navn, omdømme eller goodwill lider skade. Overtrædelse heraf kan medføre øjeblikkelig ophævelse af aftaleforholdet.\n\nVed Kundens accept af Forretningsbetingelserne bekræftes det samtidig, at Kunden ikke er i konkurrence med WinterManager. Alt software, design, arkitektur, tekst og lignende er beskyttet af ophavsretten."
+    },
+    "pricing": {
+      "title": "Pris og Betalingsvilkår",
+      "content": "Afhængig af Kundens valg af Servicepakke vil prisen være afstemt derefter. Endvidere kan prisen stige ved valg af tillægsydelser. Prisen for Servicepakkerne vil være oplyst eksklusive moms og findes i aftalebrevet.\n\nWinterManager kan ændre priserne med en måneds varsel. Ændringer i valutakurser, afgifter, forsikring, nettoprisindekset og omkostninger til Tredjeparter medfører, at WinterManager kan justere priserne. Ved en sådan ændring kan Kunden blive adviseret herom via WinterManagers Hjemmeside eller e-mail. Såfremt Kunden ikke er enig i en ændring af prisen, kan Kunden opsige aftaleforholdet med øjeblikkelig virkning, dog således, at Kunden fortsat skal betale for faktisk foretaget brug af Serviceydelsen indtil ophør.\n\nEfter hver måned med brug af platformen, vil Serviceydelsen automatisk generere en faktura til Kunden. Det fakturerede beløb vil blive betalt af Kunden til WinterManager igennem den tilmeldte betalingsløsning anerkendt af WinterManager.\n\nSæsongebyret faktureres én gang årligt den 1. november for alle aktive lokationer. For lokaliteter, der påbegyndes efter sæsonstart, faktureres sæsongebyret hurtigst muligt efter tilføjelse, beregnet forholdsmæssigt ud fra resterende sæsontid. Alle sæsongebyrer er bindende for den valgte periode og refunderes ikke ved opsigelse midt i sæsonen.\n\nSåfremt Kunden ikke betaler det fakturerede beløb rettidigt, kan WinterManager iværksætte en rykkerprocedure. Såfremt den manglende betaling fortsætter, kan adgangen til Serviceydelsen spærres.\n\nVed for sen betaling tillægges en rente af det forfaldne beløb med 2,75% pr. måned fra forfaldstid og til betaling sker."
+    },
+    "dataAndSecurity": {
+      "title": "Informationer og Sikkerhed",
+      "content": "Informationer, herunder informationer om adresser og underleverandører, som er registreret i Serviceydelsen, er Kundens ejendom. Kunden kan kræve at få de registrerede informationer udleveret i et elektronisk format valgt af WinterManager. Ved Forretningsbetingelsernes ophør vil Kunden have adgang til informationerne i seks måneder, hvorefter WinterManager kan slette informationerne permanent.\n\nWinterManager har truffet de fornødne sikkerhedsforanstaltninger mod, at informationerne brugt i Serviceydelsen ulovligt eller hændeligt forringes, fortabes, eller tilintetgøres, samt mod, at informationerne misbruges, kommer til uvedkommendes kendskab eller behandles i strid med lov om behandling af personoplysninger.\n\nVed brug af Serviceydelsen, hvor Kunden anvender informationer, brugernavne eller kodeord, som stammer fra tredjemand, indestår Kunden for, at videregivelse af sådanne informationer og WinterManagers databehandling af sådanne informationer ikke krænker rettigheder eller aftale med tredjemand. Kunden skadesløsholder WinterManager for ethvert tab som følge af denne bestemmelse."
+    },
+    "changes": {
+      "title": "Ændringer og Overdragelse",
+      "content": "Ændringer af Serviceydelsen og tillægsydelser kan foretages af WinterManager. Endvidere er WinterManager berettiget til at ændre formen og strukturen af Serviceydelsen. Enhver ændring kan ske med eller uden varsel.\n\nForretningsbetingelserne kan til enhver tid ændres af WinterManager uden varsel til Kunden, så længe kunden oplyses skriftligt om ændringer. Forretningsbetingelserne er tilgængelige på WinterManagers hjemmeside. Ved Kundens fortsatte brug af Serviceydelsen efter ændringer betragtes ændringerne som accepteret.\n\nRettigheder og pligter, som er givet til WinterManager ved disse Forretningsbetingelser, kan WinterManager overdrage helt eller delvist til koncernforbundne virksomheder eller tredjemand.\n\nKunden har ikke ret til hverken helt eller delvist at overdrage rettigheder og pligter samt adgang til Serviceydelsen til tredjemand."
+    },
+    "intellectualProperty": {
+      "title": "Immaterielle Rettigheder",
+      "content": "Med undtagelse af Kundens informationer, som Kunden eller WinterManager har registreret eller indtastet i systemet, er Softwaren og de informationer, som Softwaren genererer, beskyttet af ophavsret og andre immaterielle rettigheder og tilhører eller er licenseret til WinterManager. Ved Serviceydelsen modtager Kunden alene en brugsret.\n\nVed enhver mistanke om en krænkelse eller reel krænkelse af WinterManagers immaterielle rettigheder eller uautoriseret brug af Serviceydelsen, som Kunden får kendskab til, skal Kunden give meddelelse til WinterManager.\n\nDe informationer, som Kunden og dennes Underleverandører registrerer, tilhører Kunden og/eller dennes Underleverandører."
+    },
+    "liability": {
+      "title": "WinterManagers Ansvar og Tavshedspligt",
+      "content": "Serviceydelsen stilles til rådighed af WinterManager i den til enhver tid værende stand. WinterManager fraskriver sig enhver garanti, tilsikring, indeståelse eller andre vilkår, udover hvad der fremgår af disse Forretningsbetingelser.\n\nI forbindelse med Kundens brug af Serviceydelsen fraskriver WinterManager sig ethvert ansvar for tab, som Kunden måtte pådrage sig herved, uanset om et sådant tab måtte opstå i eller udenfor kontrakt, om der er tale om følgeskader eller andre indirekte tab, driftstab, tab begrundet i produktansvar, informationstab eller øvrige tab som følge af simpel uagtsomhed.\n\nKunden har en pligt til at meddele WinterManager om fejl ved Serviceydelsen. WinterManager er alene pligtig at rette fejlen, som Kunden eller WinterManager er blevet opmærksom på.\n\nKunden accepterer, at uanset hvilket tab eller ansvarsgrundlag som Kunden har lidt, kan WinterManagers samlede ansvar maksimalt andrage en størrelse svarende til de foregående 12 måneders fakturerede beløb, dog højst 50.000 DKK.\n\nWinterManager og dennes medarbejdere har tavshedspligt om alle informationer, som kan henføres direkte til Kunden."
+    },
+    "operations": {
+      "title": "Drift og Force Majeure",
+      "content": "WinterManager tilsigter en høj driftsstabilitet og vil i tilfælde af nedbrud eller driftsforstyrrelser genskabe normal drift så hurtigt som muligt. Vedligeholdelse og opgradering af Serviceydelsen vil så vidt det er muligt blive placeret i tidsrummet mellem kl. 15.00-22.00 CET, og vil blive varslet forinden.\n\nWinterManager er uden ansvar for tab opstået som følge af nedbrud eller driftsforstyrrelser. Selv på de områder, hvor der gælder et strengere ansvar, er WinterManager ikke ansvarlige for tab, som skyldes:\n\n- Beskadigelser af data eller manglende adgang til eller nedbrud i IT-systemer\n- Svigt i strømforsyning eller telekommunikation, naturkatastrofer, krig, oprør, pandemier, borgerlige uroligheder, lovindgreb eller forvaltningsakter, sabotage, terror eller hærværk (herunder computervirus og hacking)\n- Konflikter såsom strejke, lockout, boykot eller blokade\n- Andre omstændigheder, som er uden for WinterManagers kontrol"
+    },
+    "termination": {
+      "title": "Opsigelse af Serviceydelser",
+      "content": "Ved tilmelding til Serviceydelsen accepterer Kunden Forretningsbetingelserne. Forretningsbetingelserne løber indtil opsigelse af aftaleforholdet i overensstemmelse med disse betingelser. Aftalen kan opsiges uden varsel eller gebyr, men alle ubetalte gebyrer vil blive samlet i én faktura og sendt til Kunden ved opsigelse.\n\nOpsigelse af sæsongebyret skal ske skriftligt senest den 31. oktober for at undgå opkrævning af adressegebyr for den kommende sæson. Ved manglende rettidig opsigelse forpligter Kunden sig til at betale adressegebyr for den kommende sæson.\n\nWinterManager kan opsige aftaleforholdet med Kunden med 3 måneders varsel, eller uden varsel ved Kundens væsentlige misligholdelse af disse Forretningsbetingelser eller ved Kundens konkurs eller insolvens.\n\nFor at opsige aftaleforholdet skal Kunden sende en e-mail til sebastian@snowmanager.com eller kontakte sin tilknyttede kontaktperson hos WinterManager."
+    },
+    "disputes": {
+      "title": "Tvister",
+      "content": "Nærværende Forretningsbetingelser skal læses, fortolkes og udfyldes i overensstemmelse med dansk ret. Enhver tvist, der måtte opstå som følge af disse Forretningsbetingelser og de heraf følgende retsforhold mellem Kunden og WinterManager, skal anlægges ved Byretten i København."
+    }
+  }
+}

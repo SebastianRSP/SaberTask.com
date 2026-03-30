@@ -1,0 +1,489 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "industries": "Industries",
+    "pricing": "Pricing",
+    "resources": "Resources",
+    "about": "About us",
+    "contact": "Contact",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "demo": "Request Demo",
+    "login": "Log in",
+    "featuresDropdown": {
+      "overview": "Features Overview",
+      "routing": "Route Planning",
+      "tracking": "Equipment Tracking",
+      "reporting": "Reporting & Analytics"
+    },
+    "industriesDropdown": {
+      "snowRemoval": "Snow Removal",
+      "landscaping": "Landscaping",
+      "cleaning": "Cleaning Services"
+    },
+    "resourcesDropdown": {
+      "faq": "FAQ",
+      "support": "Support"
+    }
+  },
+  "hero": {
+    "titleStart": "A one-stop solution, for all your",
+    "titleHighlight1": "winter operations",
+    "titleMiddle": "",
+    "titleHighlight2": "",
+    "cta": "Book a demo",
+    "tagline": "Everything you need to run your winter operations",
+    "userCount": "500+",
+    "trustedBy": "Used by more than 500 contractors",
+    "bannerTitle": "Everything You Need to Manage Snow Operations",
+    "bannerSubtitle": "Partnering with top tier brands to revolutionise the service industry",
+    "metaDescription": "SnowManager is the all-in-one platform for snow removal companies. Plan routes, track crews in real-time, and automate invoicing."
+  },
+  "features": {
+    "badge": "Key features",
+    "titleStart": "Our app is an",
+    "titleHighlight": "all-in-one solution",
+    "titleEnd": "for your business",
+    "subtitle": "From live dashboards to automated invoicing - SnowManager replaces fragmented tools, saving you time, money and hassle.",
+    "benefitLabel": "One of the benefits",
+    "learnMore": "Learn more",
+    "painPoints": {
+      "title": "Pain points"
+    },
+    "howWeHelp": {
+      "title": "How we help"
+    },
+    "liveDashboard": {
+      "tabName": "Live Dashboard",
+      "title": "Live Dashboard",
+      "description": "Monitor dispatch, track employee progress, and respond instantly to changes—eliminating the chaos of manual check-ins and scattered information.",
+      "painPoints": [
+        "Managers lack real-time visibility into employee work.",
+        "Industry often runs on blind trust — jobs are assigned but no live updates.",
+        "Difficult to track delays, errors, or missed tasks."
+      ],
+      "solutions": [
+        "Shows live routes, tasks, and employee check-ins.",
+        "Instantly reassign jobs when staff are sick or delayed.",
+        "Gives management a live \"control center\" view."
+      ]
+    },
+    "subcontractorManagement": {
+      "tabName": "Subcontractor Management",
+      "title": "Subcontractor Management",
+      "description": "Seamlessly manage your network of subcontractors. Assign jobs, track performance, and handle payments—all in one place.",
+      "painPoints": [
+        "Coordinating with subcontractors is chaotic and time-consuming.",
+        "No visibility into whether subcontracted work is actually completed.",
+        "Payment disputes due to lack of documentation."
+      ],
+      "solutions": [
+        "Dedicated portal for subcontractors to receive and complete jobs.",
+        "Real-time tracking and proof of service for all subcontracted work.",
+        "Automated payment tracking with clear documentation."
+      ]
+    },
+    "automaticInvoicing": {
+      "tabName": "Automatic Invoicing",
+      "title": "Automatic Invoicing",
+      "description": "Generate and send invoices automatically based on completed work. No more manual data entry or chasing paperwork.",
+      "painPoints": [
+        "Creating invoices manually is time-consuming.",
+        "Jobs often slip through without being billed.",
+        "Difficult to prove services were completed."
+      ],
+      "solutions": [
+        "Auto-generate invoices from completed jobs.",
+        "Include GPS-verified timestamps and photos as proof.",
+        "Send invoices automatically via email or integrate with accounting."
+      ]
+    },
+    "mobileApp": {
+      "tabName": "Mobile App",
+      "title": "Mobile App",
+      "description": "Empower your field teams with a powerful mobile app. Clock in, navigate routes, capture photos, and update job status—all from their phone.",
+      "painPoints": [
+        "Field workers rely on paper or memory to track their work.",
+        "No easy way to communicate route changes in real-time.",
+        "Difficult to capture and organize proof of service."
+      ],
+      "solutions": [
+        "One-tap clock in/out with GPS verification.",
+        "Turn-by-turn navigation integrated with job assignments.",
+        "Photo capture and notes attached directly to each job."
+      ]
+    },
+    "customerDashboard": {
+      "tabName": "Customer Dashboard",
+      "title": "Customer Dashboard",
+      "description": "Give your clients a professional dashboard to view service history, track upcoming work, and access reports anytime.",
+      "painPoints": [
+        "Clients call constantly asking for updates.",
+        "No professional way to share service reports.",
+        "Difficult for clients to verify work was completed."
+      ],
+      "solutions": [
+        "Branded dashboard where clients see real-time job status.",
+        "Automatic service reports with photos and timestamps.",
+        "Self-service access to invoices and service history."
+      ]
+    },
+    "smartRouteBuilder": {
+      "tabName": "Smart Route Builder",
+      "title": "Smart Route Builder",
+      "description": "Build optimized routes in seconds. Our smart algorithm considers location, priority, and equipment to maximize efficiency.",
+      "painPoints": [
+        "Routes are planned manually, wasting time and fuel.",
+        "Priority areas often get missed or serviced late.",
+        "No easy way to adjust routes when conditions change."
+      ],
+      "solutions": [
+        "AI-optimized routes based on location, priority, and weather.",
+        "Drag-and-drop route editing with instant recalculation.",
+        "Automatic rebalancing when new jobs are added."
+      ]
+    },
+    "drawingTool": {
+      "tabName": "Drawing Tool",
+      "title": "Drawing Tool",
+      "description": "Define service areas with precision using our intuitive drawing tool. Mark driveways, walkways, parking lots, and special zones on a map.",
+      "painPoints": [
+        "Service areas are described vaguely, leading to confusion.",
+        "New crew members don't know exactly where to service.",
+        "Disputes with clients about what areas were included."
+      ],
+      "solutions": [
+        "Draw precise service boundaries on satellite imagery.",
+        "Color-code different zones (driveways, walkways, etc.).",
+        "Crews see exact areas to service on their mobile app."
+      ]
+    }
+  },
+  "mobileApp": {
+    "badge": "Mobile App",
+    "title": "Your entire operation in your pocket",
+    "description": "Empower your field teams with a powerful mobile app. Clock in, navigate routes, capture photos, and update job status—all from their phone.",
+    "appTagline": "Field Operations App",
+    "downloadOn": "Download on the",
+    "getItOn": "Get it on",
+    "features": {
+      "gpsTracking": {
+        "title": "GPS Tracking",
+        "description": "Real-time location tracking with automatic clock in/out."
+      },
+      "revenueOverview": {
+        "title": "Revenue Overview",
+        "description": "Track earnings and revenue in real-time directly from your phone."
+      },
+      "photoCapture": {
+        "title": "Photo Capture",
+        "description": "Document completed work with timestamped, geotagged photos."
+      },
+      "taskManagement": {
+        "title": "Task Management",
+        "description": "View assignments, update status, and communicate with dispatch."
+      }
+    }
+  },
+  "benefits": {
+    "title": "Why Choose SnowManager?",
+    "subtitle": "Join hundreds of snow removal companies that have transformed their operations",
+    "efficiency": {
+      "title": "Save 30% on Operations",
+      "description": "Optimized routes and better planning mean less fuel, less time, and more jobs completed per day."
+    },
+    "satisfaction": {
+      "title": "Happier Customers",
+      "description": "Real-time updates and professional reporting keep your clients informed and satisfied."
+    },
+    "growth": {
+      "title": "Scale Your Business",
+      "description": "Handle more clients and areas without adding administrative overhead."
+    }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the plan that fits your business. No hidden fees.",
+    "metaDescription": "Explore SnowManager pricing plans for snow removal businesses of all sizes. Simple, transparent pricing with no hidden fees.",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "savePercent": "Save 20%",
+    "perMonth": "/month",
+    "perYear": "/year",
+    "starter": {
+      "name": "Starter",
+      "description": "Perfect for small operations",
+      "price": "99",
+      "features": [
+        "Up to 5 vehicles",
+        "Basic route planning",
+        "Weather alerts",
+        "Email support"
+      ]
+    },
+    "professional": {
+      "name": "Professional",
+      "description": "For growing businesses",
+      "price": "249",
+      "popular": "Most Popular",
+      "features": [
+        "Up to 20 vehicles",
+        "Advanced route optimization",
+        "Real-time GPS tracking",
+        "Client reporting portal",
+        "Priority support"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "For large operations",
+      "price": "Custom",
+      "features": [
+        "Unlimited vehicles",
+        "Custom integrations",
+        "Dedicated account manager",
+        "24/7 phone support",
+        "On-site training"
+      ]
+    },
+    "cta": "Start Free Trial",
+    "ctaEnterprise": "Contact Sales"
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "Who we are and how our users talk about us",
+    "subtitle": "Trusted by service companies across industries",
+    "featured": {
+      "quote": "After 20 years in service management, we were frustrated by using 7+ different tools that didn't talk to each other. SnowManager was built to solve that — and save companies time, money, and hassle.",
+      "author": "Sebastian & Martin",
+      "role": "Founders",
+      "company": "SnowManager"
+    },
+    "items": [
+      {
+        "quote": "SnowManager has completely transformed how we operate. We're now handling 40% more clients with the same fleet size.",
+        "author": "Michael Jensen",
+        "role": "Owner",
+        "company": "Nordic Snow Services"
+      },
+      {
+        "quote": "The weather integration alone has saved us countless hours. We know exactly when to deploy our crews now.",
+        "author": "Sarah Andersen",
+        "role": "Operations Manager",
+        "company": "WhiteOut Plowing"
+      },
+      {
+        "quote": "Our customers love getting real-time updates. It's elevated our professionalism to a whole new level.",
+        "author": "Thomas Nielsen",
+        "role": "CEO",
+        "company": "Clear Path Solutions"
+      },
+      {
+        "quote": "The reporting features make invoicing a breeze. What used to take hours now takes minutes.",
+        "author": "Emma Larsen",
+        "role": "Office Manager",
+        "company": "Snowfall Removal"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Got questions? We've got answers.",
+    "metaDescription": "Find answers to common questions about SnowManager. Learn about free trials, plans, data security, training, and support options.",
+    "items": [
+      {
+        "question": "How does the free trial work?",
+        "answer": "You get full access to all Professional features for 14 days, no credit card required. At the end of your trial, you can choose the plan that best fits your needs."
+      },
+      {
+        "question": "Can I change plans later?",
+        "answer": "Absolutely! You can upgrade or downgrade your plan at any time. Changes take effect at the start of your next billing cycle."
+      },
+{
+        "question": "Is my data secure?",
+        "answer": "Yes, we use bank-level encryption and are fully GDPR compliant. Your data is backed up daily and stored securely in European data centers."
+      },
+      {
+        "question": "Do you offer training?",
+        "answer": "All plans include access to our video tutorials and knowledge base. Professional and Enterprise plans include live onboarding sessions."
+      },
+      {
+        "question": "What if I need help?",
+        "answer": "We offer email support on all plans, priority support for Professional, and 24/7 phone support for Enterprise customers."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Ready to transform your snow removal operations? Let's talk.",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "company": "Company Name",
+      "phone": "Phone Number",
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Thank you! We'll be in touch soon.",
+      "error": "Something went wrong. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "sebastian@snowmanager.com",
+      "phone": "+45 32 33 05 20"
+    }
+  },
+  "footer": {
+    "description": "The complete platform for modern snow removal operations.",
+    "product": {
+      "title": "Product",
+      "features": "Features",
+      "pricing": "Pricing",
+      "demo": "Request Demo"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About Us",
+      "blog": "Blog",
+      "contact": "Contact",
+      "careers": "Careers"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "copyright": "© 2024 SnowManager. All rights reserved."
+  },
+  "about": {
+    "title": "About SnowManager",
+    "subtitle": "We're on a mission to make snow removal operations more efficient and professional.",
+    "story": {
+      "title": "Our Story",
+      "content": "SnowManager was born from firsthand experience in the snow removal industry. Our founders spent years managing snow operations and saw the challenges that come with coordinating crews, managing routes, and keeping customers informed. We built SnowManager to solve these problems with modern technology that's actually easy to use."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "To empower snow removal professionals with the tools they need to run more efficient, profitable, and professional operations."
+    },
+    "values": {
+      "title": "Our Values",
+      "simplicity": {
+        "title": "Simplicity",
+        "description": "Technology should make your life easier, not harder."
+      },
+      "reliability": {
+        "title": "Reliability",
+        "description": "When the snow starts falling, you can count on us."
+      },
+      "partnership": {
+        "title": "Partnership",
+        "description": "Your success is our success. We grow together."
+      }
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Insights, tips, and news about winter operations and service management.",
+    "noPosts": "No posts yet. Check back soon!",
+    "readMore": "Read more",
+    "backToBlog": "Back to Blog",
+    "pageTitle": "Blog - SnowManager",
+    "pageDescription": "Read the latest insights, tips, and news about winter operations and service management from the SnowManager team.",
+    "metaDescription": "Read insights, tips, and news about winter operations and snow removal management from the SnowManager team. Stay ahead this season."
+  },
+  "cta": {
+    "title": "Ready to Get Started?",
+    "subtitle": "Join hundreds of snow removal companies already using SnowManager.",
+    "button": "Start Your Free Trial"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 2025",
+    "intro": "At SnowManager, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our service.",
+    "metaDescription": "Learn how SnowManager collects, uses, and protects your data. We are fully GDPR compliant with bank-level encryption.",
+    "dataCollection": {
+      "title": "Information We Collect",
+      "content": "We collect information you provide directly to us, such as when you create an account, use our services, or contact us for support. This may include your name, email address, company name, phone number, and payment information. We also automatically collect certain information when you use our services, including device information, IP address, and usage data."
+    },
+    "dataUsage": {
+      "title": "How We Use Your Information",
+      "content": "We use the information we collect to provide, maintain, and improve our services, process transactions, send you technical notices and support messages, and respond to your comments and questions. We may also use your information to send you promotional communications, though you can opt out at any time."
+    },
+    "dataSharing": {
+      "title": "Information Sharing",
+      "content": "We do not sell, trade, or rent your personal information to third parties. We may share your information with service providers who assist us in operating our platform, conducting our business, or serving our users. We may also share information when required by law or to protect our rights."
+    },
+    "cookies": {
+      "title": "Cookies and Tracking",
+      "content": "We use cookies and similar tracking technologies to track activity on our service and hold certain information. Cookies are files with a small amount of data that are sent to your browser from a website and stored on your device. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent."
+    },
+    "security": {
+      "title": "Data Security",
+      "content": "We implement appropriate technical and organizational security measures to protect your personal information. We use bank-level encryption and are fully GDPR compliant. Your data is backed up daily and stored securely in European data centers. However, no method of transmission over the Internet is 100% secure."
+    },
+    "rights": {
+      "title": "Your Rights",
+      "content": "You have the right to access, correct, or delete your personal information. You may also have the right to restrict or object to certain processing of your data. To exercise these rights, please contact us using the information below. If you are in the European Economic Area, you have the right to lodge a complaint with a supervisory authority."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have any questions about this Privacy Policy, please contact us at <email>sebastian@snowmanager.com</email>."
+    }
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "lastUpdated": "Last updated: January 2025",
+    "intro": "These terms and conditions (\"Terms\") apply as the contractual relationship between the customer (\"Customer\") and SaberTask LDA, VAT number: PT518467546 (\"WinterManager\").",
+    "metaDescription": "Read the terms and conditions for using SnowManager. Learn about our service agreements, pricing, data security, and your rights.",
+    "companyInfo": "SaberTask LDA, VAT number: PT518467546, Rua das Violetas n 145, Cascais, Lisboa, Portugal",
+    "service": {
+      "title": "The Service",
+      "content": "WinterManager provides software via its website, mobile platforms, or similar (\"Software\") that enables the Customer to manage and optimize winter operations through self-service. The Customer can manage customers, addresses, subcontractors, and routes (collectively referred to as \"the Service\").\n\nThe scope of the Service is defined based on the Customer's choice of service package, which may contain more or fewer features (\"Service Package\"). The choice is made in collaboration with WinterManager and will appear on the agreement letter.\n\nThrough the business relationship between the Customer and WinterManager, the Customer gains non-exclusive access to use the Software. The Customer does not own the Software or the Services or any copy or part thereof.\n\nAccess to use the Service, including the Software, may only be used for the Customer's purposes and applies exclusively to the Customer and their subcontractors. Both the Customer and their subcontractors must have their own unique username and password. It is the Customer's duty to ensure adequate security to protect usernames and passwords to prevent misuse of the Service."
+    },
+    "acceptance": {
+      "title": "Acceptance and Permission",
+      "content": "By registering on WinterManager's platform, the Customer accepts these Terms as the applicable contractual relationship. The Terms also apply to third parties who may perform work on behalf of the Customer in relation to the Service.\n\nThe Service is provided to the Customer in their capacity as a business operator, including even if the Customer's employees gain access to all or parts of the Software.\n\nThe Customer consents to WinterManager and its third parties conducting marketing towards the Customer and Subcontractors. The Customer may withdraw such consent in writing.\n\nThe Customer accepts WinterManager's other policies, including the personal data and Cookie policy, available in the current version on WinterManager's website. These policies are considered an integral part of these Terms."
+    },
+    "thirdParties": {
+      "title": "Third Parties",
+      "content": "To deliver the Service and any additional services, WinterManager may use suppliers and similar business partners (\"Third Parties\"). The Customer accepts that information uploaded in connection with the Service may be processed by and exchanged with Third Parties working with WinterManager, provided that WinterManager has entered into a data processing agreement with the relevant Third Parties.\n\nIf Third Parties offer additional services via WinterManager's API, the use of these services is subject to the relevant Third Party's terms. The Customer exempts WinterManager from any liability in connection with the use of such Third Party services."
+    },
+    "customerResponsibilities": {
+      "title": "Customer's Duties and Responsibilities",
+      "content": "The Customer, including their Subcontractors, is solely responsible for the accuracy and quality of information registered and used in the Software. The Customer must independently ensure that the information is registered correctly and kept up to date at all times.\n\nAccess to personal information, for example by entering personal identification numbers, may be punishable and subject to compensation. It is the Customer's responsibility to ensure that the Customer and their employees do not gain unauthorized access to personal information. Violation of this may result in immediate termination of the agreement.\n\nThe Customer must not give others access to the Service, including the Software, without that person having a direct agreement with WinterManager.\n\nIt is the Customer's responsibility that the Service is not used in a manner that violates relevant legislation or other regulation, or that damages WinterManager's name, reputation, or goodwill. Violation may result in immediate termination of the agreement.\n\nBy accepting these Terms, the Customer confirms that they are not in competition with WinterManager. All software, design, architecture, text, and similar are protected by copyright."
+    },
+    "pricing": {
+      "title": "Price and Payment Terms",
+      "content": "The price depends on the Customer's choice of Service Package and any additional services. Prices are stated exclusive of VAT and can be found in the agreement letter.\n\nWinterManager may change prices with one month's notice. Changes in exchange rates, taxes, insurance, net price index, and costs to Third Parties mean that WinterManager may adjust prices. The Customer will be notified via the website or email. If the Customer does not agree to a price change, the Customer may terminate the agreement immediately, though the Customer must still pay for actual use of the Service until termination.\n\nAfter each month of platform use, the Service will automatically generate an invoice to the Customer. The invoiced amount will be paid through the registered payment solution recognized by WinterManager.\n\nThe season fee is invoiced once annually on November 1st for all active locations. For locations started after season start, the season fee is invoiced as soon as possible after addition, calculated proportionally based on remaining season time. All season fees are binding for the selected period and are not refunded upon mid-season cancellation.\n\nIf the Customer does not pay on time, WinterManager may initiate a reminder procedure. Continued non-payment may result in access to the Service being blocked.\n\nFor late payment, interest of 2.75% per month is added from the due date until payment is made."
+    },
+    "dataAndSecurity": {
+      "title": "Information and Security",
+      "content": "Information registered in the Service is the Customer's property. The Customer may request the registered information in an electronic format chosen by WinterManager. Upon termination, the Customer will have access to the information for six months, after which WinterManager may permanently delete the information.\n\nWinterManager has taken necessary security measures against information being illegally or accidentally degraded, lost, or destroyed, and against information being misused, coming to the knowledge of unauthorized persons, or being processed in violation of personal data legislation.\n\nWhen using the Service, where the Customer uses information, usernames, or passwords originating from third parties, the Customer warrants that disclosure of such information and WinterManager's data processing does not infringe rights or agreements with third parties. The Customer indemnifies WinterManager for any loss as a result of this provision."
+    },
+    "changes": {
+      "title": "Changes and Transfer",
+      "content": "WinterManager may make changes to the Service and additional services. WinterManager is also entitled to change the form and structure of the Service. Any change may be made with or without notice.\n\nThese Terms may be changed by WinterManager at any time without notice to the Customer, as long as the Customer is informed in writing of changes. The Terms are available on WinterManager's website. Continued use of the Service after changes constitutes acceptance.\n\nRights and obligations granted to WinterManager under these Terms may be transferred in whole or in part to affiliated companies or third parties.\n\nThe Customer has no right to transfer rights and obligations or access to the Service to third parties, either in whole or in part."
+    },
+    "intellectualProperty": {
+      "title": "Intellectual Property Rights",
+      "content": "With the exception of the Customer's information registered in the system, the Software and the information generated by the Software are protected by copyright and other intellectual property rights and belong to or are licensed to WinterManager. Through the Service, the Customer receives only a right of use.\n\nIn case of any suspected or actual infringement of WinterManager's intellectual property rights or unauthorized use of the Service, the Customer must notify WinterManager.\n\nThe information registered by the Customer and their Subcontractors belongs to the Customer and/or their Subcontractors."
+    },
+    "liability": {
+      "title": "WinterManager's Liability and Confidentiality",
+      "content": "The Service is provided by WinterManager in its current state. WinterManager disclaims any warranty, assurance, guarantee, or other terms beyond what is stated in these Terms.\n\nIn connection with the Customer's use of the Service, WinterManager disclaims any liability for loss that the Customer may incur, regardless of whether such loss arises in or outside of contract, whether consequential damages or other indirect losses, operating losses, product liability losses, information losses, or other losses due to simple negligence.\n\nThe Customer has a duty to notify WinterManager of errors in the Service. WinterManager is only obligated to correct errors that the Customer or WinterManager has become aware of.\n\nThe Customer accepts that regardless of what loss or basis for liability the Customer has suffered, WinterManager's total liability may not exceed an amount corresponding to the previous 12 months' invoiced amount, but no more than DKK 50,000.\n\nWinterManager and its employees have a duty of confidentiality regarding all information that can be attributed directly to the Customer."
+    },
+    "operations": {
+      "title": "Operations and Force Majeure",
+      "content": "WinterManager aims for high operational stability and will restore normal operations as quickly as possible in case of downtime or operational disruptions. Maintenance and upgrades will, as far as possible, be scheduled between 15:00-22:00 CET and will be announced in advance.\n\nWinterManager is not liable for losses arising from downtime or operational disruptions. Even in areas where stricter liability applies, WinterManager is not liable for losses caused by:\n\n- Damage to data or lack of access to or downtime in IT systems\n- Power supply or telecommunications failures, natural disasters, war, riots, pandemics, civil unrest, legislation or administrative acts, sabotage, terror, or vandalism (including computer viruses and hacking)\n- Conflicts such as strikes, lockouts, boycotts, or blockades\n- Other circumstances beyond WinterManager's control"
+    },
+    "termination": {
+      "title": "Termination of Services",
+      "content": "Upon registration for the Service, the Customer accepts these Terms. The Terms run until termination of the agreement in accordance with these conditions. The agreement may be terminated without notice or fee, but all unpaid fees will be collected in one invoice and sent to the Customer upon termination.\n\nTermination of the season fee must be made in writing no later than October 31st to avoid charging the address fee for the coming season. In case of failure to terminate on time, the Customer undertakes to pay the address fee for the coming season.\n\nWinterManager may terminate the agreement with 3 months' notice, or without notice in case of the Customer's material breach of these Terms or the Customer's bankruptcy or insolvency.\n\nTo terminate the agreement, the Customer must send an email to sebastian@snowmanager.com or contact their assigned contact person at WinterManager."
+    },
+    "disputes": {
+      "title": "Disputes",
+      "content": "These Terms shall be read, interpreted, and supplemented in accordance with Danish law. Any dispute arising from these Terms and the resulting legal relationship between the Customer and WinterManager shall be brought before the Copenhagen City Court."
+    }
+  }
+}
