@@ -42,6 +42,7 @@ const industries = [
   },
 ];
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars -- used by commented-out stats block, kept for future reactivation
 const stats = [
   { value: '75%', label: 'Reduction in admin overhead', direction: 'down' as const },
   { value: '200k', label: 'Annual savings in cost', direction: 'up' as const },
