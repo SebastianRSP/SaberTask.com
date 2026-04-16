@@ -7,7 +7,7 @@ type Props = {
 
 export async function generateMetadata({ params: { locale } }: Props) {
   const t = await getTranslations({ locale, namespace: 'pricing' });
-  const title = t('title') + ' - SnowManager';
+  const title = t('metaTitle');
   const description = t('metaDescription');
 
   return {

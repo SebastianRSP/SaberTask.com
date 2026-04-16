@@ -288,7 +288,7 @@ export default function PresentationDaPage() {
           </FadeIn>
           <FadeIn delay={200}>
             <p className="text-xl sm:text-2xl text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
-              SnowManager erstatter regneark, telefonopkald og manuel fakturering med én intelligent platform — bygget specifikt til snerydning og glatførebekæmpelse.
+              SnowManager erstatter regneark, telefonopkald og manuel fakturering med én intelligent platform - bygget specifikt til snerydning og glatførebekæmpelse.
             </p>
           </FadeIn>
           <FadeIn delay={300}>
@@ -321,7 +321,7 @@ export default function PresentationDaPage() {
               Alt du har brug for, samlet ét sted
             </h2>
             <p className="text-gray-500 text-base sm:text-xl max-w-3xl mb-6 sm:mb-16">
-              SnowManager samler alle de værktøjer din snerydningsvirksomhed har brug for — fra planlægning og disponering til fakturering og kunderapportering.
+              SnowManager samler alle de værktøjer din snerydningsvirksomhed har brug for - fra planlægning og disponering til fakturering og kunderapportering.
             </p>
           </FadeIn>
 
@@ -377,7 +377,7 @@ export default function PresentationDaPage() {
               Hele din drift med ét blik
             </h2>
             <p className="text-gray-400 text-xl max-w-3xl mb-12">
-              Se alle hold, alle ruter og alle opgaver i realtid. Vid med det samme hvem der er hvor, hvad der er udført, og hvad der kræver opmærksomhed — uden telefonopkald.
+              Se alle hold, alle ruter og alle opgaver i realtid. Vid med det samme hvem der er hvor, hvad der er udført, og hvad der kræver opmærksomhed - uden telefonopkald.
             </p>
           </FadeIn>
 
@@ -417,7 +417,7 @@ export default function PresentationDaPage() {
                   Hver adresse, præcist kortlagt
                 </h2>
                 <p className="text-gray-500 text-xl mb-8 leading-relaxed">
-                  Administrer alle kundelokationer ét sted. Brug vores tegneværktøj til at definere præcise serviceområder — indkørsler, gangstier, parkeringspladser — så hvert holdmedlem ved præcis hvor de skal arbejde.
+                  Administrer alle kundelokationer ét sted. Brug vores tegneværktøj til at definere præcise serviceområder - indkørsler, gangstier, parkeringspladser - så hvert holdmedlem ved præcis hvor de skal arbejde.
                 </p>
               </FadeIn>
 
@@ -516,7 +516,7 @@ export default function PresentationDaPage() {
                   Hele dit netværk, én platform
                 </h2>
                 <p className="text-gray-500 text-xl mb-8 leading-relaxed">
-                  Administrer hele dit underleverandørnetværk ubesværet. Tildel opgaver, følg fremskridt og håndter dokumentation — alt sammen uden et eneste telefonopkald.
+                  Administrer hele dit underleverandørnetværk ubesværet. Tildel opgaver, følg fremskridt og håndter dokumentation - alt sammen uden et eneste telefonopkald.
                 </p>
               </FadeIn>
 
@@ -573,7 +573,7 @@ export default function PresentationDaPage() {
                   Vid altid hvornår du skal rykke ud
                 </h2>
                 <p className="text-gray-400 text-xl mb-8 leading-relaxed">
-                  Indbygget vejrprognose giver dig de data du har brug for til at træffe smarte beslutninger. Vid præcis hvornår sne, is eller frost er på vej — og planlæg din indsats før det rammer.
+                  Indbygget vejrprognose giver dig de data du har brug for til at træffe smarte beslutninger. Vid præcis hvornår sne, is eller frost er på vej - og planlæg din indsats før det rammer.
                 </p>
               </FadeIn>
 
@@ -652,7 +652,7 @@ export default function PresentationDaPage() {
               100+ entreprenører bruger SnowManager
             </h2>
             <p className="text-gray-400 text-xl max-w-3xl mx-auto mb-16 leading-relaxed">
-              Fra små lokale operatører til Skandinaviens største servicevirksomheder — entreprenører i alle størrelser stoler på SnowManager til at drive deres vinterdrift.
+              Fra små lokale operatører til Skandinaviens største servicevirksomheder - entreprenører i alle størrelser stoler på SnowManager til at drive deres vinterdrift.
             </p>
           </FadeIn>
 

@@ -8,7 +8,7 @@ type Props = {
 
 export async function generateMetadata({ params: { locale } }: Props) {
   const t = await getTranslations({ locale, namespace: 'privacyPolicy' });
-  const title = t('title') + ' - SnowManager';
+  const title = t('metaTitle');
   const description = t('metaDescription');
 
   return {
@@ -54,7 +54,7 @@ export default function PrivacyPolicyPage() {
                   {section === 'contact'
                     ? t.rich(`${section}.content`, {
                         email: (chunks) => (
-                          <a href="mailto:sebastian@snowmanager.com" className="text-primary hover:underline">
+                          <a href="mailto:sebastian@sabertask.com" className="text-primary hover:underline">
                             {chunks}
                           </a>
                         ),

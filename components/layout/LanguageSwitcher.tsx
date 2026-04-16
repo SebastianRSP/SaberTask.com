@@ -5,8 +5,9 @@ import { useLocale } from 'next-intl';
 import { usePathname } from 'next/navigation';
 
 const domainMap: Record<string, { label: string; domain: string }> = {
-  en: { label: 'English', domain: 'snowmanager.com' },
-  da: { label: 'Dansk', domain: 'snowmanager.dk' },
+  en: { label: 'English', domain: 'sabertask.com' },
+  da: { label: 'Dansk', domain: 'sabertask.dk' },
+  se: { label: 'Svenska', domain: 'sabertask.se' },
 };
 
 export default function LanguageSwitcher() {

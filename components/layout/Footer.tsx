@@ -33,9 +33,9 @@ export default function Footer() {
             <Link href="/" className="inline-block mb-4">
               <Image
                 src="/logo.png"
-                alt="SnowManager"
-                width={180}
-                height={40}
+                alt="SaberTask"
+                width={420}
+                height={100}
                 className="h-10 w-auto brightness-0 invert"
               />
             </Link>
@@ -64,6 +64,16 @@ export default function Footer() {
                   {t('product.demo')}
                 </button>
               </li>
+              <li>
+                <a
+                  href="https://apps.apple.com/en/app/sabertask-employee-app/id6761916809"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  {t('product.iPhoneApp')}
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -75,27 +85,19 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href={`/#about`}
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  {t('company.about')}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href={`/blog`}
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  {t('company.blog')}
-                </Link>
-              </li>
-              <li>
-                <Link
                   href={`/#contact`}
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   {t('company.contact')}
                 </Link>
+              </li>
+              <li>
+                <a
+                  href="mailto:sebastian@sabertask.com"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  sebastian@sabertask.com
+                </a>
               </li>
             </ul>
           </div>
@@ -126,9 +128,13 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Copyright */}
-        <div className="mt-12 pt-8 border-t border-gray-800">
-          <p className="text-gray-400 text-sm text-center">{t('copyright')}</p>
+        {/* Company info + Copyright */}
+        <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="text-gray-500 text-xs leading-relaxed text-center md:text-left">
+            <p className="font-semibold text-gray-400">SaberTask LDA</p>
+            <p>NIF: 518467546 · Rua das Violetas, N.º 145, 2750-275 Cascais, Lisboa</p>
+          </div>
+          <p className="text-gray-400 text-sm">{t('copyright')}</p>
         </div>
       </Container>
     </footer>

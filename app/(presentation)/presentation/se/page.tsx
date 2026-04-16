@@ -288,7 +288,7 @@ export default function PresentationSePage() {
           </FadeIn>
           <FadeIn delay={200}>
             <p className="text-xl sm:text-2xl text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
-              SnowManager ersätter kalkylblad, telefonsamtal och manuell fakturering med en intelligent plattform — byggd specifikt för snöröjning och halkbekämpning.
+              SnowManager ersätter kalkylblad, telefonsamtal och manuell fakturering med en intelligent plattform - byggd specifikt för snöröjning och halkbekämpning.
             </p>
           </FadeIn>
           <FadeIn delay={300}>
@@ -321,7 +321,7 @@ export default function PresentationSePage() {
               Allt du behöver, samlat på ett ställe
             </h2>
             <p className="text-gray-500 text-base sm:text-xl max-w-3xl mb-6 sm:mb-16">
-              SnowManager samlar alla verktyg ditt snöröjningsföretag behöver — från planering och disponering till fakturering och kundrapportering.
+              SnowManager samlar alla verktyg ditt snöröjningsföretag behöver - från planering och disponering till fakturering och kundrapportering.
             </p>
           </FadeIn>
 
@@ -377,7 +377,7 @@ export default function PresentationSePage() {
               Hela din drift med en blick
             </h2>
             <p className="text-gray-400 text-xl max-w-3xl mb-12">
-              Se alla team, alla rutter och alla uppdrag i realtid. Vet omedelbart vem som är var, vad som är utfört och vad som kräver uppmärksamhet — utan telefonsamtal.
+              Se alla team, alla rutter och alla uppdrag i realtid. Vet omedelbart vem som är var, vad som är utfört och vad som kräver uppmärksamhet - utan telefonsamtal.
             </p>
           </FadeIn>
 
@@ -417,7 +417,7 @@ export default function PresentationSePage() {
                   Varje adress, exakt kartlagd
                 </h2>
                 <p className="text-gray-500 text-xl mb-8 leading-relaxed">
-                  Hantera alla kundplatser på ett ställe. Använd vårt ritverktyg för att definiera exakta serviceområden — uppfarter, gångvägar, parkeringsplatser — så varje teammedlem vet exakt var de ska arbeta.
+                  Hantera alla kundplatser på ett ställe. Använd vårt ritverktyg för att definiera exakta serviceområden - uppfarter, gångvägar, parkeringsplatser - så varje teammedlem vet exakt var de ska arbeta.
                 </p>
               </FadeIn>
 
@@ -516,7 +516,7 @@ export default function PresentationSePage() {
                   Hela ditt nätverk, en plattform
                 </h2>
                 <p className="text-gray-500 text-xl mb-8 leading-relaxed">
-                  Hantera hela ditt underleverantörsnätverk enkelt. Tilldela uppdrag, följ framsteg och hantera dokumentation — allt utan ett enda telefonsamtal.
+                  Hantera hela ditt underleverantörsnätverk enkelt. Tilldela uppdrag, följ framsteg och hantera dokumentation - allt utan ett enda telefonsamtal.
                 </p>
               </FadeIn>
 
@@ -573,7 +573,7 @@ export default function PresentationSePage() {
                   Vet alltid när du ska rycka ut
                 </h2>
                 <p className="text-gray-400 text-xl mb-8 leading-relaxed">
-                  Inbyggd väderprognos ger dig de data du behöver för att fatta smarta beslut. Vet exakt när snö, is eller frost är på väg — och planera din insats innan det slår till.
+                  Inbyggd väderprognos ger dig de data du behöver för att fatta smarta beslut. Vet exakt när snö, is eller frost är på väg - och planera din insats innan det slår till.
                 </p>
               </FadeIn>
 
@@ -652,7 +652,7 @@ export default function PresentationSePage() {
               100+ entreprenörer använder SnowManager
             </h2>
             <p className="text-gray-400 text-xl max-w-3xl mx-auto mb-16 leading-relaxed">
-              Från små lokala operatörer till Skandinaviens största serviceföretag — entreprenörer i alla storlekar litar på SnowManager för att driva sin vinterdrift.
+              Från små lokala operatörer till Skandinaviens största serviceföretag - entreprenörer i alla storlekar litar på SnowManager för att driva sin vinterdrift.
             </p>
           </FadeIn>
 

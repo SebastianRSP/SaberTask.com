@@ -287,7 +287,7 @@ export default function PresentationPage() {
           </FadeIn>
           <FadeIn delay={200}>
             <p className="text-xl sm:text-2xl text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
-              SnowManager replaces spreadsheets, phone calls, and manual invoicing with one intelligent platform — built specifically for snow removal.
+              SnowManager replaces spreadsheets, phone calls, and manual invoicing with one intelligent platform - built specifically for snow removal.
             </p>
           </FadeIn>
           <FadeIn delay={300}>
@@ -320,7 +320,7 @@ export default function PresentationPage() {
               Everything you need, in one place
             </h2>
             <p className="text-gray-500 text-base sm:text-xl max-w-3xl mb-6 sm:mb-16">
-              SnowManager brings together every tool your snow removal business needs — from planning and dispatch to invoicing and customer reporting.
+              SnowManager brings together every tool your snow removal business needs - from planning and dispatch to invoicing and customer reporting.
             </p>
           </FadeIn>
 
@@ -376,7 +376,7 @@ export default function PresentationPage() {
               Your entire operation at a glance
             </h2>
             <p className="text-gray-400 text-xl max-w-3xl mb-12">
-              See every crew, every route, and every job in real-time. Know instantly who is where, what&apos;s been completed, and what needs attention — no phone calls needed.
+              See every crew, every route, and every job in real-time. Know instantly who is where, what&apos;s been completed, and what needs attention - no phone calls needed.
             </p>
           </FadeIn>
 
@@ -416,7 +416,7 @@ export default function PresentationPage() {
                   Every address, perfectly mapped
                 </h2>
                 <p className="text-gray-500 text-xl mb-8 leading-relaxed">
-                  Manage all your customer locations in one place. Use our drawing tool to define exact service areas — driveways, walkways, parking lots — so every crew member knows exactly where to work.
+                  Manage all your customer locations in one place. Use our drawing tool to define exact service areas - driveways, walkways, parking lots - so every crew member knows exactly where to work.
                 </p>
               </FadeIn>
 
@@ -515,7 +515,7 @@ export default function PresentationPage() {
                   Your full network, one platform
                 </h2>
                 <p className="text-gray-500 text-xl mb-8 leading-relaxed">
-                  Manage your entire subcontractor network effortlessly. Assign jobs, track progress, and handle documentation — all without a single phone call.
+                  Manage your entire subcontractor network effortlessly. Assign jobs, track progress, and handle documentation - all without a single phone call.
                 </p>
               </FadeIn>
 
@@ -572,7 +572,7 @@ export default function PresentationPage() {
                   Always know when to deploy
                 </h2>
                 <p className="text-gray-400 text-xl mb-8 leading-relaxed">
-                  Built-in weather forecasting gives you the data you need to make smart decisions. Know exactly when snow, ice, or frost is coming — and plan your response before it hits.
+                  Built-in weather forecasting gives you the data you need to make smart decisions. Know exactly when snow, ice, or frost is coming - and plan your response before it hits.
                 </p>
               </FadeIn>
 
@@ -651,7 +651,7 @@ export default function PresentationPage() {
               100+ contractors use SnowManager
             </h2>
             <p className="text-gray-400 text-xl max-w-3xl mx-auto mb-16 leading-relaxed">
-              From small local operators to Scandinavia&apos;s largest service companies — contractors of all sizes trust SnowManager to run their winter operations.
+              From small local operators to Scandinavia&apos;s largest service companies - contractors of all sizes trust SnowManager to run their winter operations.
             </p>
           </FadeIn>
 

@@ -49,7 +49,7 @@ export default function Testimonials() {
               <div className="aspect-[4/3] bg-gray-200overflow-hidden ">
                 <Image
                   src="/founders.jpg"
-                  alt="SnowManager Founders"
+                  alt="SaberTask Founders"
                   fill
                   className="object-cover rounded-2xl"
                 />

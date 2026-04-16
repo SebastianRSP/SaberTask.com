@@ -22,30 +22,41 @@
       "landscaping": "Landscaping",
       "cleaning": "Cleaning Services"
     },
+    "industriesPagesDropdown": {
+      "cleaningCompany": "Cleaning Companies",
+      "windowCleaning": "Window Cleaning",
+      "landscaping": "Landscaping",
+      "facilityManagement": "Facility Management",
+      "winterServices": "Winter Services"
+    },
     "resourcesDropdown": {
       "faq": "FAQ",
       "support": "Support"
     }
   },
   "hero": {
-    "titleStart": "A one-stop solution, for all your",
-    "titleHighlight1": "winter operations",
-    "titleMiddle": "",
-    "titleHighlight2": "",
+    "titleStart": "Smart Field Service",
+    "titleHighlight1": "Management",
+    "titleMiddle": "for",
+    "titleHighlight2": "Service Businesses",
     "cta": "Book a demo",
-    "tagline": "Everything you need to run your winter operations",
-    "userCount": "500+",
-    "trustedBy": "Used by more than 500 contractors",
-    "bannerTitle": "Everything You Need to Manage Snow Operations",
-    "bannerSubtitle": "Partnering with top tier brands to revolutionise the service industry",
-    "metaDescription": "SnowManager is the all-in-one platform for snow removal companies. Plan routes, track crews in real-time, and automate invoicing."
+    "tagline": "One platform for scheduling, dispatch, time tracking, and quality assurance",
+    "userCount": "10,000+",
+    "trustedBy": "Tasks managed every month",
+    "bannerTitle": "Cleaning • Landscaping • Snow Removal • Facility Management • Municipal Services",
+    "bannerSubtitle": "Purpose-built for service businesses",
+    "metaDescription": "SaberTask is the all-in-one field service management platform for service businesses. Schedule tasks, manage teams, track time, and ensure quality.",
+    "meta": {
+      "title": "SaberTask - Field Service Management for Service Businesses",
+      "description": "All-in-one field service platform: scheduling, time tracking, quality reports, invoicing and mobile app - built for cleaning, landscaping and facility teams."
+    }
   },
   "features": {
-    "badge": "Key features",
-    "titleStart": "Our app is an",
-    "titleHighlight": "all-in-one solution",
-    "titleEnd": "for your business",
-    "subtitle": "From live dashboards to automated invoicing - SnowManager replaces fragmented tools, saving you time, money and hassle.",
+    "badge": "Platform Features",
+    "titleStart": "Everything you need in",
+    "titleHighlight": "one platform",
+    "titleEnd": "to run your operations",
+    "subtitle": "From automated scheduling to invoicing - SaberTask replaces fragmented tools and gives you full control over your field operations.",
     "benefitLabel": "One of the benefits",
     "learnMore": "Learn more",
     "painPoints": {
@@ -57,266 +68,305 @@
     "liveDashboard": {
       "tabName": "Live Dashboard",
       "title": "Live Dashboard",
-      "description": "Monitor dispatch, track employee progress, and respond instantly to changes—eliminating the chaos of manual check-ins and scattered information.",
+      "description": "Get real-time visibility into your operations. See worker locations, task progress, and team utilisation on a live map - powered by instant updates.",
       "painPoints": [
-        "Managers lack real-time visibility into employee work.",
-        "Industry often runs on blind trust — jobs are assigned but no live updates.",
-        "Difficult to track delays, errors, or missed tasks."
+        "No real-time visibility into field operations.",
+        "Managers rely on phone calls to check on progress.",
+        "Impossible to react quickly to delays or issues."
       ],
       "solutions": [
-        "Shows live routes, tasks, and employee check-ins.",
-        "Instantly reassign jobs when staff are sick or delayed.",
-        "Gives management a live \"control center\" view."
+        "Live map showing worker locations and task status.",
+        "Instant updates when workers check in or complete tasks.",
+        "Real-time KPIs: tasks completed, in progress, and overdue."
       ]
     },
     "subcontractorManagement": {
-      "tabName": "Subcontractor Management",
-      "title": "Subcontractor Management",
-      "description": "Seamlessly manage your network of subcontractors. Assign jobs, track performance, and handle payments—all in one place.",
+      "tabName": "Employee Management",
+      "title": "Employee Management",
+      "description": "Organise your workforce into colour-coded teams. Assign tasks, balance workloads, and manage piecework payment splits - all from one place.",
       "painPoints": [
-        "Coordinating with subcontractors is chaotic and time-consuming.",
-        "No visibility into whether subcontracted work is actually completed.",
-        "Payment disputes due to lack of documentation."
+        "Difficult to balance workloads across teams.",
+        "No clear overview of who is assigned where.",
+        "Payment calculations for piecework are manual and error-prone."
       ],
       "solutions": [
-        "Dedicated portal for subcontractors to receive and complete jobs.",
-        "Real-time tracking and proof of service for all subcontracted work.",
-        "Automated payment tracking with clear documentation."
+        "Colour-coded teams with easy drag-and-drop assignment.",
+        "Percentage-based piecework splits calculated automatically.",
+        "Swap staff instantly when someone is unavailable."
       ]
     },
     "automaticInvoicing": {
-      "tabName": "Automatic Invoicing",
-      "title": "Automatic Invoicing",
-      "description": "Generate and send invoices automatically based on completed work. No more manual data entry or chasing paperwork.",
+      "tabName": "Invoicing & Billing",
+      "title": "Invoicing & Billing",
+      "description": "Export completed task and time data for accurate invoicing. Supports OIOXML for Danish public-sector billing, plus CSV and Excel for any accounting system.",
       "painPoints": [
-        "Creating invoices manually is time-consuming.",
-        "Jobs often slip through without being billed.",
-        "Difficult to prove services were completed."
+        "Creating invoices manually is time-consuming and error-prone.",
+        "Completed jobs slip through without being billed.",
+        "Difficult to prove services were performed."
       ],
       "solutions": [
-        "Auto-generate invoices from completed jobs.",
-        "Include GPS-verified timestamps and photos as proof.",
-        "Send invoices automatically via email or integrate with accounting."
+        "Export verified task data with timestamps and GPS proof.",
+        "OIOXML export for Danish public-sector invoicing (e-Faktura).",
+        "CSV/Excel exports ready for your accounting or ERP system."
       ]
     },
     "mobileApp": {
       "tabName": "Mobile App",
       "title": "Mobile App",
-      "description": "Empower your field teams with a powerful mobile app. Clock in, navigate routes, capture photos, and update job status—all from their phone.",
+      "description": "Give your field workers a fast, reliable app for iOS and Android. One-tap clock in, task details, photo capture, and offline support - built for outdoor use.",
       "painPoints": [
-        "Field workers rely on paper or memory to track their work.",
-        "No easy way to communicate route changes in real-time.",
-        "Difficult to capture and organize proof of service."
+        "Field workers rely on paper or memory to track work.",
+        "No easy way to communicate schedule changes.",
+        "Difficult to capture proof of completed work."
       ],
       "solutions": [
-        "One-tap clock in/out with GPS verification.",
-        "Turn-by-turn navigation integrated with job assignments.",
-        "Photo capture and notes attached directly to each job."
+        "Focused daily task list with swipe actions for quick check-in.",
+        "Offline support - tasks sync automatically when back online.",
+        "Integrated camera for before-and-after photo documentation."
       ]
     },
     "customerDashboard": {
-      "tabName": "Customer Dashboard",
-      "title": "Customer Dashboard",
-      "description": "Give your clients a professional dashboard to view service history, track upcoming work, and access reports anytime.",
+      "tabName": "Customer Portal",
+      "title": "Customer Portal",
+      "description": "Give your clients direct visibility into the services they receive. A secure, branded portal for viewing tasks, service history, photos, and reports.",
       "painPoints": [
-        "Clients call constantly asking for updates.",
-        "No professional way to share service reports.",
+        "Clients call constantly asking for service updates.",
+        "No professional way to share documentation and reports.",
         "Difficult for clients to verify work was completed."
       ],
       "solutions": [
-        "Branded dashboard where clients see real-time job status.",
-        "Automatic service reports with photos and timestamps.",
-        "Self-service access to invoices and service history."
+        "Self-service portal where clients see task status and history.",
+        "Access to photo documentation and service reports.",
+        "Clients can submit requests and provide feedback."
       ]
     },
     "smartRouteBuilder": {
-      "tabName": "Smart Route Builder",
-      "title": "Smart Route Builder",
-      "description": "Build optimized routes in seconds. Our smart algorithm considers location, priority, and equipment to maximize efficiency.",
+      "tabName": "Task Scheduling",
+      "title": "Automated Task Scheduling",
+      "description": "Define recurring Service Agreements and let SaberTask generate work orders automatically - weekly, biweekly, monthly, seasonal, or any custom pattern.",
       "painPoints": [
-        "Routes are planned manually, wasting time and fuel.",
-        "Priority areas often get missed or serviced late.",
-        "No easy way to adjust routes when conditions change."
+        "Scheduling recurring tasks manually wastes hours every week.",
+        "Tasks get missed or duplicated without a system.",
+        "Seasonal work requires constant schedule adjustments."
       ],
       "solutions": [
-        "AI-optimized routes based on location, priority, and weather.",
-        "Drag-and-drop route editing with instant recalculation.",
-        "Automatic rebalancing when new jobs are added."
+        "Service Agreements auto-generate tasks up to 12 months ahead.",
+        "Seasonal support limits tasks to specific months automatically.",
+        "Planning view shows the full week at a glance by team."
       ]
     },
     "drawingTool": {
-      "tabName": "Drawing Tool",
-      "title": "Drawing Tool",
-      "description": "Define service areas with precision using our intuitive drawing tool. Mark driveways, walkways, parking lots, and special zones on a map.",
+      "tabName": "Quality Controls",
+      "title": "Quality Controls",
+      "description": "Ensure consistent service quality with photo documentation, completion notes, and configurable checklists that workers must complete before finishing a task.",
       "painPoints": [
-        "Service areas are described vaguely, leading to confusion.",
-        "New crew members don't know exactly where to service.",
-        "Disputes with clients about what areas were included."
+        "No way to verify that work meets standards.",
+        "Quality issues only surface when clients complain.",
+        "Inconsistent service across different teams and workers."
       ],
       "solutions": [
-        "Draw precise service boundaries on satellite imagery.",
-        "Color-code different zones (driveways, walkways, etc.).",
-        "Crews see exact areas to service on their mobile app."
+        "Before-and-after photo documentation for every task.",
+        "Configurable checklists tailored per service type.",
+        "Inspection scheduling and customer feedback collection."
+      ]
+    },
+    "customerManagement": {
+      "tabName": "Customer Management",
+      "title": "Customer Management",
+      "description": "The structured backbone of your service business - every customer, location, contact, contract and document in one searchable database, all linked to the work that runs the day.",
+      "painPoints": [
+        "Customer data scattered across spreadsheets, email and folders.",
+        "No single source of truth for locations, contacts and contracts.",
+        "Files lost on shared drives with no full-text search."
+      ],
+      "solutions": [
+        "Customers, locations and contacts in one structured database.",
+        "Work descriptions and service agreements drive recurring tasks.",
+        "AI-searchable file vault - even photos and PDFs become text."
       ]
     }
   },
   "mobileApp": {
     "badge": "Mobile App",
     "title": "Your entire operation in your pocket",
-    "description": "Empower your field teams with a powerful mobile app. Clock in, navigate routes, capture photos, and update job status—all from their phone.",
-    "appTagline": "Field Operations App",
+    "description": "The SaberTask mobile app delivers native performance on iOS and Android. Built for field workers who need a fast, reliable interface outdoors and on the move.",
+    "appTagline": "Field Service App",
     "downloadOn": "Download on the",
     "getItOn": "Get it on",
+    "learnMore": "Learn more about the app",
     "features": {
       "gpsTracking": {
-        "title": "GPS Tracking",
-        "description": "Real-time location tracking with automatic clock in/out."
+        "title": "GPS Clock In/Out",
+        "description": "One-tap check-in with automatic GPS capture and break management."
       },
       "revenueOverview": {
-        "title": "Revenue Overview",
-        "description": "Track earnings and revenue in real-time directly from your phone."
+        "title": "Personal Stats",
+        "description": "Track tasks completed, average time per job, and piecework earnings."
       },
       "photoCapture": {
-        "title": "Photo Capture",
-        "description": "Document completed work with timestamped, geotagged photos."
+        "title": "Photo Documentation",
+        "description": "Capture before-and-after photos attached directly to each task."
       },
       "taskManagement": {
-        "title": "Task Management",
-        "description": "View assignments, update status, and communicate with dispatch."
+        "title": "Daily Task List",
+        "description": "View assignments, special instructions, and customer details at a glance."
       }
     }
   },
   "benefits": {
-    "title": "Why Choose SnowManager?",
-    "subtitle": "Join hundreds of snow removal companies that have transformed their operations",
+    "title": "Why Choose SaberTask?",
+    "subtitle": "Purpose-built for service businesses of all sizes",
     "efficiency": {
-      "title": "Save 30% on Operations",
-      "description": "Optimized routes and better planning mean less fuel, less time, and more jobs completed per day."
+      "title": "Save Time & Money",
+      "description": "Automated scheduling and streamlined workflows mean less admin, fewer errors, and more jobs completed per day."
     },
     "satisfaction": {
       "title": "Happier Customers",
-      "description": "Real-time updates and professional reporting keep your clients informed and satisfied."
+      "description": "Photo documentation, real-time updates, and a self-service portal keep your clients informed and confident."
     },
     "growth": {
       "title": "Scale Your Business",
-      "description": "Handle more clients and areas without adding administrative overhead."
+      "description": "From 10 field workers to 5,000+ - SaberTask grows with you without adding administrative overhead."
     }
   },
   "pricing": {
-    "title": "Simple, Transparent Pricing",
-    "subtitle": "Choose the plan that fits your business. No hidden fees.",
-    "metaDescription": "Explore SnowManager pricing plans for snow removal businesses of all sizes. Simple, transparent pricing with no hidden fees.",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "savePercent": "Save 20%",
-    "perMonth": "/month",
-    "perYear": "/year",
-    "starter": {
-      "name": "Starter",
-      "description": "Perfect for small operations",
-      "price": "99",
-      "features": [
-        "Up to 5 vehicles",
-        "Basic route planning",
-        "Weather alerts",
-        "Email support"
-      ]
-    },
-    "professional": {
-      "name": "Professional",
-      "description": "For growing businesses",
-      "price": "249",
-      "popular": "Most Popular",
-      "features": [
-        "Up to 20 vehicles",
-        "Advanced route optimization",
-        "Real-time GPS tracking",
-        "Client reporting portal",
-        "Priority support"
-      ]
+    "title": "Simple, transparent pricing",
+    "subtitle": "Choose the plan that fits your team - no hidden fees.",
+    "metaDescription": "SaberTask pricing for service businesses of all sizes. Transparent per-user plans, no hidden fees, 30-day free trial - scale from 2 to 200+ employees.",
+    "badge": "Pricing",
+    "cta": "Book a demo",
+    "perUser": "/ user / month",
+    "custom": "Custom",
+    "vatNote": "All prices are excl. VAT",
+    "plans": {
+      "worker": {
+        "name": "Worker",
+        "description": "Field Staff",
+        "features": [
+          "Mobile app access",
+          "Clock in/out with GPS",
+          "Daily task list",
+          "Photo documentation",
+          "Live salary visibility",
+          "Built-in messaging"
+        ]
+      },
+      "planning": {
+        "name": "Worker with planning",
+        "description": "Team Leaders / Supervisors",
+        "extends": "Everything in Worker",
+        "features": [
+          "Create and assign tasks",
+          "Daily planning calendar",
+          "Quality reporting",
+          "Team task overview"
+        ]
+      },
+      "admin": {
+        "name": "Admin",
+        "description": "Office / Management",
+        "extends": "Everything in Worker with planning",
+        "features": [
+          "Full web dashboard access",
+          "Employee & shift management",
+          "Customer management",
+          "Route optimisation & planning",
+          "Invoicing & billing",
+          "Financial overview & payroll"
+        ]
+      }
     },
     "enterprise": {
       "name": "Enterprise",
-      "description": "For large operations",
-      "price": "Custom",
+      "description": "Large organizations with advanced needs and complex integrations",
+      "extends": "Everything in Admin plan",
       "features": [
-        "Unlimited vehicles",
-        "Custom integrations",
-        "Dedicated account manager",
-        "24/7 phone support",
-        "On-site training"
+        "Custom integrations (e.g., NAV, ServiceNow, other enterprise systems)",
+        "Advanced reporting and configuration options"
       ]
     },
-    "cta": "Start Free Trial",
-    "ctaEnterprise": "Contact Sales"
+    "metaTitle": "Pricing - Simple, Transparent Plans | SaberTask"
   },
   "testimonials": {
-    "badge": "Testimonials",
-    "title": "Who we are and how our users talk about us",
+    "badge": "About Us",
+    "title": "Built by people who know the industry",
     "subtitle": "Trusted by service companies across industries",
     "featured": {
-      "quote": "After 20 years in service management, we were frustrated by using 7+ different tools that didn't talk to each other. SnowManager was built to solve that — and save companies time, money, and hassle.",
+      "quote": "After 20 years in service management, we were frustrated by using 7+ different tools that didn't talk to each other. SaberTask was built to solve that - one platform for scheduling, dispatch, time tracking, and quality assurance.",
       "author": "Sebastian & Martin",
       "role": "Founders",
-      "company": "SnowManager"
+      "company": "SaberTask"
     },
     "items": [
       {
-        "quote": "SnowManager has completely transformed how we operate. We're now handling 40% more clients with the same fleet size.",
+        "quote": "SaberTask has completely transformed how we operate. We're now handling 40% more clients with the same team size.",
         "author": "Michael Jensen",
         "role": "Owner",
-        "company": "Nordic Snow Services"
+        "company": "ProService Group"
       },
       {
-        "quote": "The weather integration alone has saved us countless hours. We know exactly when to deploy our crews now.",
+        "quote": "The automated scheduling alone has saved us countless hours. We know exactly what needs to happen and when.",
         "author": "Sarah Andersen",
         "role": "Operations Manager",
-        "company": "WhiteOut Plowing"
+        "company": "CleanTeam Solutions"
       },
       {
-        "quote": "Our customers love getting real-time updates. It's elevated our professionalism to a whole new level.",
+        "quote": "Our customers love the portal and photo documentation. It's elevated our professionalism to a whole new level.",
         "author": "Thomas Nielsen",
         "role": "CEO",
-        "company": "Clear Path Solutions"
+        "company": "GreenCare Solutions"
       },
       {
-        "quote": "The reporting features make invoicing a breeze. What used to take hours now takes minutes.",
+        "quote": "The invoicing exports make billing a breeze. What used to take hours now takes minutes.",
         "author": "Emma Larsen",
         "role": "Office Manager",
-        "company": "Snowfall Removal"
+        "company": "FacilityPro Denmark"
       }
     ]
   },
   "faq": {
     "title": "Frequently Asked Questions",
     "subtitle": "Got questions? We've got answers.",
-    "metaDescription": "Find answers to common questions about SnowManager. Learn about free trials, plans, data security, training, and support options.",
+    "metaDescription": "Common questions about SaberTask answered. Learn about our free trial, plans, data security, training, support and how we fit your service business.",
     "items": [
       {
         "question": "How does the free trial work?",
-        "answer": "You get full access to all Professional features for 14 days, no credit card required. At the end of your trial, you can choose the plan that best fits your needs."
+        "answer": "You get 30 days of full access to SaberTask with no credit card required. Everything is included - web dashboard, mobile app, all user types. At the end of the trial you simply continue with a paid subscription or your account is deactivated."
       },
       {
-        "question": "Can I change plans later?",
-        "answer": "Absolutely! You can upgrade or downgrade your plan at any time. Changes take effect at the start of your next billing cycle."
+        "question": "How does pricing work?",
+        "answer": "There are no separate plans or tiers. You pay per user per month based on their role: Worker, Worker with planning, or Admin. You only pay for the users you have - add or remove users at any time and your bill adjusts automatically."
       },
-{
+      {
+        "question": "Is there a minimum contract period?",
+        "answer": "No. SaberTask is billed monthly with no lock-in. You can cancel at any time and you will not be charged for the following month."
+      },
+      {
+        "question": "What is included for each user type?",
+        "answer": "Workers get the mobile app with clock in/out, task list, photos, messaging and live salary. Workers with planning can additionally create tasks, plan the day and do quality reporting. Admins get full web dashboard access including employee management, customer management, route planning, invoicing and payroll."
+      },
+      {
         "question": "Is my data secure?",
-        "answer": "Yes, we use bank-level encryption and are fully GDPR compliant. Your data is backed up daily and stored securely in European data centers."
+        "answer": "Yes. We use bank-level encryption and are fully GDPR compliant. Your data is backed up daily and stored securely in European data centers. All access is role-based and tenant-isolated."
       },
       {
-        "question": "Do you offer training?",
-        "answer": "All plans include access to our video tutorials and knowledge base. Professional and Enterprise plans include live onboarding sessions."
+        "question": "Do you offer onboarding and training?",
+        "answer": "Every new customer gets a personal onboarding session where we help set up your account, import data and train your team. We also offer ongoing support via email and phone."
       },
       {
-        "question": "What if I need help?",
-        "answer": "We offer email support on all plans, priority support for Professional, and 24/7 phone support for Enterprise customers."
+        "question": "Can I integrate SaberTask with my accounting system?",
+        "answer": "Yes. SaberTask supports CSV and Excel exports for any accounting system, plus direct integration with Dinero, e-conomic, Microsoft Dynamics NAV and QuickBooks."
+      },
+      {
+        "question": "Does the mobile app work on both iOS and Android?",
+        "answer": "Yes. The SaberTask mobile app is available on both the App Store and Google Play. It is built natively for fast performance and works reliably in the field."
       }
-    ]
+    ],
+    "metaTitle": "Frequently Asked Questions | SaberTask"
   },
   "contact": {
     "title": "Get in Touch",
-    "subtitle": "Ready to transform your snow removal operations? Let's talk.",
+    "subtitle": "Ready to streamline your field service operations? Let's talk.",
     "form": {
       "name": "Your Name",
       "email": "Email Address",
@@ -329,17 +379,18 @@
     },
     "info": {
       "title": "Contact Information",
-      "email": "sebastian@snowmanager.com",
+      "email": "sebastian@sabertask.com",
       "phone": "+45 32 33 05 20"
     }
   },
   "footer": {
-    "description": "The complete platform for modern snow removal operations.",
+    "description": "The complete field service management platform for service businesses.",
     "product": {
       "title": "Product",
       "features": "Features",
       "pricing": "Pricing",
-      "demo": "Request Demo"
+      "demo": "Request Demo",
+      "iPhoneApp": "iPhone App"
     },
     "company": {
       "title": "Company",
@@ -353,18 +404,18 @@
       "privacy": "Privacy Policy",
       "terms": "Terms of Service"
     },
-    "copyright": "© 2024 SnowManager. All rights reserved."
+    "copyright": "© 2025 SaberTask. All rights reserved."
   },
   "about": {
-    "title": "About SnowManager",
-    "subtitle": "We're on a mission to make snow removal operations more efficient and professional.",
+    "title": "About SaberTask",
+    "subtitle": "We're on a mission to make field service operations more efficient and professional.",
     "story": {
       "title": "Our Story",
-      "content": "SnowManager was born from firsthand experience in the snow removal industry. Our founders spent years managing snow operations and saw the challenges that come with coordinating crews, managing routes, and keeping customers informed. We built SnowManager to solve these problems with modern technology that's actually easy to use."
+      "content": "SaberTask was born from firsthand experience in the field service industry. Our founders spent years managing service operations and saw the challenges that come with coordinating crews, scheduling tasks, and keeping customers informed. We built SaberTask to solve these problems with modern technology that's actually easy to use."
     },
     "mission": {
       "title": "Our Mission",
-      "content": "To empower snow removal professionals with the tools they need to run more efficient, profitable, and professional operations."
+      "content": "To empower service businesses with the tools they need to run more efficient, profitable, and professional operations."
     },
     "values": {
       "title": "Our Values",
@@ -374,7 +425,7 @@
       },
       "reliability": {
         "title": "Reliability",
-        "description": "When the snow starts falling, you can count on us."
+        "description": "When your clients depend on you, you can count on us."
       },
       "partnership": {
         "title": "Partnership",
@@ -384,24 +435,53 @@
   },
   "blog": {
     "title": "Blog",
-    "subtitle": "Insights, tips, and news about winter operations and service management.",
+    "subtitle": "Insights, tips, and news about field service management.",
     "noPosts": "No posts yet. Check back soon!",
     "readMore": "Read more",
     "backToBlog": "Back to Blog",
-    "pageTitle": "Blog - SnowManager",
-    "pageDescription": "Read the latest insights, tips, and news about winter operations and service management from the SnowManager team.",
-    "metaDescription": "Read insights, tips, and news about winter operations and snow removal management from the SnowManager team. Stay ahead this season."
+    "pageTitle": "Blog - SaberTask",
+    "pageDescription": "Read the latest insights, tips, and news about field service management from the SaberTask team.",
+    "metaDescription": "Insights, tips and news on field service management for cleaning, landscaping, facility and winter services. Practical advice from the SaberTask team.",
+    "metaTitle": "Blog - Field Service Insights | SaberTask"
+  },
+  "industries": {
+    "badge": "Target industries",
+    "titleHighlight": "Targeted Solutions",
+    "titleEnd": "for Specific Challenges",
+    "subtitle": "SaberTask is purpose-built to address the unique operational challenges facing service-based industries. Here's how we solve specific pain points for each sector",
+    "cta": "Book a demo",
+    "learnMore": "Learn more",
+    "cleaning": {
+      "title": "Cleaning services",
+      "description": "Automates scheduling, tracks hours, and ensures consistent delivery."
+    },
+    "facility": {
+      "title": "Facility management",
+      "description": "Centralizes maintenance, automates work flow & improves flow"
+    },
+    "window": {
+      "title": "Window Polishing",
+      "description": "Smart scheduling & detailed work descriptions with photo reports."
+    },
+    "winter": {
+      "title": "Winter Servicing",
+      "description": "Optimized routes with GPS tracking & automated compliance."
+    },
+    "landscaping": {
+      "title": "Landscaping",
+      "description": "Seasonal auto-scheduling & efficient crew allocation."
+    }
   },
   "cta": {
-    "title": "Ready to Get Started?",
-    "subtitle": "Join hundreds of snow removal companies already using SnowManager.",
-    "button": "Start Your Free Trial"
+    "title": "Try SaberTask free for 30 days",
+    "subtitle": "Full access to everything - web dashboard, mobile app, all user types. No credit card needed. Set up your first customer in minutes.",
+    "button": "Book a Demo"
   },
   "privacyPolicy": {
     "title": "Privacy Policy",
     "lastUpdated": "Last updated: January 2025",
-    "intro": "At SnowManager, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our service.",
-    "metaDescription": "Learn how SnowManager collects, uses, and protects your data. We are fully GDPR compliant with bank-level encryption.",
+    "intro": "At SaberTask, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our service.",
+    "metaDescription": "How SaberTask collects, uses and protects your data. Fully GDPR compliant with bank-level encryption and multi-tenant data isolation.",
     "dataCollection": {
       "title": "Information We Collect",
       "content": "We collect information you provide directly to us, such as when you create an account, use our services, or contact us for support. This may include your name, email address, company name, phone number, and payment information. We also automatically collect certain information when you use our services, including device information, IP address, and usage data."
@@ -428,62 +508,2548 @@
     },
     "contact": {
       "title": "Contact Us",
-      "content": "If you have any questions about this Privacy Policy, please contact us at <email>sebastian@snowmanager.com</email>."
-    }
+      "content": "If you have any questions about this Privacy Policy, please contact us at <email>sebastian@sabertask.com</email>."
+    },
+    "metaTitle": "Privacy Policy | SaberTask"
   },
   "terms": {
     "title": "Terms and Conditions",
     "lastUpdated": "Last updated: January 2025",
-    "intro": "These terms and conditions (\"Terms\") apply as the contractual relationship between the customer (\"Customer\") and SaberTask LDA, VAT number: PT518467546 (\"WinterManager\").",
-    "metaDescription": "Read the terms and conditions for using SnowManager. Learn about our service agreements, pricing, data security, and your rights.",
+    "intro": "These terms and conditions (\"Terms\") apply as the contractual relationship between the customer (\"Customer\") and SaberTask LDA, VAT number: PT518467546 (\"SaberTask\").",
+    "metaDescription": "Terms and conditions for using SaberTask. Service agreements, pricing, data security, operations, liability and your rights as a customer.",
     "companyInfo": "SaberTask LDA, VAT number: PT518467546, Rua das Violetas n 145, Cascais, Lisboa, Portugal",
     "service": {
       "title": "The Service",
-      "content": "WinterManager provides software via its website, mobile platforms, or similar (\"Software\") that enables the Customer to manage and optimize winter operations through self-service. The Customer can manage customers, addresses, subcontractors, and routes (collectively referred to as \"the Service\").\n\nThe scope of the Service is defined based on the Customer's choice of service package, which may contain more or fewer features (\"Service Package\"). The choice is made in collaboration with WinterManager and will appear on the agreement letter.\n\nThrough the business relationship between the Customer and WinterManager, the Customer gains non-exclusive access to use the Software. The Customer does not own the Software or the Services or any copy or part thereof.\n\nAccess to use the Service, including the Software, may only be used for the Customer's purposes and applies exclusively to the Customer and their subcontractors. Both the Customer and their subcontractors must have their own unique username and password. It is the Customer's duty to ensure adequate security to protect usernames and passwords to prevent misuse of the Service."
+      "content": "SaberTask provides software via its website, mobile platforms, or similar (\"Software\") that enables the Customer to manage and optimize field service operations through self-service. The Customer can manage customers, addresses, subcontractors, and routes (collectively referred to as \"the Service\").\n\nThe scope of the Service is defined based on the Customer's choice of service package, which may contain more or fewer features (\"Service Package\"). The choice is made in collaboration with SaberTask and will appear on the agreement letter.\n\nThrough the business relationship between the Customer and SaberTask, the Customer gains non-exclusive access to use the Software. The Customer does not own the Software or the Services or any copy or part thereof.\n\nAccess to use the Service, including the Software, may only be used for the Customer's purposes and applies exclusively to the Customer and their subcontractors. Both the Customer and their subcontractors must have their own unique username and password. It is the Customer's duty to ensure adequate security to protect usernames and passwords to prevent misuse of the Service."
     },
     "acceptance": {
       "title": "Acceptance and Permission",
-      "content": "By registering on WinterManager's platform, the Customer accepts these Terms as the applicable contractual relationship. The Terms also apply to third parties who may perform work on behalf of the Customer in relation to the Service.\n\nThe Service is provided to the Customer in their capacity as a business operator, including even if the Customer's employees gain access to all or parts of the Software.\n\nThe Customer consents to WinterManager and its third parties conducting marketing towards the Customer and Subcontractors. The Customer may withdraw such consent in writing.\n\nThe Customer accepts WinterManager's other policies, including the personal data and Cookie policy, available in the current version on WinterManager's website. These policies are considered an integral part of these Terms."
+      "content": "By registering on SaberTask's platform, the Customer accepts these Terms as the applicable contractual relationship. The Terms also apply to third parties who may perform work on behalf of the Customer in relation to the Service.\n\nThe Service is provided to the Customer in their capacity as a business operator, including even if the Customer's employees gain access to all or parts of the Software.\n\nThe Customer consents to SaberTask and its third parties conducting marketing towards the Customer and Subcontractors. The Customer may withdraw such consent in writing.\n\nThe Customer accepts SaberTask's other policies, including the personal data and Cookie policy, available in the current version on SaberTask's website. These policies are considered an integral part of these Terms."
     },
     "thirdParties": {
       "title": "Third Parties",
-      "content": "To deliver the Service and any additional services, WinterManager may use suppliers and similar business partners (\"Third Parties\"). The Customer accepts that information uploaded in connection with the Service may be processed by and exchanged with Third Parties working with WinterManager, provided that WinterManager has entered into a data processing agreement with the relevant Third Parties.\n\nIf Third Parties offer additional services via WinterManager's API, the use of these services is subject to the relevant Third Party's terms. The Customer exempts WinterManager from any liability in connection with the use of such Third Party services."
+      "content": "To deliver the Service and any additional services, SaberTask may use suppliers and similar business partners (\"Third Parties\"). The Customer accepts that information uploaded in connection with the Service may be processed by and exchanged with Third Parties working with SaberTask, provided that SaberTask has entered into a data processing agreement with the relevant Third Parties.\n\nIf Third Parties offer additional services via SaberTask's API, the use of these services is subject to the relevant Third Party's terms. The Customer exempts SaberTask from any liability in connection with the use of such Third Party services."
     },
     "customerResponsibilities": {
       "title": "Customer's Duties and Responsibilities",
-      "content": "The Customer, including their Subcontractors, is solely responsible for the accuracy and quality of information registered and used in the Software. The Customer must independently ensure that the information is registered correctly and kept up to date at all times.\n\nAccess to personal information, for example by entering personal identification numbers, may be punishable and subject to compensation. It is the Customer's responsibility to ensure that the Customer and their employees do not gain unauthorized access to personal information. Violation of this may result in immediate termination of the agreement.\n\nThe Customer must not give others access to the Service, including the Software, without that person having a direct agreement with WinterManager.\n\nIt is the Customer's responsibility that the Service is not used in a manner that violates relevant legislation or other regulation, or that damages WinterManager's name, reputation, or goodwill. Violation may result in immediate termination of the agreement.\n\nBy accepting these Terms, the Customer confirms that they are not in competition with WinterManager. All software, design, architecture, text, and similar are protected by copyright."
+      "content": "The Customer, including their Subcontractors, is solely responsible for the accuracy and quality of information registered and used in the Software. The Customer must independently ensure that the information is registered correctly and kept up to date at all times.\n\nAccess to personal information, for example by entering personal identification numbers, may be punishable and subject to compensation. It is the Customer's responsibility to ensure that the Customer and their employees do not gain unauthorized access to personal information. Violation of this may result in immediate termination of the agreement.\n\nThe Customer must not give others access to the Service, including the Software, without that person having a direct agreement with SaberTask.\n\nIt is the Customer's responsibility that the Service is not used in a manner that violates relevant legislation or other regulation, or that damages SaberTask's name, reputation, or goodwill. Violation may result in immediate termination of the agreement.\n\nBy accepting these Terms, the Customer confirms that they are not in competition with SaberTask. All software, design, architecture, text, and similar are protected by copyright."
     },
     "pricing": {
       "title": "Price and Payment Terms",
-      "content": "The price depends on the Customer's choice of Service Package and any additional services. Prices are stated exclusive of VAT and can be found in the agreement letter.\n\nWinterManager may change prices with one month's notice. Changes in exchange rates, taxes, insurance, net price index, and costs to Third Parties mean that WinterManager may adjust prices. The Customer will be notified via the website or email. If the Customer does not agree to a price change, the Customer may terminate the agreement immediately, though the Customer must still pay for actual use of the Service until termination.\n\nAfter each month of platform use, the Service will automatically generate an invoice to the Customer. The invoiced amount will be paid through the registered payment solution recognized by WinterManager.\n\nThe season fee is invoiced once annually on November 1st for all active locations. For locations started after season start, the season fee is invoiced as soon as possible after addition, calculated proportionally based on remaining season time. All season fees are binding for the selected period and are not refunded upon mid-season cancellation.\n\nIf the Customer does not pay on time, WinterManager may initiate a reminder procedure. Continued non-payment may result in access to the Service being blocked.\n\nFor late payment, interest of 2.75% per month is added from the due date until payment is made."
+      "content": "The price depends on the Customer's choice of Service Package and any additional services. Prices are stated exclusive of VAT and can be found in the agreement letter.\n\nSaberTask may change prices with one month's notice. Changes in exchange rates, taxes, insurance, net price index, and costs to Third Parties mean that SaberTask may adjust prices. The Customer will be notified via the website or email. If the Customer does not agree to a price change, the Customer may terminate the agreement immediately, though the Customer must still pay for actual use of the Service until termination.\n\nAfter each month of platform use, the Service will automatically generate an invoice to the Customer. The invoiced amount will be paid through the registered payment solution recognized by SaberTask.\n\nThe season fee is invoiced once annually on November 1st for all active locations. For locations started after season start, the season fee is invoiced as soon as possible after addition, calculated proportionally based on remaining season time. All season fees are binding for the selected period and are not refunded upon mid-season cancellation.\n\nIf the Customer does not pay on time, SaberTask may initiate a reminder procedure. Continued non-payment may result in access to the Service being blocked.\n\nFor late payment, interest of 2.75% per month is added from the due date until payment is made."
     },
     "dataAndSecurity": {
       "title": "Information and Security",
-      "content": "Information registered in the Service is the Customer's property. The Customer may request the registered information in an electronic format chosen by WinterManager. Upon termination, the Customer will have access to the information for six months, after which WinterManager may permanently delete the information.\n\nWinterManager has taken necessary security measures against information being illegally or accidentally degraded, lost, or destroyed, and against information being misused, coming to the knowledge of unauthorized persons, or being processed in violation of personal data legislation.\n\nWhen using the Service, where the Customer uses information, usernames, or passwords originating from third parties, the Customer warrants that disclosure of such information and WinterManager's data processing does not infringe rights or agreements with third parties. The Customer indemnifies WinterManager for any loss as a result of this provision."
+      "content": "Information registered in the Service is the Customer's property. The Customer may request the registered information in an electronic format chosen by SaberTask. Upon termination, the Customer will have access to the information for six months, after which SaberTask may permanently delete the information.\n\nSaberTask has taken necessary security measures against information being illegally or accidentally degraded, lost, or destroyed, and against information being misused, coming to the knowledge of unauthorized persons, or being processed in violation of personal data legislation.\n\nWhen using the Service, where the Customer uses information, usernames, or passwords originating from third parties, the Customer warrants that disclosure of such information and SaberTask's data processing does not infringe rights or agreements with third parties. The Customer indemnifies SaberTask for any loss as a result of this provision."
     },
     "changes": {
       "title": "Changes and Transfer",
-      "content": "WinterManager may make changes to the Service and additional services. WinterManager is also entitled to change the form and structure of the Service. Any change may be made with or without notice.\n\nThese Terms may be changed by WinterManager at any time without notice to the Customer, as long as the Customer is informed in writing of changes. The Terms are available on WinterManager's website. Continued use of the Service after changes constitutes acceptance.\n\nRights and obligations granted to WinterManager under these Terms may be transferred in whole or in part to affiliated companies or third parties.\n\nThe Customer has no right to transfer rights and obligations or access to the Service to third parties, either in whole or in part."
+      "content": "SaberTask may make changes to the Service and additional services. SaberTask is also entitled to change the form and structure of the Service. Any change may be made with or without notice.\n\nThese Terms may be changed by SaberTask at any time without notice to the Customer, as long as the Customer is informed in writing of changes. The Terms are available on SaberTask's website. Continued use of the Service after changes constitutes acceptance.\n\nRights and obligations granted to SaberTask under these Terms may be transferred in whole or in part to affiliated companies or third parties.\n\nThe Customer has no right to transfer rights and obligations or access to the Service to third parties, either in whole or in part."
     },
     "intellectualProperty": {
       "title": "Intellectual Property Rights",
-      "content": "With the exception of the Customer's information registered in the system, the Software and the information generated by the Software are protected by copyright and other intellectual property rights and belong to or are licensed to WinterManager. Through the Service, the Customer receives only a right of use.\n\nIn case of any suspected or actual infringement of WinterManager's intellectual property rights or unauthorized use of the Service, the Customer must notify WinterManager.\n\nThe information registered by the Customer and their Subcontractors belongs to the Customer and/or their Subcontractors."
+      "content": "With the exception of the Customer's information registered in the system, the Software and the information generated by the Software are protected by copyright and other intellectual property rights and belong to or are licensed to SaberTask. Through the Service, the Customer receives only a right of use.\n\nIn case of any suspected or actual infringement of SaberTask's intellectual property rights or unauthorized use of the Service, the Customer must notify SaberTask.\n\nThe information registered by the Customer and their Subcontractors belongs to the Customer and/or their Subcontractors."
     },
     "liability": {
-      "title": "WinterManager's Liability and Confidentiality",
-      "content": "The Service is provided by WinterManager in its current state. WinterManager disclaims any warranty, assurance, guarantee, or other terms beyond what is stated in these Terms.\n\nIn connection with the Customer's use of the Service, WinterManager disclaims any liability for loss that the Customer may incur, regardless of whether such loss arises in or outside of contract, whether consequential damages or other indirect losses, operating losses, product liability losses, information losses, or other losses due to simple negligence.\n\nThe Customer has a duty to notify WinterManager of errors in the Service. WinterManager is only obligated to correct errors that the Customer or WinterManager has become aware of.\n\nThe Customer accepts that regardless of what loss or basis for liability the Customer has suffered, WinterManager's total liability may not exceed an amount corresponding to the previous 12 months' invoiced amount, but no more than DKK 50,000.\n\nWinterManager and its employees have a duty of confidentiality regarding all information that can be attributed directly to the Customer."
+      "title": "SaberTask's Liability and Confidentiality",
+      "content": "The Service is provided by SaberTask in its current state. SaberTask disclaims any warranty, assurance, guarantee, or other terms beyond what is stated in these Terms.\n\nIn connection with the Customer's use of the Service, SaberTask disclaims any liability for loss that the Customer may incur, regardless of whether such loss arises in or outside of contract, whether consequential damages or other indirect losses, operating losses, product liability losses, information losses, or other losses due to simple negligence.\n\nThe Customer has a duty to notify SaberTask of errors in the Service. SaberTask is only obligated to correct errors that the Customer or SaberTask has become aware of.\n\nThe Customer accepts that regardless of what loss or basis for liability the Customer has suffered, SaberTask's total liability may not exceed an amount corresponding to the previous 12 months' invoiced amount, but no more than DKK 50,000.\n\nSaberTask and its employees have a duty of confidentiality regarding all information that can be attributed directly to the Customer."
     },
     "operations": {
       "title": "Operations and Force Majeure",
-      "content": "WinterManager aims for high operational stability and will restore normal operations as quickly as possible in case of downtime or operational disruptions. Maintenance and upgrades will, as far as possible, be scheduled between 15:00-22:00 CET and will be announced in advance.\n\nWinterManager is not liable for losses arising from downtime or operational disruptions. Even in areas where stricter liability applies, WinterManager is not liable for losses caused by:\n\n- Damage to data or lack of access to or downtime in IT systems\n- Power supply or telecommunications failures, natural disasters, war, riots, pandemics, civil unrest, legislation or administrative acts, sabotage, terror, or vandalism (including computer viruses and hacking)\n- Conflicts such as strikes, lockouts, boycotts, or blockades\n- Other circumstances beyond WinterManager's control"
+      "content": "SaberTask aims for high operational stability and will restore normal operations as quickly as possible in case of downtime or operational disruptions. Maintenance and upgrades will, as far as possible, be scheduled between 15:00-22:00 CET and will be announced in advance.\n\nSaberTask is not liable for losses arising from downtime or operational disruptions. Even in areas where stricter liability applies, SaberTask is not liable for losses caused by:\n\n- Damage to data or lack of access to or downtime in IT systems\n- Power supply or telecommunications failures, natural disasters, war, riots, pandemics, civil unrest, legislation or administrative acts, sabotage, terror, or vandalism (including computer viruses and hacking)\n- Conflicts such as strikes, lockouts, boycotts, or blockades\n- Other circumstances beyond SaberTask's control"
     },
     "termination": {
       "title": "Termination of Services",
-      "content": "Upon registration for the Service, the Customer accepts these Terms. The Terms run until termination of the agreement in accordance with these conditions. The agreement may be terminated without notice or fee, but all unpaid fees will be collected in one invoice and sent to the Customer upon termination.\n\nTermination of the season fee must be made in writing no later than October 31st to avoid charging the address fee for the coming season. In case of failure to terminate on time, the Customer undertakes to pay the address fee for the coming season.\n\nWinterManager may terminate the agreement with 3 months' notice, or without notice in case of the Customer's material breach of these Terms or the Customer's bankruptcy or insolvency.\n\nTo terminate the agreement, the Customer must send an email to sebastian@snowmanager.com or contact their assigned contact person at WinterManager."
+      "content": "Upon registration for the Service, the Customer accepts these Terms. The Terms run until termination of the agreement in accordance with these conditions. The agreement may be terminated without notice or fee, but all unpaid fees will be collected in one invoice and sent to the Customer upon termination.\n\nTermination of the season fee must be made in writing no later than October 31st to avoid charging the address fee for the coming season. In case of failure to terminate on time, the Customer undertakes to pay the address fee for the coming season.\n\nSaberTask may terminate the agreement with 3 months' notice, or without notice in case of the Customer's material breach of these Terms or the Customer's bankruptcy or insolvency.\n\nTo terminate the agreement, the Customer must send an email to sebastian@sabertask.com or contact their assigned contact person at SaberTask."
     },
     "disputes": {
       "title": "Disputes",
-      "content": "These Terms shall be read, interpreted, and supplemented in accordance with Danish law. Any dispute arising from these Terms and the resulting legal relationship between the Customer and WinterManager shall be brought before the Copenhagen City Court."
+      "content": "These Terms shall be read, interpreted, and supplemented in accordance with Danish law. Any dispute arising from these Terms and the resulting legal relationship between the Customer and SaberTask shall be brought before the Copenhagen City Court."
+    },
+    "metaTitle": "Terms and Conditions | SaberTask"
+  },
+  "featurePages": {
+    "liveDashboard": {
+      "meta": {
+        "title": "Live Dashboard - Real-time Field Operations | SaberTask",
+        "description": "Track worker locations, task progress and team utilisation on a live map. Real-time visibility into field operations across every team and location."
+      },
+      "badge": "Live Dashboard",
+      "hero": {
+        "titleStart": "Complete ",
+        "titleHighlight": "Real-Time Visibility",
+        "description": "See every worker, every task, and every update the moment it happens. The Live Dashboard gives managers and dispatchers a real-time command centre for field operations.",
+        "cta": "Book a demo"
+      },
+      "problem": {
+        "title": "The Problem with Blind Operations",
+        "description": "Most service businesses have no idea what's happening in the field until the end of the day. That changes with SaberTask.",
+        "beforeTitle": "Without Live Dashboard",
+        "afterTitle": "With Live Dashboard",
+        "before": [
+          "Calling workers to check if they've arrived on site",
+          "No idea which tasks are delayed or overdue",
+          "Finding out about problems hours after they happen",
+          "Guessing at team utilisation and capacity"
+        ],
+        "after": [
+          "See every worker's location on a live map",
+          "Instant status updates as tasks progress",
+          "React to issues the moment they arise",
+          "Real-time KPIs and utilisation metrics at a glance"
+        ]
+      },
+      "capabilities": {
+        "title": "Everything You See, In Real Time",
+        "description": "The Live Dashboard is powered by SignalR for instant updates - no refreshing, no polling, no delays.",
+        "items": {
+          "workerTracking": {
+            "title": "Worker Location Tracking",
+            "description": "See where every field worker is right now on an interactive map. Know who is on site, who is in transit, and where gaps are forming."
+          },
+          "taskProgress": {
+            "title": "Live Task Progress",
+            "description": "Watch tasks move through their lifecycle - from scheduled to in-progress to completed - without lifting a finger."
+          },
+          "instantAlerts": {
+            "title": "Instant Notifications",
+            "description": "Get notified immediately when an employee marks themselves as sick or creates a new task."
+          },
+          "kpiMetrics": {
+            "title": "Real-Time KPIs",
+            "description": "Tasks completed today, tasks in progress, tasks overdue, and on-time completion rates - all updating live."
+          },
+          "teamUtilisation": {
+            "title": "Team Utilisation",
+            "description": "See how your teams are performing across all active jobs. Spot underutilised crews and balance workloads on the fly."
+          },
+          "redeployment": {
+            "title": "Fast Redeployment",
+            "description": "When priorities change, reassign workers and tasks instantly from the dashboard. No phone calls needed."
+          }
+        }
+      },
+      "howItWorks": {
+        "title": "How It Works",
+        "steps": [
+          {
+            "title": "Workers Check In",
+            "description": "Field workers tap to check in when they arrive. GPS coordinates and timestamps are captured automatically."
+          },
+          {
+            "title": "Dashboard Updates Instantly",
+            "description": "Every check-in, task update, and status change appears on your dashboard in real time via SignalR."
+          },
+          {
+            "title": "Managers Take Action",
+            "description": "Spot issues, reassign tasks, and make decisions with full situational awareness - all from one screen."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Built For Your Operations",
+        "items": {
+          "multiSite": {
+            "title": "Multi-Site Operations",
+            "description": "Managing teams across dozens of locations? The Live Dashboard becomes your command centre - see everything at once and drill into any site."
+          },
+          "urgentCallouts": {
+            "title": "Urgent Callouts",
+            "description": "When an urgent job comes in, instantly see which workers are nearby and available. Dispatch the right person in seconds, not minutes."
+          },
+          "clientReporting": {
+            "title": "Client Transparency",
+            "description": "Show clients exactly when their service was performed with GPS-verified timestamps and real-time status updates."
+          }
+        }
+      }
+    },
+    "taskScheduling": {
+      "meta": {
+        "title": "Task Scheduling & Route Planning | SaberTask",
+        "description": "Plan, schedule and route every job from one platform. Recurring service agreements, optimised routes and mobile proof of work - built for service teams."
+      },
+      "badge": "Task Scheduling",
+      "hero": {
+        "titleStart": "Plan Once,",
+        "titleHighlight": "Run Every Day",
+        "description": "Build the work scope once, let SaberTask generate the right tasks on the right day, optimise the route, and run the whole day from a phone - all in one platform.",
+        "cta": "Book a demo"
+      },
+      "problem": {
+        "title": "Scheduling Without Spreadsheets",
+        "description": "Service businesses waste hours every week building schedules in Excel, calling drivers to confirm stops, and rebuilding it all from scratch when something changes.",
+        "beforeTitle": "Without SaberTask",
+        "afterTitle": "With SaberTask",
+        "before": [
+          "Recurring jobs rebuilt by hand every week",
+          "Routes drawn on paper, no time or distance estimates",
+          "Field workers calling the office for the next stop",
+          "Photo proof and signatures collected on a separate app"
+        ],
+        "after": [
+          "Service agreements generate the right tasks automatically",
+          "Routes optimised by distance, capacity and working hours",
+          "Mobile navigation guides workers stop to stop",
+          "Photos, notes and customer signatures captured in-task"
+        ]
+      },
+      "capabilities": {
+        "title": "Everything You Need to Run the Day",
+        "description": "Work descriptions, weekly plans, recurring tasks, optimised routes, mobile navigation and on-site proof of work - all in one connected flow.",
+        "items": {
+          "workDescriptions": {
+            "title": "Structured Work Descriptions",
+            "description": "Define areas, frequencies and checklist items per location. Reuse a shared task library so the scope stays consistent across customers."
+          },
+          "weeklyPlans": {
+            "title": "Weekly Plans by Team",
+            "description": "Build a 7-column plan per team with drag-and-drop entries, live hours and revenue totals, and Draft → Active lifecycle."
+          },
+          "recurring": {
+            "title": "Recurring Task Generation",
+            "description": "Eight scheduling frequencies - weekly, even, odd, monthly 1st-4th, custom - with optional seasonal date ranges. Generated automatically."
+          },
+          "routeOptimisation": {
+            "title": "Smart Route Optimisation",
+            "description": "Drafts respect distance, daily working hours, capacity and time estimates. Re-optimise on demand and confirm to publish."
+          },
+          "mobileNavigation": {
+            "title": "Mobile Route Navigation",
+            "description": "Workers see today's stops in optimised order, start turn-by-turn navigation, and run the whole day from a single screen."
+          },
+          "proofOfWork": {
+            "title": "On-Site Proof of Work",
+            "description": "Check-in with GPS, capture photos and notes, get a customer signature on the phone, and mark the task complete."
+          }
+        }
+      },
+      "howItWorks": {
+        "title": "From Plan to Proof in 3 Steps",
+        "steps": [
+          {
+            "title": "Define the Work Once",
+            "description": "Build the work description for each location - areas, frequencies and checklist items - in the Work Description Builder."
+          },
+          {
+            "title": "Plan and Auto-Generate",
+            "description": "Drop the work into a weekly plan per team. Recurring tasks land automatically on the right day, every week."
+          },
+          {
+            "title": "Run the Day on Mobile",
+            "description": "Workers open the app, follow the optimised route, capture proof of work, and mark each task complete on site."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Built For Your Operations",
+        "items": {
+          "recurringContracts": {
+            "title": "Recurring Service Contracts",
+            "description": "Cleaning, landscaping or facility contracts running every week of the year - generated automatically from the agreement."
+          },
+          "multiTeam": {
+            "title": "Multi-Team Field Operations",
+            "description": "Balance hours and revenue across teams with the planning grid, then dispatch each team's day to their phones."
+          },
+          "piecework": {
+            "title": "Piece-Rate (Akkord) Crews",
+            "description": "Faktor-minute teams plan their day around piece-rate work, with live earnings visible to workers as tasks are completed."
+          }
+        }
+      },
+      "spotlight": {
+        "badge": "Work Description Builder",
+        "titleStart": "Define the work once,",
+        "titleHighlight": "run it forever",
+        "description": "The Work Description Builder lets you structure every service - areas, frequencies, checklists - for each location. Build it manually or upload a contract and let AI extract the scope for you.",
+        "highlights": {
+          "0": {
+            "title": "Areas, frequencies & checklists",
+            "description": "Break each location into work areas (e.g. Lobby, Kitchen, Stairway). Set how often each area is serviced - weekly, even/odd weeks, monthly or seasonal - and attach checklist items workers must complete."
+          },
+          "1": {
+            "title": "AI-powered document import",
+            "description": "Upload an existing contract or specification as PDF or Word. SaberTask extracts areas, frequencies and tasks automatically - review, adjust, and commit in minutes instead of hours."
+          },
+          "2": {
+            "title": "Drives automatic task generation",
+            "description": "Once a work description is saved, recurring tasks are generated automatically on the right day, for the right team - no manual scheduling needed, ever."
+          }
+        }
+      }
+    },
+    "employeeManagement": {
+      "meta": {
+        "title": "Employee Management & Shift Scheduling | SaberTask",
+        "description": "Onboard, schedule and pay your workforce in one platform. Shifts, time tracking, sick leave, live salary visibility and team chat - built for shift workers."
+      },
+      "badge": "Employee Management",
+      "hero": {
+        "titleStart": "One App For Your",
+        "titleHighlight": "Whole Workforce",
+        "description": "Onboard new hires in minutes, build the roster, track time honestly, manage sick leave, run payroll and chat with your team - all from a single platform.",
+        "cta": "Book a demo"
+      },
+      "problem": {
+        "title": "Stop Juggling HR Tools",
+        "description": "Most service companies stitch together rostering, time tracking, payroll and chat across four different tools. SaberTask puts them in one place.",
+        "beforeTitle": "Without SaberTask",
+        "afterTitle": "With SaberTask",
+        "before": [
+          "New hires onboarded with paper forms and shared logins",
+          "Shifts built in spreadsheets, sick leave tracked by email",
+          "Workers don't know what they will be paid until pay day",
+          "Team chat lives in WhatsApp, away from the work"
+        ],
+        "after": [
+          "Email-invite onboarding with self-service password setup",
+          "Drag-and-drop roster, mobile sick leave, automatic shift conversion",
+          "Workers see live hours and earnings the moment they clock out",
+          "Built-in direct, group and team chat with read receipts"
+        ]
+      },
+      "capabilities": {
+        "title": "Everything You Need to Run a Team",
+        "description": "From the first invite to the next pay cycle, every employee touchpoint lives in one system shared between web and mobile in real time.",
+        "items": {
+          "onboarding": {
+            "title": "Onboarding & Roles",
+            "description": "Email invites, self-service password setup, multi-tenant login and built-in roles for admins, planners, department heads and workers."
+          },
+          "shifts": {
+            "title": "Shifts & Rostering",
+            "description": "Week-at-a-glance scheduler with templates, bulk actions, audit history and a clean approval workflow before payroll."
+          },
+          "timeTracking": {
+            "title": "Mobile Time Tracking",
+            "description": "One-tap clock in and out, optional GPS capture, comments on clock events and automatic break deductions per shift type."
+          },
+          "sickLeave": {
+            "title": "Sick Leave",
+            "description": "Workers report sick from the phone, shifts are converted automatically, and admins see live analytics per employee or company-wide."
+          },
+          "salary": {
+            "title": "Live Salary Visibility",
+            "description": "Workers see gross hours, break deductions and net pay live on the phone - including piece-rate earnings - building trust in payroll."
+          },
+          "messaging": {
+            "title": "Built-in Team Chat",
+            "description": "Direct, group and team chats with file attachments, unread counts and read receipts - synced between web and mobile."
+          }
+        }
+      },
+      "howItWorks": {
+        "title": "How It Works",
+        "steps": [
+          {
+            "title": "Invite & Onboard",
+            "description": "Send an email invite, the worker sets a password, picks a language and lands on their first shift already logged in."
+          },
+          {
+            "title": "Schedule & Track",
+            "description": "Build the roster on the web, workers clock in from the phone, sick leave converts shifts automatically and pause rules deduct breaks."
+          },
+          {
+            "title": "Pay & Communicate",
+            "description": "Workers see their hours and earnings live, accord payments are approved from the web, and the team chat keeps everyone in the loop."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Built For Your Workforce",
+        "items": {
+          "shiftWorkforce": {
+            "title": "Shift-Based Service Teams",
+            "description": "Big tap targets, fast clock-in, sick leave from the phone and live pay visibility - designed for crews on the move."
+          },
+          "multiTenant": {
+            "title": "Multi-Company Workers",
+            "description": "Workers who help across multiple companies sign in once and pick which organisation to enter - with all their history intact."
+          },
+          "transparentPay": {
+            "title": "Transparent Payroll",
+            "description": "Live earnings, accord approvals and audit-ready clock events build trust in pay and stop payroll disputes before they start."
+          }
+        }
+      },
+      "spotlight": {
+        "badge": "Shifts & Payroll",
+        "titleStart": "Roster, approve,",
+        "titleHighlight": "pay - in one view",
+        "description": "Build the weekly roster, review clock events against planned shifts, approve hours and let payroll run itself. Workers see exactly what they earned - no surprises on pay day.",
+        "highlights": {
+          "0": {
+            "title": "Weekly shift planner",
+            "description": "See every employee's shifts for the week at a glance. Drag to reschedule, click to add, and use templates to fill recurring patterns in seconds."
+          },
+          "1": {
+            "title": "Approve before payroll",
+            "description": "Compare planned shifts against actual clock-in times. Approve hours per employee with one click so only verified data reaches your payroll export."
+          },
+          "2": {
+            "title": "Live earnings on the phone",
+            "description": "Workers see gross hours, break deductions and net pay update live as they clock in and out - including piecework and overtime rates."
+          }
+        }
+      }
+    },
+    "qualityControls": {
+      "meta": {
+        "title": "Quality Control & Inspection Reports | SaberTask",
+        "description": "Mobile inspection reports with photos, signatures, PDF export and live issue feed. Replace clipboards and paper checklists with proof on every job."
+      },
+      "badge": "Quality Controls",
+      "hero": {
+        "titleStart": "Quality You Can",
+        "titleHighlight": "Actually Prove",
+        "description": "Build the inspection forms your business needs, fill them on a phone with photos and signatures, share branded PDFs with customers, and spot issues before they call.",
+        "cta": "Book a demo"
+      },
+      "problem": {
+        "title": "Stop Losing Inspections to Paper",
+        "description": "Service businesses still rely on clipboards, photos in WhatsApp and \"we'll send the report tomorrow\". SaberTask gives you a digital trail tied to every job.",
+        "beforeTitle": "Without SaberTask",
+        "afterTitle": "With SaberTask",
+        "before": [
+          "Generic checklists that don't fit your service",
+          "Photos saved on workers' phones, lost when staff leave",
+          "Reports retyped at the office and emailed days later",
+          "No way to spot recurring quality issues by location"
+        ],
+        "after": [
+          "Custom templates that match the inspection you actually run",
+          "Photos and signatures attached directly to each report section",
+          "Branded PDF ready to share before the worker leaves the site",
+          "Recent issues feed surfaces problem locations automatically"
+        ]
+      },
+      "capabilities": {
+        "title": "Inspection That Lives Where the Work Happens",
+        "description": "Templates designed by you, filled by workers on the phone, reviewed on the web and shared with customers as a branded PDF - all in one connected system.",
+        "items": {
+          "templates": {
+            "title": "Custom Templates",
+            "description": "Build inspection forms with sectioned structure and mixed response types - text, happy/unhappy ratings, photo uploads and signatures."
+          },
+          "photoCapture": {
+            "title": "Mobile Photo Capture",
+            "description": "Workers attach photos from the camera or gallery directly to the section they belong to, with auto-save through patchy coverage."
+          },
+          "signatures": {
+            "title": "Customer Signatures",
+            "description": "Capture customer and worker signatures on the phone screen, finalise the report and lock the data with a timestamp."
+          },
+          "pdfExport": {
+            "title": "Branded PDF Export",
+            "description": "One-tap PDF carries your logo, every section, answer, photo and signature - ready to share over email or messaging."
+          },
+          "recentIssues": {
+            "title": "Recent Issues Feed",
+            "description": "A live feed of unhappy ratings and quality concerns by location, so recurring issues surface before customers complain."
+          },
+          "multilingual": {
+            "title": "Multilingual",
+            "description": "Workers fill the report in their preferred language so quality data stays consistent across multilingual teams."
+          }
+        }
+      },
+      "howItWorks": {
+        "title": "From Template to PDF",
+        "steps": [
+          {
+            "title": "Build Templates",
+            "description": "Admins design inspection forms with sections, ratings, photo fields and signatures - tailored to your service, not a generic checklist."
+          },
+          {
+            "title": "Fill on Mobile",
+            "description": "Workers open the report on the phone where the work happens, snap photos, capture ratings and get the customer's signature."
+          },
+          {
+            "title": "Share & Review",
+            "description": "Finalise the report, share the branded PDF with the customer, and review every report from the web with private manager notes."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Built For Your Inspections",
+        "items": {
+          "cleaningAudits": {
+            "title": "Cleaning Quality Audits",
+            "description": "Photo evidence, happy/unhappy ratings and customer signatures for every site - replace paper audits with a digital trail."
+          },
+          "safetyChecks": {
+            "title": "Safety & Compliance",
+            "description": "Custom templates for periodic safety checks, with timestamps, photos and signatures captured on the spot."
+          },
+          "clientHandover": {
+            "title": "Client Handover Reports",
+            "description": "Branded PDFs ready to share with the customer the moment the work is finalised - no \"we'll email it tomorrow\"."
+          }
+        }
+      },
+      "spotlight": {
+        "badge": "On the mobile app",
+        "titleStart": "Workers see issues",
+        "titleHighlight": "the moment they arrive",
+        "description": "When a worker opens a task on site, SaberTask surfaces every recent issue at that location right at the top - so they walk into the building already knowing what to look out for and what the customer flagged last time.",
+        "highlights": {
+          "0": {
+            "title": "Recent issues banner",
+            "description": "Every task screen shows a count of unhappy ratings logged at this location in the last 30 days, with one tap to open the original reports."
+          },
+          "1": {
+            "title": "Tap through to the report",
+            "description": "Workers can open the full inspection - sections, photos, ratings and customer comments - without leaving the task screen."
+          },
+          "2": {
+            "title": "Visit history at a glance",
+            "description": "Last visit, next scheduled visit and the customer reference are visible the moment a task opens, so context is never more than a glance away."
+          }
+        }
+      }
+    },
+    "customerManagement": {
+      "meta": {
+        "title": "Customer Management & Service Agreements | SaberTask",
+        "description": "Customers, locations, contacts, work scope, service agreements and AI-searchable file storage - the structured backbone of your service business."
+      },
+      "badge": "Customer Management",
+      "hero": {
+        "titleStart": "The Spine of",
+        "titleHighlight": "Your Service Business",
+        "description": "Every customer, every location, every contact, every contract, every document - in one place, all linked to the operational data that runs the day.",
+        "cta": "Book a demo"
+      },
+      "problem": {
+        "title": "End the CRM Sprawl",
+        "description": "Most service businesses keep customer data in three different tools and a folder of PDFs. SaberTask makes the customer the spine of the platform.",
+        "beforeTitle": "Without SaberTask",
+        "afterTitle": "With SaberTask",
+        "before": [
+          "Customers tracked in spreadsheets, locations in another tool",
+          "Contracts buried in email, work scope in a Word doc",
+          "No idea who has portal access or who to call",
+          "Files scattered across drives with no full-text search"
+        ],
+        "after": [
+          "Customers, locations and contacts in one structured database",
+          "Work descriptions and service agreements drive recurring tasks",
+          "Per-contact portal access toggles, audit visible at a glance",
+          "AI-searchable file vault where even photos become text"
+        ]
+      },
+      "capabilities": {
+        "title": "Everything You Know About a Customer",
+        "description": "From the first record to the most detailed scope of work, every facet of a customer is one click away - and feeds the rest of SaberTask automatically.",
+        "items": {
+          "database": {
+            "title": "The Customer Database",
+            "description": "Every customer in a single searchable list with sequential numbers, multi-tab detail pages and complete tenant isolation."
+          },
+          "locations": {
+            "title": "Multi-Location Support",
+            "description": "Track every site you service for the same customer, with addresses, metadata and references from tasks, plans and reports."
+          },
+          "workScope": {
+            "title": "Work Description Builder",
+            "description": "Define areas, frequencies and checklist items per location - the structured scope that drives recurring task generation."
+          },
+          "agreements": {
+            "title": "Service Agreements",
+            "description": "Per-customer agreements with scope, frequency and status - visible to customers on the portal alongside their tasks."
+          },
+          "fileVault": {
+            "title": "AI-Searchable File Vault",
+            "description": "Drag-and-drop file uploads with tags, full-text search, AI extraction of PDFs and image descriptions - even photos become searchable."
+          },
+          "audit": {
+            "title": "Built-in Audit Trail",
+            "description": "Per-customer file timeline, soft-delete defaults and tenant-scoped queries enforced at the database level."
+          }
+        }
+      },
+      "howItWorks": {
+        "title": "How It Works",
+        "steps": [
+          {
+            "title": "Add the Customer",
+            "description": "Create the customer record once, add locations, contacts and the documents you exchange - all in one place."
+          },
+          {
+            "title": "Define the Work",
+            "description": "Use the Work Description Builder to capture exactly what happens at each site - and link it to a service agreement."
+          },
+          {
+            "title": "Run the Operation",
+            "description": "Customer data feeds tasks, plans, reports, invoices and the customer portal automatically - one source of truth."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Built For Your Customers",
+        "items": {
+          "multiLocation": {
+            "title": "Multi-Location Customers",
+            "description": "B2B accounts with dozens of sites get one customer record, many locations, and consistent work scope across the portfolio."
+          },
+          "b2bAccounts": {
+            "title": "Long-Term Service Accounts",
+            "description": "Service agreements, contacts with portal access and a per-customer file timeline keep the relationship structured and auditable."
+          },
+          "documentVault": {
+            "title": "Document-Heavy Industries",
+            "description": "AI-searchable file storage handles contracts, certifications, photos and handwritten notes - all searchable from the customer page."
+          }
+        }
+      }
+    },
+    "customerPortal": {
+      "meta": {
+        "title": "Customer Portal - Branded Self-service | SaberTask",
+        "description": "Secure, branded customer portal where your clients see their schedule, completed work, photos, signatures and quality reports on their locations."
+      },
+      "badge": "Customer Portal",
+      "hero": {
+        "titleStart": "Self-Service",
+        "titleHighlight": "Customer Transparency",
+        "description": "Give your customers a secure, branded login to see what's scheduled, what's been done and the quality of every job - without ever exposing your internal data.",
+        "cta": "Book a demo"
+      },
+      "problem": {
+        "title": "Stop Answering The Same Question",
+        "description": "\"Did you come yesterday? Where's the report?\" - every service business lives with these calls. The Customer Portal answers them automatically.",
+        "beforeTitle": "Without SaberTask",
+        "afterTitle": "With SaberTask",
+        "before": [
+          "Customers call to ask if the cleaners came",
+          "Reports emailed days after the inspection",
+          "No way to share photos or signed proof of work",
+          "Risk of accidentally exposing other customers' data"
+        ],
+        "after": [
+          "Customers log in to a 14-day calendar of every service",
+          "Quality reports available the moment they're finalised",
+          "Worker photos, customer signatures and license plates visible",
+          "Per-customer scoping enforced at the API, not the UI"
+        ]
+      },
+      "capabilities": {
+        "title": "What Your Customers See",
+        "description": "A clean, branded portal designed specifically for customers - with hard role separation so they can never see your internal data, even if they try.",
+        "items": {
+          "secureLogin": {
+            "title": "Secure Customer-Only Login",
+            "description": "Customer-role accounts with email-invite onboarding, per-contact access and complete separation from your internal app."
+          },
+          "calendarView": {
+            "title": "14-Day Activity Calendar",
+            "description": "A forward-looking calendar with per-day counts, recurring services projected and click-through to the day's task list."
+          },
+          "proofOfWork": {
+            "title": "Photo & Signature Proof",
+            "description": "Worker photos, customer signatures and license plates for every completed task - proof the work was done."
+          },
+          "qualityAccess": {
+            "title": "Quality Reports",
+            "description": "Every finalised inspection for the customer's locations, with sections, photos, ratings and signatures - exactly as filled."
+          },
+          "branding": {
+            "title": "Your Brand, Not Ours",
+            "description": "The portal carries your tenant logo on the layout and on every PDF the customer downloads - it feels like your service."
+          },
+          "privacy": {
+            "title": "Privacy by Design",
+            "description": "Internal fields stripped at the API layer, slim DTOs, and every internal endpoint explicitly denying the Customer role."
+          }
+        }
+      },
+      "howItWorks": {
+        "title": "How It Works",
+        "steps": [
+          {
+            "title": "Toggle Access",
+            "description": "Grant a customer contact \"Dashboard Access\" from the customer page and click \"Send Dashboard Invite\" - one click."
+          },
+          {
+            "title": "Customer Logs In",
+            "description": "The contact sets a password, lands in a portal scoped to their locations, and sees a 14-day calendar of every service."
+          },
+          {
+            "title": "They Stay Informed",
+            "description": "Tasks, photos, signatures and quality reports appear automatically as your team finalises them - no extra work for you."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Why Companies Turn It On",
+        "items": {
+          "fewerCalls": {
+            "title": "Fewer Support Calls",
+            "description": "Customers answer their own \"did you come yesterday?\" questions and stop calling the office for routine updates."
+          },
+          "trustBuilding": {
+            "title": "Trust From The First Login",
+            "description": "Visible photos, signatures and quality reports build confidence faster than any sales pitch - without you lifting a finger."
+          },
+          "qualityProof": {
+            "title": "Quality Proof On Demand",
+            "description": "Customers download the inspection reports they want, branded with your logo, the moment they're finalised."
+          }
+        }
+      }
+    },
+    "invoicingBilling": {
+      "meta": {
+        "title": "Invoicing & Billing Automation | SaberTask",
+        "description": "Turn completed work into invoices automatically. Auto-invoice on task finish, drag-to-reorder lines, full audit trail and CSV export to your accounting system."
+      },
+      "badge": "Invoicing & Billing",
+      "hero": {
+        "titleStart": "Invoices Built Right",
+        "titleHighlight": "Next To The Work",
+        "description": "Tasks become invoice lines, lines become invoices, invoices become PDFs and CSV exports - without leaving the platform, all backed by a full audit trail.",
+        "cta": "Book a demo"
+      },
+      "problem": {
+        "title": "Stop Retyping What You Already Did",
+        "description": "Service businesses do the work, then re-enter it all into a billing tool. Auto-invoice on task finish makes that double-entry disappear.",
+        "beforeTitle": "Without SaberTask",
+        "afterTitle": "With SaberTask",
+        "before": [
+          "Completed work retyped into a separate billing tool",
+          "Jobs slip through and never get billed",
+          "No audit trail of who changed what on an invoice",
+          "Sent invoices accidentally edited after the fact"
+        ],
+        "after": [
+          "Auto-invoice on task finish drops lines straight onto invoices",
+          "Status state machine and bulk actions for billing day speed",
+          "Per-invoice audit timeline, on by default for every tenant",
+          "Sent invoices are immutable - revert to draft to make changes"
+        ]
+      },
+      "capabilities": {
+        "title": "Built for Real Billing Days",
+        "description": "Status tabs, bulk actions, drag-to-reorder lines, auto-invoice on task finish and CSV export - built for the speed of a real billing day.",
+        "items": {
+          "invoiceList": {
+            "title": "The Invoices List",
+            "description": "Status tabs, search, pagination, per-row 3-dots actions and bulk selection - all from a single page."
+          },
+          "autoInvoice": {
+            "title": "Auto-Invoice on Finish",
+            "description": "When configured, completing a task drops a line straight onto an invoice for that customer - no double entry."
+          },
+          "lineItems": {
+            "title": "Drag-to-Reorder Lines",
+            "description": "Multiple lines per invoice with description, product type, quantity and unit price. Drag to reorder, with a live total in the footer."
+          },
+          "statusFlow": {
+            "title": "Status State Machine",
+            "description": "Draft → Sent → Archived with revert and un-archive - sent invoices are immutable so figures can never drift."
+          },
+          "csvExport": {
+            "title": "One-Click CSV Export",
+            "description": "Export the selection or the whole filtered list as a CSV ready for any accounting or ERP system - no email round-trip."
+          },
+          "auditTrail": {
+            "title": "Per-Invoice Audit Timeline",
+            "description": "Every status change, header edit and line edit is timestamped and named, on by default, for every tenant."
+          }
+        }
+      },
+      "howItWorks": {
+        "title": "How It Works",
+        "steps": [
+          {
+            "title": "Work Becomes Lines",
+            "description": "Configure auto-invoice for the services you bill, and completed tasks land in Draft as ready-to-edit invoice lines."
+          },
+          {
+            "title": "Review & Send",
+            "description": "Open the draft, drag lines into order, adjust if needed, and send - the figures are locked the moment it leaves Draft."
+          },
+          {
+            "title": "Export & Audit",
+            "description": "Bulk-export invoices to CSV for your accounting system and rely on the per-invoice audit timeline to answer \"who changed what\"."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Built For Your Billing",
+        "items": {
+          "recurringBilling": {
+            "title": "Recurring Service Billing",
+            "description": "Auto-invoice on task finish turns recurring contracts into invoices automatically - no double-entry, no missed jobs."
+          },
+          "auditCompliance": {
+            "title": "Audit-Ready Records",
+            "description": "Immutable sent invoices, archive instead of delete, and a per-invoice audit timeline make compliance the default."
+          },
+          "erpExport": {
+            "title": "Accounting & ERP Imports",
+            "description": "One-click CSV export with all key columns - feed your existing accounting workflow without a custom integration."
+          }
+        }
+      }
+    },
+    "mobileApp": {
+      "meta": {
+        "title": "Mobile App for Field Service Workers | SaberTask",
+        "description": "Fast iOS and Android app for field workers. GPS clock in, daily task lists, photo documentation, offline support and live salary - all in your pocket."
+      },
+      "badge": "Mobile App",
+      "hero": {
+        "titleStart": "Your Whole Day",
+        "titleHighlight": "In Your Pocket",
+        "description": "A native iOS and Android app that gives field workers everything they need - tasks, clock-in, photos, navigation and earnings - in one fast, offline-ready interface.",
+        "cta": "Book a demo"
+      },
+      "problem": {
+        "title": "Stop Managing Field Work Over WhatsApp",
+        "description": "Phone calls for the schedule, WhatsApp for photos, paper for timesheets, and spreadsheets for pay. SaberTask puts it all in one app.",
+        "beforeTitle": "Without SaberTask",
+        "afterTitle": "With SaberTask",
+        "before": [
+          "Workers call the office to get their schedule",
+          "Photos sent via WhatsApp, lost when someone leaves",
+          "Timesheets filled out manually at end of day",
+          "No idea what you've earned until pay day"
+        ],
+        "after": [
+          "Daily task list pushed to the phone automatically",
+          "Photos attached to tasks with GPS and timestamp",
+          "One-tap clock in/out with automatic break deductions",
+          "Live salary view shows hours and earnings in real time"
+        ]
+      },
+      "capabilities": {
+        "title": "Everything a Field Worker Needs",
+        "description": "Purpose-built for people who work on their feet - big buttons, fast load times, offline support and no training required.",
+        "items": {
+          "dailyTasks": {
+            "title": "Daily Task List",
+            "description": "See today's assignments with customer name, address, special instructions and task history - swipe to start, tap to navigate."
+          },
+          "clockInOut": {
+            "title": "GPS Clock In/Out",
+            "description": "One-tap clock in and out with automatic GPS capture. Break rules deduct pauses per shift type so the timesheet is always accurate."
+          },
+          "photoDoc": {
+            "title": "Photo Documentation",
+            "description": "Capture before-and-after photos attached directly to each task. Photos are GPS-tagged, timestamped and synced to the web dashboard."
+          },
+          "offline": {
+            "title": "Offline Support",
+            "description": "Tasks, checklists and maps load ahead of time. Work without signal in basements, rural areas or underground - everything syncs when back online."
+          },
+          "salary": {
+            "title": "Live Salary Visibility",
+            "description": "Workers see gross hours, break deductions, net pay and piecework earnings update live as they clock in and out - building trust in payroll."
+          },
+          "messaging": {
+            "title": "Built-in Messaging",
+            "description": "Direct, group and team chat with file attachments, unread counts and read receipts - no need for a separate WhatsApp group."
+          }
+        }
+      },
+      "howItWorks": {
+        "title": "Up and Running in Minutes",
+        "steps": [
+          {
+            "title": "Get the Invite",
+            "description": "An admin sends an email invite. The worker downloads the app, sets a password and lands on their first shift - already logged in."
+          },
+          {
+            "title": "Run the Day",
+            "description": "Clock in, follow the task list, capture photos, complete checklists and navigate between stops - all from one screen."
+          },
+          {
+            "title": "See Your Earnings",
+            "description": "At the end of the day, hours and earnings are already calculated. No paperwork, no guessing, no waiting for pay day."
+          }
+        ]
+      }
+    }
+  },
+  "industryPages": {
+    "cleaningCompany": {
+      "meta": {
+        "title": "Cleaning Company Software | SaberTask",
+        "description": "Software built for cleaning companies. Automate scheduling, prove quality with photo reports and invoice faster - one platform for cleaning teams."
+      },
+      "badge": "Cleaning Company Software",
+      "hero": {
+        "titleStart": "The all-in-one platform for",
+        "titleHighlight": "cleaning businesses",
+        "description": "Scheduling, time tracking, quality control, invoicing, payroll and a mobile app for your field staff - replace spreadsheets, WhatsApp and paper checklists with one system built for how cleaning companies actually work.",
+        "cta": "Book a demo",
+        "trial": "30-day free trial · No credit card needed",
+        "imageAlt": "Professional cleaning service",
+        "floatingBadge": {
+          "title": "Quality verified",
+          "subtitle": "Photo report attached"
+        }
+      },
+      "stats": {
+        "items": [
+          {
+            "value": "10,000+",
+            "label": "Tasks managed monthly"
+          },
+          {
+            "value": "30 days",
+            "label": "Free trial"
+          },
+          {
+            "value": "100%",
+            "label": "GDPR compliant"
+          },
+          {
+            "value": "24/7",
+            "label": "Cloud access"
+          }
+        ]
+      },
+      "problems": {
+        "title": "You know the daily chaos",
+        "description": "Schedules in Excel, photos in WhatsApp, timesheets on paper, and clients calling to ask if you actually showed up. Every cleaning company starts here - SaberTask is how you move past it.",
+        "items": [
+          {
+            "problem": "Rebuilding schedules every week",
+            "solution": "Recurring tasks auto-generate from service agreements"
+          },
+          {
+            "problem": "No proof the work was done",
+            "solution": "GPS-stamped photos and checklists on every task"
+          },
+          {
+            "problem": "Manual timesheets full of errors",
+            "solution": "One-tap clock in/out with automatic break rules"
+          },
+          {
+            "problem": "Invoices typed by hand, tasks missed",
+            "solution": "Completed work flows straight into invoice drafts"
+          }
+        ]
+      },
+      "features": {
+        "scheduling": {
+          "title": "Intelligent scheduling that runs itself",
+          "description": "Define service agreements once - weekly stairway wash, biweekly deep clean, monthly window polish - and SaberTask generates the right tasks on the right day. Support for even/odd weeks, seasonal date ranges and custom monthly patterns means the schedule matches your contracts exactly.",
+          "learnMore": "Learn more about scheduling",
+          "mockupTitle": "Weekly Plan · Team Alpha",
+          "mockupWeek": "Week 15",
+          "mockupDays": [
+            {
+              "day": "Monday",
+              "tasks": [
+                {
+                  "n": "Stairway wash",
+                  "l": "Borups Allé",
+                  "fKey": "weekly"
+                },
+                {
+                  "n": "Office cleaning",
+                  "l": "Vesterbro",
+                  "fKey": "weekly"
+                }
+              ]
+            },
+            {
+              "day": "Tuesday",
+              "tasks": [
+                {
+                  "n": "Window cleaning",
+                  "l": "Kalvebod Brygge",
+                  "fKey": "even"
+                },
+                {
+                  "n": "Deep clean",
+                  "l": "Nørrebro",
+                  "fKey": "monthly"
+                }
+              ]
+            },
+            {
+              "day": "Wednesday",
+              "tasks": [
+                {
+                  "n": "Lobby & hallways",
+                  "l": "Østerbro",
+                  "fKey": "weekly"
+                }
+              ]
+            }
+          ],
+          "freqLabels": {
+            "weekly": "Weekly",
+            "even": "Even wk",
+            "monthly": "Monthly"
+          }
+        },
+        "qualityControl": {
+          "title": "Quality control your clients can see",
+          "description": "Configurable checklists per location. Workers complete items on the phone, attach before-and-after photos, and get customer sign-off. Reports are generated as branded PDFs and visible in the customer portal - so when a client asks \"did you clean the bins?\", the answer is a timestamped photo.",
+          "learnMore": "Learn more about quality controls",
+          "mockupTitle": "Quality Report · HQ Tower",
+          "mockupItems": [
+            {
+              "q": "Worktops cleaned & disinfected",
+              "ok": true
+            },
+            {
+              "q": "Floor mopped, no debris",
+              "ok": true
+            },
+            {
+              "q": "Bins emptied & relined",
+              "ok": false
+            },
+            {
+              "q": "Glass surfaces streak-free",
+              "ok": true
+            }
+          ]
+        },
+        "timeTracking": {
+          "title": "Time tracking and payroll without errors",
+          "descriptionP1": "Workers clock in and out from the mobile app with GPS capture. Break rules, shift types and overtime are calculated automatically - no more guessing at the end of the week.",
+          "descriptionP2": "Workers see their gross hours, break deductions and net pay update live on the phone, including piecework earnings. Managers approve shifts before payroll export - verified data only.",
+          "learnMore": "Learn more about employee management",
+          "mockupTitle": "Shift Overview · Current Period",
+          "mockupApprovedLabel": "h",
+          "mockupEmployeesLabel": "employees"
+        },
+        "invoicing": {
+          "title": "Invoicing that writes itself",
+          "description": "When a task is completed, it becomes an invoice line automatically. Review, adjust and export to Dinero, e-conomic, Dynamics NAV, QuickBooks or any system via CSV. No more re-typing what your team already did - every billable task is captured.",
+          "learnMore": "Learn more about invoicing",
+          "integratesWith": "Integrates with",
+          "mockupCustomer": "Nordic Group ApS",
+          "mockupAddress": "Strandvejen 12, Copenhagen",
+          "mockupTerms": "Net 14 days",
+          "mockupDueLabel": "Due 28 Apr 2026",
+          "mockupTotalLabel": "Total",
+          "mockupLines": [
+            {
+              "d": "Stairway wash ×4",
+              "p": "€340"
+            },
+            {
+              "d": "Office cleaning ×8",
+              "p": "€960"
+            },
+            {
+              "d": "Window cleaning ×2",
+              "p": "€420"
+            }
+          ]
+        }
+      },
+      "moreCapabilities": {
+        "title": "Everything else you need",
+        "description": "Features that cleaning-specific tools often miss.",
+        "items": [
+          {
+            "title": "Customer Portal",
+            "description": "Give clients their own login to see every visit, photo, report and upcoming task. Builds trust and eliminates \"did you come?\" calls."
+          },
+          {
+            "title": "Absence & Sick Leave",
+            "description": "Workers report sick from the phone. Shifts convert automatically, replacements are flagged, and managers see absence analytics in real time."
+          },
+          {
+            "title": "Mobile App",
+            "description": "Native iOS and Android app with daily task list, clock in/out, photo capture, messaging and live salary. Built for people who work on their feet."
+          },
+          {
+            "title": "Work Description Builder",
+            "description": "Structure every service - areas, frequencies, checklists - per location. Or upload a contract PDF and let AI extract the scope for you."
+          },
+          {
+            "title": "Live Dashboard",
+            "description": "See worker locations, task progress and team utilisation on a live map. React instantly to delays or changes."
+          },
+          {
+            "title": "Built-in Team Chat",
+            "description": "Direct, group and team messaging with file attachments and read receipts. No more separate WhatsApp groups."
+          }
+        ]
+      }
+    },
+    "windowCleaning": {
+      "meta": {
+        "title": "Window Cleaning Software | SaberTask",
+        "description": "Software built for window cleaning businesses. Route planning, recurring schedules, work descriptions, invoicing and mobile app for teams of 2 to 200+."
+      },
+      "badge": "Window Cleaning Software",
+      "hero": {
+        "titleStart": "Software for",
+        "titleHighlight": "window cleaners",
+        "titleEnd": "who want to grow",
+        "description": "Route planning, recurring schedules, work descriptions, time tracking, photo documentation, invoicing and a mobile app - whether you run a team of 2 or 200, SaberTask scales with your business.",
+        "cta": "Book a demo",
+        "trial": "30-day free trial · No credit card needed",
+        "imageAlt": "Window cleaner abseiling on a high-rise",
+        "floatingBadge": {
+          "title": "Route optimised",
+          "subtitle": "14 stops · 32 km saved"
+        }
+      },
+      "stats": {
+        "items": [
+          {
+            "value": "2 to 200+",
+            "label": "Employees supported"
+          },
+          {
+            "value": "30 days",
+            "label": "Free trial"
+          },
+          {
+            "value": "4+",
+            "label": "Accounting integrations"
+          },
+          {
+            "value": "100%",
+            "label": "GDPR compliant"
+          }
+        ]
+      },
+      "problems": {
+        "title": "Sound familiar?",
+        "description": "Every window cleaner starts with the same headaches - bad routes, forgotten appointments, manual invoicing, and no way to prove the work was done.",
+        "items": [
+          {
+            "problem": "Too much driving, bad routes",
+            "solution": "Optimised route planning by geography and schedule"
+          },
+          {
+            "problem": "Forgotten appointments, lost revenue",
+            "solution": "Recurring tasks auto-generated from service agreements"
+          },
+          {
+            "problem": "Hours spent on manual invoicing",
+            "solution": "Completed jobs become invoice lines automatically"
+          },
+          {
+            "problem": "Clients doubt you actually came",
+            "solution": "GPS-timestamped photos and work descriptions on every job"
+          }
+        ]
+      },
+      "features": {
+        "routePlanning": {
+          "title": "Route planning that actually saves you kilometres",
+          "description": "Plan routes by geography, time estimates and capacity. SaberTask groups stops into efficient daily routes - then workers follow the optimised order on the mobile app. Less driving, more windows polished.",
+          "learnMore": "Learn more about route planning",
+          "mockupTitle": "Today · Team Bravo",
+          "mockupBadge": "8 stops · 22 km"
+        },
+        "workDescriptions": {
+          "title": "Detailed work descriptions per location",
+          "description": "Define exactly what needs to happen at each address - areas, frequencies, checklists. Support for every-week, even/odd weeks, monthly and custom intervals with seasonal date ranges. The scope drives automatic task generation so nothing is forgotten.",
+          "learnMore": "Learn more about work descriptions",
+          "mockupSubtitle": "Window Polishing",
+          "mockupAreaLabel": "Area",
+          "mockupArea": "Front facade (12 windows)",
+          "mockupFrequency": "1x · 0.5h",
+          "mockupChecklistLabel": "Checklist",
+          "mockupChecklist": [
+            "Frames wiped",
+            "Glass streak-free",
+            "Sills cleaned"
+          ]
+        },
+        "invoicing": {
+          "title": "Invoicing in one click - not one hour",
+          "description": "Completed jobs flow straight into invoice drafts. Export to your accounting system with one click - not just Dinero, but also e-conomic, Dynamics NAV, QuickBooks and CSV for any other system. Stop spending Friday afternoons on invoicing.",
+          "learnMore": "Learn more about invoicing",
+          "integratesWith": "Integrates with",
+          "mockupCustomer": "Dahlerup Vinduespolering",
+          "mockupAddress": "Strandvejen 12, Hellerup",
+          "mockupTerms": "Net 8 days",
+          "mockupLines": [
+            {
+              "d": "Front facade ×1",
+              "p": "350 kr"
+            },
+            {
+              "d": "Back windows ×1",
+              "p": "275 kr"
+            },
+            {
+              "d": "Conservatory ×1",
+              "p": "425 kr"
+            }
+          ]
+        },
+        "accord": {
+          "title": "Accord (piece-rate) pay - done right",
+          "description": "Most window cleaners pay by the job, not by the hour. SaberTask handles the maths automatically: configure each team with faktor minutes, and every completed task generates the correct accord payment based on time and rate.",
+          "learnMore": "Learn more about employee management",
+          "items": [
+            {
+              "title": "Live earnings on the phone",
+              "desc": "Workers see their gross earnings update as each job is finalised - no more guessing what they'll be paid."
+            },
+            {
+              "title": "Accord planning in the day view",
+              "desc": "Plan the day around accord work so each worker's earnings are visible while the schedule is built."
+            },
+            {
+              "title": "Manager approvals before payroll",
+              "desc": "Approve or adjust accord payments from the web before they reach the pay slip - full audit trail included."
+            },
+            {
+              "title": "Mixed teams supported",
+              "desc": "Run accord teams alongside hourly teams in the same business, with the right pay rules applied automatically."
+            }
+          ],
+          "mockupTitle": "Accord earnings · Anna M.",
+          "mockupPeriod": "Period: 1-14 Apr 2026",
+          "mockupApprovedTasks": "tasks",
+          "mockupRecentLabel": "Recent activity"
+        }
+      },
+      "moreCapabilities": {
+        "title": "Built for growth - not just for solo operators",
+        "description": "Most window cleaning tools cap out at 5-8 employees. SaberTask grows with you from day one to hundreds of staff.",
+        "items": [
+          {
+            "title": "Mobile App",
+            "description": "iOS and Android app with daily route, clock in/out, photo capture, messaging and live salary. Workers see their day and run it independently."
+          },
+          {
+            "title": "Employee Management",
+            "description": "Shifts, rostering, sick leave, payroll visibility and team chat - manage your workforce from one place as you grow."
+          },
+          {
+            "title": "Customer Portal",
+            "description": "Clients log in to see completed work, photos and upcoming visits. No more \"did you come yesterday?\" phone calls."
+          },
+          {
+            "title": "Quality Reports",
+            "description": "Photo documentation with GPS timestamps. Configurable checklists. Branded PDF reports visible in the customer portal."
+          },
+          {
+            "title": "Customer Management",
+            "description": "All customers, locations, contacts, contracts and files in one searchable database - the backbone of your business."
+          },
+          {
+            "title": "Live Dashboard",
+            "description": "See where every team is, which routes are running, and how many stops are left - all on a live map."
+          }
+        ]
+      }
+    },
+    "landscaping": {
+      "meta": {
+        "title": "Landscaping Software | SaberTask",
+        "description": "Software built for landscape contractors. Crew scheduling, route planning, job costing, seasonal contracts, photo proof and mobile app - grow profitably."
+      },
+      "badge": "Landscaping Software",
+      "hero": {
+        "titleStart": "Run your",
+        "titleHighlight": "landscaping business",
+        "titleEnd": "like the pros",
+        "description": "Crew scheduling, route optimisation, time tracking, job costing, photo proof, customer portal and a mobile app for the field - built for landscape contractors who want to grow profitably without growing the admin headache.",
+        "cta": "Book a demo",
+        "trial": "30-day free trial · No credit card needed",
+        "imageAlt": "Landscaping crew at work",
+        "floatingBadge": {
+          "title": "Crew on site",
+          "subtitle": "3 properties today"
+        }
+      },
+      "stats": {
+        "items": [
+          {
+            "value": "30 days",
+            "label": "Free trial"
+          },
+          {
+            "value": "Seasonal",
+            "label": "Schedule support"
+          },
+          {
+            "value": "4+",
+            "label": "Accounting integrations"
+          },
+          {
+            "value": "100%",
+            "label": "GDPR compliant"
+          }
+        ]
+      },
+      "problems": {
+        "title": "The daily reality for landscape contractors",
+        "description": "Crews driving across town in the wrong order, weather killing the schedule, callbacks that never get logged, and Friday afternoons spent chasing timesheets and invoices. SaberTask is how you fix it.",
+        "items": [
+          {
+            "problem": "Crews driving back and forth all day",
+            "solution": "Optimised routes by geography and capacity"
+          },
+          {
+            "problem": "Weather wipes out the week's plan",
+            "solution": "Drag-and-drop rescheduling - push to crews instantly"
+          },
+          {
+            "problem": "Callbacks slip through, never get billed",
+            "solution": "Ad-hoc tasks added on the fly become billable lines"
+          },
+          {
+            "problem": "Job profitability only known weeks later",
+            "solution": "Live time tracking shows estimate vs. actual on every job"
+          }
+        ]
+      },
+      "features": {
+        "crewScheduling": {
+          "title": "Crew scheduling and route planning that survives Monday morning",
+          "description": "Drag-and-drop crews onto the weekly plan. SaberTask groups stops into efficient daily routes by geography, time and crew capacity. When weather hits or a callback comes in, drag the job to a new day - the crews see the change on their phones the second you save.",
+          "learnMore": "Learn more about scheduling",
+          "mockupTitle": "Team Echo · Wednesday",
+          "mockupBadge": "6 stops · 18 km",
+          "mockupStops": [
+            {
+              "n": "Hidden Creek Estates",
+              "t": "07:30",
+              "svc": "Lawn cut · 1.2h",
+              "done": true
+            },
+            {
+              "n": "Birch Park Townhouses",
+              "t": "09:00",
+              "svc": "Hedge trim",
+              "done": true
+            },
+            {
+              "n": "The Grove Office Park",
+              "t": "10:30",
+              "svc": "Mulching",
+              "done": false
+            },
+            {
+              "n": "Maple Ridge HOA",
+              "t": "12:30",
+              "svc": "Lawn cut · 2h",
+              "done": false
+            },
+            {
+              "n": "Sunset Memorial",
+              "t": "14:30",
+              "svc": "Edging",
+              "done": false
+            }
+          ]
+        },
+        "jobCosting": {
+          "title": "Know your job costs while the job is live",
+          "description": "Time tracked from the mobile app feeds straight into job costing. See estimate vs. actual hours and materials in real time - not weeks later when it's too late to do anything. Catch overruns early and protect your margin on every job.",
+          "learnMore": "Learn more about the live dashboard",
+          "mockupJobTitle": "Job: Maple Ridge HOA · Spring Cleanup",
+          "mockupJobSubtitle": "Estimated vs. actual · live",
+          "mockupRows": [
+            {
+              "label": "Labor",
+              "est": "24h",
+              "act": "21h"
+            },
+            {
+              "label": "Mulch (yd³)",
+              "est": "8",
+              "act": "8"
+            },
+            {
+              "label": "Equipment hrs",
+              "est": "12",
+              "act": "14"
+            }
+          ],
+          "mockupQuoted": "Quoted",
+          "mockupMargin": "Profit margin"
+        },
+        "seasonal": {
+          "title": "Seasonal contracts that schedule themselves",
+          "description": "Lawn maintenance from April to October. Snow plowing from November to March. Spring cleanup, fall cleanup, leaf collection, fertilizer rounds. Define each service once with its season and frequency - SaberTask generates the right tasks on the right dates, year after year, without you touching the schedule.",
+          "learnMore": "Learn more about recurring schedules",
+          "mockupTitle": "Service Agreement · The Grove Office Park",
+          "mockupSubtitle": "Annual maintenance contract",
+          "mockupServices": [
+            {
+              "name": "Lawn maintenance",
+              "freqKey": "everyWeek",
+              "season": "Apr - Oct",
+              "color": "emerald"
+            },
+            {
+              "name": "Hedge trimming",
+              "freqKey": "monthly",
+              "season": "May - Sep",
+              "color": "emerald"
+            },
+            {
+              "name": "Mulching",
+              "freqKey": "seasonal",
+              "season": "Apr - May",
+              "color": "amber"
+            },
+            {
+              "name": "Leaf collection",
+              "freqKey": "weekly",
+              "season": "Oct - Nov",
+              "color": "amber"
+            },
+            {
+              "name": "Snow plowing",
+              "freqKey": "onDemand",
+              "season": "Nov - Mar",
+              "color": "cyan"
+            }
+          ]
+        },
+        "invoicing": {
+          "title": "Invoicing that captures every billable hour",
+          "description": "Completed visits, ad-hoc callbacks, materials and equipment hours all flow into invoice drafts automatically. No more \"did we bill them for the extra mulch?\" - every billable line is captured the moment the work is done. Export to QuickBooks or your accounting system with one click.",
+          "learnMore": "Learn more about invoicing",
+          "integratesWith": "Integrates with",
+          "mockupCustomer": "Hidden Creek Estates",
+          "mockupPeriod": "May service",
+          "mockupTerms": "Net 30 days",
+          "mockupLines": [
+            {
+              "d": "Lawn maintenance ×4",
+              "p": "$640"
+            },
+            {
+              "d": "Mulching · 8 yd³",
+              "p": "$320"
+            },
+            {
+              "d": "Hedge trimming ×1",
+              "p": "$180"
+            }
+          ]
+        }
+      },
+      "moreCapabilities": {
+        "title": "Everything else a landscape contractor needs",
+        "description": "From the field crew to the office - one platform for the whole operation.",
+        "items": [
+          {
+            "title": "Field Crew Mobile App",
+            "description": "iOS and Android app with daily route, GPS clock in/out, photo capture, messaging and live earnings. Works for crews of every skill level."
+          },
+          {
+            "title": "Live Dashboard",
+            "description": "See where every crew is, which jobs are running and how the day is tracking against the plan - all on a live map."
+          },
+          {
+            "title": "Photo Documentation",
+            "description": "Before/after photos with GPS and timestamp. Prove the job was done - and document any damage you spotted on arrival."
+          },
+          {
+            "title": "Customer Portal",
+            "description": "Property managers and HOA boards log in to see service history, photos and upcoming visits. Less back-and-forth, more renewals."
+          },
+          {
+            "title": "Crew Management",
+            "description": "Build crews, assign skills, track shifts and run payroll. Manage seasonal hires and core staff side by side."
+          },
+          {
+            "title": "Property Database",
+            "description": "Every property, contact, contract and document in one searchable place. Track follow-ups, site notes and access instructions."
+          }
+        ]
+      }
+    },
+    "facilityManagement": {
+      "meta": {
+        "title": "Facility Management Software | SaberTask",
+        "description": "Software built for facility managers. Service agreements, maintenance scheduling, supplier management, photo proof, customer dashboard and mobile app."
+      },
+      "badge": "Facility Management Software",
+      "hero": {
+        "titleStart": "Run your",
+        "titleHighlight": "facility operations",
+        "titleEnd": "like clockwork",
+        "description": "Manage every building, service agreement, maintenance task and supplier from one platform - and give your owners, tenants and stakeholders their own customer dashboard. Built for facility managers who run dozens to hundreds of buildings.",
+        "cta": "Book a demo",
+        "trial": "30-day free trial · No credit card needed",
+        "imageAlt": "Facility management office",
+        "floatingBadge": {
+          "title": "Inspection complete",
+          "subtitle": "Photo report attached"
+        }
+      },
+      "stats": {
+        "items": [
+          {
+            "value": "30 days",
+            "label": "Free trial"
+          },
+          {
+            "value": "Multi-site",
+            "label": "Portfolio support"
+          },
+          {
+            "value": "100%",
+            "label": "GDPR compliant"
+          },
+          {
+            "value": "OIOXML",
+            "label": "Public-sector ready"
+          }
+        ]
+      },
+      "problems": {
+        "title": "Facility operations without the chaos",
+        "description": "Service agreements scattered across spreadsheets, maintenance jobs lost in email threads, suppliers calling at random, and tenants demanding updates. SaberTask gives you one structured system for the whole portfolio.",
+        "items": [
+          {
+            "problem": "Service agreements scattered across files",
+            "solution": "Every contract, location and frequency in one structured database"
+          },
+          {
+            "problem": "Maintenance tasks lost in email threads",
+            "solution": "Tasks generated from agreements, tracked from assignment to sign-off"
+          },
+          {
+            "problem": "No way to prove work was done at a building",
+            "solution": "GPS-stamped photos and quality reports per task"
+          },
+          {
+            "problem": "Tenants and owners constantly chasing for updates",
+            "solution": "Customer dashboard with live KPIs, photo reports and history"
+          }
+        ]
+      },
+      "features": {
+        "buildingDatabase": {
+          "title": "Every building, every contract, every document - searchable",
+          "description": "Owners, buildings, locations, contacts, service agreements and documents in one structured database. Files are AI-searchable so you can find any contract, certificate or specification instantly. Every change is logged for audit and compliance.",
+          "learnMore": "Learn more about customer management",
+          "mockupOwner": "Norden Facilities ApS",
+          "mockupRole": "Owner · 12 buildings",
+          "mockupBuildings": [
+            {
+              "n": "Borups Allé 233",
+              "units": "24 units",
+              "tasks": 18
+            },
+            {
+              "n": "Strandvejen 12",
+              "units": "8 units",
+              "tasks": 12
+            },
+            {
+              "n": "Frederiksberg Allé 44",
+              "units": "32 units",
+              "tasks": 22
+            }
+          ],
+          "mockupTasksPerMonth": "tasks/mo"
+        },
+        "serviceAgreements": {
+          "title": "Service agreements that schedule themselves",
+          "description": "Define every recurring service for each building - weekly cleaning, biweekly garden work, quarterly inspections, annual boiler service. SaberTask generates the right tasks on the right day, year after year, and reminds you well before agreements expire. Never miss an obligation again.",
+          "learnMore": "Learn more about task scheduling",
+          "mockupTitle": "Service Agreement · Borups Allé 233",
+          "mockupSubtitle": "12-month maintenance contract",
+          "mockupNextLabel": "Next",
+          "mockupServices": [
+            {
+              "name": "Stairway cleaning",
+              "freqKey": "everyWeek",
+              "next": "Mon 21 Apr",
+              "color": "pink"
+            },
+            {
+              "name": "Window polishing",
+              "freqKey": "every4Weeks",
+              "next": "Wed 23 Apr",
+              "color": "pink"
+            },
+            {
+              "name": "Garden maintenance",
+              "freqKey": "biweekly",
+              "next": "Tue 29 Apr",
+              "color": "pink"
+            },
+            {
+              "name": "Elevator inspection",
+              "freqKey": "quarterly",
+              "next": "15 May",
+              "color": "amber"
+            },
+            {
+              "name": "Boiler service",
+              "freqKey": "annual",
+              "next": "12 Sep",
+              "color": "amber"
+            }
+          ]
+        },
+        "photoProof": {
+          "title": "Photo proof on every site visit",
+          "description": "Operations staff and external suppliers document every visit with GPS-tagged, timestamped photos and configurable checklists. When an owner asks \"has the stairway been cleaned this week?\", the answer is a photo. When something needs repair, document it on the spot - with the next maintenance task generated automatically.",
+          "learnMore": "Learn more about quality controls",
+          "mockupTitle": "Inspection · Borups Allé 233",
+          "mockupSubtitle": "Stairway · 14 Apr 2026",
+          "mockupItems": [
+            {
+              "q": "Stairs swept and mopped",
+              "ok": true
+            },
+            {
+              "q": "Handrails wiped",
+              "ok": true
+            },
+            {
+              "q": "Lighting working",
+              "ok": true
+            },
+            {
+              "q": "Mailboxes clean",
+              "ok": false
+            }
+          ]
+        },
+        "customerDashboard": {
+          "title": "A customer dashboard your owners and tenants will actually use",
+          "description": "Give every owner, board member and tenant their own branded customer dashboard - with real-time KPIs, recent activity, photo reports and upcoming service for the buildings they care about. Trust without effort, and a major reason customers stick with you instead of switching administrators.",
+          "learnMore": "Learn more about the customer dashboard",
+          "bullets": [
+            "Live KPIs: tasks completed, open issues, satisfaction score",
+            "Full service history with photos, timestamps and signatures",
+            "Self-service requests and feedback go straight into your task list",
+            "Branded with your logo, colours and domain"
+          ],
+          "mockupTitle": "Customer Dashboard",
+          "mockupWelcome": "Welcome, Thomas · Norden Facilities",
+          "mockupDoneThisWeek": "Done this week",
+          "mockupOpenIssues": "Open issues",
+          "mockupScore": "Score",
+          "mockupRecentLabel": "Recent activity",
+          "mockupActivities": [
+            {
+              "task": "Stairway cleaning",
+              "loc": "Borups Allé 233",
+              "timeKey": "today",
+              "timeSuffix": "09:32",
+              "statusKey": "completed"
+            },
+            {
+              "task": "Garden maintenance",
+              "loc": "Strandvejen 12",
+              "timeKey": "today",
+              "timeSuffix": "11:15",
+              "statusKey": "inProgress"
+            },
+            {
+              "task": "Quarterly inspection",
+              "loc": "Frederiksberg Allé 44",
+              "timeKey": "yesterday",
+              "timeSuffix": "",
+              "statusKey": "reportReady"
+            }
+          ]
+        },
+        "suppliers": {
+          "title": "In-house teams and external suppliers - same system",
+          "description": "Whether the work is done by your own ejendomsservice team, a contracted cleaning company or a one-off plumber, every party uses the same platform. Assign tasks, track progress, see photos, approve invoices - full visibility across in-house and outsourced operations.",
+          "learnMore": "Learn more about team management",
+          "mockupTitle": "Active assignments · Borups Allé 233",
+          "mockupSuppliers": [
+            {
+              "team": "Facility Service (in-house)",
+              "task": "Stairway cleaning",
+              "color": "blue",
+              "statusKey": "today"
+            },
+            {
+              "team": "GreenCare ApS",
+              "task": "Garden maintenance",
+              "color": "emerald",
+              "statusKey": "tomorrow"
+            },
+            {
+              "team": "WindowCo",
+              "task": "Window polishing",
+              "color": "cyan",
+              "statusKey": "wed"
+            },
+            {
+              "team": "Elevator AS",
+              "task": "Quarterly inspection",
+              "color": "amber",
+              "statusText": "15 May"
+            }
+          ]
+        }
+      },
+      "moreCapabilities": {
+        "title": "Built for the whole facility operation",
+        "description": "From the office to the basement - one platform for everything that keeps your buildings running.",
+        "items": [
+          {
+            "title": "Mobile App for Field Staff",
+            "description": "iOS and Android app with daily task list, GPS clock in/out, photo capture, messaging and live earnings - for in-house staff and suppliers alike."
+          },
+          {
+            "title": "Live Dashboard",
+            "description": "See every building, every task, every team in real time on a live map. React instantly to delays or urgent callouts."
+          },
+          {
+            "title": "Invoicing & Billing",
+            "description": "Auto-invoice from completed work. Export to Dinero, e-conomic, Dynamics NAV, QuickBooks or as OIOXML for public-sector clients."
+          },
+          {
+            "title": "Work Description Builder",
+            "description": "Structure every service per building - areas, frequencies, checklists. Or upload an existing contract PDF and let AI extract the scope."
+          },
+          {
+            "title": "Built-in Messaging",
+            "description": "Direct, group and team chat between office, field staff and suppliers. No more separate WhatsApp groups for each building."
+          },
+          {
+            "title": "Audit Trail & Compliance",
+            "description": "Every change, clock event, photo and document is logged. GDPR-compliant, multi-tenant isolated and audit-ready by default."
+          }
+        ]
+      }
+    },
+    "winterServices": {
+      "meta": {
+        "title": "Winter Services Software - SnowManager | SaberTask",
+        "description": "SnowManager by SaberTask: live dispatch, smart route building, service zone drawing, customer dashboard and driver app - trusted by 500+ snow contractors."
+      },
+      "badge": "Winter Services",
+      "hero": {
+        "titleStart": "Run your",
+        "titleHighlight": "winter operations",
+        "titleEnd": "like clockwork",
+        "description": "Snow removal, salting, gritting and de-icing - when the weather hits, every minute counts. SaberTask's purpose-built winter module <strong>SnowManager</strong> gives you live dispatch, route optimisation, weather triggers and instant proof of service for every customer.",
+        "cta": "Book a demo",
+        "visitSnowmanager": "Visit snowmanager.com",
+        "heroCardTagline": "A SaberTask module",
+        "heroCardDescription": "Trusted by 500+ snow removal contractors across Scandinavia and beyond.",
+        "heroCardLive": "Live this season"
+      },
+      "stats": {
+        "items": [
+          {
+            "value": "500+",
+            "label": "Snow contractors"
+          },
+          {
+            "value": "30 days",
+            "label": "Free trial"
+          },
+          {
+            "value": "24/7",
+            "label": "Live dispatch"
+          },
+          {
+            "value": "Weather",
+            "label": "Auto-trigger"
+          }
+        ]
+      },
+      "problems": {
+        "title": "When the snow falls, chaos starts",
+        "description": "Calls flood in at 4am, drivers need routes immediately, customers want to know when you're coming, and managers have no idea what's actually happening on the ground. SaberTask gives you control over the whole season.",
+        "items": [
+          {
+            "problem": "No visibility into what crews are doing",
+            "solution": "Live dashboard with GPS tracking and check-ins"
+          },
+          {
+            "problem": "Routes built by hand at 3am",
+            "solution": "Smart route builder optimises by location and priority"
+          },
+          {
+            "problem": "Customers calling for status updates",
+            "solution": "Customer dashboard with live service history and ETAs"
+          },
+          {
+            "problem": "Disputes over whether the work was done",
+            "solution": "GPS-stamped photos and timestamped proof on every visit"
+          }
+        ]
+      },
+      "features": {
+        "liveDispatch": {
+          "title": "Live dispatch - your control center for the storm",
+          "description": "See every truck, every route, every check-in in real time on a live map. When a driver is delayed or a customer adds a property, reassign jobs instantly. No more blind trust - just live visibility.",
+          "mockupTitle": "Live Dispatch",
+          "mockupStats": [
+            "Trucks out",
+            "Stops done"
+          ],
+          "mockupTrucks": [
+            {
+              "name": "Truck 04 · Lars",
+              "area": "Frederiksberg N",
+              "stops": "24/30",
+              "color": "cyan"
+            },
+            {
+              "name": "Truck 07 · Mads",
+              "area": "Østerbro",
+              "stops": "18/22",
+              "color": "cyan"
+            },
+            {
+              "name": "Truck 12 · Jonas",
+              "area": "Amager",
+              "stops": "6/28",
+              "color": "amber"
+            }
+          ]
+        },
+        "smartRoutes": {
+          "title": "Smart routes built in seconds, not at 3am",
+          "description": "Tell SaberTask which properties are P1 (hospitals, schools), P2 (offices, retail) and P3 (residential). When the storm hits, optimised routes are built automatically - by location, priority, equipment and crew. Drivers get them on the phone the moment they wake up.",
+          "mockupTitle": "Storm Route · Optimised",
+          "mockupSubtitle": "From the SnowManager platform",
+          "mockupImageAlt": "Optimised snow route across Copenhagen Østerbro with 26 stops totalling 7 km"
+        },
+        "drawingTool": {
+          "title": "Drawing tool - define exactly what to clear",
+          "description": "Draw service areas with precision on a map - driveways, walkways, parking lots, loading docks, fire lanes. Workers see the exact zones to clear on their phone, with notes and special instructions per area. No more \"did you miss the back lot?\" calls.",
+          "mockupTitle": "Service Areas · Drawn on a satellite map",
+          "mockupSubtitle": "From the SnowManager platform",
+          "mockupImageAlt": "Drawing tool with service zones marked on a satellite map"
+        },
+        "customerDashboard": {
+          "title": "A customer dashboard your clients will love",
+          "description": "Property managers and facility owners log in to see every visit, every photo, every salt application - with timestamps and the truck that did the work. No more morning calls asking \"were you here last night?\". Trust without effort, and a major reason customers stay loyal.",
+          "mockupTitle": "Customer Dashboard",
+          "mockupSubtitle": "Office Park · Strandvejen 12",
+          "mockupVisitsThisSeason": "Visits this season",
+          "mockupLastService": "Last service",
+          "mockupNextForecast": "Next forecast",
+          "mockupForecastValue": "Sat",
+          "mockupRecentLabel": "Recent activity",
+          "mockupActivities": [
+            {
+              "date": "04 Feb 04:42",
+              "event": "Snow plowing + salting",
+              "truck": "Truck 04"
+            },
+            {
+              "date": "02 Feb 06:15",
+              "event": "Salting only",
+              "truck": "Truck 04"
+            },
+            {
+              "date": "28 Jan 03:20",
+              "event": "Snow plowing + salting",
+              "truck": "Truck 07"
+            }
+          ]
+        },
+        "subcontractors": {
+          "title": "Subcontractors and invoicing - handled",
+          "description": "Manage your network of subcontractors in the same system as your in-house crews. Assign jobs, track performance, approve their work and process payments. Then auto-invoice clients based on completed visits - exported to your accounting system in one click.",
+          "integratesWith": "Integrates with",
+          "mockupTitle": "Active subcontractors · Tonight",
+          "mockupSubcontractors": [
+            {
+              "team": "Nordic Snow Services",
+              "area": "Frederiksberg",
+              "visits": 24,
+              "statusKey": "inProgress"
+            },
+            {
+              "team": "Vinterservice ApS",
+              "area": "Østerbro",
+              "visits": 18,
+              "statusKey": "done"
+            },
+            {
+              "team": "Snow Pros",
+              "area": "Amager",
+              "visits": 12,
+              "statusKey": "inProgress"
+            },
+            {
+              "team": "Plough & Salt",
+              "area": "Hellerup",
+              "visits": 8,
+              "statusKey": "done"
+            }
+          ],
+          "mockupStopsLabel": "stops"
+        }
+      },
+      "snowmanager": {
+        "title": "SnowManager - the dedicated brand for snow contractors",
+        "description": "SnowManager is SaberTask's purpose-built winter module, used by 500+ snow removal contractors. Same platform, same mobile app, same accounting integrations - branded specifically for the snow industry with its own dedicated site, support and community.",
+        "visitLink": "Visit snowmanager.com",
+        "bookDemo": "Book a SaberTask demo",
+        "stats": [
+          {
+            "v": "500+",
+            "l": "Snow contractors"
+          },
+          {
+            "v": "Live",
+            "l": "24/7 dispatch"
+          },
+          {
+            "v": "OIOXML",
+            "l": "Public-sector ready"
+          }
+        ]
+      },
+      "moreCapabilities": {
+        "title": "Everything else you need for the season",
+        "description": "From the office to the cab to the customer - one platform for the whole winter operation.",
+        "items": [
+          {
+            "title": "Mobile App for Drivers",
+            "description": "iOS and Android app with daily route, GPS clock in/out, photo capture and messaging - built for drivers wearing gloves at 3am."
+          },
+          {
+            "title": "Photo Documentation",
+            "description": "Before/after photos with GPS and timestamp on every visit. End disputes about whether the work was done."
+          },
+          {
+            "title": "Property Database",
+            "description": "Every customer, location, contact and contract in one searchable place. Drawn service areas, special instructions, gate codes - all there."
+          },
+          {
+            "title": "Driver Management",
+            "description": "Shifts, rostering, sick leave, payroll and accord/piece-rate work - manage your seasonal crew alongside your year-round staff."
+          },
+          {
+            "title": "Built-in Messaging",
+            "description": "Direct, group and team chat between dispatch, drivers and subcontractors. Critical when the storm hits and information needs to move fast."
+          },
+          {
+            "title": "Audit Trail",
+            "description": "Every clock event, photo, route and approval is logged. GDPR-compliant and ready for any insurance dispute or contract audit."
+          }
+        ]
+      }
+    }
+  },
+  "mockup": {
+    "common": {
+      "live": "Live",
+      "online": "Online",
+      "active": "Active",
+      "draft": "Draft",
+      "sent": "Sent",
+      "approved": "Approved",
+      "pending": "Pending",
+      "completed": "Completed",
+      "scheduled": "Scheduled",
+      "inProgress": "In progress",
+      "done": "Done",
+      "reportReady": "Report ready",
+      "issue": "Issue",
+      "issues": "Issues",
+      "all": "All",
+      "weekly": "Weekly",
+      "biweekly": "Biweekly",
+      "monthly": "Monthly",
+      "evenWk": "Even wk",
+      "oddWk": "Odd wk",
+      "even": "Even",
+      "odd": "Odd",
+      "seasonal": "Seasonal",
+      "every4Weeks": "Every 4 weeks",
+      "everyWeek": "Every week",
+      "quarterly": "Quarterly",
+      "annual": "Annual",
+      "onDemand": "On demand",
+      "normal": "Normal",
+      "aboveAvg": "Above avg.",
+      "newBadge": "New",
+      "viewed": "Viewed",
+      "auto": "Auto-built",
+      "optimised": "Optimised",
+      "onTrack": "On track",
+      "tasks": "Tasks",
+      "tasksToday": "Tasks today",
+      "yourShift": "Your shift",
+      "yourShifts": "Your shifts",
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "tomorrow": "Tomorrow",
+      "stops": "stops",
+      "shifts": "shifts",
+      "photo": "Photo",
+      "photos": "photos",
+      "open": "Open in Maps",
+      "address": "Address",
+      "notes": "Notes",
+      "description": "Description",
+      "workerInput": "Worker Input",
+      "contact": "Contact",
+      "primaryContact": "Primary contact",
+      "activeAgreement": "Active agreement",
+      "buildings": "Buildings",
+      "properties": "Properties",
+      "locations": "Locations",
+      "contacts": "Contacts",
+      "agreements": "Agreements",
+      "files": "Files",
+      "overview": "Overview",
+      "reports": "Reports",
+      "documents": "Documents",
+      "activity": "Activity",
+      "recentActivity": "Recent activity",
+      "shiftPlanner": "Shift Planner",
+      "team": "Team",
+      "team_alpha": "Team Alpha",
+      "team_bravo": "Team Bravo",
+      "team_echo": "Team Echo",
+      "noContact": "No contact assigned",
+      "weekN": "Week 15",
+      "currentPeriod": "Current period",
+      "shiftOverview": "Shift overview",
+      "salary": "Salary",
+      "accords": "Accords",
+      "accordsThisPeriod": "Accords this period",
+      "totalLabel": "Total",
+      "netLabel": "Net",
+      "breakLabel": "Break",
+      "fri": "Fri",
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "home": "Home",
+      "messages": "Messages",
+      "calendar": "Calendar",
+      "clockOut": "Clock Out",
+      "clockedInAt": "Clocked in at",
+      "startTask": "Start task",
+      "finalize": "Finalize",
+      "finalised": "Finalised",
+      "startTheTaskFirst": "Start the task first",
+      "approvedHours": "approved",
+      "viewAll": "View all",
+      "addRowPlus": "+ Add",
+      "noScheduled": "No scheduled",
+      "lastVisit": "Last visit",
+      "nextVisit": "Next visit",
+      "taskId": "Task ID",
+      "customerId": "Customer ID",
+      "welcome": "Welcome",
+      "newCount": "{n} new",
+      "integratesWith": "Integrates with"
+    },
+    "tasks": {
+      "stairwayWash": "Stairway wash",
+      "windowCleaning": "Window cleaning",
+      "officeCleaning": "Office cleaning",
+      "mainWindows": "Main windows",
+      "lobbyCleaning": "Lobby cleaning",
+      "facadeWash": "Facade wash",
+      "binArea": "Bin area",
+      "floorWaxing": "Floor waxing",
+      "snowRemoval": "Snow removal",
+      "deepClean": "Deep clean",
+      "lobbyHallways": "Lobby & hallways",
+      "qualityInspection": "Quality inspection",
+      "gardenMaintenance": "Garden maintenance",
+      "windowPolishing": "Window polishing",
+      "elevatorInspection": "Elevator inspection",
+      "boilerService": "Boiler service",
+      "mulching": "Mulching",
+      "lawnCut": "Lawn cut",
+      "hedgeTrim": "Hedge trim",
+      "edging": "Edging",
+      "lawnMaintenance": "Lawn maintenance",
+      "leafCollection": "Leaf collection",
+      "snowPlowing": "Snow plowing",
+      "saltingOnly": "Salting only",
+      "snowPlowingSalting": "Snow plowing + salting",
+      "frontFacade": "Front facade",
+      "backWindows": "Back windows",
+      "conservatory": "Conservatory",
+      "tagrenne": "Tagrenne"
+    },
+    "freq": {
+      "weekly": "Weekly",
+      "evenWk": "Even wk",
+      "oddWk": "Odd wk",
+      "monthly": "Monthly",
+      "spring": "Spring",
+      "annual": "Annual",
+      "onDemand": "On demand",
+      "every4Weeks": "Every 4 weeks",
+      "everyWeek": "Every week"
+    },
+    "shiftCard": {
+      "weekN": "Week 15",
+      "shiftPlanner": "Shift Planner",
+      "sickLeave": "Sick Leave",
+      "aboveAvg": "Above avg.",
+      "sickRate": "Sick rate",
+      "days": "Days",
+      "vsAvg": "vs. avg."
+    },
+    "homeScreen": {
+      "header": "Home",
+      "dateLabel": "Friday 10 April",
+      "twoTasks": "2 tasks",
+      "threeTasks": "3 tasks",
+      "yourShifts": "Your shifts",
+      "yourShift": "Your shift",
+      "tasksToday": "Tasks today",
+      "normal": "Normal",
+      "clockedInAt": "Clocked in at 15:14",
+      "clockedInAtPhone": "Clocked in at 07:58",
+      "clockOut": "Clock Out"
+    },
+    "taskScreen": {
+      "back": "Home",
+      "task": "Stairway wash",
+      "address": "Borups Allé 233",
+      "notes": "Customer was happy with work",
+      "createNewTask": "Create new task at this location",
+      "noContact": "No contact assigned",
+      "startTask": "Start task",
+      "finalize": "Finalize"
+    },
+    "salaryScreen": {
+      "header": "Salary",
+      "period": "15 Mar - 14 Apr 2026",
+      "currentPeriod": "Current period",
+      "shiftOverview": "Shift overview",
+      "shifts": "Shifts",
+      "accords": "Accords",
+      "approved": "Approved",
+      "pending": "Pending",
+      "accordsThisPeriod": "Accords this period",
+      "normal": "Normal",
+      "threeShifts": "3 shifts",
+      "totalH": "Total: 16h 0m",
+      "breakH": "Break: 0h 0m",
+      "netH": "Net: 16h 0m",
+      "fri": "Fri"
+    },
+    "shiftPlannerCard": {
+      "title": "Shift Planner",
+      "weekN": "Week 15",
+      "normal": "Normal",
+      "approved": "approved",
+      "pendingHours": "pending"
+    },
+    "liveDashboard": {
+      "liveMap": "Live Map",
+      "live": "Live",
+      "popupTask": "Stairway wash",
+      "popupAddress": "Borups Allé 233",
+      "clockedIn": "Clocked in 08:02",
+      "photosTaken": "Photos taken",
+      "finalised": "Finalised",
+      "teams": "Teams",
+      "teamAlpha": "Team Alpha",
+      "teamBravo": "Team Bravo",
+      "teamEcho": "Team Echo",
+      "onShift": "On shift",
+      "completed": "Completed",
+      "hoursLabel": "Hours",
+      "tasksLabel": "Tasks",
+      "trucksOut": "Trucks out",
+      "stopsDone": "Stops done",
+      "pending": "Pending",
+      "activeRoutes": "Active routes"
+    },
+    "shiftPlannerHomepage": {
+      "title": "Shift Planner",
+      "weekN": "Week 15",
+      "normal": "Normal",
+      "sickLeave": "Sick Leave",
+      "aboveAvg": "Above avg.",
+      "sickRate": "Sick rate",
+      "days": "Days",
+      "vsAvg": "vs. avg."
+    },
+    "invoice": {
+      "title": "Invoice",
+      "draft": "Draft",
+      "sent": "Sent",
+      "customer": "Nordic Group ApS",
+      "customerAddress": "Strandvejen 12, Copenhagen",
+      "net14days": "Net 14 days",
+      "net30days": "Net 30 days",
+      "net8days": "Net 8 days",
+      "due": "Due 28 Apr 2026",
+      "lineCleaning": "Cleaning · HQ Tower",
+      "lineWindow": "Window cleaning",
+      "lineSnow": "Snow removal",
+      "totalLabel": "Total",
+      "task": "Task",
+      "finalised": "Finalised",
+      "invoiceLabel": "Invoice",
+      "exportLabel": "Export",
+      "stairwayWashX4": "Stairway wash ×4",
+      "officeCleaningX8": "Office cleaning ×8",
+      "windowCleaningX2": "Window cleaning ×2",
+      "frontFacadeX1": "Front facade ×1",
+      "backWindowsX1": "Back windows ×1",
+      "conservatoryX1": "Conservatory ×1",
+      "lawnMaintenanceX4": "Lawn maintenance ×4",
+      "mulchingLine": "Mulching · 8 yd³",
+      "hedgeTrimmingX1": "Hedge trimming ×1",
+      "windowCleaningX4": "Window cleaning ×4"
+    },
+    "customerPortal": {
+      "name": "Nordic Group Portal",
+      "welcomeMichael": "Welcome, Michael",
+      "overview": "Overview",
+      "tasksTab": "Tasks",
+      "photosTab": "Photos",
+      "reportsTab": "Reports",
+      "recentActivity": "Recent activity",
+      "windowCleaning": "Window cleaning",
+      "stairwayWash": "Stairway wash",
+      "qualityInspection": "Quality inspection",
+      "hqTower": "HQ Tower",
+      "warehouseNorth": "Warehouse North",
+      "today1432": "Today 14:32",
+      "today1115": "Today 11:15",
+      "yesterday": "Yesterday",
+      "completed": "Completed",
+      "reportReady": "Report ready",
+      "latestPhotos": "Latest photos",
+      "threeNew": "3 new"
+    },
+    "taskScheduling": {
+      "title": "Task Scheduling",
+      "teamAlphaWeek": "Team Alpha · Week 15",
+      "all": "All",
+      "weekly": "Weekly",
+      "even": "Even",
+      "odd": "Odd",
+      "monthly": "Monthly",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "windowCleaning": "Window cleaning",
+      "stairwayWash": "Stairway wash",
+      "officeCleaning": "Office cleaning",
+      "floorWaxing": "Floor waxing",
+      "mainWindows": "Main windows",
+      "lobbyCleaning": "Lobby cleaning",
+      "facadeWash": "Facade wash",
+      "binArea": "Bin area",
+      "hqTower": "HQ Tower",
+      "borupsAlle": "Borups Allé",
+      "vesterbro": "Vesterbro",
+      "norrebro": "Nørrebro",
+      "kalvebodBrygge": "Kalvebod Brygge",
+      "osterbro": "Østerbro",
+      "amager": "Amager",
+      "weeklyBadge": "Weekly",
+      "evenWk": "Even wk",
+      "oddWk": "Odd wk",
+      "monthlyBadge": "Monthly"
+    },
+    "qualityReport": {
+      "title": "Quality Report",
+      "location": "HQ Tower · Office Kitchen",
+      "section": "Section 2 · Kitchen",
+      "q1": "Worktops cleaned & disinfected",
+      "q2": "Floor mopped, no debris",
+      "q3": "Bins emptied & relined",
+      "q4": "Appliances wiped down",
+      "issue": "Issue",
+      "photoEvidence": "Photo evidence",
+      "fivePhotos": "5 photos",
+      "inspector": "Inspector",
+      "inspectorName": "Anna Møller",
+      "inspectorDate": "14 Apr 2026, 10:32",
+      "customer": "Customer",
+      "customerName": "Michael Jensen",
+      "satisfied": "Customer satisfied with service"
+    },
+    "customerCard": {
+      "company": "Nordic Group ApS",
+      "customerId": "Customer #10238",
+      "active": "Active",
+      "locations": "Locations",
+      "contacts": "Contacts",
+      "agreements": "Agreements",
+      "files": "Files",
+      "loc1Name": "HQ Tower",
+      "loc1Addr": "Strandvejen 12, Copenhagen",
+      "loc2Name": "Warehouse North",
+      "loc2Addr": "Industrivej 8, Aarhus",
+      "loc3Name": "Showroom",
+      "loc3Addr": "Vesterbrogade 4, Copenhagen",
+      "tasksMo": "tasks",
+      "primaryContact": "Primary contact",
+      "contactName": "Michael Jensen",
+      "contactEmail": "michael@nordic.dk",
+      "contactPhone": "+45 32 33 05 20",
+      "activeAgreement": "Active agreement",
+      "agreementName": "Cleaning contract",
+      "agreementDetails": "Weekly · 3 locations",
+      "agreementPrice": "€2,400/mo"
+    },
+    "fp": {
+      "liveDash": {
+        "title": "Live Dashboard",
+        "active": "Active",
+        "done": "Done",
+        "onTime": "On time",
+        "todaysTasks": "Today's tasks",
+        "viewAll": "View all →",
+        "office": "Office cleaning",
+        "window": "Window cleaning",
+        "floor": "Floor maintenance",
+        "doneB": "Done",
+        "live": "Live",
+        "soon": "Soon",
+        "activeTeams": "Active teams",
+        "taskCompleted": "Task completed",
+        "twoMinAgo": "Team Alpha · 2 min ago"
+      },
+      "empMgmt": {
+        "teamRoster": "Team roster",
+        "live": "Live",
+        "onShift": "On shift",
+        "sick": "Sick",
+        "attendance": "Attendance",
+        "team": "Team",
+        "viewAll": "View all →",
+        "annaName": "Anna Møller",
+        "jonasName": "Jonas Larsen",
+        "saraName": "Sara Knudsen",
+        "madsName": "Mads Petersen",
+        "annaRole": "Cleaning · Team Alpha",
+        "jonasRole": "Window · Team Bravo",
+        "saraRole": "Cleaning · Team Alpha",
+        "madsRole": "Landscape · Team Echo",
+        "clockedIn": "Clocked in",
+        "enRoute": "En route",
+        "sickLeave": "Sick leave",
+        "floatTitle": "Clocked in",
+        "floatSub": "Anna M. · 07:58"
+      },
+      "invoicing": {
+        "title": "Invoice #2026-0428",
+        "customer": "Nordic Group ApS",
+        "draft": "Draft",
+        "lineItems": "Line items",
+        "addLine": "+ Add line",
+        "cleaning": "Cleaning · HQ Tower",
+        "windowCleaning": "Window cleaning",
+        "snowRemoval": "Snow removal · March",
+        "qualityInspection": "Quality inspection",
+        "totalLabel": "Total",
+        "sendInvoice": "Send invoice",
+        "exportCsv": "Export CSV",
+        "drafts": "Drafts",
+        "sent": "Sent",
+        "totalKpi": "Total",
+        "autoBilled": "Auto-billed",
+        "fromCompleted": "From completed task"
+      },
+      "customerPortal": {
+        "company": "Nordic Group · Borups Allé",
+        "live": "Live",
+        "lastService": "Last service",
+        "today": "Today",
+        "thisMonth": "This month",
+        "ourScore": "Our score",
+        "completedThisWeek": "Completed this week",
+        "viewAll": "View all →",
+        "stairCleaning": "Stair cleaning · Block A",
+        "windowCleaning": "Window cleaning · Lobby",
+        "binCleaning": "Bin shelter cleaning",
+        "doneAt0732": "Done · 07:32",
+        "doneYesterday": "Done · Yesterday",
+        "doneTwoDaysAgo": "Done · 2 days ago",
+        "newReportAvail": "New report available",
+        "stairwayInspection": "Stairway inspection · Mar",
+        "servicePortal": "Service Portal",
+        "signOut": "Sign out",
+        "thisWeek": "This week",
+        "last30d": "Last 30d",
+        "qualityScore": "Quality score",
+        "next14days": "Next 14 days",
+        "weekShort": "WK",
+        "wednesday": "Wednesday, April 9",
+        "twoCleaning": "2 cleaning services scheduled",
+        "newReport": "New report",
+        "stairInspMar": "Stairway inspection · March",
+        "liveUpdates": "Live updates",
+        "noSupportCall": "No support call needed"
+      },
+      "taskScheduling": {
+        "title": "Planning · Week 14",
+        "active": "Active plan",
+        "tasks": "Tasks",
+        "hours": "Hours",
+        "revenue": "Revenue",
+        "weeklyPlan": "Weekly plan",
+        "allTeams": "All teams →",
+        "alpha": "Alpha",
+        "bravo": "Bravo",
+        "echo": "Echo",
+        "routeOptimised": "Route optimised",
+        "stopsKm": "14 stops · 32 km saved",
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "waypoints": "waypoints",
+        "drawRoute": "Draw Route",
+        "addLabel": "+ Add"
+      },
+      "qualityCtrl": {
+        "title": "Quality Report",
+        "location": "Office Kitchen · Floor 2",
+        "saving": "Saving",
+        "section": "Section",
+        "issues": "Issues",
+        "score": "Score",
+        "kitchen": "Section 2 · Kitchen",
+        "of12": "3 of 12 →",
+        "q1": "Worktops cleaned & disinfected",
+        "q2": "Floor mopped, no debris",
+        "q3": "Bins emptied & relined",
+        "photoEvidence": "Photo evidence",
+        "fivePhotos": "5 photos",
+        "reportFinalised": "Report finalised",
+        "pdfReady": "PDF ready to share"
+      },
+      "customerMgmt": {
+        "company": "Nordic Group ApS",
+        "customerNo": "Customer #10238",
+        "active": "Active",
+        "locations": "Locations",
+        "contacts": "Contacts",
+        "agreements": "Agreements",
+        "files": "Files",
+        "viewAll": "View all →",
+        "hqTower": "HQ Tower",
+        "warehouseNorth": "Warehouse North",
+        "showroom": "Showroom",
+        "addr1": "Strandvejen 12, Copenhagen",
+        "addr2": "Industrivej 8, Aarhus",
+        "addr3": "Vesterbrogade 4, Copenhagen",
+        "tasks": "tasks",
+        "aiSearch": "AI file search",
+        "found42": "Found in 42 documents"
+      },
+      "shiftRoster": {
+        "mon": "Mon",
+        "tue": "Tue",
+        "wed": "Wed",
+        "today": "Today",
+        "fri": "Fri",
+        "sat": "Sat",
+        "sun": "Sun",
+        "date1": "6 Apr",
+        "date2": "7 Apr",
+        "date3": "8 Apr",
+        "date4": "9 Apr",
+        "date5": "10 Apr",
+        "date6": "11 Apr",
+        "date7": "12 Apr",
+        "shiftPlanner": "Shift Planner",
+        "live": "Live",
+        "employee": "Employee",
+        "approved24": "24h 0m approved",
+        "approved16": "16h 0m approved",
+        "normal": "Normal"
+      },
+      "invoiceFlow": {
+        "titleStart": "From task to invoice - ",
+        "titleHighlight": "automatically",
+        "description": "Work gets done, invoices get created. No re-typing, no copy-paste, no missed billable tasks.",
+        "step1": "1. Service Agreement",
+        "serviceAgreement": "Service Agreement",
+        "windowCleaning": "Window cleaning",
+        "weekly": "Weekly",
+        "stairwayWash": "Stairway wash",
+        "biweekly": "Biweekly",
+        "snowRemoval": "Snow removal",
+        "seasonal": "Seasonal",
+        "step2": "2. Worker Finalises",
+        "completed": "Completed",
+        "finalised": "Finalised",
+        "step3": "3. Invoice Draft",
+        "draft": "Draft",
+        "windowCleaningX4": "Window cleaning ×4",
+        "stairwayWashX2": "Stairway wash ×2",
+        "totalLabel": "Total",
+        "step4": "4. Export"
+      },
+      "workDescription": {
+        "subtitle": "Work Description Builder",
+        "areaNameLabel": "Area name",
+        "notesLabel": "Notes",
+        "notesValue": "19 main stairways. Dust in winter f...",
+        "priceLabel": "Price",
+        "everyWeek": "Every week",
+        "perPeriod": "1x  0.00 h",
+        "seasonBadge": "1/10-31/3",
+        "frequencyLabel": "Frequency",
+        "timesPeriodLabel": "Times/period",
+        "hoursVisitLabel": "Hours/visit",
+        "limitPeriodLabel": "Limit period",
+        "limitPeriodRange": "1 Oct - 31 Mar",
+        "checklistLabel": "Checklist items",
+        "checklistItem": "Stairs swept"
+      },
+      "qualityMobile": {
+        "lastVisitDate": "23 Mar 2026",
+        "recentIssues": "Recent Issues",
+        "oneReport": "1 report",
+        "issueDate": "Mar 25, 2026",
+        "byAdmin": "By Admin User",
+        "oneIssue": "1 issue"
+      },
+      "mobileApp": {
+        "taskDetailTitle": "Every task, every detail",
+        "taskDetailDesc": "Tap a task to see the full picture - address with one-tap navigation, work description, customer notes, photo history and a notes field. Capture before-and-after photos, write comments and finalize the job - all without leaving the screen.",
+        "salaryTitle": "Know what you earn - live",
+        "salaryDesc": "No more waiting until pay day to find out what you made. The Salary screen shows gross hours, break deductions, net pay and piecework (accord) earnings updating in real time as you clock in and out. Approved and pending amounts are separated so there are never surprises.",
+        "capabilitiesTitle": "Built for people who work on their feet",
+        "capabilitiesSubtitle": "Big buttons, fast load times and zero training required.",
+        "gpsTitle": "GPS Clock In/Out",
+        "gpsDesc": "One-tap clock in and out with automatic GPS capture. Break rules deduct pauses per shift type so the timesheet is always accurate.",
+        "photoTitle": "Photo Documentation",
+        "photoDesc": "Capture before-and-after photos attached directly to each task. GPS-tagged, timestamped and synced to the web dashboard automatically.",
+        "taskListTitle": "Optimised Daily Task List",
+        "taskListDesc": "Tasks for the day are organised in the optimal order based on your route plan. See what's next, tap to navigate, and work through the day efficiently.",
+        "messagingTitle": "Built-in Messaging",
+        "messagingDesc": "Direct, group and team chat with file attachments, unread counts and read receipts. No need for a separate WhatsApp group.",
+        "sickLeaveTitle": "Sick Leave Reporting",
+        "sickLeaveDesc": "Workers report sick from the phone in one tap. Shifts are converted automatically and managers see live analytics instantly.",
+        "elearningTitle": "E-Learning & Training",
+        "elearningDesc": "Assign training courses directly in the app. Workers complete modules, watch videos and pass quizzes - all tracked so you know who is certified and who needs a refresher.",
+        "connectedTitle": "Connected to everything on the web",
+        "connectedSubtitle": "Every action on the phone shows up instantly on the web dashboard - and vice versa.",
+        "planningBoard": "Planning board",
+        "clockEvents": "Clock events",
+        "taskPhotos": "Task photos",
+        "completedTasks": "Completed tasks",
+        "taskSchedulingLink": "Task Scheduling",
+        "employeeManagementLink": "Employee Management",
+        "customerPortalLink": "Customer Portal",
+        "invoicingBillingLink": "Invoicing & Billing"
+      }
     }
   }
 }

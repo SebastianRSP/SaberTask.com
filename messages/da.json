@@ -14,13 +14,22 @@
     "featuresDropdown": {
       "overview": "Funktionsoversigt",
       "routing": "Ruteplanlægning",
-      "tracking": "Udstyrssporing",
+      "tracking": "Opgavesporing",
       "reporting": "Rapportering & Analyse"
     },
     "industriesDropdown": {
       "snowRemoval": "Snerydning",
       "landscaping": "Havearbejde",
-      "cleaning": "Rengøringstjenester"
+      "cleaning": "Rengøringstjenester",
+      "facilityManagement": "Facility Management",
+      "municipalServices": "Kommunale Tjenester"
+    },
+    "industriesPagesDropdown": {
+      "cleaningCompany": "Rengøringsfirmaer",
+      "windowCleaning": "Vinduespudsning",
+      "landscaping": "Anlægsgartnere",
+      "facilityManagement": "Facility Management",
+      "winterServices": "Vintertjeneste"
     },
     "resourcesDropdown": {
       "faq": "FAQ",
@@ -33,34 +42,38 @@
     "titleMiddle": "til",
     "titleHighlight2": "fakturering",
     "cta": "Book en demo",
-    "tagline": "Alt hvad du behover for at drive din servicevirksomhed",
-    "userCount": "500K +",
-    "trustedBy": "Betroet af mange brugere i over 10 lande",
-    "bannerTitle": "Alt hvad du behover et sted",
-    "bannerSubtitle": "Partnerskab med forende brands for at revolutionere servicebranchen",
-    "metaDescription": "SnowManager er alt-i-én platformen for snerydningsfirmaer. Planlæg ruter, spor mandskab i realtid, og automatisér fakturering."
+    "tagline": "Alt hvad du har brug for til at styre dine serviceopgaver",
+    "userCount": "10.000+",
+    "trustedBy": "Mere end 10.000 månedlige opgaver håndteret i SaberTask",
+    "bannerTitle": "Rengøring • Anlægsgartner • Snerydning • Facility Management • Vinduespolering",
+    "bannerSubtitle": "Partnerskab med førende brands for at revolutionere servicebranchen",
+    "metaDescription": "SaberTask er alt-i-én platformen til servicevirksomheder. Planlæg opgaver, styr teams i realtid og automatisér fakturering - til rengøring, havearbejde, snerydning, facility management og kommunale tjenester.",
+    "meta": {
+      "title": "SaberTask - Alt-i-én software til servicevirksomheder",
+      "description": "Alt-i-én software til servicevirksomheder: planlægning, tidsregistrering, kvalitetsrapporter, fakturering og mobilapp - bygget til rengøring og facility."
+    }
   },
   "features": {
     "badge": "Nøglefunktioner",
-    "titleStart": "Vores app er en",
-    "titleHighlight": "alt-i-én løsning",
-    "titleEnd": "til din virksomhed",
-    "subtitle": "Fra live dashboards til automatisk fakturering - SnowManager erstatter fragmenterede værktøjer og sparer dig tid, penge og besvær.",
+    "titleStart": "",
+    "titleHighlight": "Alt-i-en platform",
+    "titleEnd": "til håndtering af servicevirksomheder",
+    "subtitle": "Fra live dashboards til automatisk fakturering - SaberTask erstatter fragmenterede værktøjer og sparer dig tid, penge og besvær.",
     "benefitLabel": "En af fordelene",
     "learnMore": "Læs mere",
     "painPoints": {
-      "title": "Smertepunkter"
+      "title": "Udfordringer i dag"
     },
     "howWeHelp": {
       "title": "Sådan hjælper vi"
     },
     "liveDashboard": {
-      "tabName": "Live Dashboard",
-      "title": "Live Dashboard",
-      "description": "Overvåg disponering, følg medarbejdernes fremskridt og reagér øjeblikkeligt på ændringer - eliminér kaos fra manuelle check-ins og spredt information.",
+      "tabName": "Live dashboard",
+      "title": "Live dashboard",
+      "description": "Få overblik over alle dine opgaver og medarbejdere, ét sted.",
       "painPoints": [
         "Ledere mangler realtids-indsigt i medarbejdernes arbejde.",
-        "Branchen kører ofte på blind tillid - opgaver tildeles uden live opdateringer.",
+        "Ingen dokumentation eller overblik over opgaver udført.",
         "Svært at spore forsinkelser, fejl eller oversete opgaver."
       ],
       "solutions": [
@@ -70,24 +83,24 @@
       ]
     },
     "subcontractorManagement": {
-      "tabName": "Underleverandørstyring",
-      "title": "Underleverandørstyring",
-      "description": "Administrer dit netværk af underleverandører problemfrit. Tildel opgaver, spor præstationer og håndter betalinger - alt ét sted.",
+      "tabName": "Medarbejderstyring",
+      "title": "Medarbejderstyring",
+      "description": "Administrer nemt dine medarbejdere med vagtplaner, akkordløn, lønudtræk og meget mere.",
       "painPoints": [
-        "Koordinering med underleverandører er kaotisk og tidskrævende.",
-        "Ingen synlighed i om underleverandørarbejde faktisk er udført.",
+        "Koordinering med teams og underleverandører er kaotisk og tidskrævende.",
+        "Ingen synlighed i om opgaver faktisk er udført.",
         "Betalingstvister på grund af manglende dokumentation."
       ],
       "solutions": [
-        "Dedikeret portal hvor underleverandører modtager og udfører opgaver.",
-        "Realtidssporing og dokumentation for alt underleverandørarbejde.",
-        "Automatiseret betalingssporing med klar dokumentation."
+        "Dedikeret portal hvor teams og underleverandører modtager og udfører opgaver.",
+        "Realtidssporing og dokumentation for alt udført arbejde.",
+        "Lønstyring og akkordløn for hver medarbejder"
       ]
     },
     "automaticInvoicing": {
-      "tabName": "Automatisk Fakturering",
-      "title": "Automatisk Fakturering",
-      "description": "Generer og send fakturaer automatisk baseret på udført arbejde. Ikke mere manuel dataindtastning eller jagt på papirarbejde.",
+      "tabName": "Fakturering & betaling",
+      "title": "Fakturering & betaling",
+      "description": "Send fakturaer automatisk til dit regnskabsprogram.",
       "painPoints": [
         "At oprette fakturaer manuelt er tidskrævende.",
         "Opgaver slipper ofte igennem uden at blive faktureret.",
@@ -100,12 +113,12 @@
       ]
     },
     "mobileApp": {
-      "tabName": "Mobil App",
-      "title": "Mobil App",
-      "description": "Giv dine feltmedarbejdere en kraftfuld mobil app. Stem ind, navigér ruter, tag billeder og opdater opgavestatus - alt fra deres telefon.",
+      "tabName": "Mobil app",
+      "title": "Mobil app",
+      "description": "Giv dine medarbejdere en kraftfuld mobil app - start opgaver, tag billeder, opret kvalitetsrapporter og se vagter direkte på telefonen.",
       "painPoints": [
         "Feltarbejdere er afhængige af papir eller hukommelse til at spore deres arbejde.",
-        "Ingen nem måde at kommunikere ruteændringer i realtid.",
+        "Ingen nem måde at kommunikere ændringer i realtid.",
         "Svært at indfange og organisere dokumentation for udført arbejde."
       ],
       "solutions": [
@@ -115,66 +128,82 @@
       ]
     },
     "customerDashboard": {
-      "tabName": "Kunde Dashboard",
-      "title": "Kunde Dashboard",
-      "description": "Giv dine kunder et professionelt dashboard til at se servicehistorik, følge kommende arbejde og tilgå rapporter når som helst.",
+      "tabName": "Kundeportal",
+      "title": "Kundeportal",
+      "description": "Giv dine kunder en professionel portal til at se servicehistorik, følge kommende arbejde og tilgå rapporter når som helst.",
       "painPoints": [
         "Kunder ringer konstant og spørger efter opdateringer.",
-        "Ingen professionel måde at dele servicerapporter på.",
+        "Kvalitetsrapport sendes manuelt på mail",
         "Svært for kunder at verificere at arbejdet er udført."
       ],
       "solutions": [
-        "Branded dashboard hvor kunder ser realtids jobstatus.",
+        "Branded portal hvor kunder ser realtids jobstatus.",
         "Automatiske servicerapporter med billeder og tidsstempler.",
-        "Selvbetjeningsadgang til fakturaer og servicehistorik."
+        "Selvbetjeningsadgang til fakturaer og opgavehistorik"
       ]
     },
     "smartRouteBuilder": {
-      "tabName": "Smart Rutebygger",
-      "title": "Smart Rutebygger",
-      "description": "Byg optimerede ruter på sekunder. Vores smarte algoritme tager højde for lokation, prioritet og udstyr for at maksimere effektiviteten.",
+      "tabName": "Opgaveplanlægning",
+      "title": "Opgaveplanlægning",
+      "description": "Planlæg og tildel opgaver på sekunder. Vores smarte algoritme tager højde for lokation, prioritet og ressourcer for at maksimere effektiviteten.",
       "painPoints": [
-        "Ruter planlægges manuelt, hvilket spilder tid og brændstof.",
+        "Opgaver planlægges manuelt, hvilket spilder tid og ressourcer.",
         "Prioritetsområder bliver ofte overset eller serviceret for sent.",
-        "Ingen nem måde at justere ruter når forholdene ændrer sig."
+        "Ingen nem måde at justere planer når forholdene ændrer sig."
       ],
       "solutions": [
-        "AI-optimerede ruter baseret på lokation, prioritet og vejr.",
-        "Træk-og-slip ruteeditering med øjeblikkelig genberegning.",
+        "AI-optimeret planlægning baseret på lokation, prioritet og tilgængelighed.",
+        "Træk-og-slip opgaveplanlægning med øjeblikkelig genberegning.",
         "Automatisk rebalancering når nye opgaver tilføjes."
       ]
     },
     "drawingTool": {
-      "tabName": "Tegneværktøj",
-      "title": "Tegneværktøj",
-      "description": "Definer serviceområder med præcision ved hjælp af vores intuitive tegneværktøj. Markér indkørsler, gangstier, parkeringspladser og specialzoner på et kort.",
+      "tabName": "Kvalitetskontrol",
+      "title": "Kvalitetskontrol",
+      "description": "Opret skabeloner for afdelinger, og udfør nemt kvalitetsrapporter via telefonen. Når rapporterne er udført, kan rapporten sendes på mail, eller ses på kundedashboardet.",
       "painPoints": [
-        "Serviceområder beskrives vagt, hvilket fører til forvirring.",
-        "Nye medarbejdere ved ikke præcis hvor de skal servicere.",
-        "Tvister med kunder om hvilke områder der var inkluderet."
+        "Kvalitetsrapporter laves manuelt og sendes på mail.",
+        "Ingen ensartet skabelon for kvalitetskontrol på tværs af afdelinger.",
+        "Svært at bevise overfor kunder at arbejdet er udført korrekt."
       ],
       "solutions": [
-        "Tegn præcise servicegrænser på satellitbilleder.",
-        "Farvekod forskellige zoner (indkørsler, gangstier, osv.).",
-        "Medarbejdere ser præcise områder at servicere på deres mobil app."
+        "Opret skabeloner for hver afdeling og opgavetype.",
+        "Udfør kvalitetsrapporter direkte fra mobilen med fotos og tjeklister.",
+        "Send rapporten automatisk på mail eller del via kundedashboardet."
+      ]
+    },
+    "customerManagement": {
+      "tabName": "Kundeoverblik",
+      "title": "Kundeoverblik",
+      "description": "Få et samlet overblik over hver kunde - lokationer, opgaver, kvalitetsrapporter, serviceaftaler og kontakter samlet ét sted, så du altid ved hvad der sker.",
+      "painPoints": [
+        "Information om kunden ligger spredt i forskellige systemer.",
+        "Svært at få overblik over opgaver, rapporter og aftaler pr. kunde.",
+        "Tidskrævende at finde historikken når kunden ringer."
+      ],
+      "solutions": [
+        "Se alle lokationer, opgaver og rapporter for kunden i ét overblik.",
+        "Tilknyt serviceaftaler, kontakter og dokumenter direkte til kunden.",
+        "Følg al aktivitet på kunden i realtid - fra kontoret eller mobilen."
       ]
     }
   },
   "mobileApp": {
-    "badge": "Mobil App",
+    "badge": "Mobil app",
     "title": "Hele din drift i lommen",
-    "description": "Giv dine feltmedarbejdere en kraftfuld mobil app. Stem ind, navigér ruter, tag billeder og opdater opgavestatus - alt fra deres telefon.",
+    "description": "Giv dine medarbejdere en kraftfuld mobil app - start opgaver, tag billeder, opret kvalitetsrapporter og se vagter direkte på telefonen.",
     "appTagline": "Feltoperations App",
     "downloadOn": "Download i",
     "getItOn": "Hent den på",
+    "learnMore": "Læs mere om appen",
     "features": {
       "gpsTracking": {
         "title": "GPS Sporing",
         "description": "Realtids lokationssporing med automatisk ind/ud-stempling."
       },
       "revenueOverview": {
-        "title": "Omsætningsoverblik",
-        "description": "Følg indtjening og omsætning i realtid direkte fra din telefon."
+        "title": "Løn og akkord",
+        "description": "Se din løn og akkordindtjening i realtid direkte fra telefonen."
       },
       "photoCapture": {
         "title": "Billedoptagelse",
@@ -187,136 +216,159 @@
     }
   },
   "benefits": {
-    "title": "Hvorfor Vælge SnowManager?",
-    "subtitle": "Slut dig til hundredvis af snerydningsfirmaer der har transformeret deres operationer",
+    "title": "Hvorfor vælge SaberTask?",
+    "subtitle": "Slut dig til hundredvis af servicevirksomheder der har transformeret deres operationer",
     "efficiency": {
-      "title": "Spar 30% på Drift",
-      "description": "Optimerede ruter og bedre planlægning betyder mindre brændstof, mindre tid og flere opgaver gennemført per dag."
+      "title": "Spar 30% på drift",
+      "description": "Optimeret planlægning og bedre ressourcestyring betyder mindre spild, mindre tid og flere opgaver gennemført per dag."
     },
     "satisfaction": {
-      "title": "Gladere Kunder",
+      "title": "Gladere kunder",
       "description": "Realtidsopdateringer og professionel rapportering holder dine kunder informerede og tilfredse."
     },
     "growth": {
-      "title": "Skaler Din Virksomhed",
+      "title": "Skaler din virksomhed",
       "description": "Håndter flere kunder og områder uden at tilføje administrativt overhead."
     }
   },
   "pricing": {
-    "title": "Simpel, Gennemsigtig Prissætning",
-    "subtitle": "Vælg den plan der passer til din virksomhed. Ingen skjulte gebyrer.",
-    "metaDescription": "Udforsk SnowManagers prisplaner for snerydningsfirmaer i alle størrelser. Enkel og gennemsigtig prissætning uden skjulte gebyrer.",
-    "monthly": "Månedlig",
-    "yearly": "Årlig",
-    "savePercent": "Spar 20%",
-    "perMonth": "/måned",
-    "perYear": "/år",
-    "starter": {
-      "name": "Starter",
-      "description": "Perfekt til små operationer",
-      "price": "799",
-      "features": [
-        "Op til 5 køretøjer",
-        "Basis ruteplanlægning",
-        "Vejradvarsler",
-        "Email support"
-      ]
-    },
-    "professional": {
-      "name": "Professionel",
-      "description": "Til voksende virksomheder",
-      "price": "1.999",
-      "popular": "Mest Populær",
-      "features": [
-        "Op til 20 køretøjer",
-        "Avanceret ruteoptimering",
-        "Realtids GPS-sporing",
-        "Kunderapporteringsportal",
-        "Prioriteret support"
-      ]
+    "title": "Simpel og gennemsigtig prissætning",
+    "subtitle": "Vælg den plan der passer til dit team - ingen skjulte gebyrer.",
+    "metaDescription": "SaberTask-priser til servicevirksomheder i alle størrelser. Gennemsigtige priser pr. bruger, ingen skjulte gebyrer, 30 dages gratis prøve - skalér frit.",
+    "badge": "Priser",
+    "cta": "Book en demo",
+    "perUser": "/ bruger / måned",
+    "custom": "Tilpasset",
+    "vatNote": "Alle priser er eksl. moms",
+    "plans": {
+      "worker": {
+        "name": "Medarbejder",
+        "description": "Personale",
+        "features": [
+          "Adgang til mobil app",
+          "Stempling ind/ud med GPS",
+          "Daglig opgaveliste",
+          "Fotodokumentation",
+          "Live lønoverblik",
+          "Indbygget beskeder"
+        ]
+      },
+      "planning": {
+        "name": "Medarbejder med planlægning",
+        "description": "Teamledere / Underleverandører",
+        "extends": "Alt i Medarbejder",
+        "features": [
+          "Opret og tildel opgaver",
+          "Daglig planlægningskalender",
+          "Kvalitetsrapportering",
+          "Teamopgaveoverblik"
+        ]
+      },
+      "admin": {
+        "name": "Admin",
+        "description": "Kontor",
+        "extends": "Alt i Medarbejder med planlægning",
+        "features": [
+          "Fuld adgang til web-dashboard",
+          "Medarbejder- og vagtstyring",
+          "Kundehåndtering",
+          "Ruteoptimering og planlægning",
+          "Fakturering og betaling",
+          "Økonomisk overblik og lønstyring"
+        ]
+      }
     },
     "enterprise": {
       "name": "Enterprise",
-      "description": "Til store operationer",
-      "price": "Tilpasset",
+      "description": "Store virksomheder med avancerede behov og komplekse integrationer",
+      "extends": "Alt i Admin-planen",
       "features": [
-        "Ubegrænsede køretøjer",
-        "Tilpassede integrationer",
-        "Dedikeret account manager",
-        "24/7 telefonsupport",
-        "On-site træning"
+        "Tilpassede integrationer (f.eks. NAV, ServiceNow, andre enterprise-systemer)",
+        "Avancerede rapporterings- og konfigurationsmuligheder"
       ]
     },
-    "cta": "Start Gratis Prøveperiode",
-    "ctaEnterprise": "Kontakt Salg"
+    "metaTitle": "Priser - enkel, gennemsigtig prissætning | SaberTask"
   },
   "testimonials": {
-    "badge": "Udtalelser",
+    "badge": "Om os",
     "title": "Hvem vi er og hvad vores brugere siger om os",
-    "subtitle": "Betroet af servicevirksomheder på tværs af brancher",
+    "subtitle": "Bruges af servicevirksomheder på tværs af brancher",
     "featured": {
-      "quote": "Efter 20 år i servicestyring var vi frustrerede over at bruge 7+ forskellige værktøjer der ikke kommunikerede med hinanden. SnowManager blev bygget til at løse det — og spare virksomheder tid, penge og besvær.",
+      "quote": "Efter +20 år i servicebranchen var vi frustrerede over at bruge 7+ forskellige værktøjer der ikke kommunikerede med hinanden. SaberTask blev bygget til at løse det - og spare virksomheder tid, penge og besvær.",
       "author": "Sebastian & Martin",
-      "role": "Grundlæggere",
-      "company": "SnowManager"
+      "role": "Founders",
+      "company": "SaberTask"
     },
     "items": [
       {
-        "quote": "SnowManager har fuldstændig transformeret hvordan vi opererer. Vi håndterer nu 40% flere kunder med samme flådestørrelse.",
+        "quote": "SaberTask har fuldstændig transformeret hvordan vi opererer. Vi håndterer nu 40% flere kunder med samme holdstørrelse.",
         "author": "Michael Jensen",
         "role": "Ejer",
-        "company": "Nordic Snow Services"
+        "company": "ProService Solutions"
       },
       {
-        "quote": "Vejrintegrationen alene har sparet os utallige timer. Vi ved præcis hvornår vi skal sende vores hold ud nu.",
+        "quote": "Opgaveplanlægningen alene har sparet os utallige timer. Vi ved præcis hvornår vi skal sende vores hold ud nu.",
         "author": "Sarah Andersen",
         "role": "Driftschef",
-        "company": "WhiteOut Plowing"
+        "company": "CleanTeam DK"
       },
       {
         "quote": "Vores kunder elsker at få realtidsopdateringer. Det har løftet vores professionalisme til et helt nyt niveau.",
         "author": "Thomas Nielsen",
         "role": "CEO",
-        "company": "Clear Path Solutions"
+        "company": "GreenPath Facility Services"
       },
       {
         "quote": "Rapporteringsfunktionerne gør fakturering til en leg. Hvad der plejede at tage timer tager nu minutter.",
         "author": "Emma Larsen",
         "role": "Kontorchef",
-        "company": "Snowfall Removal"
+        "company": "Facility Group DK"
       }
     ]
   },
   "faq": {
-    "title": "Ofte Stillede Spørgsmål",
+    "title": "Ofte stillede spørgsmål",
     "subtitle": "Har du spørgsmål? Vi har svar.",
-    "metaDescription": "Find svar på ofte stillede spørgsmål om SnowManager. Læs om prøveperioder, planer, datasikkerhed, træning og support.",
+    "metaDescription": "Ofte stillede spørgsmål om SaberTask besvaret. Læs om vores gratis prøveperiode, planer, datasikkerhed, træning og support til din servicevirksomhed.",
     "items": [
       {
         "question": "Hvordan fungerer den gratis prøveperiode?",
-        "answer": "Du får fuld adgang til alle Professionel-funktioner i 14 dage, intet kreditkort påkrævet. Ved slutningen af din prøveperiode kan du vælge den plan der passer bedst til dine behov."
+        "answer": "Du får 30 dages fuld adgang til SaberTask, helt gratis. Alt er inkluderet - web-dashboard, mobilapp, alle brugertyper. Ved prøveperiodens udløb fortsætter du blot med et betalt abonnement, eller din konto deaktiveres."
       },
       {
-        "question": "Kan jeg skifte plan senere?",
-        "answer": "Absolut! Du kan opgradere eller nedgradere din plan når som helst. Ændringer træder i kraft ved starten af din næste faktureringsperiode."
+        "question": "Hvordan fungerer prissætningen?",
+        "answer": "Der er ingen separate planer eller niveauer. Du betaler pr. bruger pr. måned baseret på deres rolle: Medarbejder, Medarbejder med planlægning eller Admin. Du betaler kun for de brugere du har - tilføj eller fjern brugere når som helst, og din regning justeres automatisk."
       },
-{
+      {
+        "question": "Er der en mindste kontraktperiode?",
+        "answer": "Nej. SaberTask faktureres månedligt uden binding. Du kan opsige når som helst og bliver ikke opkrævet for den følgende måned."
+      },
+      {
+        "question": "Hvad er inkluderet for hver brugertype?",
+        "answer": "Medarbejdere får mobilappen med stempling, opgaveliste, billeder, chat og live lønoverblik. Medarbejdere med planlægning kan derudover oprette opgaver, planlægge dagen og lave kvalitetsrapportering. Admins får fuld web-dashboard adgang inkl. medarbejderhåndtering, kundehåndtering, ruteplanlægning, fakturering og løn."
+      },
+      {
         "question": "Er mine data sikre?",
-        "answer": "Ja, vi bruger kryptering på bankniveau og er fuldt GDPR-kompatible. Dine data sikkerhedskopieres dagligt og opbevares sikkert i europæiske datacentre."
+        "answer": "Ja, dine data er i trygge hænder. Alt gemmes i Microsoft Azures EU-datacentre og forlader som udgangspunkt ikke EU. Vi bruger kryptering på bankniveau (AES-256) både når data ligger på vores servere, og når de sendes til og fra din enhed (TLS). Hver kunde har sit eget isolerede dataområde, så ingen andre kan tilgå dine data - det sikres automatisk på databaseniveau, ikke kun i koden. Adgang styres via roller (medarbejder, planlægger, admin), så hver bruger kun ser det de skal bruge. Vi er fuldt GDPR-kompatible og tager dagligt sikkerhedskopier."
       },
       {
-        "question": "Tilbyder I træning?",
-        "answer": "Alle planer inkluderer adgang til vores videotutorials og vidensbase. Professionel og Enterprise planer inkluderer live onboarding-sessioner."
+        "question": "Tilbyder I onboarding og træning?",
+        "answer": "Alle nye kunder får en personlig onboarding-session, hvor vi hjælper med at sætte kontoen op, importere data og træne dit team. Vi tilbyder også løbende support via email og telefon."
       },
       {
-        "question": "Hvad hvis jeg har brug for hjælp?",
-        "answer": "Vi tilbyder email support på alle planer, prioriteret support for Professionel, og 24/7 telefonsupport for Enterprise-kunder."
+        "question": "Kan jeg integrere SaberTask med mit regnskabssystem?",
+        "answer": "Ja. SaberTask understøtter CSV- og Excel-eksport til ethvert regnskabssystem, plus direkte integration med Dinero, e-conomic, Microsoft Dynamics NAV og QuickBooks."
+      },
+      {
+        "question": "Virker mobilappen på både iOS og Android?",
+        "answer": "Ja. SaberTask mobilappen er tilgængelig på både App Store og Google Play."
       }
-    ]
+    ],
+    "metaTitle": "Ofte stillede spørgsmål | SaberTask"
   },
   "contact": {
-    "title": "Kontakt Os",
-    "subtitle": "Klar til at transformere din snerydningsvirksomhed? Lad os tale.",
+    "title": "Kontakt os",
+    "subtitle": "Klar til at transformere din servicevirksomhed? Lad os tale.",
     "form": {
       "name": "Dit Navn",
       "email": "Email Adresse",
@@ -329,17 +381,18 @@
     },
     "info": {
       "title": "Kontaktinformation",
-      "email": "sebastian@snowmanager.com",
+      "email": "sebastian@sabertask.com",
       "phone": "+45 32 33 05 20"
     }
   },
   "footer": {
-    "description": "Den komplette platform til moderne snerydningsoperationer.",
+    "description": "Den komplette platform til moderne servicevirksomheder.",
     "product": {
       "title": "Produkt",
       "features": "Funktioner",
       "pricing": "Priser",
-      "demo": "Book Demo"
+      "demo": "Book Demo",
+      "iPhoneApp": "iPhone App"
     },
     "company": {
       "title": "Virksomhed",
@@ -353,28 +406,28 @@
       "privacy": "Privatlivspolitik",
       "terms": "Handelsbetingelser"
     },
-    "copyright": "© 2024 SnowManager. Alle rettigheder forbeholdes."
+    "copyright": "© 2025 SaberTask. Alle rettigheder forbeholdes."
   },
   "about": {
-    "title": "Om SnowManager",
-    "subtitle": "Vi er på en mission for at gøre snerydningsoperationer mere effektive og professionelle.",
+    "title": "Om SaberTask",
+    "subtitle": "Vi er på en mission for at gøre serviceoperationer mere effektive og professionelle.",
     "story": {
-      "title": "Vores Historie",
-      "content": "SnowManager blev født ud af førstehåndserfaring i snerydningsbranchen. Vores grundlæggere brugte år på at administrere snerydningsoperationer og så de udfordringer der følger med koordinering af hold, styring af ruter og information til kunder. Vi byggede SnowManager for at løse disse problemer med moderne teknologi der faktisk er nem at bruge."
+      "title": "Vores historie",
+      "content": "SaberTask blev født ud af førstehåndserfaring i servicebranchen. Vores grundlæggere brugte år på at administrere serviceoperationer og så de udfordringer der følger med koordinering af hold, styring af opgaver og information til kunder. Vi byggede SaberTask for at løse disse problemer med moderne teknologi der faktisk er nem at bruge."
     },
     "mission": {
-      "title": "Vores Mission",
-      "content": "At styrke snerydningsprofessionelle med de værktøjer de har brug for til at drive mere effektive, profitable og professionelle operationer."
+      "title": "Vores mission",
+      "content": "At styrke servicevirksomheder med de værktøjer de har brug for til at drive mere effektive, profitable og professionelle operationer - uanset om det er rengøring, havearbejde, snerydning, facility management eller kommunale tjenester."
     },
     "values": {
-      "title": "Vores Værdier",
+      "title": "Vores værdier",
       "simplicity": {
         "title": "Enkelhed",
         "description": "Teknologi skal gøre dit liv nemmere, ikke sværere."
       },
       "reliability": {
         "title": "Pålidelighed",
-        "description": "Når sneen begynder at falde, kan du regne med os."
+        "description": "Når opgaverne kalder, kan du regne med os."
       },
       "partnership": {
         "title": "Partnerskab",
@@ -384,38 +437,67 @@
   },
   "blog": {
     "title": "Blog",
-    "subtitle": "Indsigt, tips og nyheder om vinterdrift og servicestyring.",
+    "subtitle": "Indsigt, tips og nyheder om drift af servicevirksomheder.",
     "noPosts": "Ingen indlæg endnu. Kom tilbage snart!",
     "readMore": "Læs mere",
     "backToBlog": "Tilbage til Blog",
-    "pageTitle": "Blog - SnowManager",
-    "pageDescription": "Læs de seneste indsigter, tips og nyheder om vinterdrift og servicestyring fra SnowManager-teamet.",
-    "metaDescription": "Læs indsigter, tips og nyheder om vinterdrift og snerydning fra SnowManager-teamet. Hold dig opdateret og klar til sæsonen."
+    "pageTitle": "Blog - SaberTask",
+    "pageDescription": "Læs de seneste indsigter, tips og nyheder om drift af servicevirksomheder fra SaberTask-teamet.",
+    "metaDescription": "Indsigter, tips og nyheder om drift af servicevirksomheder - rengøring, haveservice, facility og vinterservice. Praktiske råd fra SaberTask-teamet.",
+    "metaTitle": "Blog - Indsigter om servicevirksomheder | SaberTask"
+  },
+  "industries": {
+    "badge": "Brancher",
+    "titleHighlight": "Målrettede løsninger",
+    "titleEnd": "til din branche",
+    "subtitle": "SaberTask er bygget til at løse de unikke udfordringer, som servicevirksomheder står overfor. Se hvordan vi hjælper hver branche.",
+    "cta": "Book en demo",
+    "learnMore": "Læs mere",
+    "cleaning": {
+      "title": "Rengøring",
+      "description": "Automatiser planlægning, styr medarbejdernes vagter og optimer dit interne arbejde."
+    },
+    "facility": {
+      "title": "Facility management",
+      "description": "Centraliserer vedligeholdelse, automatiserer arbejdsflow og forbedrer processer."
+    },
+    "window": {
+      "title": "Vinduespolering",
+      "description": "Smart planlægning og detaljerede arbejdsbeskrivelser med fotorapporter."
+    },
+    "winter": {
+      "title": "Vinterservice",
+      "description": "Optimerede ruter med GPS-sporing og automatisk dokumentation."
+    },
+    "landscaping": {
+      "title": "Ejendomsservice",
+      "description": "Sæsonbaseret automatisk planlægning og effektiv mandskabsallokering."
+    }
   },
   "cta": {
-    "title": "Klar til at Komme i Gang?",
-    "subtitle": "Slut dig til hundredvis af snerydningsfirmaer der allerede bruger SnowManager.",
-    "button": "Start Din Gratis Prøveperiode"
+    "title": "Prøv SaberTask gratis i 30 dage",
+    "subtitle": "Fuld adgang til alt - web-dashboard, mobilapp, alle brugertyper. Intet kreditkort nødvendigt. Opret din første kunde på få minutter.",
+    "button": "Book en demo"
   },
   "privacyPolicy": {
     "title": "Privatlivspolitik",
     "lastUpdated": "Sidst opdateret: Januar 2025",
-    "intro": "Hos SnowManager tager vi dit privatliv alvorligt. Denne privatlivspolitik forklarer, hvordan vi indsamler, bruger, videregiver og beskytter dine oplysninger, når du bruger vores tjeneste.",
-    "metaDescription": "Læs hvordan SnowManager indsamler, bruger og beskytter dine data. Vi er fuldt GDPR-kompatible med kryptering på bankniveau.",
+    "intro": "Hos SaberTask tager vi dit privatliv alvorligt. Denne privatlivspolitik forklarer, hvordan vi indsamler, bruger, videregiver og beskytter dine oplysninger, når du bruger vores tjeneste.",
+    "metaDescription": "Sådan indsamler, bruger og beskytter SaberTask dine data. Fuldt GDPR-kompatibel med kryptering på bankniveau og multi-tenant dataisolering.",
     "dataCollection": {
-      "title": "Oplysninger Vi Indsamler",
+      "title": "Oplysninger vi indsamler",
       "content": "Vi indsamler oplysninger, som du giver os direkte, f.eks. når du opretter en konto, bruger vores tjenester eller kontakter os for support. Dette kan omfatte dit navn, e-mailadresse, firmanavn, telefonnummer og betalingsoplysninger. Vi indsamler også automatisk visse oplysninger, når du bruger vores tjenester, herunder enhedsoplysninger, IP-adresse og brugsdata."
     },
     "dataUsage": {
-      "title": "Hvordan Vi Bruger Dine Oplysninger",
+      "title": "Hvordan vi bruger dine oplysninger",
       "content": "Vi bruger de oplysninger, vi indsamler, til at levere, vedligeholde og forbedre vores tjenester, behandle transaktioner, sende dig tekniske meddelelser og supportbeskeder samt besvare dine kommentarer og spørgsmål. Vi kan også bruge dine oplysninger til at sende dig salgsfremmende kommunikation, selvom du til enhver tid kan framelde dig."
     },
     "dataSharing": {
-      "title": "Deling af Oplysninger",
+      "title": "Deling af oplysninger",
       "content": "Vi sælger, bytter eller udlejer ikke dine personlige oplysninger til tredjeparter. Vi kan dele dine oplysninger med tjenesteudbydere, der hjælper os med at drive vores platform, udføre vores forretning eller betjene vores brugere. Vi kan også dele oplysninger, når det kræves ved lov eller for at beskytte vores rettigheder."
     },
     "cookies": {
-      "title": "Cookies og Sporing",
+      "title": "Cookies og sporing",
       "content": "Vi bruger cookies og lignende sporingsteknologier til at spore aktivitet på vores tjeneste og gemme visse oplysninger. Cookies er filer med en lille mængde data, der sendes til din browser fra et websted og gemmes på din enhed. Du kan instruere din browser til at afvise alle cookies eller angive, når en cookie sendes."
     },
     "security": {
@@ -423,67 +505,2553 @@
       "content": "Vi implementerer passende tekniske og organisatoriske sikkerhedsforanstaltninger for at beskytte dine personlige oplysninger. Vi bruger kryptering på bankniveau og er fuldt GDPR-kompatible. Dine data sikkerhedskopieres dagligt og opbevares sikkert i europæiske datacentre. Dog er ingen metode til transmission over internettet 100% sikker."
     },
     "rights": {
-      "title": "Dine Rettigheder",
+      "title": "Dine rettigheder",
       "content": "Du har ret til at få adgang til, rette eller slette dine personlige oplysninger. Du kan også have ret til at begrænse eller gøre indsigelse mod visse behandlinger af dine data. For at udøve disse rettigheder, kontakt os venligst via oplysningerne nedenfor. Hvis du befinder dig i Det Europæiske Økonomiske Samarbejdsområde, har du ret til at indgive en klage til en tilsynsmyndighed."
     },
     "contact": {
-      "title": "Kontakt Os",
-      "content": "Hvis du har spørgsmål om denne privatlivspolitik, kontakt os venligst på <email>sebastian@snowmanager.com</email>."
-    }
+      "title": "Kontakt os",
+      "content": "Hvis du har spørgsmål om denne privatlivspolitik, kontakt os venligst på <email>sebastian@sabertask.com</email>."
+    },
+    "metaTitle": "Privatlivspolitik | SaberTask"
   },
   "terms": {
     "title": "Handelsbetingelser",
     "lastUpdated": "Sidst opdateret: Januar 2025",
-    "intro": "Disse forretningsbetingelser (\"Forretningsbetingelserne\") gælder som aftaleforhold mellem kunden (\"Kunden\") og SaberTask LDA, cvr. nummer: PT518467546 (\"WinterManager\").",
-    "metaDescription": "Læs handelsbetingelserne for brug af SnowManager. Se vores serviceaftaler, priser, datasikkerhed og dine rettigheder.",
+    "intro": "Disse forretningsbetingelser (\"Forretningsbetingelserne\") gælder som aftaleforhold mellem kunden (\"Kunden\") og SaberTask LDA, cvr. nummer: PT518467546 (\"SaberTask\").",
+    "metaDescription": "Handelsbetingelser for brug af SaberTask. Serviceaftaler, priser, datasikkerhed, drift, ansvar og dine rettigheder som kunde.",
     "companyInfo": "SaberTask LDA, CVR-nummer: PT518467546, Rua das Violetas n 145, Cascais, Lisboa, Portugal",
     "service": {
       "title": "Serviceydelsen",
-      "content": "WinterManager stiller en software til rådighed via sin hjemmeside, mobile platforme eller lignende (\"Softwaren\"), som muliggør, at Kunden via selvbetjening kan administrere og optimere vinterdrift. Kunden kan administrere kunder, adresser, underleverandører og ruter (i et hele benævnt \"Serviceydelsen\").\n\nOmfanget af Serviceydelsen defineres på baggrund af Kundens valg af servicepakke, som kan indeholde flere eller færre funktioner (\"Servicepakken\"). Valget foretages i samarbejde med WinterManager, og vil fremgå på aftalebrevet.\n\nIgennem forretningsforholdet mellem Kunden og WinterManager opnår Kunden en adgang til at anvende Softwaren, som ikke er eksklusiv. Kunden kommer således ikke til at eje Softwaren eller Serviceydelserne eller en kopi eller del heraf.\n\nAdgangen til at anvende Serviceydelsen, herunder Softwaren, kan alene ske til brug for Kundens formål og gælder udelukkende for Kunden og dennes underleverandører. Ved tilmelding til Serviceydelsen skal både Kunden og dennes underleverandører have deres eget unikke brugernavn og kodeord. Det er Kundens pligt at sikre, at Kunden og underleverandører opretholder den fornødne sikkerhed for at beskytte brugernavn og kodeord for at forhindre misbrug m.v. af Serviceydelsen."
+      "content": "SaberTask stiller en software til rådighed via sin hjemmeside, mobile platforme eller lignende (\"Softwaren\"), som muliggør, at Kunden via selvbetjening kan administrere og optimere serviceoperationer. Kunden kan administrere kunder, adresser, underleverandører og opgaver (i et hele benævnt \"Serviceydelsen\").\n\nOmfanget af Serviceydelsen defineres på baggrund af Kundens valg af servicepakke, som kan indeholde flere eller færre funktioner (\"Servicepakken\"). Valget foretages i samarbejde med SaberTask, og vil fremgå på aftalebrevet.\n\nIgennem forretningsforholdet mellem Kunden og SaberTask opnår Kunden en adgang til at anvende Softwaren, som ikke er eksklusiv. Kunden kommer således ikke til at eje Softwaren eller Serviceydelserne eller en kopi eller del heraf.\n\nAdgangen til at anvende Serviceydelsen, herunder Softwaren, kan alene ske til brug for Kundens formål og gælder udelukkende for Kunden og dennes underleverandører. Ved tilmelding til Serviceydelsen skal både Kunden og dennes underleverandører have deres eget unikke brugernavn og kodeord. Det er Kundens pligt at sikre, at Kunden og underleverandører opretholder den fornødne sikkerhed for at beskytte brugernavn og kodeord for at forhindre misbrug m.v. af Serviceydelsen."
     },
     "acceptance": {
-      "title": "Accept og Tilladelse",
-      "content": "Ved Kundens registrering på WinterManagers platform accepterer Kunden Forretningsbetingelserne for Serviceydelsen, og som det gældende aftaleforhold mellem Kunden og WinterManager. Forretningsbetingelserne gælder også for tredjemand, som på vegne af Kunden måtte udføre arbejde i relation til Serviceydelsen.\n\nServiceydelsen herunder tillægsydelser ydes til Kunden i egenskab af forretningsdrivende, herunder også selvom Kundens medarbejdere opnår adgang til hele eller dele af Softwaren.\n\nKunden samtykker til, at WinterManager og dets Tredjeparter kan foretage markedsføring overfor Kunden og Underleverandører. Kunden kan skriftlig tilbagekalde sådant samtykke.\n\nKunden accepterer WinterManagers øvrige politikker, herunder politik for persondata og Cookies, som er tilgængelige i den til enhver tid gældende udgave på WinterManagers hjemmeside. De øvrige politikker skal ses som værende en integreret del af disse Forretningsbetingelser."
+      "title": "Accept og tilladelse",
+      "content": "Ved Kundens registrering på SaberTasks platform accepterer Kunden Forretningsbetingelserne for Serviceydelsen, og som det gældende aftaleforhold mellem Kunden og SaberTask. Forretningsbetingelserne gælder også for tredjemand, som på vegne af Kunden måtte udføre arbejde i relation til Serviceydelsen.\n\nServiceydelsen herunder tillægsydelser ydes til Kunden i egenskab af forretningsdrivende, herunder også selvom Kundens medarbejdere opnår adgang til hele eller dele af Softwaren.\n\nKunden samtykker til, at SaberTask og dets Tredjeparter kan foretage markedsføring overfor Kunden og Underleverandører. Kunden kan skriftlig tilbagekalde sådant samtykke.\n\nKunden accepterer SaberTasks øvrige politikker, herunder politik for persondata og Cookies, som er tilgængelige i den til enhver tid gældende udgave på SaberTasks hjemmeside. De øvrige politikker skal ses som værende en integreret del af disse Forretningsbetingelser."
     },
     "thirdParties": {
       "title": "Tredjeparter",
-      "content": "For at kunne levere Serviceydelsen og eventuelle tillægsydelser kan WinterManager gøre brug af leverandører og lignende forretningspartnere (\"Tredjeparter\"). Kunden accepterer og tillader, at informationer der uploades i forbindelse med Serviceydelsen kan blive behandlet af og udvekslet med Tredjeparter, som arbejder med WinterManager, forudsat at WinterManager har indgået databehandleraftale med de relevante Tredjeparter.\n\nSåfremt Tredjeparter tilbyder tillægsydelser via WinterManagers API, er brugen af tillægsydelserne underlagt den pågældende Tredjeparts vilkår. Kunden fritager WinterManager for ethvert ansvar i forbindelse med brug af sådanne Tredjeparters tillægsydelser."
+      "content": "For at kunne levere Serviceydelsen og eventuelle tillægsydelser kan SaberTask gøre brug af leverandører og lignende forretningspartnere (\"Tredjeparter\"). Kunden accepterer og tillader, at informationer der uploades i forbindelse med Serviceydelsen kan blive behandlet af og udvekslet med Tredjeparter, som arbejder med SaberTask, forudsat at SaberTask har indgået databehandleraftale med de relevante Tredjeparter.\n\nSåfremt Tredjeparter tilbyder tillægsydelser via SaberTasks API, er brugen af tillægsydelserne underlagt den pågældende Tredjeparts vilkår. Kunden fritager SaberTask for ethvert ansvar i forbindelse med brug af sådanne Tredjeparters tillægsydelser."
     },
     "customerResponsibilities": {
-      "title": "Kundens Pligter og Ansvar",
-      "content": "Det er udelukkende Kunden, herunder dennes Underleverandører, som er ansvarlige for rigtigheden og kvaliteten af de informationer som registreres og benyttes i Softwaren. Kunden skal selvstændigt sikre sig, at informationerne er registreret korrekt i Softwaren. Det er Kundens ansvar at sikre, at informationerne, der bruges i Serviceydelsen, til enhver tid er ajourført korrekt.\n\nAdgang til personlige informationer ved for eksempel at indtaste cpr. nummer kan være strafbart og erstatningspådragende. Det er Kundens ansvar at sikre, at Kunden og dennes medarbejdere ikke skaffer sig uautoriseret adgang til personlige informationer. Overtrædelse heraf kan medføre øjeblikkelig ophævelse af aftaleforholdet.\n\nKunden må ikke give andre adgang til Serviceydelsen, herunder Softwaren, uden at vedkommende har en direkte aftale med WinterManager.\n\nDet er Kundens ansvar, at Serviceydelsen ikke bliver anvendt på en måde, som er i strid med relevant lovgivning eller anden regulering, eller at WinterManagers navn, omdømme eller goodwill lider skade. Overtrædelse heraf kan medføre øjeblikkelig ophævelse af aftaleforholdet.\n\nVed Kundens accept af Forretningsbetingelserne bekræftes det samtidig, at Kunden ikke er i konkurrence med WinterManager. Alt software, design, arkitektur, tekst og lignende er beskyttet af ophavsretten."
+      "title": "Kundens pligter og ansvar",
+      "content": "Det er udelukkende Kunden, herunder dennes Underleverandører, som er ansvarlige for rigtigheden og kvaliteten af de informationer som registreres og benyttes i Softwaren. Kunden skal selvstændigt sikre sig, at informationerne er registreret korrekt i Softwaren. Det er Kundens ansvar at sikre, at informationerne, der bruges i Serviceydelsen, til enhver tid er ajourført korrekt.\n\nAdgang til personlige informationer ved for eksempel at indtaste cpr. nummer kan være strafbart og erstatningspådragende. Det er Kundens ansvar at sikre, at Kunden og dennes medarbejdere ikke skaffer sig uautoriseret adgang til personlige informationer. Overtrædelse heraf kan medføre øjeblikkelig ophævelse af aftaleforholdet.\n\nKunden må ikke give andre adgang til Serviceydelsen, herunder Softwaren, uden at vedkommende har en direkte aftale med SaberTask.\n\nDet er Kundens ansvar, at Serviceydelsen ikke bliver anvendt på en måde, som er i strid med relevant lovgivning eller anden regulering, eller at SaberTasks navn, omdømme eller goodwill lider skade. Overtrædelse heraf kan medføre øjeblikkelig ophævelse af aftaleforholdet.\n\nVed Kundens accept af Forretningsbetingelserne bekræftes det samtidig, at Kunden ikke er i konkurrence med SaberTask. Alt software, design, arkitektur, tekst og lignende er beskyttet af ophavsretten."
     },
     "pricing": {
-      "title": "Pris og Betalingsvilkår",
-      "content": "Afhængig af Kundens valg af Servicepakke vil prisen være afstemt derefter. Endvidere kan prisen stige ved valg af tillægsydelser. Prisen for Servicepakkerne vil være oplyst eksklusive moms og findes i aftalebrevet.\n\nWinterManager kan ændre priserne med en måneds varsel. Ændringer i valutakurser, afgifter, forsikring, nettoprisindekset og omkostninger til Tredjeparter medfører, at WinterManager kan justere priserne. Ved en sådan ændring kan Kunden blive adviseret herom via WinterManagers Hjemmeside eller e-mail. Såfremt Kunden ikke er enig i en ændring af prisen, kan Kunden opsige aftaleforholdet med øjeblikkelig virkning, dog således, at Kunden fortsat skal betale for faktisk foretaget brug af Serviceydelsen indtil ophør.\n\nEfter hver måned med brug af platformen, vil Serviceydelsen automatisk generere en faktura til Kunden. Det fakturerede beløb vil blive betalt af Kunden til WinterManager igennem den tilmeldte betalingsløsning anerkendt af WinterManager.\n\nSæsongebyret faktureres én gang årligt den 1. november for alle aktive lokationer. For lokaliteter, der påbegyndes efter sæsonstart, faktureres sæsongebyret hurtigst muligt efter tilføjelse, beregnet forholdsmæssigt ud fra resterende sæsontid. Alle sæsongebyrer er bindende for den valgte periode og refunderes ikke ved opsigelse midt i sæsonen.\n\nSåfremt Kunden ikke betaler det fakturerede beløb rettidigt, kan WinterManager iværksætte en rykkerprocedure. Såfremt den manglende betaling fortsætter, kan adgangen til Serviceydelsen spærres.\n\nVed for sen betaling tillægges en rente af det forfaldne beløb med 2,75% pr. måned fra forfaldstid og til betaling sker."
+      "title": "Pris og betalingsvilkår",
+      "content": "Afhængig af Kundens valg af Servicepakke vil prisen være afstemt derefter. Endvidere kan prisen stige ved valg af tillægsydelser. Prisen for Servicepakkerne vil være oplyst eksklusive moms og findes i aftalebrevet.\n\nSaberTask kan ændre priserne med en måneds varsel. Ændringer i valutakurser, afgifter, forsikring, nettoprisindekset og omkostninger til Tredjeparter medfører, at SaberTask kan justere priserne. Ved en sådan ændring kan Kunden blive adviseret herom via SaberTasks Hjemmeside eller e-mail. Såfremt Kunden ikke er enig i en ændring af prisen, kan Kunden opsige aftaleforholdet med øjeblikkelig virkning, dog således, at Kunden fortsat skal betale for faktisk foretaget brug af Serviceydelsen indtil ophør.\n\nEfter hver måned med brug af platformen, vil Serviceydelsen automatisk generere en faktura til Kunden. Det fakturerede beløb vil blive betalt af Kunden til SaberTask igennem den tilmeldte betalingsløsning anerkendt af SaberTask.\n\nAbonnementsgebyret faktureres i henhold til den valgte faktureringsperiode. For abonnementer, der påbegyndes midt i en periode, faktureres gebyret forholdsmæssigt ud fra resterende tid. Alle abonnementsgebyrer er bindende for den valgte periode og refunderes ikke ved opsigelse midt i perioden.\n\nSåfremt Kunden ikke betaler det fakturerede beløb rettidigt, kan SaberTask iværksætte en rykkerprocedure. Såfremt den manglende betaling fortsætter, kan adgangen til Serviceydelsen spærres.\n\nVed for sen betaling tillægges en rente af det forfaldne beløb med 2,75% pr. måned fra forfaldstid og til betaling sker."
     },
     "dataAndSecurity": {
-      "title": "Informationer og Sikkerhed",
-      "content": "Informationer, herunder informationer om adresser og underleverandører, som er registreret i Serviceydelsen, er Kundens ejendom. Kunden kan kræve at få de registrerede informationer udleveret i et elektronisk format valgt af WinterManager. Ved Forretningsbetingelsernes ophør vil Kunden have adgang til informationerne i seks måneder, hvorefter WinterManager kan slette informationerne permanent.\n\nWinterManager har truffet de fornødne sikkerhedsforanstaltninger mod, at informationerne brugt i Serviceydelsen ulovligt eller hændeligt forringes, fortabes, eller tilintetgøres, samt mod, at informationerne misbruges, kommer til uvedkommendes kendskab eller behandles i strid med lov om behandling af personoplysninger.\n\nVed brug af Serviceydelsen, hvor Kunden anvender informationer, brugernavne eller kodeord, som stammer fra tredjemand, indestår Kunden for, at videregivelse af sådanne informationer og WinterManagers databehandling af sådanne informationer ikke krænker rettigheder eller aftale med tredjemand. Kunden skadesløsholder WinterManager for ethvert tab som følge af denne bestemmelse."
+      "title": "Informationer og sikkerhed",
+      "content": "Informationer, herunder informationer om adresser og underleverandører, som er registreret i Serviceydelsen, er Kundens ejendom. Kunden kan kræve at få de registrerede informationer udleveret i et elektronisk format valgt af SaberTask. Ved Forretningsbetingelsernes ophør vil Kunden have adgang til informationerne i seks måneder, hvorefter SaberTask kan slette informationerne permanent.\n\nSaberTask har truffet de fornødne sikkerhedsforanstaltninger mod, at informationerne brugt i Serviceydelsen ulovligt eller hændeligt forringes, fortabes, eller tilintetgøres, samt mod, at informationerne misbruges, kommer til uvedkommendes kendskab eller behandles i strid med lov om behandling af personoplysninger.\n\nVed brug af Serviceydelsen, hvor Kunden anvender informationer, brugernavne eller kodeord, som stammer fra tredjemand, indestår Kunden for, at videregivelse af sådanne informationer og SaberTasks databehandling af sådanne informationer ikke krænker rettigheder eller aftale med tredjemand. Kunden skadesløsholder SaberTask for ethvert tab som følge af denne bestemmelse."
     },
     "changes": {
-      "title": "Ændringer og Overdragelse",
-      "content": "Ændringer af Serviceydelsen og tillægsydelser kan foretages af WinterManager. Endvidere er WinterManager berettiget til at ændre formen og strukturen af Serviceydelsen. Enhver ændring kan ske med eller uden varsel.\n\nForretningsbetingelserne kan til enhver tid ændres af WinterManager uden varsel til Kunden, så længe kunden oplyses skriftligt om ændringer. Forretningsbetingelserne er tilgængelige på WinterManagers hjemmeside. Ved Kundens fortsatte brug af Serviceydelsen efter ændringer betragtes ændringerne som accepteret.\n\nRettigheder og pligter, som er givet til WinterManager ved disse Forretningsbetingelser, kan WinterManager overdrage helt eller delvist til koncernforbundne virksomheder eller tredjemand.\n\nKunden har ikke ret til hverken helt eller delvist at overdrage rettigheder og pligter samt adgang til Serviceydelsen til tredjemand."
+      "title": "Ændringer og overdragelse",
+      "content": "Ændringer af Serviceydelsen og tillægsydelser kan foretages af SaberTask. Endvidere er SaberTask berettiget til at ændre formen og strukturen af Serviceydelsen. Enhver ændring kan ske med eller uden varsel.\n\nForretningsbetingelserne kan til enhver tid ændres af SaberTask uden varsel til Kunden, så længe kunden oplyses skriftligt om ændringer. Forretningsbetingelserne er tilgængelige på SaberTasks hjemmeside. Ved Kundens fortsatte brug af Serviceydelsen efter ændringer betragtes ændringerne som accepteret.\n\nRettigheder og pligter, som er givet til SaberTask ved disse Forretningsbetingelser, kan SaberTask overdrage helt eller delvist til koncernforbundne virksomheder eller tredjemand.\n\nKunden har ikke ret til hverken helt eller delvist at overdrage rettigheder og pligter samt adgang til Serviceydelsen til tredjemand."
     },
     "intellectualProperty": {
-      "title": "Immaterielle Rettigheder",
-      "content": "Med undtagelse af Kundens informationer, som Kunden eller WinterManager har registreret eller indtastet i systemet, er Softwaren og de informationer, som Softwaren genererer, beskyttet af ophavsret og andre immaterielle rettigheder og tilhører eller er licenseret til WinterManager. Ved Serviceydelsen modtager Kunden alene en brugsret.\n\nVed enhver mistanke om en krænkelse eller reel krænkelse af WinterManagers immaterielle rettigheder eller uautoriseret brug af Serviceydelsen, som Kunden får kendskab til, skal Kunden give meddelelse til WinterManager.\n\nDe informationer, som Kunden og dennes Underleverandører registrerer, tilhører Kunden og/eller dennes Underleverandører."
+      "title": "Immaterielle rettigheder",
+      "content": "Med undtagelse af Kundens informationer, som Kunden eller SaberTask har registreret eller indtastet i systemet, er Softwaren og de informationer, som Softwaren genererer, beskyttet af ophavsret og andre immaterielle rettigheder og tilhører eller er licenseret til SaberTask. Ved Serviceydelsen modtager Kunden alene en brugsret.\n\nVed enhver mistanke om en krænkelse eller reel krænkelse af SaberTasks immaterielle rettigheder eller uautoriseret brug af Serviceydelsen, som Kunden får kendskab til, skal Kunden give meddelelse til SaberTask.\n\nDe informationer, som Kunden og dennes Underleverandører registrerer, tilhører Kunden og/eller dennes Underleverandører."
     },
     "liability": {
-      "title": "WinterManagers Ansvar og Tavshedspligt",
-      "content": "Serviceydelsen stilles til rådighed af WinterManager i den til enhver tid værende stand. WinterManager fraskriver sig enhver garanti, tilsikring, indeståelse eller andre vilkår, udover hvad der fremgår af disse Forretningsbetingelser.\n\nI forbindelse med Kundens brug af Serviceydelsen fraskriver WinterManager sig ethvert ansvar for tab, som Kunden måtte pådrage sig herved, uanset om et sådant tab måtte opstå i eller udenfor kontrakt, om der er tale om følgeskader eller andre indirekte tab, driftstab, tab begrundet i produktansvar, informationstab eller øvrige tab som følge af simpel uagtsomhed.\n\nKunden har en pligt til at meddele WinterManager om fejl ved Serviceydelsen. WinterManager er alene pligtig at rette fejlen, som Kunden eller WinterManager er blevet opmærksom på.\n\nKunden accepterer, at uanset hvilket tab eller ansvarsgrundlag som Kunden har lidt, kan WinterManagers samlede ansvar maksimalt andrage en størrelse svarende til de foregående 12 måneders fakturerede beløb, dog højst 50.000 DKK.\n\nWinterManager og dennes medarbejdere har tavshedspligt om alle informationer, som kan henføres direkte til Kunden."
+      "title": "SaberTasks ansvar og tavshedspligt",
+      "content": "Serviceydelsen stilles til rådighed af SaberTask i den til enhver tid værende stand. SaberTask fraskriver sig enhver garanti, tilsikring, indeståelse eller andre vilkår, udover hvad der fremgår af disse Forretningsbetingelser.\n\nI forbindelse med Kundens brug af Serviceydelsen fraskriver SaberTask sig ethvert ansvar for tab, som Kunden måtte pådrage sig herved, uanset om et sådant tab måtte opstå i eller udenfor kontrakt, om der er tale om følgeskader eller andre indirekte tab, driftstab, tab begrundet i produktansvar, informationstab eller øvrige tab som følge af simpel uagtsomhed.\n\nKunden har en pligt til at meddele SaberTask om fejl ved Serviceydelsen. SaberTask er alene pligtig at rette fejlen, som Kunden eller SaberTask er blevet opmærksom på.\n\nKunden accepterer, at uanset hvilket tab eller ansvarsgrundlag som Kunden har lidt, kan SaberTasks samlede ansvar maksimalt andrage en størrelse svarende til de foregående 12 måneders fakturerede beløb, dog højst 50.000 DKK.\n\nSaberTask og dennes medarbejdere har tavshedspligt om alle informationer, som kan henføres direkte til Kunden."
     },
     "operations": {
       "title": "Drift og Force Majeure",
-      "content": "WinterManager tilsigter en høj driftsstabilitet og vil i tilfælde af nedbrud eller driftsforstyrrelser genskabe normal drift så hurtigt som muligt. Vedligeholdelse og opgradering af Serviceydelsen vil så vidt det er muligt blive placeret i tidsrummet mellem kl. 15.00-22.00 CET, og vil blive varslet forinden.\n\nWinterManager er uden ansvar for tab opstået som følge af nedbrud eller driftsforstyrrelser. Selv på de områder, hvor der gælder et strengere ansvar, er WinterManager ikke ansvarlige for tab, som skyldes:\n\n- Beskadigelser af data eller manglende adgang til eller nedbrud i IT-systemer\n- Svigt i strømforsyning eller telekommunikation, naturkatastrofer, krig, oprør, pandemier, borgerlige uroligheder, lovindgreb eller forvaltningsakter, sabotage, terror eller hærværk (herunder computervirus og hacking)\n- Konflikter såsom strejke, lockout, boykot eller blokade\n- Andre omstændigheder, som er uden for WinterManagers kontrol"
+      "content": "SaberTask tilsigter en høj driftsstabilitet og vil i tilfælde af nedbrud eller driftsforstyrrelser genskabe normal drift så hurtigt som muligt. Vedligeholdelse og opgradering af Serviceydelsen vil så vidt det er muligt blive placeret i tidsrummet mellem kl. 15.00-22.00 CET, og vil blive varslet forinden.\n\nSaberTask er uden ansvar for tab opstået som følge af nedbrud eller driftsforstyrrelser. Selv på de områder, hvor der gælder et strengere ansvar, er SaberTask ikke ansvarlige for tab, som skyldes:\n\n- Beskadigelser af data eller manglende adgang til eller nedbrud i IT-systemer\n- Svigt i strømforsyning eller telekommunikation, naturkatastrofer, krig, oprør, pandemier, borgerlige uroligheder, lovindgreb eller forvaltningsakter, sabotage, terror eller hærværk (herunder computervirus og hacking)\n- Konflikter såsom strejke, lockout, boykot eller blokade\n- Andre omstændigheder, som er uden for SaberTasks kontrol"
     },
     "termination": {
-      "title": "Opsigelse af Serviceydelser",
-      "content": "Ved tilmelding til Serviceydelsen accepterer Kunden Forretningsbetingelserne. Forretningsbetingelserne løber indtil opsigelse af aftaleforholdet i overensstemmelse med disse betingelser. Aftalen kan opsiges uden varsel eller gebyr, men alle ubetalte gebyrer vil blive samlet i én faktura og sendt til Kunden ved opsigelse.\n\nOpsigelse af sæsongebyret skal ske skriftligt senest den 31. oktober for at undgå opkrævning af adressegebyr for den kommende sæson. Ved manglende rettidig opsigelse forpligter Kunden sig til at betale adressegebyr for den kommende sæson.\n\nWinterManager kan opsige aftaleforholdet med Kunden med 3 måneders varsel, eller uden varsel ved Kundens væsentlige misligholdelse af disse Forretningsbetingelser eller ved Kundens konkurs eller insolvens.\n\nFor at opsige aftaleforholdet skal Kunden sende en e-mail til sebastian@snowmanager.com eller kontakte sin tilknyttede kontaktperson hos WinterManager."
+      "title": "Opsigelse af serviceydelser",
+      "content": "Ved tilmelding til Serviceydelsen accepterer Kunden Forretningsbetingelserne. Forretningsbetingelserne løber indtil opsigelse af aftaleforholdet i overensstemmelse med disse betingelser. Aftalen kan opsiges uden varsel eller gebyr, men alle ubetalte gebyrer vil blive samlet i én faktura og sendt til Kunden ved opsigelse.\n\nOpsigelse af abonnementet skal ske skriftligt inden udløbet af den aktuelle faktureringsperiode for at undgå opkrævning for den kommende periode. Ved manglende rettidig opsigelse forpligter Kunden sig til at betale for den kommende periode.\n\nSaberTask kan opsige aftaleforholdet med Kunden med 3 måneders varsel, eller uden varsel ved Kundens væsentlige misligholdelse af disse Forretningsbetingelser eller ved Kundens konkurs eller insolvens.\n\nFor at opsige aftaleforholdet skal Kunden sende en e-mail til sebastian@sabertask.com eller kontakte sin tilknyttede kontaktperson hos SaberTask."
     },
     "disputes": {
       "title": "Tvister",
-      "content": "Nærværende Forretningsbetingelser skal læses, fortolkes og udfyldes i overensstemmelse med dansk ret. Enhver tvist, der måtte opstå som følge af disse Forretningsbetingelser og de heraf følgende retsforhold mellem Kunden og WinterManager, skal anlægges ved Byretten i København."
+      "content": "Nærværende Forretningsbetingelser skal læses, fortolkes og udfyldes i overensstemmelse med dansk ret. Enhver tvist, der måtte opstå som følge af disse Forretningsbetingelser og de heraf følgende retsforhold mellem Kunden og SaberTask, skal anlægges ved Byretten i København."
+    },
+    "metaTitle": "Handelsbetingelser | SaberTask"
+  },
+  "featurePages": {
+    "liveDashboard": {
+      "meta": {
+        "title": "Live dashboard - Realtidsoverblik | SaberTask",
+        "description": "Se medarbejdernes placering, opgavefremdrift og teamudnyttelse på et live kort. Realtidsoverblik over dit feltarbejde på tværs af hold og lokationer."
+      },
+      "badge": "Live dashboard",
+      "hero": {
+        "titleStart": "Hele hverdagen",
+        "titleHighlight": "live på skærmen",
+        "description": "Se hver medarbejder, hver opgave og hver opdatering i samme øjeblik det sker. Live dashboardet giver kontoret et konstant overblik på tværs af kunder, medarbejdere og opgaver - uden at nogen skal ringe rundt for at høre status.",
+        "cta": "Book en demo"
+      },
+      "problem": {
+        "title": "Slut med at være et skridt bagud",
+        "description": "De fleste servicevirksomheder opdager først problemerne, når kunden ringer. Med et live dashboard ser du det, mens det sker.",
+        "beforeTitle": "Uden live dashboard",
+        "afterTitle": "Med live dashboard",
+        "before": [
+          "Du må ringe til medarbejderne for at høre, om de er ankommet",
+          "Ingen idé om hvilke opgaver der er bagud",
+          "Problemer dukker først op, når kunden har ringet",
+          "Intet overblik over arbejds- og kørselstid før lønnen skal køres"
+        ],
+        "after": [
+          "Se hvor hver medarbejder er på et live kort",
+          "Statusopdateringer i samme øjeblik opgaverne bevæger sig",
+          "Reagér på problemerne mens de er små, ikke efter de er eskaleret",
+          "Live overblik over kørsels- og arbejdstid pr. team"
+        ]
+      },
+      "capabilities": {
+        "title": "Alt du ser - live",
+        "description": "Dashboardet opdaterer sig selv fra medarbejdernes telefoner, så du altid ved hvor de er, hvad de laver, og hvor der er brug for hjælp.",
+        "items": {
+          "workerTracking": {
+            "title": "Medarbejdersporing",
+            "description": "Se hver medarbejders live placering på et interaktivt kort. Ved hvem der er ankommet, hvem der er på vej, og hvor der mangler dækning."
+          },
+          "taskProgress": {
+            "title": "Live opgavestatus",
+            "description": "Opgaverne skifter status live - fra planlagt til i gang til udført - uden at nogen skal indtaste noget manuelt."
+          },
+          "instantAlerts": {
+            "title": "Live notifikationer",
+            "description": "Få besked med det samme, når en medarbejder melder sig syg eller opretter en ny opgave."
+          },
+          "kpiMetrics": {
+            "title": "Live KPI'er",
+            "description": "Opgaver udført i dag, opgaver i gang, forsinkede opgaver og til-tiden-rate - opdateres live uden at du genindlæser siden."
+          },
+          "teamUtilisation": {
+            "title": "Teamudnyttelse",
+            "description": "Se hvordan dine teams præsterer på tværs af alle aktive opgaver. Find underudnyttede hold og fordel arbejdsbyrden jævnt."
+          },
+          "redeployment": {
+            "title": "Hurtig omdisponering",
+            "description": "Når prioriteterne ændrer sig, flytter du medarbejdere og opgaver direkte fra dashboardet. Ingen opkald eller beskeder frem og tilbage."
+          }
+        }
+      },
+      "howItWorks": {
+        "title": "Sådan fungerer det",
+        "steps": [
+          {
+            "title": "Medarbejderne stempler ind",
+            "description": "Medarbejderne stempler ind, når de ankommer til lokationen. GPS-position og tidsstempel bliver gemt automatisk."
+          },
+          {
+            "title": "Dashboardet opdaterer sig live",
+            "description": "Hver stempling, hver statusændring og hver opgaveopdatering vises på dashboardet, i samme øjeblik den sker."
+          },
+          {
+            "title": "Kontoret handler",
+            "description": "Find problemer, flyt opgaver og træf beslutninger med fuldt overblik - alt sammen fra én skærm."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Bygget til din hverdag",
+        "items": {
+          "multiSite": {
+            "title": "Flere lokationer på én gang",
+            "description": "Har du teams spredt ud over mange lokationer, fungerer dashboardet som dit kommandocenter - du ser alt på én gang og kan zoome ind på en enkelt lokation."
+          },
+          "urgentCallouts": {
+            "title": "Akutte udkald",
+            "description": "Når en akut opgave kommer ind, ser du med det samme hvilke medarbejdere der er i nærheden og ledige. Send den rette afsted på få sekunder."
+          },
+          "clientReporting": {
+            "title": "Gennemsigtighed over for kunden",
+            "description": "Vis kunden præcis hvornår servicen blev udført - med GPS-verificerede tidsstempler og live statusopdateringer."
+          }
+        }
+      }
+    },
+    "taskScheduling": {
+      "meta": {
+        "title": "Opgaveplanlægning & ruteplanlægning | SaberTask",
+        "description": "Planlæg, disponér og rutelæg hvert job fra én platform. Tilbagevendende serviceaftaler, optimerede ruter og mobil dokumentation - bygget til servicehold."
+      },
+      "badge": "Opgaveplanlægning",
+      "hero": {
+        "titleStart": "Planlæg én gang,",
+        "titleHighlight": "kør hver dag",
+        "description": "Definér arbejdet én gang, lad SaberTask generere de rigtige opgaver på den rigtige dag, optimér ruten - og kør hele dagen fra en telefon. Alt sammen i én platform.",
+        "cta": "Book en demo"
+      },
+      "problem": {
+        "title": "Planlægning uden regneark",
+        "description": "Servicevirksomheder spilder timer hver uge på at bygge skemaer i Excel, ringe rundt til chauffører og starte forfra, hver gang noget ændrer sig.",
+        "beforeTitle": "Uden SaberTask",
+        "afterTitle": "Med SaberTask",
+        "before": [
+          "Tilbagevendende opgaver bygges manuelt uge efter uge",
+          "Ruter tegnes på papir uden tids- eller distanceestimater",
+          "Medarbejderne ringer til kontoret for at høre, hvad næste stop er",
+          "Billeder og signaturer havner i en separat app - hvis nogen husker det"
+        ],
+        "after": [
+          "Serviceaftalerne genererer de rigtige opgaver på den rigtige dag",
+          "Ruterne optimeres efter afstand, kapacitet og arbejdstid",
+          "Mobil-navigation fører medarbejderen fra stop til stop",
+          "Billeder, noter og kundesignaturer gemmes direkte på opgaven"
+        ]
+      },
+      "capabilities": {
+        "title": "Alt du skal bruge for at køre dagen",
+        "description": "Arbejdsbeskrivelser, ugeplaner, tilbagevendende opgaver, optimerede ruter, mobil-navigation og dokumentation på stedet - alt sammen i ét flow.",
+        "items": {
+          "workDescriptions": {
+            "title": "Strukturerede arbejdsbeskrivelser",
+            "description": "Definér områder, frekvenser og tjeklistepunkter pr. lokation. Genbrug et fælles opgavebibliotek, så omfanget er ens fra kunde til kunde."
+          },
+          "weeklyPlans": {
+            "title": "Ugeplaner pr. team",
+            "description": "Byg en 7-dages plan pr. team med drag-and-drop, live timer og omsætningstotaler - fra kladde til aktiv med ét klik."
+          },
+          "recurring": {
+            "title": "Automatisk generering af tilbagevendende opgaver",
+            "description": "Otte frekvenser - ugentligt, lige uger, ulige uger, 1.-4. uge i måneden og brugerdefineret - med valgfrie sæsonperioder. Opgaverne genereres automatisk."
+          },
+          "routeOptimisation": {
+            "title": "Smart ruteoptimering",
+            "description": "Kladden tager højde for afstand, daglig arbejdstid, kapacitet og tidsestimater. Optimér igen efter behov, og bekræft for at sende planen ud."
+          },
+          "mobileNavigation": {
+            "title": "Mobil rutenavigation",
+            "description": "Medarbejderne ser dagens stop i optimeret rækkefølge, starter sving-for-sving-navigation og kører hele dagen fra én skærm."
+          },
+          "proofOfWork": {
+            "title": "Dokumentation på stedet",
+            "description": "Stempel ind med GPS, tag billeder og noter, få kundens signatur på telefonen, og markér opgaven som udført."
+          }
+        }
+      },
+      "howItWorks": {
+        "title": "Fra plan til udført arbejde i 3 trin",
+        "steps": [
+          {
+            "title": "Definér arbejdet én gang",
+            "description": "Byg arbejdsbeskrivelsen én gang pr. lokation - områder, frekvenser og tjeklistepunkter - i Arbejdsbeskrivelsen."
+          },
+          {
+            "title": "Planlæg, og lad opgaverne generere sig selv",
+            "description": "Læg arbejdet i en ugeplan pr. team. Tilbagevendende opgaver lander automatisk på den rigtige dag, hver uge."
+          },
+          {
+            "title": "Kør dagen på mobil",
+            "description": "Medarbejderne åbner appen, følger den optimerede rute, tager billeder og noter, og markerer hver opgave som udført på stedet."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Bygget til din hverdag",
+        "items": {
+          "recurringContracts": {
+            "title": "Tilbagevendende servicekontrakter",
+            "description": "Rengørings-, anlægs- og facility-kontrakter, der kører hver uge, bliver genereret automatisk ud fra aftalen."
+          },
+          "multiTeam": {
+            "title": "Flere teams i marken",
+            "description": "Balancér timer og omsætning på tværs af dine teams i planlægningsgrid'et - og send hvert teams dag direkte til deres telefoner."
+          },
+          "piecework": {
+            "title": "Akkord-hold",
+            "description": "Faktor-minut-teams planlægger dagen omkring akkordarbejdet, og medarbejderne ser deres indtjening opdatere sig live."
+          }
+        }
+      },
+      "spotlight": {
+        "badge": "Arbejdsbeskrivelse",
+        "titleStart": "Definér arbejdet én gang,",
+        "titleHighlight": "kør det for altid",
+        "description": "Arbejdsbeskrivelsen lader dig strukturere hver service - områder, frekvenser, tjeklister - pr. lokation. Byg den manuelt, eller upload en kontrakt og lad AI udtrække omfanget for dig.",
+        "highlights": {
+          "0": {
+            "title": "Områder, frekvenser & tjeklister",
+            "description": "Opdel hver lokation i arbejdsområder (fx lobby, køkken, trappeopgang). Sæt hvor ofte hvert område serviceres - ugentligt, lige/ulige uger, månedligt eller sæsonbaseret - og tilknyt de tjeklistepunkter, medarbejderne skal udføre."
+          },
+          "1": {
+            "title": "AI-drevet dokumentimport",
+            "description": "Upload en eksisterende kontrakt eller specifikation som PDF eller Word. SaberTask udtrækker områder, frekvenser og opgaver automatisk - gennemgå, justér og godkend på minutter i stedet for timer."
+          },
+          "2": {
+            "title": "Driver automatisk opgavegenerering",
+            "description": "Så snart arbejdsbeskrivelsen er gemt, bliver de tilbagevendende opgaver genereret automatisk - på den rigtige dag, til det rigtige team. Ingen manuel planlægning, aldrig mere."
+          }
+        }
+      }
+    },
+    "employeeManagement": {
+      "meta": {
+        "title": "Medarbejderhåndtering & vagtplanlægning | SaberTask",
+        "description": "Onboard, planlæg og betal medarbejderne i én platform. Vagter, tidsregistrering, sygemelding, live lønoverblik og teamchat - bygget til skiftarbejdere."
+      },
+      "badge": "Medarbejderhåndtering",
+      "hero": {
+        "titleStart": "Løn, akkord, ferie, sygdom -",
+        "titleHighlight": "alt samlet ét sted",
+        "description": "Onboard nye medarbejdere på minutter, byg vagtplanen, registrér tid, håndtér sygemeldinger, kør lønnen og chat med dit team - alt sammen fra én platform.",
+        "cta": "Book en demo"
+      },
+      "problem": {
+        "title": "Alt om medarbejderne, ét sted",
+        "description": "De fleste servicevirksomheder håndterer medarbejderne fragmenteret - tidsregistrering i ét værktøj, løn i et andet og chat i et tredje. SaberTask samler det hele ét sted.",
+        "beforeTitle": "Uden SaberTask",
+        "afterTitle": "Med SaberTask",
+        "before": [
+          "Nye medarbejdere onboardes med papirformularer og delte logins",
+          "Vagter bygges i regneark, og sygemeldinger spores via e-mail",
+          "Medarbejderne ved ikke hvad de har tjent, før lønsedlen kommer",
+          "Teamchatten ligger i WhatsApp, langt væk fra arbejdet"
+        ],
+        "after": [
+          "Onboarding via e-mail-invitation med selvbetjent adgangskode",
+          "Drag-and-drop vagtplan, mobil sygemelding og automatisk vagtkonvertering",
+          "Medarbejderne ser timer og indtjening live, i samme øjeblik de stempler ud",
+          "Indbygget direkte-, gruppe- og teamchat med læsekvitteringer"
+        ]
+      },
+      "capabilities": {
+        "title": "Alt du skal bruge for at køre et team",
+        "description": "Fra første invitation til næste lønkørsel bor alt om medarbejderen i ét system - delt live mellem web og mobil.",
+        "items": {
+          "onboarding": {
+            "title": "Onboarding & roller",
+            "description": "E-mail-invitationer, selvbetjent adgangskode, multi-tenant login og indbyggede roller for admins, planlæggere, afdelingsledere og medarbejdere."
+          },
+          "shifts": {
+            "title": "Vagter & vagtplanlægning",
+            "description": "Ugentlig vagtplanlægger med skabeloner, samlede handlinger, ændringshistorik og et rent godkendelsesflow, før lønnen kører."
+          },
+          "timeTracking": {
+            "title": "Mobil tidsregistrering",
+            "description": "Ét-tryks ind- og udstempling, valgfri GPS-fangst, kommentarer på stempelhandlinger og automatisk pausefradrag pr. vagttype."
+          },
+          "sickLeave": {
+            "title": "Sygemelding",
+            "description": "Medarbejderne melder sig syge fra telefonen, vagten konverteres automatisk, og admins ser live analyser pr. medarbejder eller for hele virksomheden."
+          },
+          "salary": {
+            "title": "Live lønoverblik",
+            "description": "Medarbejderne ser brutto-timer, pausefradrag og nettoløn live på telefonen - inklusive akkordindtjening. Det bygger tillid til lønnen."
+          },
+          "messaging": {
+            "title": "Indbygget teamchat",
+            "description": "Direkte-, gruppe- og teamchats med filvedhæftelser, ulæste-tæller og læsekvitteringer - synkroniseret mellem web og mobil."
+          }
+        }
+      },
+      "howItWorks": {
+        "title": "Sådan fungerer det",
+        "steps": [
+          {
+            "title": "Invitér & onboard",
+            "description": "Send en e-mail-invitation. Medarbejderen sætter en adgangskode, vælger sprog og lander på sin første vagt - allerede logget ind."
+          },
+          {
+            "title": "Planlæg & registrér",
+            "description": "Byg vagtplanen på web. Medarbejderne stempler ind fra telefonen, sygemeldinger konverterer vagterne automatisk, og pauseregler trækker pauserne fra."
+          },
+          {
+            "title": "Betal & kommunikér",
+            "description": "Medarbejderne ser timer og indtjening live, akkord-godkendelser sker fra web, og teamchatten holder alle informeret."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Bygget til din arbejdsstyrke",
+        "items": {
+          "shiftWorkforce": {
+            "title": "Skiftbaserede serviceteams",
+            "description": "Store trykknapper, hurtig stempling, mobil sygemelding og live lønoverblik - designet til hold på farten."
+          },
+          "multiTenant": {
+            "title": "Medarbejdere på tværs af virksomheder",
+            "description": "Medarbejdere, der arbejder på tværs af flere virksomheder, logger ind én gang og vælger selv, hvilken organisation de vil ind i."
+          },
+          "transparentPay": {
+            "title": "Transparent løn",
+            "description": "Live indtjening, akkord-godkendelser og revisionsklare stempelhandlinger bygger tillid til lønnen og stopper diskussioner ved måneds slut."
+          }
+        }
+      },
+      "spotlight": {
+        "badge": "Vagter & løn",
+        "titleStart": "Planlæg, godkend,",
+        "titleHighlight": "betal - i ét overblik",
+        "description": "Byg den ugentlige vagtplan, sammenlign stemplinger med planlagte vagter, godkend timerne og lad lønnen køre automatisk. Medarbejderne ser præcis hvad de har tjent - ingen overraskelser på lønsedlen.",
+        "highlights": {
+          "0": {
+            "title": "Ugentlig vagtplanlægger",
+            "description": "Se alle medarbejderes vagter for ugen med ét blik. Træk for at planlægge, klik for at tilføje, og brug skabeloner til at udfylde gentagne mønstre på sekunder."
+          },
+          "1": {
+            "title": "Godkend før lønkørsel",
+            "description": "Sammenlign planlagte vagter med faktiske stemplinger. Godkend timer pr. medarbejder med ét klik, så kun verificerede data når din løneksport."
+          },
+          "2": {
+            "title": "Live indtjening på telefonen",
+            "description": "Medarbejderne ser brutto-timer, pausefradrag og nettoløn opdatere sig live, når de stempler ind og ud - inklusive akkord- og overtidssatser."
+          }
+        }
+      }
+    },
+    "qualityControls": {
+      "meta": {
+        "title": "Kvalitetskontroller & inspektionsrapporter | SaberTask",
+        "description": "Mobile inspektionsrapporter med billeder, signaturer, PDF-eksport og live problem-feed. Udskift udklipsholderen og papirchecklister med bevis på hvert job."
+      },
+      "badge": "Kvalitetskontroller",
+      "hero": {
+        "titleStart": "Kvalitet, du faktisk",
+        "titleHighlight": "kan bevise",
+        "description": "Byg de inspektionsformularer, din virksomhed har brug for, udfyld dem på telefonen med billeder og signaturer, del brandede PDF'er med kunden - og find problemerne, før de ringer ind.",
+        "cta": "Book en demo"
+      },
+      "problem": {
+        "title": "Få inspektionerne væk fra papiret",
+        "description": "Servicevirksomheder bruger stadig udklipsholdere, billeder i WhatsApp og \"vi sender rapporten i morgen\". SaberTask giver dig et digitalt spor på hver eneste inspektion.",
+        "beforeTitle": "Uden SaberTask",
+        "afterTitle": "Med SaberTask",
+        "before": [
+          "Generiske tjeklister, der ikke passer til din service",
+          "Billeder ligger på medarbejdernes telefoner og er væk, når de stopper",
+          "Rapporter skrives om på kontoret og sendes på e-mail dage senere",
+          "Ingen måde at få øje på tilbagevendende kvalitetsproblemer pr. lokation"
+        ],
+        "after": [
+          "Skræddersyede skabeloner, der matcher den inspektion du faktisk udfører",
+          "Billeder og signaturer vedhæftet direkte i hver sektion af rapporten",
+          "Brandet PDF klar til at dele, før medarbejderen forlader lokationen",
+          "Live problem-feed viser problemlokationer, før kunden når at klage"
+        ]
+      },
+      "capabilities": {
+        "title": "Inspektionen bor der, hvor arbejdet sker",
+        "description": "Skabeloner designet af dig, udfyldt af medarbejderne på telefonen, gennemgået fra web og delt med kunden som en brandet PDF - alt sammen i ét flow.",
+        "items": {
+          "templates": {
+            "title": "Skræddersyede skabeloner",
+            "description": "Byg inspektionsformularer med inddelte sektioner og blandede svartyper - tekst, glad/utilfreds-vurderinger, billedupload og signaturer."
+          },
+          "photoCapture": {
+            "title": "Billeder fra telefonen",
+            "description": "Medarbejderne vedhæfter billeder fra kamera eller galleri direkte til den sektion, de hører til. Bliver gemt automatisk, selv i dårlig dækning."
+          },
+          "signatures": {
+            "title": "Kundesignaturer",
+            "description": "Tag kunde- og medarbejdersignaturer på telefonens skærm, afslut rapporten, og lås dataene med et tidsstempel."
+          },
+          "pdfExport": {
+            "title": "Brandet PDF-eksport",
+            "description": "PDF'en bærer dit logo og indeholder hver sektion, hvert svar, hvert billede og hver signatur - klar til at sende på e-mail eller chat."
+          },
+          "recentIssues": {
+            "title": "Live problem-feed",
+            "description": "Et live feed over utilfredse vurderinger og kvalitetsbekymringer pr. lokation, så tilbagevendende problemer dukker op, før kunden når at klage."
+          },
+          "multilingual": {
+            "title": "Flersproget",
+            "description": "Medarbejderne udfylder rapporten på deres foretrukne sprog, så kvalitetsdataen er ensartet på tværs af flersprogede teams."
+          }
+        }
+      },
+      "howItWorks": {
+        "title": "Fra skabelon til PDF",
+        "steps": [
+          {
+            "title": "Byg skabelonerne",
+            "description": "Admins bygger inspektionsformularer med sektioner, vurderinger, billedfelter og signaturer - skræddersyet til netop din service."
+          },
+          {
+            "title": "Udfyld på mobil",
+            "description": "Medarbejderen åbner rapporten på telefonen, dér hvor arbejdet sker, tager billeder, sætter vurderinger og får kundens signatur."
+          },
+          {
+            "title": "Del & gennemgå",
+            "description": "Afslut rapporten, del den brandede PDF med kunden, og gennemgå hver rapport fra web med private leder-noter."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Bygget til dine inspektioner",
+        "items": {
+          "cleaningAudits": {
+            "title": "Rengørings-audits",
+            "description": "Fotobevis, glad/utilfreds-vurderinger og kundesignaturer pr. lokation - erstat papir-audits med et digitalt spor."
+          },
+          "safetyChecks": {
+            "title": "Sikkerhed & compliance",
+            "description": "Skræddersyede skabeloner til periodiske sikkerhedstjek, med tidsstempler, billeder og signaturer taget på stedet."
+          },
+          "clientHandover": {
+            "title": "Kundeoverdragelsesrapporter",
+            "description": "Brandede PDF'er klar til at dele med kunden, i samme øjeblik arbejdet er afsluttet - ingen \"vi sender den i morgen\"."
+          }
+        }
+      },
+      "spotlight": {
+        "badge": "På mobilappen",
+        "titleStart": "Medarbejderen ser problemerne,",
+        "titleHighlight": "i samme øjeblik de ankommer",
+        "description": "Når en medarbejder åbner en opgave på lokationen, viser SaberTask øverst de problemer, der er blevet registreret dér for nyligt - så medarbejderen går ind i bygningen og allerede ved, hvad der skal holdes øje med, og hvad kunden meldte sidste gang.",
+        "highlights": {
+          "0": {
+            "title": "Banner med nylige problemer",
+            "description": "Hver opgaveskærm viser antallet af utilfredse vurderinger på lokationen de seneste 30 dage - ét tryk åbner de oprindelige rapporter."
+          },
+          "1": {
+            "title": "Tryk for at åbne rapporten",
+            "description": "Medarbejderen kan åbne den fulde inspektion - sektioner, billeder, vurderinger og kundekommentarer - uden at forlade opgaveskærmen."
+          },
+          "2": {
+            "title": "Besøgshistorik med ét blik",
+            "description": "Sidste besøg, næste planlagte besøg og kundereferencen er synlige, i samme øjeblik opgaven åbnes - konteksten er aldrig mere end et blik væk."
+          }
+        }
+      }
+    },
+    "customerManagement": {
+      "meta": {
+        "title": "Kundehåndtering & serviceaftaler | SaberTask",
+        "description": "Kunder, lokationer, kontakter, arbejdsomfang, serviceaftaler og AI-søgbar fillagring - den strukturerede rygrad i din servicevirksomhed."
+      },
+      "badge": "Kundehåndtering",
+      "hero": {
+        "titleStart": "Rygraden i",
+        "titleHighlight": "din servicevirksomhed",
+        "description": "Hver kunde, hver lokation, hver kontakt, hver kontrakt, hvert dokument - ét sted, alt sammen koblet til de operationelle data, der driver hverdagen.",
+        "cta": "Book en demo"
+      },
+      "problem": {
+        "title": "Saml kundedataene ét sted",
+        "description": "De fleste servicevirksomheder holder deres kundedata i tre forskellige værktøjer plus en mappe med PDF'er. SaberTask gør kunden til rygraden i platformen.",
+        "beforeTitle": "Uden SaberTask",
+        "afterTitle": "Med SaberTask",
+        "before": [
+          "Kunderne ligger i regneark, lokationerne i et andet værktøj",
+          "Kontrakter begravet i e-mail, arbejdsomfanget i et Word-dokument",
+          "Intet overblik over hvem der har portaladgang, eller hvem der skal ringes til",
+          "Filer spredt ud over flere drev uden fuldtekstsøgning"
+        ],
+        "after": [
+          "Kunder, lokationer og kontakter i én struktureret database",
+          "Arbejdsbeskrivelser og serviceaftaler driver de tilbagevendende opgaver",
+          "Portaladgang pr. kontakt og en fil-tidslinje du kan læse med ét blik",
+          "AI-søgbar filhvælving, hvor selv billeder bliver til søgbar tekst"
+        ]
+      },
+      "capabilities": {
+        "title": "Alt du ved om en kunde",
+        "description": "Fra første registrering til det mest detaljerede arbejdsomfang er hver facet af en kunde ét klik væk - og fødes ind i resten af SaberTask automatisk.",
+        "items": {
+          "database": {
+            "title": "Kundedatabasen",
+            "description": "Alle kunder i én søgbar liste med fortløbende numre, flerfaneblads-detaljesider og fuld tenant-isolation."
+          },
+          "locations": {
+            "title": "Flere lokationer pr. kunde",
+            "description": "Registrér hvert sted du servicerer for samme kunde, med adresse, metadata og referencer fra opgaver, planer og rapporter."
+          },
+          "workScope": {
+            "title": "Arbejdsbeskrivelse",
+            "description": "Definér områder, frekvenser og tjeklistepunkter pr. lokation - det strukturerede omfang, der driver de tilbagevendende opgaver."
+          },
+          "agreements": {
+            "title": "Serviceaftaler",
+            "description": "Aftaler pr. kunde med omfang, frekvens og status - synlige for kunden på portalen sammen med deres opgaver."
+          },
+          "fileVault": {
+            "title": "AI-søgbar filhvælving",
+            "description": "Drag-and-drop filuploads med tags, fuldtekstsøgning og AI-ekstraktion af PDF'er og billedbeskrivelser - selv billeder bliver søgbare."
+          },
+          "audit": {
+            "title": "Indbygget revisionsspor",
+            "description": "Fil-tidslinje pr. kunde, soft-delete som standard og tenant-scopede forespørgsler håndhævet på databaseniveau."
+          }
+        }
+      },
+      "howItWorks": {
+        "title": "Sådan fungerer det",
+        "steps": [
+          {
+            "title": "Tilføj kunden",
+            "description": "Opret kunden én gang, tilføj lokationer, kontakter og de dokumenter, I udveksler - alt sammen ét sted."
+          },
+          {
+            "title": "Definér arbejdet",
+            "description": "Brug Arbejdsbeskrivelsen til at fange præcis hvad der sker på hvert sted - og kobl det til en serviceaftale."
+          },
+          {
+            "title": "Kør hverdagen",
+            "description": "Kundedataene fødes ind i opgaver, planer, rapporter, fakturaer og kundeportalen automatisk - én kilde til sandhed."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Bygget til dine kunder",
+        "items": {
+          "multiLocation": {
+            "title": "Kunder med mange lokationer",
+            "description": "B2B-konti med dusinvis af steder får én kunderegistrering, mange lokationer og ens arbejdsomfang på tværs af porteføljen."
+          },
+          "b2bAccounts": {
+            "title": "Langsigtede servicekonti",
+            "description": "Serviceaftaler, kontakter med portaladgang og en fil-tidslinje pr. kunde holder relationen struktureret og revisionsklar."
+          },
+          "documentVault": {
+            "title": "Dokumenttunge brancher",
+            "description": "AI-søgbar fillagring håndterer kontrakter, certificeringer, billeder og håndskrevne noter - alt sammen søgbart direkte fra kundesiden."
+          }
+        }
+      }
+    },
+    "customerPortal": {
+      "meta": {
+        "title": "Kundeportal - brandet selvbetjening | SaberTask",
+        "description": "Sikker, brandet kundeportal hvor dine kunder ser deres skema, udført arbejde, billeder, signaturer og kvalitetsrapporter - kun på deres lokationer."
+      },
+      "badge": "Kundeportal",
+      "hero": {
+        "titleStart": "Selvbetjent",
+        "titleHighlight": "kundetransparens",
+        "description": "Giv dine kunder et sikkert, brandet login, hvor de kan se hvad der er planlagt, hvad der er udført, og kvaliteten af hvert job - uden at du nogensinde eksponerer dine interne data.",
+        "cta": "Book en demo"
+      },
+      "problem": {
+        "title": "Stop med at svare på det samme spørgsmål",
+        "description": "\"Kom I i går? Hvor er rapporten?\" - hver servicevirksomhed lever med de opkald. Kundeportalen besvarer spørgsmålene automatisk.",
+        "beforeTitle": "Uden SaberTask",
+        "afterTitle": "Med SaberTask",
+        "before": [
+          "Kunder ringer for at høre, om rengøringen er kommet",
+          "Rapporter sendes på e-mail dage efter inspektionen",
+          "Ingen måde at dele billeder eller underskrevet bevis på",
+          "Risiko for at eksponere andre kunders data ved en fejl"
+        ],
+        "after": [
+          "Kunden logger ind og ser en 14-dages kalender over sin service",
+          "Kvalitetsrapporter er tilgængelige, i samme øjeblik de er færdige",
+          "Medarbejderens billeder, kundens signatur og nummerplader er synlige",
+          "Scoping pr. kunde håndhævet på API-laget, ikke kun i UI'et"
+        ]
+      },
+      "capabilities": {
+        "title": "Hvad dine kunder ser",
+        "description": "En ren, brandet portal designet specifikt til kunder - med hård rolleadskillelse, så de aldrig kan se dine interne data, selv hvis de prøver.",
+        "items": {
+          "secureLogin": {
+            "title": "Sikkert login kun for kunder",
+            "description": "Kunde-rollekonti med onboarding via e-mail-invitation, adgang pr. kontakt og fuld adskillelse fra din interne app."
+          },
+          "calendarView": {
+            "title": "14-dages aktivitetskalender",
+            "description": "En fremadrettet kalender med tællinger pr. dag, fremskrivning af tilbagevendende services og klik-igennem til dagens opgaveliste."
+          },
+          "proofOfWork": {
+            "title": "Foto- & signaturbevis",
+            "description": "Medarbejderens billeder, kundens signatur og nummerplader for hver udført opgave - håndfast bevis på, at arbejdet er blevet gjort."
+          },
+          "qualityAccess": {
+            "title": "Kvalitetsrapporter",
+            "description": "Hver afsluttet inspektion for kundens lokationer, med sektioner, billeder, vurderinger og signaturer - præcis som den blev udfyldt."
+          },
+          "branding": {
+            "title": "Dit brand, ikke vores",
+            "description": "Portalen bærer dit logo både i layoutet og på hver PDF, kunden henter - det føles som din service."
+          },
+          "privacy": {
+            "title": "Privatliv indbygget fra start",
+            "description": "Interne felter skrabes på API-laget, slanke DTO'er, og hvert internt endpoint afviser eksplicit kunde-rollen."
+          }
+        }
+      },
+      "howItWorks": {
+        "title": "Sådan fungerer det",
+        "steps": [
+          {
+            "title": "Slå adgang til",
+            "description": "Giv en kundekontakt \"Dashboard-adgang\" fra kundesiden, og klik \"Send dashboard-invitation\" - ét enkelt klik."
+          },
+          {
+            "title": "Kunden logger ind",
+            "description": "Kontakten sætter en adgangskode, lander i en portal, der kun viser deres egne lokationer, og ser en 14-dages kalender over hver service."
+          },
+          {
+            "title": "De holdes informeret",
+            "description": "Opgaver, billeder, signaturer og kvalitetsrapporter dukker op automatisk, efterhånden som dit team afslutter dem - uden ekstra arbejde."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Hvorfor virksomheder slår den til",
+        "items": {
+          "fewerCalls": {
+            "title": "Færre supportopkald",
+            "description": "Kunden svarer selv på sine \"kom I i går?\"-spørgsmål og holder op med at ringe til kontoret for rutineopdateringer."
+          },
+          "trustBuilding": {
+            "title": "Tillid fra første login",
+            "description": "Synlige billeder, signaturer og kvalitetsrapporter bygger tillid hurtigere end nogen salgspitch - uden at du løfter en finger."
+          },
+          "qualityProof": {
+            "title": "Kvalitetsbevis efter behov",
+            "description": "Kunden henter de inspektionsrapporter, de ønsker, brandet med dit logo, i samme øjeblik rapporten er færdig."
+          }
+        }
+      }
+    },
+    "invoicingBilling": {
+      "meta": {
+        "title": "Fakturering & betaling - automatisk | SaberTask",
+        "description": "Omdan udført arbejde til fakturaer automatisk. Auto-fakturering ved afslutning, trækbare linjer, fuldt revisionsspor og CSV-eksport til dit regnskabssystem."
+      },
+      "badge": "Fakturering",
+      "hero": {
+        "titleStart": "Fra udført opgave",
+        "titleHighlight": "til sendt faktura",
+        "description": "Når opgaven er udført, ligger linjen allerede på fakturaen. Send den, eksportér til dit regnskabssystem og få et revisionsspor på hver eneste ændring - uden at skifte mellem systemer.",
+        "cta": "Book en demo"
+      },
+      "problem": {
+        "title": "Gør op med dobbeltarbejdet på kontoret",
+        "description": "Servicevirksomheder udfører arbejdet og taster det bagefter ind igen i et faktureringssystem. Med automatisk fakturering af afsluttede opgaver forsvinder dobbeltarbejdet helt.",
+        "beforeTitle": "Uden SaberTask",
+        "afterTitle": "Med SaberTask",
+        "before": [
+          "Udført arbejde skal tastes ind igen i et separat faktureringssystem",
+          "Opgaver bliver glemt og ender aldrig på en faktura",
+          "Ingen dokumentation for, hvem der har rettet hvad på en faktura",
+          "Sendte fakturaer bliver ændret ved en fejl, efter de er afsendt"
+        ],
+        "after": [
+          "Afsluttede opgaver lander automatisk som linjer på kundens faktura",
+          "Statusfaner og samlede handlinger gør faktureringsdagen hurtig at komme igennem",
+          "Revisionsspor på hver enkelt faktura, slået til som standard fra dag ét",
+          "Sendte fakturaer er låst - du skal aktivt trække fakturaen tilbage til kladde for at rette den"
+        ]
+      },
+      "capabilities": {
+        "title": "Bygget til en travl faktureringsdag",
+        "description": "Statusfaner, samlede handlinger, trækbare linjer, automatisk fakturering af afsluttede opgaver og CSV-eksport. Alt sammen tænkt ud fra, hvordan en rigtig faktureringsdag egentlig forløber.",
+        "items": {
+          "invoiceList": {
+            "title": "Fakturaoversigten",
+            "description": "Statusfaner, søgning, sidedeling, handlinger på den enkelte række og mulighed for at markere flere fakturaer og behandle dem samlet. Alt sammen fra én side."
+          },
+          "autoInvoice": {
+            "title": "Automatisk fakturering ved afslutning",
+            "description": "Sæt det op én gang, og hver afsluttet opgave lander som en linje på den rette kundes faktura. Ingen dobbeltindtastning."
+          },
+          "lineItems": {
+            "title": "Trækbare linjer, løbende total",
+            "description": "Flere linjer pr. faktura med beskrivelse, produkttype, antal og enhedspris. Træk linjerne i den rigtige rækkefølge, og se totalen opdatere sig løbende i bunden."
+          },
+          "statusFlow": {
+            "title": "Et klart statusforløb",
+            "description": "Kladde → Sendt → Arkiveret, med mulighed for at fortryde og hente arkiverede frem igen. Sendte fakturaer er låst, så beløbene ikke kan ændre sig uden at det bliver registreret."
+          },
+          "csvExport": {
+            "title": "CSV-eksport med ét klik",
+            "description": "Eksportér de valgte fakturaer eller hele den filtrerede liste som CSV, klar til dit regnskabs- eller ERP-system. Ingen mails frem og tilbage."
+          },
+          "auditTrail": {
+            "title": "Revisionsspor pr. faktura",
+            "description": "Hver statusændring, hver rettelse i fakturahovedet og hver ændring på linjerne bliver gemt med tidsstempel og navn. Slået til som standard for alle virksomheder på platformen."
+          }
+        }
+      },
+      "howItWorks": {
+        "title": "Sådan fungerer det",
+        "steps": [
+          {
+            "title": "Arbejdet bliver til linjer",
+            "description": "Vælg hvilke ydelser, der skal faktureres automatisk. Udførte opgaver lander derefter som kladdelinjer, klar til at du kigger dem igennem."
+          },
+          {
+            "title": "Gennemgå og send",
+            "description": "Åbn kladden, træk linjerne på plads, justér hvis der er brug for det, og send. I samme øjeblik fakturaen forlader kladde-status, er beløbene låst."
+          },
+          {
+            "title": "Eksportér og dokumentér",
+            "description": "Eksportér flere fakturaer til CSV på én gang, og brug revisionssporet til altid at kunne svare på, hvem der har ændret hvad, og hvornår."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Bygget til din faktureringsvirkelighed",
+        "items": {
+          "recurringBilling": {
+            "title": "Løbende servicefakturering",
+            "description": "Automatisk fakturering af afsluttede opgaver forvandler dine løbende aftaler til fakturaer uden håndkraft. Ingen dobbeltindtastning, ingen glemte opgaver."
+          },
+          "auditCompliance": {
+            "title": "Revisionsklar dokumentation",
+            "description": "Låste, sendte fakturaer, arkivering i stedet for sletning og revisionsspor på hver enkelt faktura. Dokumentationen ligger klar, når revisor spørger."
+          },
+          "erpExport": {
+            "title": "Regnskab og ERP-eksport",
+            "description": "CSV-eksport med ét klik og alle de nødvendige kolonner, så du kan lægge filen direkte ind i dit eksisterende regnskabssystem uden en skræddersyet integration."
+          }
+        }
+      }
+    },
+    "mobileApp": {
+      "meta": {
+        "title": "Mobilapp til feltmedarbejdere | SaberTask",
+        "description": "Hurtig iOS- og Android-app til feltmedarbejdere. GPS-stempling, dagens opgaveliste, fotodokumentation, offline-support og live lønoverblik - alt i lommen."
+      },
+      "badge": "Mobil app",
+      "hero": {
+        "titleStart": "Hele din dag",
+        "titleHighlight": "i lommen",
+        "description": "En native iOS- og Android-app, der giver medarbejderne alt hvad de har brug for - opgaver, stempling, billeder, navigation og indtjening - i én hurtig, offline-klar grænseflade.",
+        "cta": "Book en demo"
+      },
+      "problem": {
+        "title": "Stop med at styre feltarbejdet over WhatsApp",
+        "description": "Telefonopkald for skemaet, WhatsApp til billeder, papir til tidsregistrering og regneark til løn. SaberTask samler det hele i én app.",
+        "beforeTitle": "Uden SaberTask",
+        "afterTitle": "Med SaberTask",
+        "before": [
+          "Medarbejderen ringer til kontoret for at få skemaet",
+          "Billeder sendes via WhatsApp og er væk, når nogen stopper",
+          "Timesedler udfyldes manuelt sidst på dagen",
+          "Ingen anelse om hvad du har tjent, før lønnen kommer"
+        ],
+        "after": [
+          "Dagens opgaveliste leveres automatisk til telefonen",
+          "Billeder vedhæftes opgaverne med GPS og tidsstempel",
+          "Ét-tryks stempling med automatisk pausefradrag",
+          "Live lønoverblik viser timer og indtjening løbende"
+        ]
+      },
+      "capabilities": {
+        "title": "Alt en medarbejder har brug for",
+        "description": "Bygget specifikt til folk, der arbejder på farten - store knapper, hurtig indlæsning, offline-support og ingen oplæring nødvendig.",
+        "items": {
+          "dailyTasks": {
+            "title": "Daglig opgaveliste",
+            "description": "Se dagens opgaver med kundenavn, adresse, særlige instruktioner og opgavehistorik - swipe for at starte, tryk for at navigere."
+          },
+          "clockInOut": {
+            "title": "GPS-stempling",
+            "description": "Ét-tryks stempling med automatisk GPS-fangst. Pauseregler trækker pauser fra pr. vagttype, så timesedlen altid er korrekt."
+          },
+          "photoDoc": {
+            "title": "Fotodokumentation",
+            "description": "Tag før-og-efter-billeder, der vedhæftes direkte på hver opgave. Billederne er GPS-mærkede, tidsstemplede og synkroniseres til web-dashboardet."
+          },
+          "offline": {
+            "title": "Offline-support",
+            "description": "Opgaver, tjeklister og kort hentes på forhånd. Arbejd videre uden signal i kældre, afsides steder eller under jorden - alt synkroniseres, så snart du er online igen."
+          },
+          "salary": {
+            "title": "Live lønoverblik",
+            "description": "Medarbejderen ser brutto-timer, pausefradrag, nettoløn og akkordindtjening opdatere sig live ved hver stempling."
+          },
+          "messaging": {
+            "title": "Indbygget chat",
+            "description": "Direkte-, gruppe- og teamchat med filvedhæftelser, ulæste-tæller og læsekvitteringer - ingen grund til en separat WhatsApp-gruppe."
+          }
+        }
+      },
+      "howItWorks": {
+        "title": "Klar på få minutter",
+        "steps": [
+          {
+            "title": "Modtag invitationen",
+            "description": "En admin sender en e-mail-invitation. Medarbejderen henter appen, sætter en adgangskode og lander på sin første vagt - allerede logget ind."
+          },
+          {
+            "title": "Kør dagen",
+            "description": "Stempel ind, følg opgavelisten, tag billeder, udfyld tjeklister og navigér mellem stop - alt sammen fra én skærm."
+          },
+          {
+            "title": "Se din indtjening",
+            "description": "Ved dagens slutning er timer og indtjening allerede regnet ud. Intet papirarbejde, intet gætteri, ingen ventetid på lønsedlen."
+          }
+        ]
+      }
+    }
+  },
+  "industryPages": {
+    "cleaningCompany": {
+      "meta": {
+        "title": "Software til rengøringsfirmaer | SaberTask",
+        "description": "Software bygget til rengøringsfirmaer. Automatisér planlægning, dokumentér kvaliteten med fotorapporter og fakturér hurtigere - én platform til rengøring."
+      },
+      "badge": "Software til rengøringsvirksomheder",
+      "hero": {
+        "titleStart": "Alt-i-én-platformen til",
+        "titleHighlight": "rengøringsfirmaer",
+        "description": "Planlægning, tidsregistrering, kvalitetskontrol, fakturering, løn og en mobilapp til medarbejderne - udskift regneark, WhatsApp og papir-tjeklister med ét system, bygget til den måde rengøringsvirksomheder faktisk arbejder på.",
+        "cta": "Book en demo",
+        "trial": "30 dages gratis prøve · Intet kreditkort nødvendigt",
+        "imageAlt": "Professionel rengøringsservice",
+        "floatingBadge": {
+          "title": "Kvalitet verificeret",
+          "subtitle": "Fotorapport vedhæftet"
+        }
+      },
+      "stats": {
+        "items": [
+          {
+            "value": "10.000+",
+            "label": "Opgaver håndteret månedligt"
+          },
+          {
+            "value": "30 dage",
+            "label": "Gratis prøve"
+          },
+          {
+            "value": "100%",
+            "label": "GDPR-compliant"
+          },
+          {
+            "value": "24/7",
+            "label": "Skyadgang"
+          }
+        ]
+      },
+      "problems": {
+        "title": "Du kender det daglige kaos",
+        "description": "Skemaer i Excel, billeder i WhatsApp, timesedler på papir og kunder, der ringer for at høre, om I har været der. Hver rengøringsvirksomhed starter her - SaberTask er måden, du kommer videre på.",
+        "items": [
+          {
+            "problem": "Skemaet bygges op igen hver uge",
+            "solution": "Tilbagevendende opgaver genereres automatisk ud fra serviceaftalerne"
+          },
+          {
+            "problem": "Intet bevis for at arbejdet er udført",
+            "solution": "GPS-stemplede billeder og tjeklister på hver opgave"
+          },
+          {
+            "problem": "Manuelle timesedler fulde af fejl",
+            "solution": "Ét-tryks stempling med automatiske pauseregler"
+          },
+          {
+            "problem": "Fakturaer skrevet i hånden, opgaver glider igennem",
+            "solution": "Udført arbejde flyder direkte ind i fakturakladder"
+          }
+        ]
+      },
+      "features": {
+        "scheduling": {
+          "title": "Intelligent planlægning, der kører sig selv",
+          "description": "Definér serviceaftalerne én gang - ugentlig trappevask, dybderengøring hver anden uge, månedlig vinduespolering - og SaberTask genererer de rigtige opgaver på den rigtige dag. Understøttelse for lige/ulige uger, sæsonperioder og brugerdefinerede månedsmønstre betyder, at skemaet matcher dine kontrakter præcist.",
+          "learnMore": "Læs mere om planlægning",
+          "mockupTitle": "Ugeplan · Team Alpha",
+          "mockupWeek": "Uge 15",
+          "mockupDays": [
+            {
+              "day": "Mandag",
+              "tasks": [
+                {
+                  "n": "Trappevask",
+                  "l": "Borups Allé",
+                  "fKey": "weekly"
+                },
+                {
+                  "n": "Kontorrengøring",
+                  "l": "Vesterbro",
+                  "fKey": "weekly"
+                }
+              ]
+            },
+            {
+              "day": "Tirsdag",
+              "tasks": [
+                {
+                  "n": "Vinduespolering",
+                  "l": "Kalvebod Brygge",
+                  "fKey": "even"
+                },
+                {
+                  "n": "Dybderengøring",
+                  "l": "Nørrebro",
+                  "fKey": "monthly"
+                }
+              ]
+            },
+            {
+              "day": "Onsdag",
+              "tasks": [
+                {
+                  "n": "Lobby & gange",
+                  "l": "Østerbro",
+                  "fKey": "weekly"
+                }
+              ]
+            }
+          ],
+          "freqLabels": {
+            "weekly": "Ugentlig",
+            "even": "Lige uge",
+            "monthly": "Månedlig"
+          }
+        },
+        "qualityControl": {
+          "title": "Kvalitetskontrol, dine kunder kan se",
+          "description": "Konfigurerbare tjeklister pr. lokation. Medarbejderne krydser af på telefonen, vedhæfter før-og-efter-billeder og får kundens underskrift. Rapporterne genereres som brandede PDF'er og er synlige i kundeportalen - så når kunden spørger \"blev skraldespandene tømt?\", er svaret et tidsstemplet billede.",
+          "learnMore": "Læs mere om kvalitetskontroller",
+          "mockupTitle": "Kvalitetsrapport · HQ Tower",
+          "mockupItems": [
+            {
+              "q": "Bordplader rengjort og desinficeret",
+              "ok": true
+            },
+            {
+              "q": "Gulv vasket, ingen snavs",
+              "ok": true
+            },
+            {
+              "q": "Skraldespande tømt og nye poser i",
+              "ok": false
+            },
+            {
+              "q": "Glasoverflader uden striber",
+              "ok": true
+            }
+          ]
+        },
+        "timeTracking": {
+          "title": "Tidsregistrering og løn uden fejl",
+          "descriptionP1": "Medarbejderne stempler ind og ud fra mobilappen med GPS-fangst. Pauseregler, vagttyper og overtid beregnes automatisk - slut med at gætte ved ugens slutning.",
+          "descriptionP2": "Medarbejderne ser brutto-timer, pausefradrag og nettoløn opdatere sig live på telefonen, inklusive akkordindtjening. Ledere godkender vagter før løneksport - kun verificerede data.",
+          "learnMore": "Læs mere om medarbejderhåndtering",
+          "mockupTitle": "Vagtoverblik · Nuværende periode",
+          "mockupApprovedLabel": "timer",
+          "mockupEmployeesLabel": "medarbejdere"
+        },
+        "invoicing": {
+          "title": "Fakturering, der skriver sig selv",
+          "description": "Når en opgave er udført, bliver den automatisk til en fakturalinje. Gennemgå, justér og eksportér til Dinero, e-conomic, Dynamics NAV, QuickBooks eller andre systemer via CSV. Slut med at taste det ind igen, som dit team allerede har gjort - hver fakturerbar opgave bliver fanget.",
+          "learnMore": "Læs mere om fakturering",
+          "integratesWith": "Integrerer med",
+          "mockupCustomer": "Nordic Group ApS",
+          "mockupAddress": "Strandvejen 12, København",
+          "mockupTerms": "Netto 14 dage",
+          "mockupDueLabel": "Forfalder 28. apr. 2026",
+          "mockupTotalLabel": "Total",
+          "mockupLines": [
+            {
+              "d": "Trappevask ×4",
+              "p": "€340"
+            },
+            {
+              "d": "Kontorrengøring ×8",
+              "p": "€960"
+            },
+            {
+              "d": "Vinduespolering ×2",
+              "p": "€420"
+            }
+          ]
+        }
+      },
+      "moreCapabilities": {
+        "title": "Alt det andet du har brug for",
+        "description": "Funktioner, som rengøringsspecifikke værktøjer ofte mangler.",
+        "items": [
+          {
+            "title": "Kundeportal",
+            "description": "Giv kunden deres eget login, hvor de kan se hvert besøg, hvert billede, hver rapport og den næste planlagte opgave. Bygger tillid og fjerner \"kom I?\"-opkald."
+          },
+          {
+            "title": "Fravær & sygemelding",
+            "description": "Medarbejderen melder sig syg fra telefonen. Vagter konverteres automatisk, afløsere bliver markeret, og ledere ser fraværsanalyser i realtid."
+          },
+          {
+            "title": "Mobil app",
+            "description": "Native iOS- og Android-app med dagens opgaveliste, stempling, billedtagning, chat og live løn. Bygget til folk, der arbejder på benene."
+          },
+          {
+            "title": "Arbejdsbeskrivelse",
+            "description": "Strukturér hver service - områder, frekvenser, tjeklister - pr. lokation. Eller upload en kontrakt som PDF og lad AI udtrække omfanget for dig."
+          },
+          {
+            "title": "Live dashboard",
+            "description": "Se medarbejdernes placering, opgavefremdrift og teamudnyttelse på et live kort. Reagér øjeblikkeligt på forsinkelser eller ændringer."
+          },
+          {
+            "title": "Indbygget teamchat",
+            "description": "Direkte-, gruppe- og teamchat med filvedhæftelser og læsekvitteringer. Slut med separate WhatsApp-grupper."
+          }
+        ]
+      }
+    },
+    "windowCleaning": {
+      "meta": {
+        "title": "Software til vinduespolering | SaberTask",
+        "description": "Software bygget til vinduespoleringsfirmaer. Ruteplanlægning, tilbagevendende skemaer, arbejdsbeskrivelser, fakturering og mobilapp - fra 2 til 200+ ansatte."
+      },
+      "badge": "Software til vinduespolering",
+      "hero": {
+        "titleStart": "Software til",
+        "titleHighlight": "vinduespolerere",
+        "titleEnd": "der vil vokse",
+        "description": "Ruteplanlægning, tilbagevendende skemaer, arbejdsbeskrivelser, tidsregistrering, fotodokumentation, fakturering og en mobilapp - uanset om du kører et hold på 2 eller 200, skalerer SaberTask med din forretning.",
+        "cta": "Book en demo",
+        "trial": "30 dages gratis prøve · Intet kreditkort nødvendigt",
+        "imageAlt": "Vinduespolerer i højde på en facade",
+        "floatingBadge": {
+          "title": "Rute optimeret",
+          "subtitle": "14 stop · 32 km sparet"
+        }
+      },
+      "stats": {
+        "items": [
+          {
+            "value": "2 til 200+",
+            "label": "Medarbejdere understøttet"
+          },
+          {
+            "value": "30 dage",
+            "label": "Gratis prøve"
+          },
+          {
+            "value": "4+",
+            "label": "Regnskabsintegrationer"
+          },
+          {
+            "value": "100%",
+            "label": "GDPR-compliant"
+          }
+        ]
+      },
+      "problems": {
+        "title": "Lyder det bekendt?",
+        "description": "Alle vinduespolerere starter med de samme hovedpiner - dårlige ruter, glemte aftaler, manuel fakturering og ingen måde at bevise, at arbejdet er blevet udført.",
+        "items": [
+          {
+            "problem": "For meget kørsel og dårlige ruter",
+            "solution": "Optimeret ruteplanlægning efter geografi og skema"
+          },
+          {
+            "problem": "Glemte aftaler, tabt omsætning",
+            "solution": "Tilbagevendende opgaver genereres automatisk ud fra serviceaftalerne"
+          },
+          {
+            "problem": "Timer spildt på manuel fakturering",
+            "solution": "Udførte opgaver bliver automatisk til fakturalinjer"
+          },
+          {
+            "problem": "Kunder tvivler på, at du har været der",
+            "solution": "GPS-tidsstemplede billeder og arbejdsbeskrivelser på hvert job"
+          }
+        ]
+      },
+      "features": {
+        "routePlanning": {
+          "title": "Ruteplanlægning, der faktisk sparer dig kilometre",
+          "description": "Planlæg ruterne efter geografi, tidsestimater og kapacitet. SaberTask samler stoppene i effektive dagsruter - og medarbejderen følger den optimerede rækkefølge på mobilappen. Mindre kørsel, flere pudsede vinduer.",
+          "learnMore": "Læs mere om ruteplanlægning",
+          "mockupTitle": "I dag · Team Bravo",
+          "mockupBadge": "8 stop · 22 km"
+        },
+        "workDescriptions": {
+          "title": "Detaljerede arbejdsbeskrivelser pr. lokation",
+          "description": "Definér præcis hvad der skal ske på hver adresse - områder, frekvenser, tjeklister. Understøtter ugentligt, lige/ulige uger, månedligt og brugerdefinerede intervaller med sæsonperioder. Omfanget driver den automatiske opgavegenerering, så intet bliver glemt.",
+          "learnMore": "Læs mere om arbejdsbeskrivelser",
+          "mockupSubtitle": "Vinduespolering",
+          "mockupAreaLabel": "Område",
+          "mockupArea": "Facade foran (12 vinduer)",
+          "mockupFrequency": "1 gang · 0,5 t",
+          "mockupChecklistLabel": "Tjekliste",
+          "mockupChecklist": [
+            "Rammer tørret af",
+            "Glas uden striber",
+            "Vindueskarme rengjort"
+          ]
+        },
+        "invoicing": {
+          "title": "Fakturering med ét klik - ikke én time",
+          "description": "Udførte opgaver flyder direkte ind i fakturakladder. Eksportér til dit regnskabssystem med ét klik - ikke kun Dinero, men også e-conomic, Dynamics NAV, QuickBooks og CSV til alle andre systemer. Slut med at bruge fredag eftermiddag på fakturering.",
+          "learnMore": "Læs mere om fakturering",
+          "integratesWith": "Integrerer med",
+          "mockupCustomer": "Dahlerup Vinduespolering",
+          "mockupAddress": "Strandvejen 12, Hellerup",
+          "mockupTerms": "Netto 8 dage",
+          "mockupLines": [
+            {
+              "d": "Facade foran ×1",
+              "p": "350 kr"
+            },
+            {
+              "d": "Bagvinduer ×1",
+              "p": "275 kr"
+            },
+            {
+              "d": "Vinterhave ×1",
+              "p": "425 kr"
+            }
+          ]
+        },
+        "accord": {
+          "title": "Akkord-løn - gjort rigtigt",
+          "description": "De fleste vinduespolerere betaler pr. opgave, ikke pr. time. SaberTask håndterer regnestykket automatisk: sæt hvert hold op med faktor-minutter, og hver færdiggjort opgave genererer den korrekte akkordbetaling ud fra tid og sats.",
+          "learnMore": "Læs mere om medarbejderhåndtering",
+          "items": [
+            {
+              "title": "Live indtjening på telefonen",
+              "desc": "Medarbejderen ser sin bruttoløn opdatere sig, efterhånden som opgaverne afsluttes - slut med at gætte på, hvad lønnen bliver."
+            },
+            {
+              "title": "Akkordplanlægning i dagsvisningen",
+              "desc": "Planlæg dagen omkring akkordarbejdet, så hver medarbejders indtjening er synlig, mens skemaet bliver bygget."
+            },
+            {
+              "title": "Godkendelser før lønkørsel",
+              "desc": "Godkend eller justér akkordbetalinger fra web, før de når lønsedlen - fuld ændringshistorik inkluderet."
+            },
+            {
+              "title": "Blandede hold understøttet",
+              "desc": "Kør akkord-hold side om side med time-hold i samme virksomhed - de rigtige lønregler bliver anvendt automatisk."
+            }
+          ],
+          "mockupTitle": "Akkordindtjening · Anna M.",
+          "mockupPeriod": "Periode: 1.-14. apr. 2026",
+          "mockupApprovedTasks": "opgaver",
+          "mockupRecentLabel": "Seneste aktivitet"
+        }
+      },
+      "moreCapabilities": {
+        "title": "Bygget til vækst - ikke kun til enkeltmandsfirmaer",
+        "description": "De fleste vinduespolerings-værktøjer topper ved 5-8 medarbejdere. SaberTask vokser med dig fra dag ét til flere hundrede ansatte.",
+        "items": [
+          {
+            "title": "Mobil app",
+            "description": "iOS- og Android-app med dagens rute, ind- og udstempling, billedtagning, chat og live løn. Medarbejderne ser deres dag og kører den selvstændigt."
+          },
+          {
+            "title": "Medarbejderhåndtering",
+            "description": "Vagter, vagtplanlægning, sygemelding, lønoverblik og teamchat - styr din arbejdsstyrke fra ét sted, efterhånden som du vokser."
+          },
+          {
+            "title": "Kundeportal",
+            "description": "Kunden logger ind og ser udført arbejde, billeder og kommende besøg. Slut med \"kom I i går?\"-opkald."
+          },
+          {
+            "title": "Kvalitetsrapporter",
+            "description": "Fotodokumentation med GPS og tidsstempel. Konfigurerbare tjeklister. Brandede PDF-rapporter synlige i kundeportalen."
+          },
+          {
+            "title": "Kundehåndtering",
+            "description": "Alle kunder, lokationer, kontakter, kontrakter og filer i én søgbar database - rygraden i din forretning."
+          },
+          {
+            "title": "Live dashboard",
+            "description": "Se hvor hvert team er, hvilke ruter der kører, og hvor mange stop der er tilbage - alt sammen på et live kort."
+          }
+        ]
+      }
+    },
+    "landscaping": {
+      "meta": {
+        "title": "Software til anlægsgartnere | SaberTask",
+        "description": "Software bygget til anlægsgartnere. Holdplanlægning, ruteoptimering, jobomkostninger, sæsonkontrakter, fotobevis og mobilapp - voks rentabelt."
+      },
+      "badge": "Software til anlægsgartnere",
+      "hero": {
+        "titleStart": "Kør din",
+        "titleHighlight": "anlægsgartnerforretning",
+        "titleEnd": "som de professionelle",
+        "description": "Holdplanlægning, ruteoptimering, tidsregistrering, jobomkostninger, fotobevis, kundeportal og en mobilapp til marken - bygget til anlægsgartnere, der vil vokse rentabelt uden at vokse i administration.",
+        "cta": "Book en demo",
+        "trial": "30 dages gratis prøve · Intet kreditkort nødvendigt",
+        "imageAlt": "Anlægsgartnere i arbejde",
+        "floatingBadge": {
+          "title": "Hold på lokationen",
+          "subtitle": "3 ejendomme i dag"
+        }
+      },
+      "stats": {
+        "items": [
+          {
+            "value": "30 dage",
+            "label": "Gratis prøve"
+          },
+          {
+            "value": "Sæsonbaseret",
+            "label": "Skemaunderstøttelse"
+          },
+          {
+            "value": "4+",
+            "label": "Regnskabsintegrationer"
+          },
+          {
+            "value": "100%",
+            "label": "GDPR-compliant"
+          }
+        ]
+      },
+      "problems": {
+        "title": "Hverdagen for en anlægsgartner",
+        "description": "Hold, der kører frem og tilbage på tværs af byen, vejret der ødelægger ugens plan, ekstraarbejder der aldrig bliver logget, og fredag eftermiddag brugt på timesedler og fakturaer. SaberTask er måden, du får styr på det.",
+        "items": [
+          {
+            "problem": "Holdene kører frem og tilbage hele dagen",
+            "solution": "Optimerede ruter efter geografi og kapacitet"
+          },
+          {
+            "problem": "Vejret ødelægger ugens plan",
+            "solution": "Drag-and-drop omplanlægning - sendes til holdene øjeblikkeligt"
+          },
+          {
+            "problem": "Ekstraarbejder glider igennem og bliver aldrig faktureret",
+            "solution": "Ad hoc-opgaver tilføjet i farten bliver til fakturerbare linjer"
+          },
+          {
+            "problem": "Jobrentabiliteten kendes først uger efter",
+            "solution": "Live tidsregistrering viser estimat vs. faktisk på hvert job"
+          }
+        ]
+      },
+      "features": {
+        "crewScheduling": {
+          "title": "Holdplanlægning og ruteplanlægning, der holder mandag morgen",
+          "description": "Træk holdene ind i ugeplanen. SaberTask samler stoppene i effektive dagsruter ud fra geografi, tid og holdkapacitet. Når vejret slår til, eller et ekstraarbejde dukker op, trækker du jobbet til en ny dag - holdene ser ændringen på telefonen i samme sekund du gemmer.",
+          "learnMore": "Læs mere om planlægning",
+          "mockupTitle": "Team Echo · Onsdag",
+          "mockupBadge": "6 stop · 18 km",
+          "mockupStops": [
+            {
+              "n": "Hidden Creek Estates",
+              "t": "07:30",
+              "svc": "Græsklip · 1,2 t",
+              "done": true
+            },
+            {
+              "n": "Birch Park Townhouses",
+              "t": "09:00",
+              "svc": "Hæktrimning",
+              "done": true
+            },
+            {
+              "n": "The Grove Office Park",
+              "t": "10:30",
+              "svc": "Barkdækning",
+              "done": false
+            },
+            {
+              "n": "Maple Ridge HOA",
+              "t": "12:30",
+              "svc": "Græsklip · 2 t",
+              "done": false
+            },
+            {
+              "n": "Sunset Memorial",
+              "t": "14:30",
+              "svc": "Kantklipning",
+              "done": false
+            }
+          ]
+        },
+        "jobCosting": {
+          "title": "Kend dine jobomkostninger, mens jobbet kører",
+          "description": "Tid registreret fra mobilappen fodrer direkte ind i jobomkostningerne. Se estimat vs. faktiske timer og materialer i realtid - ikke uger senere, hvor det er for sent at gøre noget. Fang overskridelser tidligt, og beskyt din margin på hvert job.",
+          "learnMore": "Læs mere om live dashboardet",
+          "mockupJobTitle": "Job: Maple Ridge HOA · Forårsoprydning",
+          "mockupJobSubtitle": "Estimeret vs. faktisk · live",
+          "mockupRows": [
+            {
+              "label": "Arbejdstid",
+              "est": "24t",
+              "act": "21t"
+            },
+            {
+              "label": "Barkdækning (m³)",
+              "est": "8",
+              "act": "8"
+            },
+            {
+              "label": "Maskinetimer",
+              "est": "12",
+              "act": "14"
+            }
+          ],
+          "mockupQuoted": "Tilbudt",
+          "mockupMargin": "Profitmargin"
+        },
+        "seasonal": {
+          "title": "Sæsonkontrakter, der planlægger sig selv",
+          "description": "Græspleje fra april til oktober. Snerydning fra november til marts. Forårsoprydning, efterårsoprydning, løvindsamling, gødningsrunder. Definér hver service én gang med dens sæson og frekvens - SaberTask genererer de rigtige opgaver på de rigtige datoer, år efter år, uden at du rører skemaet.",
+          "learnMore": "Læs mere om tilbagevendende skemaer",
+          "mockupTitle": "Serviceaftale · The Grove Office Park",
+          "mockupSubtitle": "Årlig vedligeholdelseskontrakt",
+          "mockupServices": [
+            {
+              "name": "Græspleje",
+              "freqKey": "everyWeek",
+              "season": "Apr - Okt",
+              "color": "emerald"
+            },
+            {
+              "name": "Hæktrimning",
+              "freqKey": "monthly",
+              "season": "Maj - Sep",
+              "color": "emerald"
+            },
+            {
+              "name": "Barkdækning",
+              "freqKey": "seasonal",
+              "season": "Apr - Maj",
+              "color": "amber"
+            },
+            {
+              "name": "Løvindsamling",
+              "freqKey": "weekly",
+              "season": "Okt - Nov",
+              "color": "amber"
+            },
+            {
+              "name": "Snerydning",
+              "freqKey": "onDemand",
+              "season": "Nov - Mar",
+              "color": "cyan"
+            }
+          ]
+        },
+        "invoicing": {
+          "title": "Fakturering, der fanger hver fakturerbar time",
+          "description": "Udførte besøg, ad hoc-ekstraarbejder, materialer og maskinetimer flyder automatisk ind i fakturakladder. Slut med \"fakturerede vi dem for den ekstra bark?\" - hver fakturerbar linje bliver fanget, i samme øjeblik arbejdet er udført. Eksportér til QuickBooks eller dit regnskabssystem med ét klik.",
+          "learnMore": "Læs mere om fakturering",
+          "integratesWith": "Integrerer med",
+          "mockupCustomer": "Hidden Creek Estates",
+          "mockupPeriod": "Maj-service",
+          "mockupTerms": "Netto 30 dage",
+          "mockupLines": [
+            {
+              "d": "Græspleje ×4",
+              "p": "$640"
+            },
+            {
+              "d": "Barkdækning · 8 m³",
+              "p": "$320"
+            },
+            {
+              "d": "Hæktrimning ×1",
+              "p": "$180"
+            }
+          ]
+        }
+      },
+      "moreCapabilities": {
+        "title": "Alt det andet en anlægsgartner har brug for",
+        "description": "Fra markens hold til kontoret - én platform for hele driften.",
+        "items": [
+          {
+            "title": "Mobil app til holdet",
+            "description": "iOS- og Android-app med dagens rute, GPS-stempling, billedtagning, chat og live indtjening. Fungerer for hold på alle niveauer."
+          },
+          {
+            "title": "Live dashboard",
+            "description": "Se hvor hvert hold er, hvilke jobs der kører, og hvordan dagen skrider frem i forhold til planen - alt sammen på et live kort."
+          },
+          {
+            "title": "Fotodokumentation",
+            "description": "Før-og-efter-billeder med GPS og tidsstempel. Bevis for at jobbet er udført - og dokumentér skader, du spottede ved ankomst."
+          },
+          {
+            "title": "Kundeportal",
+            "description": "Ejendomsadministratorer og bestyrelser logger ind og ser servicehistorik, billeder og kommende besøg. Mindre frem og tilbage, flere fornyelser."
+          },
+          {
+            "title": "Holdstyring",
+            "description": "Byg hold, tildel kompetencer, registrér vagter og kør løn. Håndtér sæsonansatte og kernepersonale side om side."
+          },
+          {
+            "title": "Ejendomsdatabase",
+            "description": "Hver ejendom, kontakt, kontrakt og dokument ét søgbart sted. Opfølgninger, lokationsnoter og adgangsinstruktioner - alt sammen gemt."
+          }
+        ]
+      }
+    },
+    "facilityManagement": {
+      "meta": {
+        "title": "Software til facility management | SaberTask",
+        "description": "Software bygget til facility managers. Serviceaftaler, vedligeholdelsesplanlægning, leverandørstyring, fotobevis, kundedashboard og mobilapp - alt ét sted."
+      },
+      "badge": "Software til facility management",
+      "hero": {
+        "titleStart": "Kør din",
+        "titleHighlight": "facility-drift",
+        "titleEnd": "som et urværk",
+        "description": "Styr hver bygning, serviceaftale, vedligeholdelsesopgave og leverandør fra én platform - og giv dine ejere, lejere og stakeholdere deres eget kundedashboard. Bygget til facility managers, der driver alt fra dusinvis til hundredvis af bygninger.",
+        "cta": "Book en demo",
+        "trial": "30 dages gratis prøve · Intet kreditkort nødvendigt",
+        "imageAlt": "Facility management-kontor",
+        "floatingBadge": {
+          "title": "Inspektion udført",
+          "subtitle": "Fotorapport vedhæftet"
+        }
+      },
+      "stats": {
+        "items": [
+          {
+            "value": "30 dage",
+            "label": "Gratis prøve"
+          },
+          {
+            "value": "Multi-site",
+            "label": "Porteføljeunderstøttelse"
+          },
+          {
+            "value": "100%",
+            "label": "GDPR-compliant"
+          },
+          {
+            "value": "OIOXML",
+            "label": "Klar til offentlig sektor"
+          }
+        ]
+      },
+      "problems": {
+        "title": "Facility-drift uden kaos",
+        "description": "Serviceaftaler spredt ud over regneark, vedligeholdelsesopgaver fortabt i mailtråde, leverandører der ringer på må og få, og lejere der kræver opdateringer. SaberTask giver dig ét struktureret system for hele porteføljen.",
+        "items": [
+          {
+            "problem": "Serviceaftaler spredt ud over flere filer",
+            "solution": "Hver kontrakt, lokation og frekvens i én struktureret database"
+          },
+          {
+            "problem": "Vedligeholdelsesopgaver fortabt i mailtråde",
+            "solution": "Opgaver genereret fra aftalerne, sporet fra tildeling til godkendelse"
+          },
+          {
+            "problem": "Ingen måde at bevise, at arbejdet er udført i en bygning",
+            "solution": "GPS-stemplede billeder og kvalitetsrapporter pr. opgave"
+          },
+          {
+            "problem": "Lejere og ejere jagter dig konstant for opdateringer",
+            "solution": "Kundeportal med live KPI'er, fotorapporter og historik"
+          }
+        ]
+      },
+      "features": {
+        "buildingDatabase": {
+          "title": "Hver bygning, hver kontrakt, hvert dokument - søgbart",
+          "description": "Ejere, bygninger, lokationer, kontakter, serviceaftaler og dokumenter i én struktureret database. Filerne er AI-søgbare, så du kan finde en hvilken som helst kontrakt, certifikat eller specifikation på sekunder. Hver ændring bliver logget til revision og compliance.",
+          "learnMore": "Læs mere om kundehåndtering",
+          "mockupOwner": "Norden Facilities ApS",
+          "mockupRole": "Ejer · 12 bygninger",
+          "mockupBuildings": [
+            {
+              "n": "Borups Allé 233",
+              "units": "24 enheder",
+              "tasks": 18
+            },
+            {
+              "n": "Strandvejen 12",
+              "units": "8 enheder",
+              "tasks": 12
+            },
+            {
+              "n": "Frederiksberg Allé 44",
+              "units": "32 enheder",
+              "tasks": 22
+            }
+          ],
+          "mockupTasksPerMonth": "opgaver/md"
+        },
+        "serviceAgreements": {
+          "title": "Serviceaftaler, der planlægger sig selv",
+          "description": "Definér hver tilbagevendende service for hver bygning - ugentlig rengøring, hver anden uge havearbejde, kvartalsvis inspektion, årlig kedelservice. SaberTask genererer de rigtige opgaver på den rigtige dag, år efter år, og minder dig om aftalerne i god tid, før de udløber. Gå aldrig glip af en forpligtelse igen.",
+          "learnMore": "Læs mere om opgaveplanlægning",
+          "mockupTitle": "Serviceaftale · Borups Allé 233",
+          "mockupSubtitle": "12-måneders vedligeholdelseskontrakt",
+          "mockupNextLabel": "Næste",
+          "mockupServices": [
+            {
+              "name": "Trapperengøring",
+              "freqKey": "everyWeek",
+              "next": "man. 21. apr.",
+              "color": "pink"
+            },
+            {
+              "name": "Vinduespolering",
+              "freqKey": "every4Weeks",
+              "next": "ons. 23. apr.",
+              "color": "pink"
+            },
+            {
+              "name": "Havevedligeholdelse",
+              "freqKey": "biweekly",
+              "next": "tir. 29. apr.",
+              "color": "pink"
+            },
+            {
+              "name": "Elevatorinspektion",
+              "freqKey": "quarterly",
+              "next": "15. maj",
+              "color": "amber"
+            },
+            {
+              "name": "Kedelservice",
+              "freqKey": "annual",
+              "next": "12. sep.",
+              "color": "amber"
+            }
+          ]
+        },
+        "photoProof": {
+          "title": "Fotobevis på hvert besøg",
+          "description": "Driftsmedarbejdere og eksterne leverandører dokumenterer hvert besøg med GPS-taggede, tidsstemplede billeder og konfigurerbare tjeklister. Når en ejer spørger \"er trappen blevet gjort rent i denne uge?\", er svaret et billede. Når noget skal repareres, dokumentér det på stedet - og den næste vedligeholdelsesopgave bliver genereret automatisk.",
+          "learnMore": "Læs mere om kvalitetskontroller",
+          "mockupTitle": "Inspektion · Borups Allé 233",
+          "mockupSubtitle": "Trappeopgang · 14. apr. 2026",
+          "mockupItems": [
+            {
+              "q": "Trapper fejet og vasket",
+              "ok": true
+            },
+            {
+              "q": "Gelændere tørret af",
+              "ok": true
+            },
+            {
+              "q": "Belysning virker",
+              "ok": true
+            },
+            {
+              "q": "Postkasser rene",
+              "ok": false
+            }
+          ]
+        },
+        "customerDashboard": {
+          "title": "Et kundedashboard, dine ejere og lejere faktisk vil bruge",
+          "description": "Giv hver ejer, bestyrelsesmedlem og lejer deres eget brandede kundedashboard - med live KPI'er, seneste aktivitet, fotorapporter og kommende service for de bygninger, de passer på. Tillid uden indsats, og en væsentlig grund til at kunderne bliver hos dig frem for at skifte administrator.",
+          "learnMore": "Læs mere om kundedashboardet",
+          "bullets": [
+            "Live KPI'er: udførte opgaver, åbne sager, tilfredshedsscore",
+            "Fuld servicehistorik med billeder, tidsstempler og signaturer",
+            "Selvbetjenings-henvendelser og feedback lander direkte i din opgaveliste",
+            "Brandet med dit logo, dine farver og dit domæne"
+          ],
+          "mockupTitle": "Kundedashboard",
+          "mockupWelcome": "Velkommen, Thomas · Norden Facilities",
+          "mockupDoneThisWeek": "Udført i denne uge",
+          "mockupOpenIssues": "Åbne sager",
+          "mockupScore": "Score",
+          "mockupRecentLabel": "Seneste aktivitet",
+          "mockupActivities": [
+            {
+              "task": "Trapperengøring",
+              "loc": "Borups Allé 233",
+              "timeKey": "today",
+              "timeSuffix": "09:32",
+              "statusKey": "completed"
+            },
+            {
+              "task": "Havevedligeholdelse",
+              "loc": "Strandvejen 12",
+              "timeKey": "today",
+              "timeSuffix": "11:15",
+              "statusKey": "inProgress"
+            },
+            {
+              "task": "Kvartalsvis inspektion",
+              "loc": "Frederiksberg Allé 44",
+              "timeKey": "yesterday",
+              "timeSuffix": "",
+              "statusKey": "reportReady"
+            }
+          ]
+        },
+        "suppliers": {
+          "title": "Interne teams og eksterne leverandører - samme system",
+          "description": "Om arbejdet bliver udført af dit eget ejendomsservice-team, et kontraheret rengøringsfirma eller en ad hoc-blikkenslager, bruger alle parter den samme platform. Tildel opgaver, spor fremdrift, se billeder, godkend fakturaer - fuldt overblik på tværs af intern og ekstern drift.",
+          "learnMore": "Læs mere om teamhåndtering",
+          "mockupTitle": "Aktive opgaver · Borups Allé 233",
+          "mockupSuppliers": [
+            {
+              "team": "Ejendomsservice (intern)",
+              "task": "Trapperengøring",
+              "color": "blue",
+              "statusKey": "today"
+            },
+            {
+              "team": "GreenCare ApS",
+              "task": "Havevedligeholdelse",
+              "color": "emerald",
+              "statusKey": "tomorrow"
+            },
+            {
+              "team": "WindowCo",
+              "task": "Vinduespolering",
+              "color": "cyan",
+              "statusKey": "wed"
+            },
+            {
+              "team": "Elevator AS",
+              "task": "Kvartalsvis inspektion",
+              "color": "amber",
+              "statusText": "15. maj"
+            }
+          ]
+        }
+      },
+      "moreCapabilities": {
+        "title": "Bygget til hele facility-driften",
+        "description": "Fra kontoret til kælderen - én platform til alt, der holder dine bygninger i gang.",
+        "items": [
+          {
+            "title": "Mobil app til feltarbejdere",
+            "description": "iOS- og Android-app med dagens opgaveliste, GPS-stempling, billedtagning, chat og live indtjening - til både interne medarbejdere og leverandører."
+          },
+          {
+            "title": "Live dashboard",
+            "description": "Se hver bygning, hver opgave, hvert team i realtid på et live kort. Reagér øjeblikkeligt på forsinkelser eller akutte udkald."
+          },
+          {
+            "title": "Fakturering & betaling",
+            "description": "Auto-fakturering fra udført arbejde. Eksportér til Dinero, e-conomic, Dynamics NAV, QuickBooks eller som OIOXML til offentlige kunder."
+          },
+          {
+            "title": "Arbejdsbeskrivelse",
+            "description": "Strukturér hver service pr. bygning - områder, frekvenser, tjeklister. Eller upload en eksisterende kontrakt som PDF og lad AI udtrække omfanget."
+          },
+          {
+            "title": "Indbygget chat",
+            "description": "Direkte-, gruppe- og teamchat mellem kontor, feltmedarbejdere og leverandører. Slut med separate WhatsApp-grupper for hver bygning."
+          },
+          {
+            "title": "Revisionsspor & compliance",
+            "description": "Hver ændring, hver stempling, hvert billede og dokument bliver logget. GDPR-compliant, multi-tenant-isoleret og revisionsklar fra dag ét."
+          }
+        ]
+      }
+    },
+    "winterServices": {
+      "meta": {
+        "title": "Software til vinterservice - SnowManager | SaberTask",
+        "description": "SnowManager fra SaberTask: live disponering, smart ruteplanlægning, tegning af servicezoner, kundedashboard og chauffør-app - brugt af 500+ entreprenører."
+      },
+      "badge": "Vinterservice",
+      "hero": {
+        "titleStart": "Kør din",
+        "titleHighlight": "vinterdrift",
+        "titleEnd": "som et urværk",
+        "description": "Snerydning, saltning, grusning og glatførebekæmpelse - når vejret slår til, tæller hvert minut. SaberTasks specialbyggede vintermodul <strong>SnowManager</strong> giver dig live disponering, ruteoptimering, vejr-triggere og øjeblikkeligt servicebevis for hver kunde.",
+        "cta": "Book en demo",
+        "visitSnowmanager": "Besøg snowmanager.com",
+        "heroCardTagline": "Et SaberTask-modul",
+        "heroCardDescription": "Brugt af 500+ snerydningsentreprenører i Skandinavien og resten af verden.",
+        "heroCardLive": "Live denne sæson"
+      },
+      "stats": {
+        "items": [
+          {
+            "value": "500+",
+            "label": "Snerydningsentreprenører"
+          },
+          {
+            "value": "30 dage",
+            "label": "Gratis prøve"
+          },
+          {
+            "value": "24/7",
+            "label": "Live disponering"
+          },
+          {
+            "value": "Vejrstyret",
+            "label": "Auto-udløser"
+          }
+        ]
+      },
+      "problems": {
+        "title": "Når sneen falder, starter kaosset",
+        "description": "Opkaldene vælter ind klokken fire om morgenen, chaufførerne skal have ruter med det samme, kunderne vil vide hvornår du kommer, og ledelsen har ingen idé om, hvad der faktisk sker i marken. SaberTask giver dig kontrol over hele sæsonen.",
+        "items": [
+          {
+            "problem": "Intet overblik over hvad holdene laver",
+            "solution": "Live dashboard med GPS-sporing og stemplinger"
+          },
+          {
+            "problem": "Ruter bygget i hånden kl. 3 om morgenen",
+            "solution": "Smart rutebygger, der optimerer efter lokation og prioritet"
+          },
+          {
+            "problem": "Kunder ringer for at få statusopdateringer",
+            "solution": "Kundeportal med live servicehistorik og ankomsttider"
+          },
+          {
+            "problem": "Diskussioner om, hvorvidt arbejdet er udført",
+            "solution": "GPS-stemplede billeder og tidsstemplet bevis på hvert besøg"
+          }
+        ]
+      },
+      "features": {
+        "liveDispatch": {
+          "title": "Live disponering - dit kontrolcenter under stormen",
+          "description": "Se hver bil, hver rute, hver stempling i realtid på et live kort. Når en chauffør er forsinket, eller en kunde tilføjer en ejendom, omfordel jobs øjeblikkeligt. Slut med blind tillid - bare live overblik.",
+          "mockupTitle": "Live disponering",
+          "mockupStats": [
+            "Biler ude",
+            "Stop udført"
+          ],
+          "mockupTrucks": [
+            {
+              "name": "Bil 04 · Lars",
+              "area": "Frederiksberg N",
+              "stops": "24/30",
+              "color": "cyan"
+            },
+            {
+              "name": "Bil 07 · Mads",
+              "area": "Østerbro",
+              "stops": "18/22",
+              "color": "cyan"
+            },
+            {
+              "name": "Bil 12 · Jonas",
+              "area": "Amager",
+              "stops": "6/28",
+              "color": "amber"
+            }
+          ]
+        },
+        "smartRoutes": {
+          "title": "Smarte ruter bygget på sekunder - ikke kl. 3 om morgenen",
+          "description": "Fortæl SaberTask hvilke ejendomme der er P1 (hospitaler, skoler), P2 (kontorer, detail) og P3 (boliger). Når stormen slår til, bliver optimerede ruter bygget automatisk - efter lokation, prioritet, udstyr og hold. Chaufførerne får dem på telefonen, i samme øjeblik de vågner.",
+          "mockupTitle": "Stormrute · Optimeret",
+          "mockupSubtitle": "Fra SnowManager-platformen",
+          "mockupImageAlt": "Optimeret snerydningsrute gennem København Østerbro med 26 stop over 7 km"
+        },
+        "drawingTool": {
+          "title": "Tegneværktøj - definér præcist hvad der skal ryddes",
+          "description": "Tegn servicezoner præcist på et kort - indkørsler, gangarealer, parkeringspladser, læsseramper, brandveje. Medarbejderne ser de præcise zoner, der skal ryddes, på telefonen - med noter og særlige instruktioner pr. område. Slut med \"missede I bagarealet?\"-opkald.",
+          "mockupTitle": "Servicezoner · Tegnet på satellitkort",
+          "mockupSubtitle": "Fra SnowManager-platformen",
+          "mockupImageAlt": "Tegneværktøj med servicezoner markeret på et satellitkort"
+        },
+        "customerDashboard": {
+          "title": "Et kundedashboard, dine kunder vil elske",
+          "description": "Ejendomsadministratorer og facility-ejere logger ind og ser hvert besøg, hvert billede, hver saltning - med tidsstempler og den bil, der udførte arbejdet. Slut med morgenopkald, der spørger \"var I her i nat?\". Tillid uden indsats, og en vigtig grund til at kunderne bliver loyale.",
+          "mockupTitle": "Kundedashboard",
+          "mockupSubtitle": "Office Park · Strandvejen 12",
+          "mockupVisitsThisSeason": "Besøg denne sæson",
+          "mockupLastService": "Sidste service",
+          "mockupNextForecast": "Næste prognose",
+          "mockupForecastValue": "Lør",
+          "mockupRecentLabel": "Seneste aktivitet",
+          "mockupActivities": [
+            {
+              "date": "04. feb. 04:42",
+              "event": "Snerydning + saltning",
+              "truck": "Bil 04"
+            },
+            {
+              "date": "02. feb. 06:15",
+              "event": "Kun saltning",
+              "truck": "Bil 04"
+            },
+            {
+              "date": "28. jan. 03:20",
+              "event": "Snerydning + saltning",
+              "truck": "Bil 07"
+            }
+          ]
+        },
+        "subcontractors": {
+          "title": "Underleverandører og fakturering - håndteret",
+          "description": "Styr dit netværk af underleverandører i samme system som dine egne hold. Tildel jobs, spor performance, godkend arbejde og behandl betalinger. Auto-fakturér derefter kunderne ud fra udførte besøg - eksporteret til dit regnskabssystem med ét klik.",
+          "integratesWith": "Integrerer med",
+          "mockupTitle": "Aktive underleverandører · I nat",
+          "mockupSubcontractors": [
+            {
+              "team": "Nordic Snow Services",
+              "area": "Frederiksberg",
+              "visits": 24,
+              "statusKey": "inProgress"
+            },
+            {
+              "team": "Vinterservice ApS",
+              "area": "Østerbro",
+              "visits": 18,
+              "statusKey": "done"
+            },
+            {
+              "team": "Snow Pros",
+              "area": "Amager",
+              "visits": 12,
+              "statusKey": "inProgress"
+            },
+            {
+              "team": "Plough & Salt",
+              "area": "Hellerup",
+              "visits": 8,
+              "statusKey": "done"
+            }
+          ],
+          "mockupStopsLabel": "stop"
+        }
+      },
+      "snowmanager": {
+        "title": "SnowManager - det dedikerede brand for snerydning",
+        "description": "SnowManager er SaberTasks specialbyggede vintermodul, brugt af 500+ snerydningsentreprenører. Samme platform, samme mobilapp, samme regnskabsintegrationer - brandet specifikt til snerydningsbranchen med sit eget site, support og community.",
+        "visitLink": "Besøg snowmanager.com",
+        "bookDemo": "Book en SaberTask-demo",
+        "stats": [
+          {
+            "v": "500+",
+            "l": "Snerydningsentreprenører"
+          },
+          {
+            "v": "Live",
+            "l": "24/7 disponering"
+          },
+          {
+            "v": "OIOXML",
+            "l": "Klar til offentlig sektor"
+          }
+        ]
+      },
+      "moreCapabilities": {
+        "title": "Alt det andet du skal bruge til sæsonen",
+        "description": "Fra kontoret til førerhuset til kunden - én platform til hele vinterdriften.",
+        "items": [
+          {
+            "title": "Mobil app til chauffører",
+            "description": "iOS- og Android-app med dagens rute, GPS-stempling, billedtagning og chat - bygget til chauffører med handsker på kl. 3 om natten."
+          },
+          {
+            "title": "Fotodokumentation",
+            "description": "Før-og-efter-billeder med GPS og tidsstempel på hvert besøg. Slut med diskussioner om, hvorvidt arbejdet er udført."
+          },
+          {
+            "title": "Ejendomsdatabase",
+            "description": "Hver kunde, lokation, kontakt og kontrakt ét søgbart sted. Tegnede servicezoner, særlige instruktioner, portkoder - alt er der."
+          },
+          {
+            "title": "Chaufførstyring",
+            "description": "Vagter, vagtplanlægning, sygemelding, løn og akkordarbejde - styr dit sæsonhold side om side med din fastansatte stab."
+          },
+          {
+            "title": "Indbygget chat",
+            "description": "Direkte-, gruppe- og teamchat mellem disponering, chauffører og underleverandører. Afgørende når stormen rammer, og information skal bevæge sig hurtigt."
+          },
+          {
+            "title": "Revisionsspor",
+            "description": "Hver stempling, hvert billede, hver rute og godkendelse bliver logget. GDPR-compliant og klar til enhver forsikringssag eller kontraktrevision."
+          }
+        ]
+      }
+    }
+  },
+  "mockup": {
+    "common": {
+      "live": "Live",
+      "online": "Online",
+      "active": "Aktiv",
+      "draft": "Udkast",
+      "sent": "Sendt",
+      "approved": "Godkendt",
+      "pending": "Afventer",
+      "completed": "Udført",
+      "scheduled": "Planlagt",
+      "inProgress": "I gang",
+      "done": "Færdig",
+      "reportReady": "Rapport klar",
+      "issue": "Problem",
+      "issues": "Problemer",
+      "all": "Alle",
+      "weekly": "Ugentlig",
+      "biweekly": "Hver 2. uge",
+      "monthly": "Månedlig",
+      "evenWk": "Lige uge",
+      "oddWk": "Ulige uge",
+      "even": "Lige",
+      "odd": "Ulige",
+      "seasonal": "Sæson",
+      "every4Weeks": "Hver 4. uge",
+      "everyWeek": "Hver uge",
+      "quarterly": "Kvartalsvis",
+      "annual": "Årligt",
+      "onDemand": "Efter behov",
+      "normal": "Normal",
+      "aboveAvg": "Over gns.",
+      "newBadge": "Ny",
+      "viewed": "Set",
+      "auto": "Auto-bygget",
+      "optimised": "Optimeret",
+      "onTrack": "På sporet",
+      "tasks": "Opgaver",
+      "tasksToday": "Opgaver i dag",
+      "yourShift": "Din vagt",
+      "yourShifts": "Dine vagter",
+      "today": "I dag",
+      "yesterday": "I går",
+      "tomorrow": "I morgen",
+      "stops": "stop",
+      "shifts": "vagter",
+      "photo": "Billede",
+      "photos": "billeder",
+      "open": "Åbn i Maps",
+      "address": "Adresse",
+      "notes": "Noter",
+      "description": "Beskrivelse",
+      "workerInput": "Medarbejder input",
+      "contact": "Kontakt",
+      "primaryContact": "Primær kontakt",
+      "activeAgreement": "Aktiv aftale",
+      "buildings": "Bygninger",
+      "properties": "Ejendomme",
+      "locations": "Lokationer",
+      "contacts": "Kontakter",
+      "agreements": "Aftaler",
+      "files": "Filer",
+      "overview": "Oversigt",
+      "reports": "Rapporter",
+      "documents": "Dokumenter",
+      "activity": "Aktivitet",
+      "recentActivity": "Seneste aktivitet",
+      "shiftPlanner": "Vagtplanlægger",
+      "team": "Team",
+      "team_alpha": "Team Alpha",
+      "team_bravo": "Team Bravo",
+      "team_echo": "Team Echo",
+      "noContact": "Ingen kontakt tilknyttet",
+      "weekN": "Uge 15",
+      "currentPeriod": "Aktuel periode",
+      "shiftOverview": "Vagtoversigt",
+      "salary": "Løn",
+      "accords": "Akkord",
+      "accordsThisPeriod": "Akkord denne periode",
+      "totalLabel": "Total",
+      "netLabel": "Netto",
+      "breakLabel": "Pause",
+      "fri": "Fre",
+      "mon": "Man",
+      "tue": "Tir",
+      "wed": "Ons",
+      "thu": "Tor",
+      "monday": "Mandag",
+      "tuesday": "Tirsdag",
+      "wednesday": "Onsdag",
+      "thursday": "Torsdag",
+      "friday": "Fredag",
+      "home": "Hjem",
+      "messages": "Beskeder",
+      "calendar": "Kalender",
+      "clockOut": "Stempel Ud",
+      "clockedInAt": "Stemplet ind kl.",
+      "startTask": "Start opgave",
+      "finalize": "Afslut",
+      "finalised": "Afsluttet",
+      "startTheTaskFirst": "Start opgaven først",
+      "approvedHours": "godkendt",
+      "viewAll": "Se alle",
+      "addRowPlus": "+ Tilføj",
+      "noScheduled": "Ikke planlagt",
+      "lastVisit": "Sidste besøg",
+      "nextVisit": "Næste besøg",
+      "taskId": "Opgave ID",
+      "customerId": "Kunde ID",
+      "welcome": "Velkommen",
+      "newCount": "{n} nye",
+      "integratesWith": "Integrerer med"
+    },
+    "tasks": {
+      "stairwayWash": "Trappevask",
+      "windowCleaning": "Vinduespudsning",
+      "officeCleaning": "Kontorrengøring",
+      "mainWindows": "Hovedvinduer",
+      "lobbyCleaning": "Lobby-rengøring",
+      "facadeWash": "Facadevask",
+      "binArea": "Skraldeområde",
+      "floorWaxing": "Gulvpolering",
+      "snowRemoval": "Snerydning",
+      "deepClean": "Hovedrengøring",
+      "lobbyHallways": "Lobby & gange",
+      "qualityInspection": "Kvalitetsinspektion",
+      "gardenMaintenance": "Havevedligeholdelse",
+      "windowPolishing": "Vinduespolering",
+      "elevatorInspection": "Elevatoreftersyn",
+      "boilerService": "Kedelservice",
+      "mulching": "Flisbelægning",
+      "lawnCut": "Græsslåning",
+      "hedgeTrim": "Hækklipning",
+      "edging": "Kantskæring",
+      "lawnMaintenance": "Plænevedligeholdelse",
+      "leafCollection": "Bladindsamling",
+      "snowPlowing": "Snerydning",
+      "saltingOnly": "Kun saltning",
+      "snowPlowingSalting": "Snerydning + saltning",
+      "frontFacade": "Forfacade",
+      "backWindows": "Bagvinduer",
+      "conservatory": "Vinterhave",
+      "tagrenne": "Tagrende"
+    },
+    "freq": {
+      "weekly": "Ugentlig",
+      "evenWk": "Lige uge",
+      "oddWk": "Ulige uge",
+      "monthly": "Månedlig",
+      "spring": "Forår",
+      "annual": "Årligt",
+      "onDemand": "Efter behov",
+      "every4Weeks": "Hver 4. uge",
+      "everyWeek": "Hver uge"
+    },
+    "shiftCard": {
+      "weekN": "Uge 15",
+      "shiftPlanner": "Vagtplanlægger",
+      "sickLeave": "Sygemelding",
+      "aboveAvg": "Over gns.",
+      "sickRate": "Sygefravær",
+      "days": "Dage",
+      "vsAvg": "vs. gns."
+    },
+    "homeScreen": {
+      "header": "Hjem",
+      "dateLabel": "Fredag 10. april",
+      "twoTasks": "2 opgaver",
+      "threeTasks": "3 opgaver",
+      "yourShifts": "Dine vagter",
+      "yourShift": "Din vagt",
+      "tasksToday": "Opgaver i dag",
+      "normal": "Normal",
+      "clockedInAt": "Stemplet ind kl. 15:14",
+      "clockedInAtPhone": "Stemplet ind kl. 07:58",
+      "clockOut": "Stempel ud"
+    },
+    "taskScreen": {
+      "back": "Hjem",
+      "task": "Trappevask",
+      "address": "Borups Allé 233",
+      "notes": "Kunden var tilfreds med arbejdet",
+      "createNewTask": "Opret ny opgave på denne lokation",
+      "noContact": "Ingen kontakt tilknyttet",
+      "startTask": "Start opgave",
+      "finalize": "Afslut"
+    },
+    "salaryScreen": {
+      "header": "Løn",
+      "period": "15. mar - 14. apr 2026",
+      "currentPeriod": "Aktuel periode",
+      "shiftOverview": "Vagtoversigt",
+      "shifts": "Vagter",
+      "accords": "Akkord",
+      "approved": "Godkendt",
+      "pending": "Afventer",
+      "accordsThisPeriod": "Akkord denne periode",
+      "normal": "Normal",
+      "threeShifts": "3 vagter",
+      "totalH": "Total: 16t 0m",
+      "breakH": "Pause: 0t 0m",
+      "netH": "Netto: 16t 0m",
+      "fri": "Fre"
+    },
+    "shiftPlannerCard": {
+      "title": "Vagtplanlægger",
+      "weekN": "Uge 15",
+      "normal": "Normal",
+      "approved": "godkendt",
+      "pendingHours": "afventer"
+    },
+    "liveDashboard": {
+      "liveMap": "Live Kort",
+      "live": "Live",
+      "popupTask": "Trappevask",
+      "popupAddress": "Borups Allé 233",
+      "clockedIn": "Stemplet ind 08:02",
+      "photosTaken": "Billeder taget",
+      "finalised": "Afsluttet",
+      "teams": "Teams",
+      "teamAlpha": "Team Alpha",
+      "teamBravo": "Team Bravo",
+      "teamEcho": "Team Echo",
+      "onShift": "På vagt",
+      "completed": "Udført",
+      "hoursLabel": "Timer",
+      "tasksLabel": "Opgaver",
+      "trucksOut": "Biler ude",
+      "stopsDone": "Stop færdige",
+      "pending": "Afventer",
+      "activeRoutes": "Aktive ruter"
+    },
+    "shiftPlannerHomepage": {
+      "title": "Vagtplanlægger",
+      "weekN": "Uge 15",
+      "normal": "Normal",
+      "sickLeave": "Sygemelding",
+      "aboveAvg": "Over gns.",
+      "sickRate": "Sygefravær",
+      "days": "Dage",
+      "vsAvg": "vs. gns."
+    },
+    "invoice": {
+      "title": "Faktura",
+      "draft": "Udkast",
+      "sent": "Sendt",
+      "customer": "Nordic Group ApS",
+      "customerAddress": "Strandvejen 12, København",
+      "net14days": "Netto 14 dage",
+      "net30days": "Netto 30 dage",
+      "net8days": "Netto 8 dage",
+      "due": "Forfald 28. apr 2026",
+      "lineCleaning": "Rengøring · HQ Tower",
+      "lineWindow": "Vinduespudsning",
+      "lineSnow": "Snerydning",
+      "totalLabel": "Total",
+      "task": "Opgave",
+      "finalised": "Afsluttet",
+      "invoiceLabel": "Faktura",
+      "exportLabel": "Eksport",
+      "stairwayWashX4": "Trappevask ×4",
+      "officeCleaningX8": "Kontorrengøring ×8",
+      "windowCleaningX2": "Vinduespudsning ×2",
+      "frontFacadeX1": "Forfacade ×1",
+      "backWindowsX1": "Bagvinduer ×1",
+      "conservatoryX1": "Vinterhave ×1",
+      "lawnMaintenanceX4": "Plænevedligeholdelse ×4",
+      "mulchingLine": "Flisbelægning · 8 m³",
+      "hedgeTrimmingX1": "Hækklipning ×1",
+      "windowCleaningX4": "Vinduespudsning ×4"
+    },
+    "customerPortal": {
+      "name": "Nordic Group Portal",
+      "welcomeMichael": "Velkommen, Michael",
+      "overview": "Oversigt",
+      "tasksTab": "Opgaver",
+      "photosTab": "Billeder",
+      "reportsTab": "Rapporter",
+      "recentActivity": "Seneste aktivitet",
+      "windowCleaning": "Vinduespudsning",
+      "stairwayWash": "Trappevask",
+      "qualityInspection": "Kvalitetsinspektion",
+      "hqTower": "HQ Tower",
+      "warehouseNorth": "Lager Nord",
+      "today1432": "I dag 14:32",
+      "today1115": "I dag 11:15",
+      "yesterday": "I går",
+      "completed": "Udført",
+      "reportReady": "Rapport klar",
+      "latestPhotos": "Seneste billeder",
+      "threeNew": "3 nye"
+    },
+    "taskScheduling": {
+      "title": "Opgaveplanlægning",
+      "teamAlphaWeek": "Team Alpha · Uge 15",
+      "all": "Alle",
+      "weekly": "Ugentlig",
+      "even": "Lige",
+      "odd": "Ulige",
+      "monthly": "Månedlig",
+      "monday": "Mandag",
+      "tuesday": "Tirsdag",
+      "windowCleaning": "Vinduespudsning",
+      "stairwayWash": "Trappevask",
+      "officeCleaning": "Kontorrengøring",
+      "floorWaxing": "Gulvpolering",
+      "mainWindows": "Hovedvinduer",
+      "lobbyCleaning": "Lobby-rengøring",
+      "facadeWash": "Facadevask",
+      "binArea": "Skraldeområde",
+      "hqTower": "HQ Tower",
+      "borupsAlle": "Borups Allé",
+      "vesterbro": "Vesterbro",
+      "norrebro": "Nørrebro",
+      "kalvebodBrygge": "Kalvebod Brygge",
+      "osterbro": "Østerbro",
+      "amager": "Amager",
+      "weeklyBadge": "Ugentlig",
+      "evenWk": "Lige uge",
+      "oddWk": "Ulige uge",
+      "monthlyBadge": "Månedlig"
+    },
+    "qualityReport": {
+      "title": "Kvalitetsrapport",
+      "location": "HQ Tower · Kontorkøkken",
+      "section": "Sektion 2 · Køkken",
+      "q1": "Bordplader rengjort & desinficeret",
+      "q2": "Gulv vasket, ingen affald",
+      "q3": "Skraldespande tømt & nye poser",
+      "q4": "Hvidevarer tørret af",
+      "issue": "Problem",
+      "photoEvidence": "Fotodokumentation",
+      "fivePhotos": "5 billeder",
+      "inspector": "Inspektør",
+      "inspectorName": "Anna Møller",
+      "inspectorDate": "14. apr 2026, 10:32",
+      "customer": "Kunde",
+      "customerName": "Michael Jensen",
+      "satisfied": "Kunden er tilfreds med servicen"
+    },
+    "customerCard": {
+      "company": "Nordic Group ApS",
+      "customerId": "Kunde #10238",
+      "active": "Aktiv",
+      "locations": "Lokationer",
+      "contacts": "Kontakter",
+      "agreements": "Aftaler",
+      "files": "Filer",
+      "loc1Name": "HQ Tower",
+      "loc1Addr": "Strandvejen 12, København",
+      "loc2Name": "Lager Nord",
+      "loc2Addr": "Industrivej 8, Aarhus",
+      "loc3Name": "Showroom",
+      "loc3Addr": "Vesterbrogade 4, København",
+      "tasksMo": "opgaver",
+      "primaryContact": "Primær kontakt",
+      "contactName": "Michael Jensen",
+      "contactEmail": "michael@nordic.dk",
+      "contactPhone": "+45 32 33 05 20",
+      "activeAgreement": "Aktiv aftale",
+      "agreementName": "Rengøringskontrakt",
+      "agreementDetails": "Ugentlig · 3 lokationer",
+      "agreementPrice": "18.000 kr/md"
+    },
+    "fp": {
+      "liveDash": {
+        "title": "Live dashboard",
+        "active": "Aktive",
+        "done": "Udført",
+        "onTime": "Til tiden",
+        "todaysTasks": "Dagens opgaver",
+        "viewAll": "Se alle →",
+        "office": "Kontorrengøring",
+        "window": "Vinduespudsning",
+        "floor": "Gulvvedligeholdelse",
+        "doneB": "Udført",
+        "live": "Live",
+        "soon": "Snart",
+        "activeTeams": "Aktive teams",
+        "taskCompleted": "Opgave udført",
+        "twoMinAgo": "Team Alpha · 2 min siden"
+      },
+      "empMgmt": {
+        "teamRoster": "Team-oversigt",
+        "live": "Live",
+        "onShift": "På vagt",
+        "sick": "Syg",
+        "attendance": "Fremmøde",
+        "team": "Team",
+        "viewAll": "Se alle →",
+        "annaName": "Anna Møller",
+        "jonasName": "Jonas Larsen",
+        "saraName": "Sara Knudsen",
+        "madsName": "Mads Petersen",
+        "annaRole": "Rengøring · Team Alpha",
+        "jonasRole": "Vinduer · Team Bravo",
+        "saraRole": "Rengøring · Team Alpha",
+        "madsRole": "Anlæg · Team Echo",
+        "clockedIn": "Stemplet ind",
+        "enRoute": "På vej",
+        "sickLeave": "Sygemeldt",
+        "floatTitle": "Stemplet ind",
+        "floatSub": "Anna M. · 07:58"
+      },
+      "invoicing": {
+        "title": "Faktura #2026-0428",
+        "customer": "Nordic Group ApS",
+        "draft": "Kladde",
+        "lineItems": "Linjer",
+        "addLine": "+ Tilføj linje",
+        "cleaning": "Rengøring · HQ Tower",
+        "windowCleaning": "Vinduespudsning",
+        "snowRemoval": "Snerydning · Marts",
+        "qualityInspection": "Kvalitetskontrol",
+        "totalLabel": "Total",
+        "sendInvoice": "Send faktura",
+        "exportCsv": "Eksportér CSV",
+        "drafts": "Kladder",
+        "sent": "Sendt",
+        "totalKpi": "Total",
+        "autoBilled": "Faktureret automatisk",
+        "fromCompleted": "Fra afsluttet opgave"
+      },
+      "customerPortal": {
+        "company": "Nordic Group · Borups Allé",
+        "live": "Live",
+        "lastService": "Seneste service",
+        "today": "I dag",
+        "thisMonth": "Denne måned",
+        "ourScore": "Vores score",
+        "completedThisWeek": "Udført denne uge",
+        "viewAll": "Se alle →",
+        "stairCleaning": "Trapperengøring · Blok A",
+        "windowCleaning": "Vinduespudsning · Lobby",
+        "binCleaning": "Skraldeskur rengøring",
+        "doneAt0732": "Udført · 07:32",
+        "doneYesterday": "Udført · I går",
+        "doneTwoDaysAgo": "Udført · 2 dage siden",
+        "newReportAvail": "Ny rapport tilgængelig",
+        "stairwayInspection": "Trappeinspektion · Marts",
+        "servicePortal": "Service Portal",
+        "signOut": "Log ud",
+        "thisWeek": "Denne uge",
+        "last30d": "Sidste 30d",
+        "qualityScore": "Kvalitetsscore",
+        "next14days": "Næste 14 dage",
+        "weekShort": "UGE",
+        "wednesday": "Onsdag, 9. april",
+        "twoCleaning": "2 rengøringsopgaver planlagt",
+        "newReport": "Ny rapport",
+        "stairInspMar": "Trappeinspektion · Marts",
+        "liveUpdates": "Live opdateringer",
+        "noSupportCall": "Intet supportopkald nødvendigt"
+      },
+      "taskScheduling": {
+        "title": "Planlægning · uge 14",
+        "active": "Aktiv plan",
+        "tasks": "Opgaver",
+        "hours": "Timer",
+        "revenue": "Omsætning",
+        "weeklyPlan": "Ugeplan",
+        "allTeams": "Alle teams →",
+        "alpha": "Alpha",
+        "bravo": "Bravo",
+        "echo": "Echo",
+        "routeOptimised": "Rute optimeret",
+        "stopsKm": "14 stop · 32 km sparet",
+        "monday": "Mandag",
+        "tuesday": "Tirsdag",
+        "wednesday": "Onsdag",
+        "thursday": "Torsdag",
+        "friday": "Fredag",
+        "waypoints": "stop",
+        "drawRoute": "Tegn rute",
+        "addLabel": "+ Tilføj"
+      },
+      "qualityCtrl": {
+        "title": "Kvalitetsrapport",
+        "location": "Kontorkøkken · 2. sal",
+        "saving": "Gemmer",
+        "section": "Sektion",
+        "issues": "Problemer",
+        "score": "Score",
+        "kitchen": "Sektion 2 · Køkken",
+        "of12": "3 af 12 →",
+        "q1": "Bordplader rengjort & desinficeret",
+        "q2": "Gulv vasket, ingen affald",
+        "q3": "Skraldespande tømt & nye poser",
+        "photoEvidence": "Fotodokumentation",
+        "fivePhotos": "5 billeder",
+        "reportFinalised": "Rapport afsluttet",
+        "pdfReady": "PDF klar til deling"
+      },
+      "customerMgmt": {
+        "company": "Nordic Group ApS",
+        "customerNo": "Kunde #10238",
+        "active": "Aktiv",
+        "locations": "Lokationer",
+        "contacts": "Kontakter",
+        "agreements": "Aftaler",
+        "files": "Filer",
+        "viewAll": "Se alle →",
+        "hqTower": "HQ Tower",
+        "warehouseNorth": "Lager Nord",
+        "showroom": "Showroom",
+        "addr1": "Strandvejen 12, København",
+        "addr2": "Industrivej 8, Aarhus",
+        "addr3": "Vesterbrogade 4, København",
+        "tasks": "opgaver",
+        "aiSearch": "AI fil-søgning",
+        "found42": "Fundet i 42 dokumenter"
+      },
+      "shiftRoster": {
+        "mon": "Man",
+        "tue": "Tir",
+        "wed": "Ons",
+        "today": "I dag",
+        "fri": "Fre",
+        "sat": "Lør",
+        "sun": "Søn",
+        "date1": "6. apr",
+        "date2": "7. apr",
+        "date3": "8. apr",
+        "date4": "9. apr",
+        "date5": "10. apr",
+        "date6": "11. apr",
+        "date7": "12. apr",
+        "shiftPlanner": "Vagtplan",
+        "live": "Live",
+        "employee": "Medarbejder",
+        "approved24": "24t 0m godkendt",
+        "approved16": "16t 0m godkendt",
+        "normal": "Normal"
+      },
+      "invoiceFlow": {
+        "titleStart": "Fra opgave til faktura - ",
+        "titleHighlight": "automatisk",
+        "description": "Arbejdet udføres, fakturaen oprettes. Ingen genindtastning, ingen kopier-indsæt, ingen oversete fakturerbare opgaver.",
+        "step1": "1. Serviceaftale",
+        "serviceAgreement": "Serviceaftale",
+        "windowCleaning": "Vinduespudsning",
+        "weekly": "Ugentlig",
+        "stairwayWash": "Trappevask",
+        "biweekly": "Hver anden uge",
+        "snowRemoval": "Snerydning",
+        "seasonal": "Sæsonbetonet",
+        "step2": "2. Medarbejder afslutter",
+        "completed": "Udført",
+        "finalised": "Afsluttet",
+        "step3": "3. Faktura-kladde",
+        "draft": "Kladde",
+        "windowCleaningX4": "Vinduespudsning ×4",
+        "stairwayWashX2": "Trappevask ×2",
+        "totalLabel": "Total",
+        "step4": "4. Eksport"
+      },
+      "workDescription": {
+        "subtitle": "Arbejdsbeskrivelse",
+        "areaNameLabel": "Områdenavn",
+        "notesLabel": "Noter",
+        "notesValue": "19 hovedtrapper. Støv om vinteren f...",
+        "priceLabel": "Pris",
+        "everyWeek": "Hver uge",
+        "perPeriod": "1x  0,00 t",
+        "seasonBadge": "1/10-31/3",
+        "frequencyLabel": "Frekvens",
+        "timesPeriodLabel": "Gange/periode",
+        "hoursVisitLabel": "Timer/besøg",
+        "limitPeriodLabel": "Begrænset periode",
+        "limitPeriodRange": "1. okt - 31. mar",
+        "checklistLabel": "Tjeklistepunkter",
+        "checklistItem": "Trapper fejet"
+      },
+      "qualityMobile": {
+        "lastVisitDate": "23. mar 2026",
+        "recentIssues": "Seneste problemer",
+        "oneReport": "1 rapport",
+        "issueDate": "25. mar 2026",
+        "byAdmin": "Af Admin User",
+        "oneIssue": "1 problem"
+      },
+      "mobileApp": {
+        "taskDetailTitle": "Hver opgave, hver detalje",
+        "taskDetailDesc": "Tryk på en opgave for at se det hele - adresse med ét-tryks-navigation, arbejdsbeskrivelse, kundenoter, billedhistorik og et notefelt. Tag før-og-efter-billeder, skriv kommentarer og afslut opgaven - alt uden at forlade skærmen.",
+        "salaryTitle": "Se din løn - live",
+        "salaryDesc": "Ikke mere venten til lønningsdag for at vide, hvad du har tjent. Lønskærmen viser brutto-timer, pausefradrag, nettoløn og akkordindtjening opdateret i realtid, når du stempler ind og ud. Godkendte og afventende beløb er adskilt, så der aldrig er overraskelser.",
+        "capabilitiesTitle": "Bygget til folk på farten",
+        "capabilitiesSubtitle": "Store knapper, hurtige svartider og ingen oplæring nødvendig.",
+        "gpsTitle": "GPS-stempling",
+        "gpsDesc": "Ét tryk for at stemple ind og ud med automatisk GPS. Pauseregler fratrækker pauser pr. vagttype, så timesedlen altid er korrekt.",
+        "photoTitle": "Fotodokumentation",
+        "photoDesc": "Tag før-og-efter-billeder knyttet direkte til hver opgave. GPS-tagget, tidsstemplet og synkroniseret automatisk til web-dashboardet.",
+        "taskListTitle": "Optimeret daglig opgaveliste",
+        "taskListDesc": "Dagens opgaver er organiseret i optimal rækkefølge baseret på din ruteplan. Se hvad der er næst, tryk for at navigere, og arbejd dig effektivt gennem dagen.",
+        "messagingTitle": "Indbygget chat",
+        "messagingDesc": "Direkte chat, gruppechat og team-chat med filer, ulæste beskeder og læste kvitteringer. Ingen separat WhatsApp-gruppe nødvendig.",
+        "sickLeaveTitle": "Sygemelding",
+        "sickLeaveDesc": "Medarbejdere sygemelder sig fra telefonen med ét tryk. Vagter konverteres automatisk, og ledere ser live-analyser med det samme.",
+        "elearningTitle": "E-læring & træning",
+        "elearningDesc": "Tildel kurser direkte i appen. Medarbejdere gennemfører moduler, ser videoer og består quizzer - alt registreret, så du ved hvem der er certificeret, og hvem der skal have genopfriskning.",
+        "connectedTitle": "Koblet til alt på web",
+        "connectedSubtitle": "Hver handling på telefonen dukker op med det samme på web-dashboardet - og omvendt.",
+        "planningBoard": "Planlægningstavle",
+        "clockEvents": "Stempel-hændelser",
+        "taskPhotos": "Opgave-billeder",
+        "completedTasks": "Afsluttede opgaver",
+        "taskSchedulingLink": "Opgaveplanlægning",
+        "employeeManagementLink": "Medarbejderhåndtering",
+        "customerPortalLink": "Kundeportal",
+        "invoicingBillingLink": "Fakturering"
+      }
     }
   }
 }

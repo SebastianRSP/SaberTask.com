@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'SnowManager — Platform Presentation',
+  title: 'SnowManager - Platform Presentation',
   description: 'Discover how SnowManager streamlines your winter operations with live dashboards, route building, subcontractor management, and more.',
   robots: { index: false, follow: false },
   openGraph: {
-    title: 'SnowManager — Platform Presentation',
+    title: 'SnowManager - Platform Presentation',
     description: 'Discover how SnowManager streamlines your winter operations with live dashboards, route building, subcontractor management, and more.',
   },
 };

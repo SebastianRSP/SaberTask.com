@@ -332,7 +332,7 @@ export default function InvestPage() {
           <FadeIn>
             <p className="text-primary font-semibold text-base uppercase tracking-wider mb-3">Vores historie</p>
             <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-dark mb-6">
-              Født ud af frustration — bygget indefra branchen
+              Født ud af frustration - bygget indefra branchen
             </h2>
           </FadeIn>
 
@@ -345,7 +345,7 @@ export default function InvestPage() {
               </p>
               <p className="text-gray-600 text-xl leading-relaxed mb-4">
                 Han bragte Sebastian ind i sin virksomhed for at opleve problemerne på egen hånd. Sebastian
-                så hurtigt, at hele branchen manglede ét samlet digitalt værktøj — og begyndte at bygge
+                så hurtigt, at hele branchen manglede ét samlet digitalt værktøj - og begyndte at bygge
                 platformen indefra virksomheden, med direkte adgang til de daglige frustrationer.
               </p>
             </div>
@@ -402,7 +402,7 @@ export default function InvestPage() {
             </h2>
             <p className="text-gray-500 text-xl max-w-3xl mb-16">
               WinterManager samler ruteoptimering, fakturering, chauffør-koordinering, underleverandør-samarbejde
-              og dokumentation i ét system — bygget specifikt til branchens behov.
+              og dokumentation i ét system - bygget specifikt til branchens behov.
             </p>
           </FadeIn>
 
@@ -458,7 +458,7 @@ export default function InvestPage() {
             </h2>
           </FadeIn>
 
-          {/* Revenue growth — hero stat */}
+          {/* Revenue growth - hero stat */}
           <FadeIn delay={100}>
             <div className="relative bg-white/[0.05] backdrop-blur-sm border border-white/10 rounded-3xl p-8 md:p-12 mb-10">
               <div className="flex flex-col md:flex-row items-center gap-8">
@@ -510,9 +510,9 @@ export default function InvestPage() {
           {/* Network effect flywheel */}
           <FadeIn delay={500}>
             <div className="bg-white/[0.05] backdrop-blur-sm border border-white/10 rounded-2xl p-7 md:p-10">
-              <h3 className="font-heading font-bold text-2xl text-white mb-2 text-center">Netværkseffekt — vores vækst-flywheel</h3>
+              <h3 className="font-heading font-bold text-2xl text-white mb-2 text-center">Netværkseffekt - vores vækst-flywheel</h3>
               <p className="text-gray-400 text-base text-center mb-8 max-w-xl mx-auto">
-                Hver ny kunde udløser en kaskade af nye betalende brugere — uden ekstra salgsomkostninger.
+                Hver ny kunde udløser en kaskade af nye betalende brugere - uden ekstra salgsomkostninger.
               </p>
 
               {/* Flywheel SVG */}
@@ -560,7 +560,7 @@ export default function InvestPage() {
 
               <p className="text-gray-400 text-base leading-relaxed text-center max-w-2xl mx-auto">
                 Kommuner bringer deres leverandører med ind på platformen. Leverandørerne har egne kunder og adresser,
-                som de også begynder at administrere i WinterManager. Disse kunder har igen egne leverandører — og cyklussen gentager sig.
+                som de også begynder at administrere i WinterManager. Disse kunder har igen egne leverandører - og cyklussen gentager sig.
               </p>
             </div>
           </FadeIn>
@@ -576,7 +576,7 @@ export default function InvestPage() {
               Stort, fragmenteret og underdigitaliseret
             </h2>
             <p className="text-gray-500 text-xl max-w-3xl mb-12">
-              Glatførebekæmpelse er et globalt milliardmarked med ekstrem fragmentering — og ingen markedsdominerende software-løsninger.
+              Glatførebekæmpelse er et globalt milliardmarked med ekstrem fragmentering - og ingen markedsdominerende software-løsninger.
             </p>
           </FadeIn>
 
@@ -586,17 +586,17 @@ export default function InvestPage() {
             <FadeIn delay={100}>
               <div className="flex-shrink-0">
                 <svg viewBox="0 0 420 420" className="w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96">
-                  {/* TAM — outer */}
+                  {/* TAM - outer */}
                   <circle cx="210" cy="210" r="195" fill="#4462F8" opacity="0.08" stroke="#4462F8" strokeWidth="2" />
                   <text x="210" y="52" textAnchor="middle" className="text-[13px] font-heading font-bold fill-primary">TAM</text>
                   <text x="210" y="72" textAnchor="middle" className="text-[18px] font-heading font-bold fill-dark">€76 mia.</text>
 
-                  {/* SAM — middle */}
+                  {/* SAM - middle */}
                   <circle cx="210" cy="235" r="125" fill="#4462F8" opacity="0.12" stroke="#4462F8" strokeWidth="2" />
                   <text x="210" y="148" textAnchor="middle" className="text-[13px] font-heading font-bold fill-primary">SAM</text>
                   <text x="210" y="168" textAnchor="middle" className="text-[18px] font-heading font-bold fill-dark">€370-550 mio.</text>
 
-                  {/* SOM — inner */}
+                  {/* SOM - inner */}
                   <circle cx="210" cy="280" r="60" fill="#4462F8" opacity="0.2" stroke="#4462F8" strokeWidth="2.5" />
                   <text x="210" y="270" textAnchor="middle" className="text-[11px] font-heading font-bold fill-primary">SOM</text>
                   <text x="210" y="292" textAnchor="middle" className="text-[16px] font-heading font-bold fill-dark">€2-8 mio.</text>
@@ -614,7 +614,7 @@ export default function InvestPage() {
                   </div>
                   <p className="font-heading text-2xl font-bold text-primary mb-2">€76 mia. (2024) → €115-120 mia. (2032)</p>
                   <ul className="space-y-1.5 text-gray-600 text-base">
-                    <li className="flex items-start gap-2"><span className="text-primary mt-1.5">&#8226;</span>5,6% CAGR — Nordamerika 40% (€25 mia.), Europa 28% (€20-23 mia.)</li>
+                    <li className="flex items-start gap-2"><span className="text-primary mt-1.5">&#8226;</span>5,6% CAGR - Nordamerika 40% (€25 mia.), Europa 28% (€20-23 mia.)</li>
                     <li className="flex items-start gap-2"><span className="text-primary mt-1.5">&#8226;</span>88.200+ operatører i USA alene (€19 mia. omsætning)</li>
                     <li className="flex items-start gap-2"><span className="text-primary mt-1.5">&#8226;</span>Ekstremt fragmenteret: top 4 har kun 5% markedsandel, 80% er enkeltmandsvirksomheder</li>
                   </ul>
@@ -631,7 +631,7 @@ export default function InvestPage() {
                   <ul className="space-y-1.5 text-gray-600 text-base">
                     <li className="flex items-start gap-2"><span className="text-primary mt-1.5">&#8226;</span>~€18 mia. globalt servicemarked × 2-3% IT-spend = €370-550 mio.</li>
                     <li className="flex items-start gap-2"><span className="text-primary mt-1.5">&#8226;</span>FSM-software: €4,7-5 mia. (12-16% CAGR) / Ruteoptimering: €7-10 mia. (14,5% CAGR)</li>
-                    <li className="flex items-start gap-2"><span className="text-primary mt-1.5">&#8226;</span>Branchen bruger kun 1-2% af omsætning på IT vs. 5% gennemsnit — kæmpe digitaliseringsgab</li>
+                    <li className="flex items-start gap-2"><span className="text-primary mt-1.5">&#8226;</span>Branchen bruger kun 1-2% af omsætning på IT vs. 5% gennemsnit - kæmpe digitaliseringsgab</li>
                   </ul>
                 </div>
               </FadeIn>
@@ -645,8 +645,8 @@ export default function InvestPage() {
                   <p className="font-heading text-2xl font-bold text-primary mb-2">€2-8 mio. ARR → €20-50 mio. med fuld ekspansion</p>
                   <ul className="space-y-1.5 text-gray-600 text-base">
                     <li className="flex items-start gap-2"><span className="text-primary mt-1.5">&#8226;</span>DK: 98 kommuner + 500-1.500 private udbydere (€107-160 mio./år i vinterdrift)</li>
-                    <li className="flex items-start gap-2"><span className="text-primary mt-1.5">&#8226;</span>Norden: 1.054 kommuner (DK 98, SE 290, NO 357, FI 309) — estimeret €2-4 mia. marked</li>
-                    <li className="flex items-start gap-2"><span className="text-primary mt-1.5">&#8226;</span>USA-mulighed via SIMA: 88.200 virksomheder, gns. €140.000 omsætning — ingen dominerende platform</li>
+                    <li className="flex items-start gap-2"><span className="text-primary mt-1.5">&#8226;</span>Norden: 1.054 kommuner (DK 98, SE 290, NO 357, FI 309) - estimeret €2-4 mia. marked</li>
+                    <li className="flex items-start gap-2"><span className="text-primary mt-1.5">&#8226;</span>USA-mulighed via SIMA: 88.200 virksomheder, gns. €140.000 omsætning - ingen dominerende platform</li>
                   </ul>
                 </div>
               </FadeIn>
@@ -727,7 +727,7 @@ export default function InvestPage() {
               <p className="text-gray-600 text-lg leading-relaxed">
                 WinterManager er den eneste alt-i-én platform med underleverandør-samarbejde, tegneprogram til opmåling,
                 automatisk fakturering og gratis integrationer til kunders regnskabssystemer (e-conomic, Navision m.m.).
-                ISS — en af landets største leverandører — er allerede skiftet fra Vinterman til os.
+                ISS - en af landets største leverandører - er allerede skiftet fra Vinterman til os.
               </p>
             </div>
           </FadeIn>
@@ -778,9 +778,9 @@ export default function InvestPage() {
               <h3 className="font-heading font-bold text-2xl text-white mb-5">Hvad pengene skal bruges til</h3>
               <div className="grid sm:grid-cols-2 gap-x-8 gap-y-4">
                 {[
-                  { period: 'Nu — Aug 2025', text: 'Platform-genopbygning: skalerbar arkitektur, enterprise login (Azure AD), mobilapp med GPS' },
-                  { period: 'Sep — Dec 2025', text: 'Kommunal ekspansion: onboarde 54 interesserede kommuner og deres leverandørnetværk' },
-                  { period: '2025 — 2026', text: 'SIMA konference i USA + international cold outreach i nordamerikanske markeder' },
+                  { period: 'Nu - Aug 2025', text: 'Platform-genopbygning: skalerbar arkitektur, enterprise login (Azure AD), mobilapp med GPS' },
+                  { period: 'Sep - Dec 2025', text: 'Kommunal ekspansion: onboarde 54 interesserede kommuner og deres leverandørnetværk' },
+                  { period: '2025 - 2026', text: 'SIMA konference i USA + international cold outreach i nordamerikanske markeder' },
                   { period: 'Løbende', text: 'Salg, support og marketing til at understøtte væksten' },
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3">
@@ -806,7 +806,7 @@ export default function InvestPage() {
               Klar til at høre mere?
             </h2>
             <p className="text-gray-500 text-xl max-w-2xl mx-auto mb-10">
-              Vi vil gerne fortælle mere om WinterManager og vores vision. Tag fat i os — vi svarer hurtigt.
+              Vi vil gerne fortælle mere om WinterManager og vores vision. Tag fat i os - vi svarer hurtigt.
             </p>
           </FadeIn>
 

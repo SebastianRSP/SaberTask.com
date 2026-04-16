@@ -12,6 +12,10 @@
 # next.js
 /.next/
 /out/
+public/.next/
+
+# claude code
+/.claude/
 
 # production
 /build

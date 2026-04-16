@@ -6,9 +6,9 @@ type Props = {
 };
 
 export async function generateMetadata({ params: { locale } }: Props) {
-  const t = await getTranslations({ locale, namespace: 'hero' });
-  const title = 'SnowManager - ' + t('titleStart') + ' ' + t('titleHighlight1');
-  const description = t('metaDescription');
+  const t = await getTranslations({ locale, namespace: 'hero.meta' });
+  const title = t('title');
+  const description = t('description');
 
   return {
     title,
@@ -18,7 +18,9 @@ export async function generateMetadata({ params: { locale } }: Props) {
 }
 import Features from '@/components/sections/Features';
 import MobileApp from '@/components/sections/MobileApp';
+import Industries from '@/components/sections/Industries';
 import Testimonials from '@/components/sections/Testimonials';
+import Pricing from '@/components/sections/Pricing';
 import FAQ from '@/components/sections/FAQ';
 import Contact from '@/components/sections/Contact';
 import CTA from '@/components/sections/CTA';
@@ -29,7 +31,9 @@ export default function HomePage() {
       <Hero />
       <Features />
       <MobileApp />
+      <Industries />
       <Testimonials />
+      <Pricing />
       <FAQ />
       <Contact />
       <CTA />

@@ -14,7 +14,7 @@ export default function FAQ() {
   }>;
 
   return (
-    <section id="faq" className="section-padding bg-background">
+    <section id="faq" className="section-padding bg-white">
       <Container size="narrow">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-dark mb-4">
@@ -27,7 +27,7 @@ export default function FAQ() {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl shadow-sm overflow-hidden"
+              className="bg-gray-50 rounded-2xl border border-gray-100 overflow-hidden"
             >
               <button
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
