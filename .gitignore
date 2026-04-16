@@ -10,9 +10,8 @@
 /coverage
 
 # next.js
-/.next/
+.next/
 /out/
-public/.next/
 
 # claude code
 /.claude/
