@@ -506,6 +506,17 @@
       "title": "Your Rights",
       "content": "You have the right to access, correct, or delete your personal information. You may also have the right to restrict or object to certain processing of your data. To exercise these rights, please contact us using the information below. If you are in the European Economic Area, you have the right to lodge a complaint with a supervisory authority."
     },
+    "dataDeletion": {
+      "title": "Data Deletion Requests",
+      "appInfo": "The SaberTask app is published by SaberTask LDA (VAT PT518467546). You can ask us to delete your account and associated data at any time by following the steps below.",
+      "stepsTitle": "How to request deletion",
+      "step1": "In the app: open Settings > Account > Delete account. This immediately starts the deletion process.",
+      "step2": "By email: send a request to <email>sebastian@sabertask.com</email> from the email address registered on your account, using the subject line \"Data Deletion Request\". We confirm receipt within 5 business days and complete deletion within 30 days.",
+      "deletedTitle": "Data we delete",
+      "deletedContent": "Account profile (name, email, phone, company), login credentials, user-generated content (tasks, projects, checklists, files, photos, comments, messages), device identifiers, IP addresses and usage logs.",
+      "retainedTitle": "Data we retain and for how long",
+      "retainedContent": "Invoices and accounting records are retained for 10 years as required by Portuguese tax law (Decreto-Lei n.º 28/2019). Encrypted backups are rotated and permanently purged within 90 days of the deletion request."
+    },
     "contact": {
       "title": "Contact Us",
       "content": "If you have any questions about this Privacy Policy, please contact us at <email>sebastian@sabertask.com</email>."

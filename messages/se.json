@@ -508,6 +508,17 @@
       "title": "Dina Rättigheter",
       "content": "Du har rätt att få tillgång till, rätta eller radera dina personuppgifter. Du kan också ha rätt att begränsa eller invända mot viss behandling av dina data. För att utöva dessa rättigheter, kontakta oss via uppgifterna nedan. Om du befinner dig inom Europeiska ekonomiska samarbetsområdet har du rätt att lämna in ett klagomål till en tillsynsmyndighet."
     },
+    "dataDeletion": {
+      "title": "Begäran om radering av data",
+      "appInfo": "SaberTask-appen publiceras av SaberTask LDA (moms PT518467546). Du kan när som helst be oss radera ditt konto och tillhörande data genom att följa stegen nedan.",
+      "stepsTitle": "Så här begär du radering",
+      "step1": "I appen: öppna Inställningar > Konto > Radera konto. Detta startar raderingen omedelbart.",
+      "step2": "Via e-post: skicka en begäran till <email>sebastian@sabertask.com</email> från e-postadressen som är registrerad på ditt konto, med ämnet \"Data Deletion Request\". Vi bekräftar mottagandet inom 5 arbetsdagar och slutför raderingen inom 30 dagar.",
+      "deletedTitle": "Data vi raderar",
+      "deletedContent": "Kontoprofil (namn, e-post, telefon, företag), inloggningsuppgifter, användargenererat innehåll (uppgifter, projekt, checklistor, filer, foton, kommentarer, meddelanden), enhets-ID, IP-adresser och användningsloggar.",
+      "retainedTitle": "Data vi behåller och hur länge",
+      "retainedContent": "Fakturor och bokföringsunderlag sparas i 10 år enligt portugisisk skattelagstiftning (Decreto-Lei n.º 28/2019). Krypterade säkerhetskopior roteras och raderas permanent inom 90 dagar efter begäran."
+    },
     "contact": {
       "title": "Kontakta Oss",
       "content": "Om du har frågor om denna integritetspolicy, kontakta oss på <email>sebastian@sabertask.com</email>."
