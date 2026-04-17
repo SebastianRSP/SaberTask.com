@@ -481,12 +481,16 @@
   },
   "privacyPolicy": {
     "title": "Integritetspolicy",
-    "lastUpdated": "Senast uppdaterad: Januari 2025",
+    "lastUpdated": "Senast uppdaterad: April 2026",
     "intro": "Hos SaberTask tar vi din integritet på allvar. Denna integritetspolicy förklarar hur vi samlar in, använder, lämnar ut och skyddar dina uppgifter när du använder vår tjänst.",
     "metaDescription": "Så samlar SaberTask in, använder och skyddar dina data. Fullt GDPR-kompatibel med kryptering på banknivå och multi-tenant dataisolering.",
     "dataCollection": {
       "title": "Uppgifter Vi Samlar In",
       "content": "Vi samlar in uppgifter som du lämnar direkt till oss, t.ex. när du skapar ett konto, använder våra tjänster eller kontaktar oss för support. Detta kan inkludera ditt namn, e-postadress, företagsnamn, telefonnummer och betalningsuppgifter. Vi samlar också automatiskt in viss information när du använder våra tjänster, inklusive enhetsinformation, IP-adress och användningsdata."
+    },
+    "location": {
+      "title": "Platsdata",
+      "content": "SaberTask-mobilappen använder din enhets ungefärliga och exakta plats (GPS) endast när du använder funktioner som kräver det: när du stämplar in eller ut från ett skift, när du startar eller avslutar en uppgift på plats, och medan du har ett aktivt skift så att din arbetsgivares utdelare kan se fältaktivitet på Live Dashboard. Platsen samlas inte in i bakgrunden när appen är stängd, används inte för annonsering och säljs eller delas aldrig med tredje part. Platsdata är endast synliga för din arbetsgivares konto (företaget som bjöd in dig till SaberTask) och sparas tillsammans med tillhörande tidrapport eller uppgiftspost. Du kan när som helst återkalla appens platstillstånd i dina enhetsinställningar, vilket inaktiverar instämpling och uppgiftsfunktioner på plats som är beroende av det."
     },
     "dataUsage": {
       "title": "Hur Vi Använder Dina Uppgifter",

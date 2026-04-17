@@ -23,6 +23,7 @@ export default function PrivacyPolicyPage() {
 
   const sections = [
     'dataCollection',
+    'location',
     'dataUsage',
     'dataSharing',
     'cookies',

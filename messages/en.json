@@ -479,12 +479,16 @@
   },
   "privacyPolicy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last updated: January 2025",
+    "lastUpdated": "Last updated: April 2026",
     "intro": "At SaberTask, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our service.",
     "metaDescription": "How SaberTask collects, uses and protects your data. Fully GDPR compliant with bank-level encryption and multi-tenant data isolation.",
     "dataCollection": {
       "title": "Information We Collect",
       "content": "We collect information you provide directly to us, such as when you create an account, use our services, or contact us for support. This may include your name, email address, company name, phone number, and payment information. We also automatically collect certain information when you use our services, including device information, IP address, and usage data."
+    },
+    "location": {
+      "title": "Location Data",
+      "content": "The SaberTask mobile app accesses your device's approximate and precise location (GPS) only when you use features that require it: when you clock in or out of a shift, when you start or finish a task on site, and while you have an active shift so your employer's dispatcher can see field activity on the Live Dashboard. Location is not collected in the background when the app is closed, is not used for advertising, and is never sold or shared with third parties. Location data is visible only to your employer's account (the business that invited you to SaberTask) and is retained with the related timesheet or task record. You can revoke the app's location permission at any time in your device settings, which will disable clock-in and on-site task features that rely on it."
     },
     "dataUsage": {
       "title": "How We Use Your Information",

@@ -481,12 +481,16 @@
   },
   "privacyPolicy": {
     "title": "Privatlivspolitik",
-    "lastUpdated": "Sidst opdateret: Januar 2025",
+    "lastUpdated": "Sidst opdateret: April 2026",
     "intro": "Hos SaberTask tager vi dit privatliv alvorligt. Denne privatlivspolitik forklarer, hvordan vi indsamler, bruger, videregiver og beskytter dine oplysninger, når du bruger vores tjeneste.",
     "metaDescription": "Sådan indsamler, bruger og beskytter SaberTask dine data. Fuldt GDPR-kompatibel med kryptering på bankniveau og multi-tenant dataisolering.",
     "dataCollection": {
       "title": "Oplysninger vi indsamler",
       "content": "Vi indsamler oplysninger, som du giver os direkte, f.eks. når du opretter en konto, bruger vores tjenester eller kontakter os for support. Dette kan omfatte dit navn, e-mailadresse, firmanavn, telefonnummer og betalingsoplysninger. Vi indsamler også automatisk visse oplysninger, når du bruger vores tjenester, herunder enhedsoplysninger, IP-adresse og brugsdata."
+    },
+    "location": {
+      "title": "Placeringsdata",
+      "content": "SaberTask-mobilappen tilgår din enheds omtrentlige og præcise placering (GPS) kun, når du bruger funktioner, der kræver det: når du stempler ind eller ud af et skift, når du starter eller afslutter en opgave på stedet, og mens du har et aktivt skift, så din arbejdsgivers disponent kan se feltaktivitet på Live Dashboard. Placering indsamles ikke i baggrunden, når appen er lukket, bruges ikke til annoncering og sælges eller deles aldrig med tredjeparter. Placeringsdata er kun synlige for din arbejdsgivers konto (den virksomhed, der har inviteret dig til SaberTask) og opbevares sammen med den tilhørende timeseddel eller opgavepost. Du kan til enhver tid tilbagekalde appens placeringstilladelse i dine enhedsindstillinger, hvilket vil deaktivere stempling og opgavefunktioner på stedet, der afhænger af den."
     },
     "dataUsage": {
       "title": "Hvordan vi bruger dine oplysninger",
