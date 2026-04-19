@@ -225,7 +225,7 @@ export default function OnboardingModal({ open, onClose, onSubmit }: Props) {
               </div>
               <div className={s.footer}>
                 <div className={s.footerMeta}>
-                  {t('signinPrompt')} <a href="https://app.sabertask.com/login">{t('signin')}</a>
+                  {t('signinPrompt')} <a href="https://app2.sabertask.com">{t('signin')}</a>
                 </div>
                 <button type="button" className={s.btnPrimary} onClick={onClose}>
                   {t('done')}
@@ -348,7 +348,7 @@ export default function OnboardingModal({ open, onClose, onSubmit }: Props) {
 
           <div className={s.footer}>
             <div className={s.footerMeta}>
-              {t('signinPrompt')} <a href="https://app.sabertask.com/login">{t('signin')}</a>
+              {t('signinPrompt')} <a href="https://app2.sabertask.com">{t('signin')}</a>
             </div>
             <button
               type="button"

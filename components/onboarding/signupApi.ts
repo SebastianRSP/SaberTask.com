@@ -98,7 +98,7 @@ type TurnstileGlobal = {
     el: HTMLElement,
     opts: {
       sitekey: string;
-      size?: 'normal' | 'compact' | 'invisible' | 'flexible';
+      size?: 'normal' | 'compact' | 'flexible';
       callback?: (token: string) => void;
       'error-callback'?: () => void;
       'expired-callback'?: () => void;
@@ -162,7 +162,7 @@ export async function getCaptchaToken(container: HTMLElement): Promise<string> {
     try {
       const widgetId = window.turnstile!.render(container, {
         sitekey: siteKey,
-        size: 'invisible',
+        appearance: 'interaction-only',
         callback: (token) => {
           done(token);
           try { window.turnstile?.remove(widgetId); } catch {}
