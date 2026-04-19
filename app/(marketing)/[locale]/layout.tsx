@@ -6,6 +6,7 @@ import { Analytics } from '@vercel/analytics/next';
 import { locales } from '@/i18n';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import OnboardingProvider from '@/components/onboarding/OnboardingProvider';
 
 type Props = {
   children: React.ReactNode;
@@ -25,9 +26,11 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
 
   return (
     <NextIntlClientProvider messages={messages}>
-      <Header />
-      <main className="min-h-screen">{children}</main>
-      <Footer />
+      <OnboardingProvider>
+        <Header />
+        <main className="min-h-screen">{children}</main>
+        <Footer />
+      </OnboardingProvider>
       <Analytics />
       <Script
         id="vtag-ai-js"

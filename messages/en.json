@@ -331,7 +331,7 @@
     "items": [
       {
         "question": "How does the free trial work?",
-        "answer": "You get 30 days of full access to SaberTask with no credit card required. Everything is included - web dashboard, mobile app, all user types. At the end of the trial you simply continue with a paid subscription or your account is deactivated."
+        "answer": "You get 30 days of full access to SaberTask. Everything is included - web dashboard, mobile app, all user types. At the end of the trial you simply continue with a paid subscription or your account is deactivated."
       },
       {
         "question": "How does pricing work?",
@@ -379,7 +379,7 @@
     },
     "info": {
       "title": "Contact Information",
-      "email": "sebastian@sabertask.com",
+      "email": "contact@sabertask.com",
       "phone": "+45 32 33 05 20"
     }
   },
@@ -474,7 +474,7 @@
   },
   "cta": {
     "title": "Try SaberTask free for 30 days",
-    "subtitle": "Full access to everything - web dashboard, mobile app, all user types. No credit card needed. Set up your first customer in minutes.",
+    "subtitle": "Full access to everything - web dashboard, mobile app, all user types. Set up your first customer in minutes.",
     "button": "Book a Demo"
   },
   "privacyPolicy": {
@@ -515,7 +515,7 @@
       "appInfo": "The SaberTask app is published by SaberTask LDA (VAT PT518467546). You can ask us to delete your account and associated data at any time by following the steps below.",
       "stepsTitle": "How to request deletion",
       "step1": "In the app: open Settings > Account > Delete account. This immediately starts the deletion process.",
-      "step2": "By email: send a request to <email>sebastian@sabertask.com</email> from the email address registered on your account, using the subject line \"Data Deletion Request\". We confirm receipt within 5 business days and complete deletion within 30 days.",
+      "step2": "By email: send a request to <email>contact@sabertask.com</email> from the email address registered on your account, using the subject line \"Data Deletion Request\". We confirm receipt within 5 business days and complete deletion within 30 days.",
       "deletedTitle": "Data we delete",
       "deletedContent": "Account profile (name, email, phone, company), login credentials, user-generated content (tasks, projects, checklists, files, photos, comments, messages), device identifiers, IP addresses and usage logs.",
       "retainedTitle": "Data we retain and for how long",
@@ -523,7 +523,7 @@
     },
     "contact": {
       "title": "Contact Us",
-      "content": "If you have any questions about this Privacy Policy, please contact us at <email>sebastian@sabertask.com</email>."
+      "content": "If you have any questions about this Privacy Policy, please contact us at <email>contact@sabertask.com</email>."
     },
     "metaTitle": "Privacy Policy | SaberTask"
   },
@@ -575,7 +575,7 @@
     },
     "termination": {
       "title": "Termination of Services",
-      "content": "Upon registration for the Service, the Customer accepts these Terms. The Terms run until termination of the agreement in accordance with these conditions. The agreement may be terminated without notice or fee, but all unpaid fees will be collected in one invoice and sent to the Customer upon termination.\n\nTermination of the season fee must be made in writing no later than October 31st to avoid charging the address fee for the coming season. In case of failure to terminate on time, the Customer undertakes to pay the address fee for the coming season.\n\nSaberTask may terminate the agreement with 3 months' notice, or without notice in case of the Customer's material breach of these Terms or the Customer's bankruptcy or insolvency.\n\nTo terminate the agreement, the Customer must send an email to sebastian@sabertask.com or contact their assigned contact person at SaberTask."
+      "content": "Upon registration for the Service, the Customer accepts these Terms. The Terms run until termination of the agreement in accordance with these conditions. The agreement may be terminated without notice or fee, but all unpaid fees will be collected in one invoice and sent to the Customer upon termination.\n\nTermination of the season fee must be made in writing no later than October 31st to avoid charging the address fee for the coming season. In case of failure to terminate on time, the Customer undertakes to pay the address fee for the coming season.\n\nSaberTask may terminate the agreement with 3 months' notice, or without notice in case of the Customer's material breach of these Terms or the Customer's bankruptcy or insolvency.\n\nTo terminate the agreement, the Customer must send an email to contact@sabertask.com or contact their assigned contact person at SaberTask."
     },
     "disputes": {
       "title": "Disputes",
@@ -1400,7 +1400,7 @@
         "titleHighlight": "cleaning businesses",
         "description": "Scheduling, time tracking, quality control, invoicing, payroll and a mobile app for your field staff - replace spreadsheets, WhatsApp and paper checklists with one system built for how cleaning companies actually work.",
         "cta": "Book a demo",
-        "trial": "30-day free trial · No credit card needed",
+        "trial": "30-day free trial",
         "imageAlt": "Professional cleaning service",
         "floatingBadge": {
           "title": "Quality verified",
@@ -1606,7 +1606,7 @@
         "titleEnd": "who want to grow",
         "description": "Route planning, recurring schedules, work descriptions, time tracking, photo documentation, invoicing and a mobile app - whether you run a team of 2 or 200, SaberTask scales with your business.",
         "cta": "Book a demo",
-        "trial": "30-day free trial · No credit card needed",
+        "trial": "30-day free trial",
         "imageAlt": "Window cleaner abseiling on a high-rise",
         "floatingBadge": {
           "title": "Route optimised",
@@ -1772,7 +1772,7 @@
         "titleEnd": "like the pros",
         "description": "Crew scheduling, route optimisation, time tracking, job costing, photo proof, customer portal and a mobile app for the field - built for landscape contractors who want to grow profitably without growing the admin headache.",
         "cta": "Book a demo",
-        "trial": "30-day free trial · No credit card needed",
+        "trial": "30-day free trial",
         "imageAlt": "Landscaping crew at work",
         "floatingBadge": {
           "title": "Crew on site",
@@ -1993,7 +1993,7 @@
         "titleEnd": "like clockwork",
         "description": "Manage every building, service agreement, maintenance task and supplier from one platform - and give your owners, tenants and stakeholders their own customer dashboard. Built for facility managers who run dozens to hundreds of buildings.",
         "cta": "Book a demo",
-        "trial": "30-day free trial · No credit card needed",
+        "trial": "30-day free trial",
         "imageAlt": "Facility management office",
         "floatingBadge": {
           "title": "Inspection complete",
@@ -3066,5 +3066,58 @@
         "invoicingBillingLink": "Invoicing & Billing"
       }
     }
+  },
+  "onboarding": {
+    "trigger": "Sign up",
+    "titleForm": "Create your SaberTask account",
+    "titleSent": "Check your email",
+    "close": "Close",
+    "optional": "Optional",
+    "firstName": "First name",
+    "firstNamePlaceholder": "Jonas",
+    "lastName": "Last name",
+    "lastNamePlaceholder": "Sørensen",
+    "email": "Work email",
+    "emailPlaceholder": "jonas@cleaningco.dk",
+    "password": "Password",
+    "passwordPlaceholder": "At least 10 characters",
+    "passwordShow": "Show password",
+    "passwordHide": "Hide password",
+    "confirmPassword": "Confirm password",
+    "confirmPasswordPlaceholder": "Re-enter your password",
+    "country": "Country",
+    "countrySearch": "Search country or code",
+    "phone": "Phone number",
+    "phonePlaceholder": "12 34 56 78",
+    "language": "Preferred language",
+    "selectSearch": "Search",
+    "selectNoMatches": "No matches",
+    "pwRuleLen": "At least 10 characters",
+    "pwRuleUpper": "One uppercase letter",
+    "pwRuleLower": "One lowercase letter",
+    "pwRuleDigit": "One number",
+    "pwRuleSpecial": "One special character",
+    "errRequired": "Required",
+    "errEmail": "Enter a valid email",
+    "errPasswordPolicy": "Password doesn't meet the rules",
+    "errPasswordMismatch": "Passwords don't match",
+    "errEmailTaken": "An account with this email already exists.",
+    "bannerCaptcha": "Please complete the captcha and try again.",
+    "bannerRateLimited": "Too many attempts. Please wait a minute and try again.",
+    "bannerNetwork": "Network error. Please check your connection and try again.",
+    "bannerUnknown": "Something went wrong on our end. Please try again.",
+    "submit": "Create account",
+    "submitting": "Creating...",
+    "signinPrompt": "Already have an account?",
+    "signin": "Sign in",
+    "legal": "By creating an account you agree to our <privacy>Privacy Policy</privacy> and <terms>Terms & Conditions</terms>.",
+    "sentBody": "We sent a verification link to <b>{email}</b>. Click it to continue setting up your workspace.",
+    "sentResendPrefix": "Didn't get it? Check your spam folder, or",
+    "sentResend": "resend it",
+    "sentResending": "resending...",
+    "sentResendCooldown": "resend in {seconds}s",
+    "sentWrongEmailPrefix": "Wrong email?",
+    "sentGoBack": "Go back",
+    "done": "Done"
   }
 }

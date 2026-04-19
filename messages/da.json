@@ -381,7 +381,7 @@
     },
     "info": {
       "title": "Kontaktinformation",
-      "email": "sebastian@sabertask.com",
+      "email": "contact@sabertask.com",
       "phone": "+45 32 33 05 20"
     }
   },
@@ -476,7 +476,7 @@
   },
   "cta": {
     "title": "Prøv SaberTask gratis i 30 dage",
-    "subtitle": "Fuld adgang til alt - web-dashboard, mobilapp, alle brugertyper. Intet kreditkort nødvendigt. Opret din første kunde på få minutter.",
+    "subtitle": "Fuld adgang til alt - web-dashboard, mobilapp, alle brugertyper. Opret din første kunde på få minutter.",
     "button": "Book en demo"
   },
   "privacyPolicy": {
@@ -517,7 +517,7 @@
       "appInfo": "SaberTask-appen udgives af SaberTask LDA (moms PT518467546). Du kan til enhver tid bede os om at slette din konto og tilhørende data ved at følge trinene nedenfor.",
       "stepsTitle": "Sådan anmoder du om sletning",
       "step1": "I appen: åbn Indstillinger > Konto > Slet konto. Dette starter sletningen med det samme.",
-      "step2": "Via e-mail: send en anmodning til <email>sebastian@sabertask.com</email> fra den e-mailadresse, der er registreret på din konto, med emnet \"Data Deletion Request\". Vi bekræfter modtagelsen inden for 5 arbejdsdage og gennemfører sletningen inden for 30 dage.",
+      "step2": "Via e-mail: send en anmodning til <email>contact@sabertask.com</email> fra den e-mailadresse, der er registreret på din konto, med emnet \"Data Deletion Request\". Vi bekræfter modtagelsen inden for 5 arbejdsdage og gennemfører sletningen inden for 30 dage.",
       "deletedTitle": "Data vi sletter",
       "deletedContent": "Kontoprofil (navn, e-mail, telefon, virksomhed), loginoplysninger, brugergenereret indhold (opgaver, projekter, tjeklister, filer, fotos, kommentarer, beskeder), enheds-id'er, IP-adresser og brugslogfiler.",
       "retainedTitle": "Data vi opbevarer og hvor længe",
@@ -525,7 +525,7 @@
     },
     "contact": {
       "title": "Kontakt os",
-      "content": "Hvis du har spørgsmål om denne privatlivspolitik, kontakt os venligst på <email>sebastian@sabertask.com</email>."
+      "content": "Hvis du har spørgsmål om denne privatlivspolitik, kontakt os venligst på <email>contact@sabertask.com</email>."
     },
     "metaTitle": "Privatlivspolitik | SaberTask"
   },
@@ -577,7 +577,7 @@
     },
     "termination": {
       "title": "Opsigelse af serviceydelser",
-      "content": "Ved tilmelding til Serviceydelsen accepterer Kunden Forretningsbetingelserne. Forretningsbetingelserne løber indtil opsigelse af aftaleforholdet i overensstemmelse med disse betingelser. Aftalen kan opsiges uden varsel eller gebyr, men alle ubetalte gebyrer vil blive samlet i én faktura og sendt til Kunden ved opsigelse.\n\nOpsigelse af abonnementet skal ske skriftligt inden udløbet af den aktuelle faktureringsperiode for at undgå opkrævning for den kommende periode. Ved manglende rettidig opsigelse forpligter Kunden sig til at betale for den kommende periode.\n\nSaberTask kan opsige aftaleforholdet med Kunden med 3 måneders varsel, eller uden varsel ved Kundens væsentlige misligholdelse af disse Forretningsbetingelser eller ved Kundens konkurs eller insolvens.\n\nFor at opsige aftaleforholdet skal Kunden sende en e-mail til sebastian@sabertask.com eller kontakte sin tilknyttede kontaktperson hos SaberTask."
+      "content": "Ved tilmelding til Serviceydelsen accepterer Kunden Forretningsbetingelserne. Forretningsbetingelserne løber indtil opsigelse af aftaleforholdet i overensstemmelse med disse betingelser. Aftalen kan opsiges uden varsel eller gebyr, men alle ubetalte gebyrer vil blive samlet i én faktura og sendt til Kunden ved opsigelse.\n\nOpsigelse af abonnementet skal ske skriftligt inden udløbet af den aktuelle faktureringsperiode for at undgå opkrævning for den kommende periode. Ved manglende rettidig opsigelse forpligter Kunden sig til at betale for den kommende periode.\n\nSaberTask kan opsige aftaleforholdet med Kunden med 3 måneders varsel, eller uden varsel ved Kundens væsentlige misligholdelse af disse Forretningsbetingelser eller ved Kundens konkurs eller insolvens.\n\nFor at opsige aftaleforholdet skal Kunden sende en e-mail til contact@sabertask.com eller kontakte sin tilknyttede kontaktperson hos SaberTask."
     },
     "disputes": {
       "title": "Tvister",
@@ -1402,7 +1402,7 @@
         "titleHighlight": "rengøringsfirmaer",
         "description": "Planlægning, tidsregistrering, kvalitetskontrol, fakturering, løn og en mobilapp til medarbejderne - udskift regneark, WhatsApp og papir-tjeklister med ét system, bygget til den måde rengøringsvirksomheder faktisk arbejder på.",
         "cta": "Book en demo",
-        "trial": "30 dages gratis prøve · Intet kreditkort nødvendigt",
+        "trial": "30 dages gratis prøve",
         "imageAlt": "Professionel rengøringsservice",
         "floatingBadge": {
           "title": "Kvalitet verificeret",
@@ -1608,7 +1608,7 @@
         "titleEnd": "der vil vokse",
         "description": "Ruteplanlægning, tilbagevendende skemaer, arbejdsbeskrivelser, tidsregistrering, fotodokumentation, fakturering og en mobilapp - uanset om du kører et hold på 2 eller 200, skalerer SaberTask med din forretning.",
         "cta": "Book en demo",
-        "trial": "30 dages gratis prøve · Intet kreditkort nødvendigt",
+        "trial": "30 dages gratis prøve",
         "imageAlt": "Vinduespolerer i højde på en facade",
         "floatingBadge": {
           "title": "Rute optimeret",
@@ -1774,7 +1774,7 @@
         "titleEnd": "som de professionelle",
         "description": "Holdplanlægning, ruteoptimering, tidsregistrering, jobomkostninger, fotobevis, kundeportal og en mobilapp til marken - bygget til anlægsgartnere, der vil vokse rentabelt uden at vokse i administration.",
         "cta": "Book en demo",
-        "trial": "30 dages gratis prøve · Intet kreditkort nødvendigt",
+        "trial": "30 dages gratis prøve",
         "imageAlt": "Anlægsgartnere i arbejde",
         "floatingBadge": {
           "title": "Hold på lokationen",
@@ -1995,7 +1995,7 @@
         "titleEnd": "som et urværk",
         "description": "Styr hver bygning, serviceaftale, vedligeholdelsesopgave og leverandør fra én platform - og giv dine ejere, lejere og stakeholdere deres eget kundedashboard. Bygget til facility managers, der driver alt fra dusinvis til hundredvis af bygninger.",
         "cta": "Book en demo",
-        "trial": "30 dages gratis prøve · Intet kreditkort nødvendigt",
+        "trial": "30 dages gratis prøve",
         "imageAlt": "Facility management-kontor",
         "floatingBadge": {
           "title": "Inspektion udført",
@@ -3068,5 +3068,58 @@
         "invoicingBillingLink": "Fakturering"
       }
     }
+  },
+  "onboarding": {
+    "trigger": "Opret konto",
+    "titleForm": "Opret din SaberTask-konto",
+    "titleSent": "Tjek din e-mail",
+    "close": "Luk",
+    "optional": "Valgfri",
+    "firstName": "Fornavn",
+    "firstNamePlaceholder": "Jonas",
+    "lastName": "Efternavn",
+    "lastNamePlaceholder": "Sørensen",
+    "email": "Arbejdsmail",
+    "emailPlaceholder": "jonas@rengoering.dk",
+    "password": "Adgangskode",
+    "passwordPlaceholder": "Mindst 10 tegn",
+    "passwordShow": "Vis adgangskode",
+    "passwordHide": "Skjul adgangskode",
+    "confirmPassword": "Bekræft adgangskode",
+    "confirmPasswordPlaceholder": "Indtast din adgangskode igen",
+    "country": "Land",
+    "countrySearch": "Søg land eller kode",
+    "phone": "Telefonnummer",
+    "phonePlaceholder": "12 34 56 78",
+    "language": "Foretrukket sprog",
+    "selectSearch": "Søg",
+    "selectNoMatches": "Ingen resultater",
+    "pwRuleLen": "Mindst 10 tegn",
+    "pwRuleUpper": "Ét stort bogstav",
+    "pwRuleLower": "Ét lille bogstav",
+    "pwRuleDigit": "Ét tal",
+    "pwRuleSpecial": "Ét specialtegn",
+    "errRequired": "Påkrævet",
+    "errEmail": "Indtast en gyldig e-mail",
+    "errPasswordPolicy": "Adgangskoden opfylder ikke kravene",
+    "errPasswordMismatch": "Adgangskoderne stemmer ikke overens",
+    "errEmailTaken": "Der findes allerede en konto med denne e-mail.",
+    "bannerCaptcha": "Gennemfør captcha, og prøv igen.",
+    "bannerRateLimited": "For mange forsøg. Vent et øjeblik, og prøv igen.",
+    "bannerNetwork": "Netværksfejl. Tjek din forbindelse, og prøv igen.",
+    "bannerUnknown": "Der opstod en fejl hos os. Prøv igen.",
+    "submit": "Opret konto",
+    "submitting": "Opretter...",
+    "signinPrompt": "Har du allerede en konto?",
+    "signin": "Log ind",
+    "legal": "Ved at oprette en konto accepterer du vores <privacy>Privatlivspolitik</privacy> og <terms>Handelsbetingelser</terms>.",
+    "sentBody": "Vi har sendt et bekræftelseslink til <b>{email}</b>. Klik på det for at fortsætte opsætningen af dit arbejdsområde.",
+    "sentResendPrefix": "Fik du det ikke? Tjek din spammappe, eller",
+    "sentResend": "gensend det",
+    "sentResending": "sender...",
+    "sentResendCooldown": "gensend om {seconds}s",
+    "sentWrongEmailPrefix": "Forkert e-mail?",
+    "sentGoBack": "Gå tilbage",
+    "done": "Færdig"
   }
 }

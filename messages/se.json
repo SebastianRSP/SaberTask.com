@@ -333,7 +333,7 @@
     "items": [
       {
         "question": "Hur fungerar den gratis provperioden?",
-        "answer": "Du får 30 dagars full tillgång till SaberTask utan kreditkort. Allt är inkluderat - webb-dashboard, mobilapp, alla användartyper. Vid provperiodens slut fortsätter du med en betald prenumeration, eller så avaktiveras ditt konto."
+        "answer": "Du får 30 dagars full tillgång till SaberTask. Allt är inkluderat - webb-dashboard, mobilapp, alla användartyper. Vid provperiodens slut fortsätter du med en betald prenumeration, eller så avaktiveras ditt konto."
       },
       {
         "question": "Hur fungerar prissättningen?",
@@ -381,7 +381,7 @@
     },
     "info": {
       "title": "Kontaktinformation",
-      "email": "sebastian@sabertask.com",
+      "email": "contact@sabertask.com",
       "phone": "+45 32 33 05 20"
     }
   },
@@ -476,7 +476,7 @@
   },
   "cta": {
     "title": "Testa SaberTask gratis i 30 dagar",
-    "subtitle": "Full tillgång till allt - webb-dashboard, mobilapp, alla användartyper. Inget kreditkort krävs. Skapa din första kund på några minuter.",
+    "subtitle": "Full tillgång till allt - webb-dashboard, mobilapp, alla användartyper. Skapa din första kund på några minuter.",
     "button": "Boka en demo"
   },
   "privacyPolicy": {
@@ -517,7 +517,7 @@
       "appInfo": "SaberTask-appen publiceras av SaberTask LDA (moms PT518467546). Du kan när som helst be oss radera ditt konto och tillhörande data genom att följa stegen nedan.",
       "stepsTitle": "Så här begär du radering",
       "step1": "I appen: öppna Inställningar > Konto > Radera konto. Detta startar raderingen omedelbart.",
-      "step2": "Via e-post: skicka en begäran till <email>sebastian@sabertask.com</email> från e-postadressen som är registrerad på ditt konto, med ämnet \"Data Deletion Request\". Vi bekräftar mottagandet inom 5 arbetsdagar och slutför raderingen inom 30 dagar.",
+      "step2": "Via e-post: skicka en begäran till <email>contact@sabertask.com</email> från e-postadressen som är registrerad på ditt konto, med ämnet \"Data Deletion Request\". Vi bekräftar mottagandet inom 5 arbetsdagar och slutför raderingen inom 30 dagar.",
       "deletedTitle": "Data vi raderar",
       "deletedContent": "Kontoprofil (namn, e-post, telefon, företag), inloggningsuppgifter, användargenererat innehåll (uppgifter, projekt, checklistor, filer, foton, kommentarer, meddelanden), enhets-ID, IP-adresser och användningsloggar.",
       "retainedTitle": "Data vi behåller och hur länge",
@@ -525,7 +525,7 @@
     },
     "contact": {
       "title": "Kontakta Oss",
-      "content": "Om du har frågor om denna integritetspolicy, kontakta oss på <email>sebastian@sabertask.com</email>."
+      "content": "Om du har frågor om denna integritetspolicy, kontakta oss på <email>contact@sabertask.com</email>."
     },
     "metaTitle": "Integritetspolicy | SaberTask"
   },
@@ -577,7 +577,7 @@
     },
     "termination": {
       "title": "Uppsägning av Tjänster",
-      "content": "Vid registrering för Tjänsten godkänner Kunden dessa Villkor. Villkoren löper tills avtalet sägs upp i enlighet med dessa villkor. Avtalet kan sägas upp utan varsel eller avgift, men alla obetalda avgifter samlas i en faktura och skickas till Kunden vid uppsägning.\n\nUppsägning av årsavgiften måste ske skriftligen senast 30 dagar före förnyelseperioden för att undvika debitering för kommande period. Vid utebliven uppsägning i tid åtar sig Kunden att betala avgiften för kommande period.\n\nSaberTask kan säga upp avtalet med 3 månaders varsel, eller utan varsel vid Kundens väsentliga avtalsbrott eller Kundens konkurs eller insolvens.\n\nFör att säga upp avtalet ska Kunden skicka ett e-postmeddelande till sebastian@sabertask.com eller kontakta sin tilldelade kontaktperson hos SaberTask."
+      "content": "Vid registrering för Tjänsten godkänner Kunden dessa Villkor. Villkoren löper tills avtalet sägs upp i enlighet med dessa villkor. Avtalet kan sägas upp utan varsel eller avgift, men alla obetalda avgifter samlas i en faktura och skickas till Kunden vid uppsägning.\n\nUppsägning av årsavgiften måste ske skriftligen senast 30 dagar före förnyelseperioden för att undvika debitering för kommande period. Vid utebliven uppsägning i tid åtar sig Kunden att betala avgiften för kommande period.\n\nSaberTask kan säga upp avtalet med 3 månaders varsel, eller utan varsel vid Kundens väsentliga avtalsbrott eller Kundens konkurs eller insolvens.\n\nFör att säga upp avtalet ska Kunden skicka ett e-postmeddelande till contact@sabertask.com eller kontakta sin tilldelade kontaktperson hos SaberTask."
     },
     "disputes": {
       "title": "Tvister",
@@ -1402,7 +1402,7 @@
         "titleHighlight": "städbolag",
         "description": "Planering, tidsrapportering, kvalitetskontroll, fakturering, lön och en mobilapp för dina anställda - byt ut kalkylblad, WhatsApp och pappers-checklistor mot ett system, byggt för hur städbolag faktiskt jobbar.",
         "cta": "Boka en demo",
-        "trial": "30 dagars gratis provperiod · Inget kreditkort behövs",
+        "trial": "30 dagars gratis provperiod",
         "imageAlt": "Professionell städservice",
         "floatingBadge": {
           "title": "Kvalitet verifierad",
@@ -1608,7 +1608,7 @@
         "titleEnd": "som vill växa",
         "description": "Ruttplanering, återkommande scheman, arbetsbeskrivningar, tidsrapportering, fotodokumentation, fakturering och en mobilapp - oavsett om du kör ett team på 2 eller 200 skalar SaberTask med din verksamhet.",
         "cta": "Boka en demo",
-        "trial": "30 dagars gratis provperiod · Inget kreditkort behövs",
+        "trial": "30 dagars gratis provperiod",
         "imageAlt": "Fönsterputsare på hög höjd vid en fasad",
         "floatingBadge": {
           "title": "Rutt optimerad",
@@ -1774,7 +1774,7 @@
         "titleEnd": "som proffsen",
         "description": "Team-planering, ruttoptimering, tidsrapportering, jobbkostnader, fotobevis, kundportal och en mobilapp för fältet - byggd för trädgårdsföretag som vill växa lönsamt utan att växa i administration.",
         "cta": "Boka en demo",
-        "trial": "30 dagars gratis provperiod · Inget kreditkort behövs",
+        "trial": "30 dagars gratis provperiod",
         "imageAlt": "Trädgårdsarbetare i arbete",
         "floatingBadge": {
           "title": "Team på plats",
@@ -1995,7 +1995,7 @@
         "titleEnd": "som ett urverk",
         "description": "Styr varje byggnad, serviceavtal, underhållsuppgift och leverantör från en plattform - och ge dina ägare, hyresgäster och intressenter en egen kundportal. Byggd för facility managers som driver allt från dussintals till hundratals byggnader.",
         "cta": "Boka en demo",
-        "trial": "30 dagars gratis provperiod · Inget kreditkort behövs",
+        "trial": "30 dagars gratis provperiod",
         "imageAlt": "Facility management-kontor",
         "floatingBadge": {
           "title": "Inspektion klar",
@@ -3068,5 +3068,58 @@
         "invoicingBillingLink": "Fakturering"
       }
     }
+  },
+  "onboarding": {
+    "trigger": "Skapa konto",
+    "titleForm": "Skapa ditt SaberTask-konto",
+    "titleSent": "Kolla din e-post",
+    "close": "Stäng",
+    "optional": "Valfritt",
+    "firstName": "Förnamn",
+    "firstNamePlaceholder": "Anna",
+    "lastName": "Efternamn",
+    "lastNamePlaceholder": "Andersson",
+    "email": "Jobbmejl",
+    "emailPlaceholder": "anna@stadfirman.se",
+    "password": "Lösenord",
+    "passwordPlaceholder": "Minst 10 tecken",
+    "passwordShow": "Visa lösenord",
+    "passwordHide": "Dölj lösenord",
+    "confirmPassword": "Bekräfta lösenord",
+    "confirmPasswordPlaceholder": "Ange ditt lösenord igen",
+    "country": "Land",
+    "countrySearch": "Sök land eller kod",
+    "phone": "Telefonnummer",
+    "phonePlaceholder": "70 123 45 67",
+    "language": "Föredraget språk",
+    "selectSearch": "Sök",
+    "selectNoMatches": "Inga träffar",
+    "pwRuleLen": "Minst 10 tecken",
+    "pwRuleUpper": "En versal",
+    "pwRuleLower": "En gemen",
+    "pwRuleDigit": "En siffra",
+    "pwRuleSpecial": "Ett specialtecken",
+    "errRequired": "Obligatoriskt",
+    "errEmail": "Ange en giltig e-post",
+    "errPasswordPolicy": "Lösenordet uppfyller inte kraven",
+    "errPasswordMismatch": "Lösenorden matchar inte",
+    "errEmailTaken": "Ett konto med denna e-post finns redan.",
+    "bannerCaptcha": "Slutför captchan och försök igen.",
+    "bannerRateLimited": "För många försök. Vänta en minut och försök igen.",
+    "bannerNetwork": "Nätverksfel. Kontrollera din anslutning och försök igen.",
+    "bannerUnknown": "Något gick fel hos oss. Försök igen.",
+    "submit": "Skapa konto",
+    "submitting": "Skapar...",
+    "signinPrompt": "Har du redan ett konto?",
+    "signin": "Logga in",
+    "legal": "Genom att skapa ett konto godkänner du vår <privacy>Integritetspolicy</privacy> och våra <terms>Villkor</terms>.",
+    "sentBody": "Vi har skickat en verifieringslänk till <b>{email}</b>. Klicka på den för att fortsätta konfigurera din arbetsyta.",
+    "sentResendPrefix": "Fick du den inte? Kolla skräpposten, eller",
+    "sentResend": "skicka igen",
+    "sentResending": "skickar...",
+    "sentResendCooldown": "skicka igen om {seconds}s",
+    "sentWrongEmailPrefix": "Fel e-post?",
+    "sentGoBack": "Gå tillbaka",
+    "done": "Klar"
   }
 }

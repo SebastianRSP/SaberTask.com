@@ -8,16 +8,7 @@ import { usePathname, useRouter } from 'next/navigation';
 import Button from '@/components/ui/Button';
 import Container from '@/components/ui/Container';
 import LanguageSwitcher from './LanguageSwitcher';
-
-declare global {
-  interface Window {
-    Calendly?: {
-      initPopupWidget: (options: { url: string }) => void;
-    };
-  }
-}
-
-const CALENDLY_URL = 'https://calendly.com/sebastiansoepedersen/30min';
+import { useOnboarding } from '@/components/onboarding/OnboardingProvider';
 
 const FEATURES_INDEX = 1;
 const INDUSTRIES_INDEX = 3;
@@ -46,8 +37,10 @@ export default function Header() {
   const t = useTranslations('nav');
   const tFeaturePages = useTranslations('featurePages');
   const tIndustries = useTranslations('nav.industriesPagesDropdown');
+  const tOnboarding = useTranslations('onboarding');
   const pathname = usePathname();
   const router = useRouter();
+  const { open: openOnboarding } = useOnboarding();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mobileFeaturesOpen, setMobileFeaturesOpen] = useState(false);
   const [mobileIndustriesOpen, setMobileIndustriesOpen] = useState(false);
@@ -61,12 +54,6 @@ export default function Header() {
   const isFeaturePage = pathname.startsWith('/features/');
   const isAppPage = pathname === '/app';
   const isIndustryPage = industryPages.some(p => pathname === `/${p.slug}`);
-
-  const openCalendly = () => {
-    if (window.Calendly) {
-      window.Calendly.initPopupWidget({ url: CALENDLY_URL });
-    }
-  };
 
   const navItems = [
     { href: '/#hero', sectionId: 'hero', label: t('home') },
@@ -343,7 +330,7 @@ export default function Header() {
           {/* Desktop Actions */}
           <div className="hidden lg:flex items-center gap-4">
             <LanguageSwitcher />
-            <Button size="sm" withArrow onClick={openCalendly}>{t('demo')}</Button>
+            <Button size="sm" withArrow onClick={openOnboarding}>{tOnboarding('trigger')}</Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -500,7 +487,16 @@ export default function Header() {
               <div className="flex items-center gap-4 pt-4 mt-2 border-t border-gray-100">
                 <LanguageSwitcher />
               </div>
-              <Button className="mt-2" withArrow onClick={openCalendly}>{t('demo')}</Button>
+              <Button
+                className="mt-2"
+                withArrow
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  openOnboarding();
+                }}
+              >
+                {tOnboarding('trigger')}
+              </Button>
             </nav>
           </div>
         )}

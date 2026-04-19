@@ -34,7 +34,7 @@ export default function PrivacyPolicyPage() {
   ] as const;
 
   const emailLink = (chunks: React.ReactNode) => (
-    <a href="mailto:sebastian@sabertask.com" className="text-primary hover:underline">
+    <a href="mailto:contact@sabertask.com" className="text-primary hover:underline">
       {chunks}
     </a>
   );
