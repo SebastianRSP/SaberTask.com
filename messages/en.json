@@ -390,7 +390,8 @@
       "features": "Features",
       "pricing": "Pricing",
       "demo": "Request Demo",
-      "iPhoneApp": "iPhone App"
+      "iPhoneApp": "iPhone App",
+      "androidApp": "Android App"
     },
     "company": {
       "title": "Company",

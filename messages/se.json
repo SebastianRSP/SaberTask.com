@@ -392,7 +392,8 @@
       "features": "Funktioner",
       "pricing": "Priser",
       "demo": "Boka Demo",
-      "iPhoneApp": "iPhone App"
+      "iPhoneApp": "iPhone App",
+      "androidApp": "Android App"
     },
     "company": {
       "title": "Företag",

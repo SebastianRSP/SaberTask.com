@@ -74,6 +74,16 @@ export default function Footer() {
                   {t('product.iPhoneApp')}
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.sabertask.mobile&hl=en"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  {t('product.androidApp')}
+                </a>
+              </li>
             </ul>
           </div>
 

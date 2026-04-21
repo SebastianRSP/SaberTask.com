@@ -448,13 +448,19 @@ export default function MobileAppFeature() {
                 className="h-12 md:h-14 w-auto"
               />
             </a>
-            <Image
-              src="/google-play-badge.png"
-              alt="Get it on Google Play"
-              width={180}
-              height={60}
-              className="h-12 md:h-14 w-auto"
-            />
+            <a
+              href="https://play.google.com/store/apps/details?id=com.sabertask.mobile&hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/google-play-badge.png"
+                alt="Get it on Google Play"
+                width={180}
+                height={60}
+                className="h-12 md:h-14 w-auto"
+              />
+            </a>
           </div>
         </Container>
       </section>
