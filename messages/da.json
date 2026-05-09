@@ -19,7 +19,7 @@
     },
     "industriesDropdown": {
       "snowRemoval": "Snerydning",
-      "landscaping": "Havearbejde",
+      "landscaping": "Grøn drift",
       "cleaning": "Rengøringstjenester",
       "facilityManagement": "Facility Management",
       "municipalServices": "Kommunale Tjenester"
@@ -27,7 +27,7 @@
     "industriesPagesDropdown": {
       "cleaningCompany": "Rengøringsfirmaer",
       "windowCleaning": "Vinduespudsning",
-      "landscaping": "Anlægsgartnere",
+      "landscaping": "Grøn drift",
       "facilityManagement": "Facility Management",
       "winterServices": "Vintertjeneste"
     },
@@ -767,7 +767,7 @@
             "description": "Rengørings-, anlægs- og facility-kontrakter, der kører hver uge, bliver genereret automatisk ud fra aftalen."
           },
           "multiTeam": {
-            "title": "Flere teams i marken",
+            "title": "Flere teams af medarbejdere",
             "description": "Balancér timer og omsætning på tværs af dine teams i planlægningsgrid'et - og send hvert teams dag direkte til deres telefoner."
           },
           "piecework": {
@@ -1765,18 +1765,18 @@
     },
     "landscaping": {
       "meta": {
-        "title": "Software til anlægsgartnere | SaberTask",
-        "description": "Software bygget til anlægsgartnere. Holdplanlægning, ruteoptimering, jobomkostninger, sæsonkontrakter, fotobevis og mobilapp - voks rentabelt."
+        "title": "Software til drift af grønne arealer | SaberTask",
+        "description": "Software til grøn drift - fra mindre anlægsgartnere til større servicevirksomheder med ejendomsporteføljer. Holdplanlægning, ruteoptimering, omkostninger, sæsonkontrakter, fotobevis og mobil-app."
       },
-      "badge": "Software til anlægsgartnere",
+      "badge": "Software til grøn drift",
       "hero": {
-        "titleStart": "Kør din",
-        "titleHighlight": "anlægsgartnerforretning",
+        "titleStart": "Driv dine",
+        "titleHighlight": "grønne arealer",
         "titleEnd": "som de professionelle",
-        "description": "Holdplanlægning, ruteoptimering, tidsregistrering, jobomkostninger, fotobevis, kundeportal og en mobilapp til marken - bygget til anlægsgartnere, der vil vokse rentabelt uden at vokse i administration.",
+        "description": "Holdplanlægning, ruteoptimering, tidsregistrering, omkostninger, fotobevis, kundeportal og en mobil-app til dine medarbejdere - bygget til grøn drift, fra ét hold til hele ejendomsporteføljer, der vil vokse uden at drukne i administration.",
         "cta": "Book en demo",
         "trial": "30 dages gratis prøve",
-        "imageAlt": "Anlægsgartnere i arbejde",
+        "imageAlt": "Hold i arbejde på grønne arealer",
         "floatingBadge": {
           "title": "Hold på lokationen",
           "subtitle": "3 ejendomme i dag"
@@ -1789,12 +1789,12 @@
             "label": "Gratis prøve"
           },
           {
-            "value": "Sæsonbaseret",
-            "label": "Skemaunderstøttelse"
+            "value": "Sæsonbestemt",
+            "label": "arbejdsbeskrivelse"
           },
           {
-            "value": "4+",
-            "label": "Regnskabsintegrationer"
+            "value": "Realtid",
+            "label": "GPS-sporing af hold"
           },
           {
             "value": "100%",
@@ -1803,8 +1803,8 @@
         ]
       },
       "problems": {
-        "title": "Hverdagen for en anlægsgartner",
-        "description": "Hold, der kører frem og tilbage på tværs af byen, vejret der ødelægger ugens plan, ekstraarbejder der aldrig bliver logget, og fredag eftermiddag brugt på timesedler og fakturaer. SaberTask er måden, du får styr på det.",
+        "title": "Hverdagen i grøn drift",
+        "description": "Hold, der kører frem og tilbage på tværs af byen, vejret der ødelægger ugens plan, ekstraarbejder der aldrig bliver logget, og fredag eftermiddag brugt på timesedler og fakturaer. SaberTask er måden, du får styr på det - uanset om du driver ét hold eller hundredvis af ejendomme.",
         "items": [
           {
             "problem": "Holdene kører frem og tilbage hele dagen",
@@ -1865,8 +1865,8 @@
           ]
         },
         "jobCosting": {
-          "title": "Kend dine jobomkostninger, mens jobbet kører",
-          "description": "Tid registreret fra mobilappen fodrer direkte ind i jobomkostningerne. Se estimat vs. faktiske timer og materialer i realtid - ikke uger senere, hvor det er for sent at gøre noget. Fang overskridelser tidligt, og beskyt din margin på hvert job.",
+          "title": "Kend dine omkostninger, mens jobbet kører",
+          "description": "Tid registreret fra mobilappen fodrer direkte ind i omkostningerne. Se estimat vs. faktiske timer og materialer i realtid - ikke uger senere, hvor det er for sent at gøre noget. Fang overskridelser tidligt, og beskyt din margin på hvert job.",
           "learnMore": "Læs mere om live dashboardet",
           "mockupJobTitle": "Job: Maple Ridge HOA · Forårsoprydning",
           "mockupJobSubtitle": "Estimeret vs. faktisk · live",
@@ -1892,7 +1892,7 @@
         },
         "seasonal": {
           "title": "Sæsonkontrakter, der planlægger sig selv",
-          "description": "Græspleje fra april til oktober. Snerydning fra november til marts. Forårsoprydning, efterårsoprydning, løvindsamling, gødningsrunder. Definér hver service én gang med dens sæson og frekvens - SaberTask genererer de rigtige opgaver på de rigtige datoer, år efter år, uden at du rører skemaet.",
+          "description": "Græspleje fra april til oktober. Snerydning fra november til marts - håndteret af vores specialbyggede vintermodul <snowmanager>SnowManager</snowmanager>. Forårsoprydning, efterårsoprydning, løvindsamling, gødningsrunder. Definér hver service én gang med dens sæson og frekvens - SaberTask genererer de rigtige opgaver på de rigtige datoer, år efter år, uden at du rører skemaet.",
           "learnMore": "Læs mere om tilbagevendende skemaer",
           "mockupTitle": "Serviceaftale · The Grove Office Park",
           "mockupSubtitle": "Årlig vedligeholdelseskontrakt",
@@ -1954,8 +1954,8 @@
         }
       },
       "moreCapabilities": {
-        "title": "Alt det andet en anlægsgartner har brug for",
-        "description": "Fra markens hold til kontoret - én platform for hele driften.",
+        "title": "Alt det andet en grøn driftsorganisation har brug for",
+        "description": "Fra medarbejdere til kontoret - én platform for hele driften, om det er ét firma eller en stor portefølje.",
         "items": [
           {
             "title": "Mobil app til holdet",
@@ -2279,7 +2279,7 @@
       },
       "problems": {
         "title": "Når sneen falder, starter kaosset",
-        "description": "Opkaldene vælter ind klokken fire om morgenen, chaufførerne skal have ruter med det samme, kunderne vil vide hvornår du kommer, og ledelsen har ingen idé om, hvad der faktisk sker i marken. SaberTask giver dig kontrol over hele sæsonen.",
+        "description": "Opkaldene vælter ind klokken fire om morgenen, chaufførerne skal have ruter med det samme, kunderne vil vide hvornår du kommer, og ledelsen har ingen idé om, hvad medarbejderne faktisk laver. SaberTask giver dig kontrol over hele sæsonen.",
         "items": [
           {
             "problem": "Intet overblik over hvad holdene laver",

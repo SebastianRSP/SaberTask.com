@@ -1890,7 +1890,7 @@
         },
         "seasonal": {
           "title": "Seasonal contracts that schedule themselves",
-          "description": "Lawn maintenance from April to October. Snow plowing from November to March. Spring cleanup, fall cleanup, leaf collection, fertilizer rounds. Define each service once with its season and frequency - SaberTask generates the right tasks on the right dates, year after year, without you touching the schedule.",
+          "description": "Lawn maintenance from April to October. Snow plowing from November to March - handled by our purpose-built winter module <snowmanager>SnowManager</snowmanager>. Spring cleanup, fall cleanup, leaf collection, fertilizer rounds. Define each service once with its season and frequency - SaberTask generates the right tasks on the right dates, year after year, without you touching the schedule.",
           "learnMore": "Learn more about recurring schedules",
           "mockupTitle": "Service Agreement · The Grove Office Park",
           "mockupSubtitle": "Annual maintenance contract",

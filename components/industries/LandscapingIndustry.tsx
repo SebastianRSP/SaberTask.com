@@ -245,7 +245,20 @@ export default function LandscapingIndustry() {
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
               </div>
               <h3 className="font-heading text-2xl md:text-3xl font-bold text-dark mb-3">{t('features.seasonal.title')}</h3>
-              <p className="text-gray-600 text-lg mb-6">{t('features.seasonal.description')}</p>
+              <p className="text-gray-600 text-lg mb-6">
+                {t.rich('features.seasonal.description', {
+                  snowmanager: (chunks) => (
+                    <a
+                      href="https://www.snowmanager.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-cyan-700 font-semibold hover:underline"
+                    >
+                      {chunks}
+                    </a>
+                  ),
+                })}
+              </p>
               <Link href="/features/task-scheduling" className="inline-flex items-center gap-1 text-primary font-semibold hover:underline">
                 {t('features.seasonal.learnMore')}
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>

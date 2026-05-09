@@ -1892,7 +1892,7 @@
         },
         "seasonal": {
           "title": "Säsongskontrakt som planerar sig själva",
-          "description": "Gräsvård från april till oktober. Snöröjning från november till mars. Vårstädning, höststädning, lövinsamling, gödningsrundor. Definiera varje tjänst en gång med dess säsong och frekvens - SaberTask genererar rätt uppgifter på rätt datum, år efter år, utan att du rör schemat.",
+          "description": "Gräsvård från april till oktober. Snöröjning från november till mars - hanteras av vår specialbyggda vintermodul <snowmanager>SnowManager</snowmanager>. Vårstädning, höststädning, lövinsamling, gödningsrundor. Definiera varje tjänst en gång med dess säsong och frekvens - SaberTask genererar rätt uppgifter på rätt datum, år efter år, utan att du rör schemat.",
           "learnMore": "Läs mer om återkommande scheman",
           "mockupTitle": "Serviceavtal · The Grove Office Park",
           "mockupSubtitle": "Årligt underhållskontrakt",
