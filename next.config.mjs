@@ -4,6 +4,11 @@ const withNextIntl = createNextIntlPlugin('./i18n.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    outputFileTracingIncludes: {
+      '/sitemap.xml': ['./app/(marketing)/**/page.tsx'],
+    },
+  },
   images: {
     remotePatterns: [
       { protocol: 'https', hostname: 'cdnimg.co' },
