@@ -642,16 +642,20 @@ export default function Features() {
     return () => window.removeEventListener('resize', updateIndicator);
   }, [activeTab]);
 
-  // Scroll the active tab into view (mobile/narrow screens)
+  // Scroll the active tab into view horizontally on tab change (mobile/narrow screens).
+  // Skip the initial mount so we don't scroll the page past the hero on load.
+  const didMountRef = useRef(false);
   useEffect(() => {
-    const activeButton = tabsRef.current[activeTab];
-    if (activeButton) {
-      activeButton.scrollIntoView({
-        behavior: 'smooth',
-        block: 'nearest',
-        inline: 'center',
-      });
+    if (!didMountRef.current) {
+      didMountRef.current = true;
+      return;
     }
+    const activeButton = tabsRef.current[activeTab];
+    const container = activeButton?.parentElement;
+    if (!activeButton || !container) return;
+    const target =
+      activeButton.offsetLeft - container.clientWidth / 2 + activeButton.clientWidth / 2;
+    container.scrollTo({ left: target, behavior: 'smooth' });
   }, [activeTab]);
 
 
