@@ -397,6 +397,7 @@
       "title": "Company",
       "about": "About Us",
       "blog": "Blog",
+      "articles": "Articles",
       "contact": "Contact",
       "careers": "Careers"
     },
@@ -444,6 +445,22 @@
     "pageDescription": "Read the latest insights, tips, and news about field service management from the SaberTask team.",
     "metaDescription": "Insights, tips and news on field service management for cleaning, landscaping, facility and winter services. Practical advice from the SaberTask team.",
     "metaTitle": "Blog - Field Service Insights | SaberTask"
+  },
+  "articles": {
+    "title": "Articles",
+    "subtitle": "Guides and deep-dives on running a modern field service business.",
+    "noArticles": "No articles yet. Check back soon!",
+    "readMore": "Read more",
+    "backToArticles": "Back to Articles",
+    "previous": "Previous",
+    "next": "Next",
+    "pageOf": "Page {page} of {total}",
+    "readingTime": "{minutes} min read",
+    "tagTitle": "Articles tagged \"{tag}\"",
+    "metaTitle": "Articles - Field Service Guides | SaberTask",
+    "metaDescription": "In-depth guides, playbooks and analysis on running cleaning, landscaping, facility and winter service operations.",
+    "tagMetaTitle": "{tag} articles | SaberTask",
+    "tagMetaDescription": "Articles about {tag} for field service operators."
   },
   "industries": {
     "badge": "Target industries",

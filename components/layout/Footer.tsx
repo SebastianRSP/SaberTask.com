@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import Container from '@/components/ui/Container';
 
 declare global {
@@ -17,6 +17,7 @@ const CALENDLY_URL = 'https://calendly.com/sebastiansoepedersen/30min';
 
 export default function Footer() {
   const t = useTranslations('footer');
+  const locale = useLocale();
 
   const openCalendly = () => {
     if (window.Calendly) {
@@ -93,6 +94,16 @@ export default function Footer() {
               {t('company.title')}
             </h4>
             <ul className="space-y-3">
+              {locale === 'en' && (
+                <li>
+                  <Link
+                    href="/articles"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    {t('company.articles')}
+                  </Link>
+                </li>
+              )}
               <li>
                 <Link
                   href={`/#contact`}

@@ -447,6 +447,22 @@
     "metaDescription": "Insikter, tips och nyheter om drift av serviceföretag - städ, trädgård, facility och vinterservice. Praktiska råd från SaberTask-teamet.",
     "metaTitle": "Blogg - Insikter om serviceföretag | SaberTask"
   },
+  "articles": {
+    "title": "Artiklar",
+    "subtitle": "Guider och fördjupningar om att driva ett modernt serviceföretag.",
+    "noArticles": "Inga artiklar ännu. Kom tillbaka snart!",
+    "readMore": "Läs mer",
+    "backToArticles": "Tillbaka till Artiklar",
+    "previous": "Föregående",
+    "next": "Nästa",
+    "pageOf": "Sida {page} av {total}",
+    "readingTime": "{minutes} min läsning",
+    "tagTitle": "Artiklar taggade \"{tag}\"",
+    "metaTitle": "Artiklar - Guider för serviceföretag | SaberTask",
+    "metaDescription": "Fördjupande guider, playbooks och analyser om drift av städ, trädgård, facility och vinterservice.",
+    "tagMetaTitle": "{tag}-artiklar | SaberTask",
+    "tagMetaDescription": "Artiklar om {tag} för ledare av serviceföretag."
+  },
   "industries": {
     "badge": "Målbranscher",
     "titleHighlight": "Riktade Lösningar",

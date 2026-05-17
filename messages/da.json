@@ -447,6 +447,22 @@
     "metaDescription": "Indsigter, tips og nyheder om drift af servicevirksomheder - rengøring, haveservice, facility og vinterservice. Praktiske råd fra SaberTask-teamet.",
     "metaTitle": "Blog - Indsigter om servicevirksomheder | SaberTask"
   },
+  "articles": {
+    "title": "Artikler",
+    "subtitle": "Guides og dybdegående artikler om at drive en moderne servicevirksomhed.",
+    "noArticles": "Ingen artikler endnu. Kom tilbage snart!",
+    "readMore": "Læs mere",
+    "backToArticles": "Tilbage til Artikler",
+    "previous": "Forrige",
+    "next": "Næste",
+    "pageOf": "Side {page} af {total}",
+    "readingTime": "{minutes} min læsning",
+    "tagTitle": "Artikler tagget \"{tag}\"",
+    "metaTitle": "Artikler - Guides til servicevirksomheder | SaberTask",
+    "metaDescription": "Dybdegående guides, playbooks og analyser om drift af rengøring, haveservice, facility og vinterservice.",
+    "tagMetaTitle": "{tag}-artikler | SaberTask",
+    "tagMetaDescription": "Artikler om {tag} for ledere af servicevirksomheder."
+  },
   "industries": {
     "badge": "Brancher",
     "titleHighlight": "Målrettede løsninger",
