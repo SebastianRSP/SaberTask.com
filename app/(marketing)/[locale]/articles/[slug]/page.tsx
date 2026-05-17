@@ -3,7 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import Image from 'next/image';
 import Link from 'next/link';
 import Container from '@/components/ui/Container';
-import { getOutrankClient } from '@/lib/outrank';
+import { getOutrankClient, addHeadingIds } from '@/lib/outrank';
 
 export const revalidate = 86400;
 
@@ -88,8 +88,8 @@ export default async function ArticlePage({ params: { locale, slug } }: Props) {
       <section className="pb-16 md:pb-24">
         <Container size="narrow">
           <article
-            className="prose prose-lg max-w-none prose-headings:font-heading prose-headings:text-dark prose-a:text-primary"
-            dangerouslySetInnerHTML={{ __html: article.html }}
+            className="prose prose-lg max-w-none prose-headings:font-heading prose-headings:text-dark prose-headings:scroll-mt-24 prose-a:text-primary"
+            dangerouslySetInnerHTML={{ __html: addHeadingIds(article.html) }}
           />
 
           {article.tags?.length > 0 && (

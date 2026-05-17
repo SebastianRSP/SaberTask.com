@@ -15,3 +15,24 @@ export function getOutrankClient(): BlogClient {
 }
 
 export const ARTICLES_PER_PAGE = 12;
+
+function slugifyHeading(text: string): string {
+  return text
+    .replace(/<[^>]+>/g, '')
+    .toLowerCase()
+    .replace(/['‘’]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+export function addHeadingIds(html: string): string {
+  return html.replace(
+    /<h([1-6])([^>]*)>([\s\S]*?)<\/h\1>/g,
+    (match, level, attrs, inner) => {
+      if (/\bid\s*=/.test(attrs)) return match;
+      const id = slugifyHeading(inner);
+      if (!id) return match;
+      return `<h${level}${attrs} id="${id}">${inner}</h${level}>`;
+    },
+  );
+}
