@@ -6,10 +6,8 @@ const withNextIntl = createNextIntlPlugin('./i18n.ts');
 const nextConfig = {
   images: {
     remotePatterns: [
-      { protocol: 'https', hostname: '**.outrank.so' },
-      { protocol: 'https', hostname: 'outrank.so' },
-      { protocol: 'https', hostname: '**.supabase.co' },
-      { protocol: 'https', hostname: '**.r2.cloudflarestorage.com' },
+      { protocol: 'https', hostname: 'cdnimg.co' },
+      { protocol: 'https', hostname: '**.cdnimg.co' },
     ],
   },
   async redirects() {
