@@ -54,6 +54,48 @@ export default function PrivacyPolicyPage() {
             </p>
 
             {sections.map((section) => {
+              if (section === 'cookies') {
+                return (
+                  <div key={section} id="cookies" className="mb-8 scroll-mt-32">
+                    <h2 className="font-heading text-2xl font-bold text-dark mb-4">
+                      {t('cookies.title')}
+                    </h2>
+                    <p className="text-gray-600 leading-relaxed mb-4">
+                      {t('cookies.intro')}
+                    </p>
+                    <h3 className="font-heading text-lg font-semibold text-dark mb-2">
+                      {t('cookies.categoriesTitle')}
+                    </h3>
+                    <div className="space-y-4 mb-4">
+                      <div>
+                        <h4 className="font-semibold text-dark mb-1">{t('cookies.necessaryTitle')}</h4>
+                        <p className="text-gray-600 leading-relaxed">{t('cookies.necessaryContent')}</p>
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-dark mb-1">{t('cookies.analyticsTitle')}</h4>
+                        <p className="text-gray-600 leading-relaxed">{t('cookies.analyticsContent')}</p>
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-dark mb-1">{t('cookies.marketingTitle')}</h4>
+                        <p className="text-gray-600 leading-relaxed">{t('cookies.marketingContent')}</p>
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-dark mb-1">{t('cookies.fontsTitle')}</h4>
+                        <p className="text-gray-600 leading-relaxed">{t('cookies.fontsContent')}</p>
+                      </div>
+                    </div>
+                    <h3 className="font-heading text-lg font-semibold text-dark mb-2">
+                      {t('cookies.noCookiesTitle')}
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed mb-4">
+                      {t('cookies.noCookiesContent')}
+                    </p>
+                    <p className="text-gray-600 leading-relaxed">
+                      {t('cookies.reopen')}
+                    </p>
+                  </div>
+                );
+              }
               if (section === 'dataDeletion') {
                 return (
                   <div key={section} id="data-deletion" className="mb-8 scroll-mt-32 rounded-lg border border-gray-200 bg-gray-50 p-6">

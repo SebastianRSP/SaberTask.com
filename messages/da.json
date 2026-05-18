@@ -405,9 +405,33 @@
     "legal": {
       "title": "Juridisk",
       "privacy": "Privatlivspolitik",
-      "terms": "Handelsbetingelser"
+      "terms": "Handelsbetingelser",
+      "cookies": "Cookie-indstillinger"
     },
     "copyright": "© 2025 SaberTask. Alle rettigheder forbeholdes."
+  },
+  "cookieConsent": {
+    "title": "Vi værner om dit privatliv",
+    "description": "Vi bruger cookies til at sikre, at hjemmesiden fungerer, og - med dit samtykke - til at måle trafik og indlæse vores bookingværktøj. Du kan altid ændre dine valg.",
+    "privacyLink": "Læs vores privatlivspolitik",
+    "acceptAll": "Accepter alle",
+    "rejectAll": "Afvis alle",
+    "customize": "Tilpas",
+    "savePreferences": "Gem valg",
+    "categories": {
+      "necessary": {
+        "title": "Strengt nødvendige",
+        "description": "Kræves for at siden fungerer. Inkluderer dit sprogvalg og selve cookie-samtykket. Altid aktive."
+      },
+      "analytics": {
+        "title": "Statistik",
+        "description": "Vercel Web Analytics, der bruges til at tælle besøg og forstå hvilke sider der fungerer bedst. Vi opbygger ingen personlig profil."
+      },
+      "marketing": {
+        "title": "Marketing og indlejringer",
+        "description": "Indlæser vores Calendly-bookingværktøj, så du kan booke en demo direkte fra siden. Calendly sætter cookies og kan overføre data til USA."
+      }
+    }
   },
   "about": {
     "title": "Om SaberTask",
@@ -498,7 +522,7 @@
   },
   "privacyPolicy": {
     "title": "Privatlivspolitik",
-    "lastUpdated": "Sidst opdateret: April 2026",
+    "lastUpdated": "Sidst opdateret: maj 2026",
     "intro": "Hos SaberTask tager vi dit privatliv alvorligt. Denne privatlivspolitik forklarer, hvordan vi indsamler, bruger, videregiver og beskytter dine oplysninger, når du bruger vores tjeneste.",
     "metaDescription": "Sådan indsamler, bruger og beskytter SaberTask dine data. Fuldt GDPR-kompatibel med kryptering på bankniveau og multi-tenant dataisolering.",
     "dataCollection": {
@@ -519,7 +543,19 @@
     },
     "cookies": {
       "title": "Cookies og sporing",
-      "content": "Vi bruger cookies og lignende sporingsteknologier til at spore aktivitet på vores tjeneste og gemme visse oplysninger. Cookies er filer med en lille mængde data, der sendes til din browser fra et websted og gemmes på din enhed. Du kan instruere din browser til at afvise alle cookies eller angive, når en cookie sendes."
+      "intro": "Vi bruger så få cookies og browserlagre som muligt for at drive sabertask.com. Første gang du besøger siden, beder et banner om dit samtykke til ikke-nødvendige cookies. Ikke-nødvendige cookies sættes først, når du har accepteret dem. Du kan ændre eller trække dit valg tilbage når som helst via \"Cookie-indstillinger\" i sidens footer.",
+      "categoriesTitle": "Kategorier vi anvender",
+      "necessaryTitle": "Strengt nødvendige (altid aktive)",
+      "necessaryContent": "Vi gemmer dit cookie-samtykke og dit sprogvalg i din browsers lokale lager. De sættes kun af SaberTask og er nødvendige for, at siden fungerer. Disse kræver ikke samtykke efter artikel 5, stk. 3, i ePrivacy-direktivet.",
+      "analyticsTitle": "Statistik (opt-in)",
+      "analyticsContent": "Hvis du accepterer statistik, indlæser vi Vercel Web Analytics for at tælle besøg og forstå hvilke sider, der fungerer bedst. Vi opbygger ingen personlig profil og bruger ikke disse data til annoncering. Data behandles af Vercel Inc. (USA) som vores databehandler.",
+      "marketingTitle": "Marketing og indlejringer (opt-in)",
+      "marketingContent": "Hvis du accepterer marketing, indlæser vi Calendly-bookingværktøjet, så du kan booke en demo direkte på siden. Calendly drives af Calendly LLC (USA) og sætter egne cookies i din browser. Det indebærer en overførsel af personoplysninger uden for EØS, som vi støtter på EU-US Data Privacy Framework.",
+      "fontsTitle": "Skrifttyper",
+      "fontsContent": "Skrifttyper hostes på vores eget domæne. Der sendes ingen forespørgsler til Google Fonts eller andre tredjepartsudbydere af skrifttyper, så ingen IP-adresse overføres til en tredjepart for at vise tekst på siden.",
+      "noCookiesTitle": "Hvis du afviser alle ikke-nødvendige cookies",
+      "noCookiesContent": "Siden fungerer normalt. Statistik indlæses ikke, og Calendly-værktøjet indlejres ikke. Hvis du klikker på \"Book en demo\" uden marketing-samtykke, åbnes cookie-banneret igen, så du kan tage stilling.",
+      "reopen": "For at ændre eller trække dit samtykke tilbage skal du bruge linket \"Cookie-indstillinger\" i sidens footer."
     },
     "security": {
       "title": "Datasikkerhed",

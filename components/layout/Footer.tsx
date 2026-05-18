@@ -4,26 +4,15 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useLocale, useTranslations } from 'next-intl';
 import Container from '@/components/ui/Container';
-
-declare global {
-  interface Window {
-    Calendly?: {
-      initPopupWidget: (options: { url: string }) => void;
-    };
-  }
-}
+import { useOpenCalendly } from '@/components/consent/useOpenCalendly';
+import { openConsentBanner } from '@/lib/consent';
 
 const CALENDLY_URL = 'https://calendly.com/sebastiansoepedersen/30min';
 
 export default function Footer() {
   const t = useTranslations('footer');
   const locale = useLocale();
-
-  const openCalendly = () => {
-    if (window.Calendly) {
-      window.Calendly.initPopupWidget({ url: CALENDLY_URL });
-    }
-  };
+  const openCalendly = useOpenCalendly(CALENDLY_URL);
 
   return (
     <footer className="bg-dark text-white py-16">
@@ -144,6 +133,15 @@ export default function Footer() {
                 >
                   {t('legal.terms')}
                 </Link>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  onClick={() => openConsentBanner()}
+                  className="text-gray-400 hover:text-white transition-colors text-left"
+                >
+                  {t('legal.cookies')}
+                </button>
               </li>
             </ul>
           </div>

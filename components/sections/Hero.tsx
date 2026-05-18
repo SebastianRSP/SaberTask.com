@@ -1,28 +1,17 @@
 'use client';
 
+
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Container from '@/components/ui/Container';
 import Button from '@/components/ui/Button';
-
-declare global {
-  interface Window {
-    Calendly?: {
-      initPopupWidget: (options: { url: string }) => void;
-    };
-  }
-}
+import { useOpenCalendly } from '@/components/consent/useOpenCalendly';
 
 const CALENDLY_URL = 'https://calendly.com/sebastiansoepedersen/30min';
 
 export default function Hero() {
   const t = useTranslations('hero');
-
-  const openCalendly = () => {
-    if (window.Calendly) {
-      window.Calendly.initPopupWidget({ url: CALENDLY_URL });
-    }
-  };
+  const openCalendly = useOpenCalendly(CALENDLY_URL);
 
   return (
     <section id="hero">

@@ -404,9 +404,33 @@
     "legal": {
       "title": "Legal",
       "privacy": "Privacy Policy",
-      "terms": "Terms of Service"
+      "terms": "Terms of Service",
+      "cookies": "Cookie settings"
     },
     "copyright": "© 2025 SaberTask. All rights reserved."
+  },
+  "cookieConsent": {
+    "title": "We value your privacy",
+    "description": "We use cookies to provide essential site functionality and, with your consent, to measure traffic and load our booking widget. You can change your choices at any time.",
+    "privacyLink": "Read our Privacy Policy",
+    "acceptAll": "Accept all",
+    "rejectAll": "Reject all",
+    "customize": "Customize",
+    "savePreferences": "Save preferences",
+    "categories": {
+      "necessary": {
+        "title": "Strictly necessary",
+        "description": "Required for the site to function. These include your language preference and the cookie consent choice itself. Always active."
+      },
+      "analytics": {
+        "title": "Analytics",
+        "description": "Vercel Web Analytics, used to count visits and understand which pages perform best. No personal profile is built."
+      },
+      "marketing": {
+        "title": "Marketing & embeds",
+        "description": "Loads our Calendly booking widget so you can schedule a demo directly on the site. Calendly sets cookies and may transfer data to the US."
+      }
+    }
   },
   "about": {
     "title": "About SaberTask",
@@ -497,7 +521,7 @@
   },
   "privacyPolicy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last updated: April 2026",
+    "lastUpdated": "Last updated: May 2026",
     "intro": "At SaberTask, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our service.",
     "metaDescription": "How SaberTask collects, uses and protects your data. Fully GDPR compliant with bank-level encryption and multi-tenant data isolation.",
     "dataCollection": {
@@ -518,7 +542,19 @@
     },
     "cookies": {
       "title": "Cookies and Tracking",
-      "content": "We use cookies and similar tracking technologies to track activity on our service and hold certain information. Cookies are files with a small amount of data that are sent to your browser from a website and stored on your device. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent."
+      "intro": "We use the minimum cookies and browser storage needed to run sabertask.com. The first time you visit, a banner asks for your consent for non-essential cookies. Non-essential cookies are only set after you accept them. You can change or withdraw your choice at any time using the \"Cookie settings\" link in the page footer.",
+      "categoriesTitle": "Categories we use",
+      "necessaryTitle": "Strictly necessary (always active)",
+      "necessaryContent": "We store your cookie consent choice and your language preference in your browser's local storage. These are set by SaberTask only and are required for the site to function. Under Article 5(3) of the ePrivacy Directive these do not require consent.",
+      "analyticsTitle": "Analytics (opt-in)",
+      "analyticsContent": "If you accept analytics, we load Vercel Web Analytics to count visits and understand which pages perform best. We do not build a personal profile and do not use this data for advertising. Data is processed by Vercel Inc. (United States) as our processor.",
+      "marketingTitle": "Marketing and embeds (opt-in)",
+      "marketingContent": "If you accept marketing, we load the Calendly booking widget so you can schedule a demo directly on the page. Calendly is operated by Calendly LLC (United States) and sets its own cookies in your browser. This involves a transfer of personal data outside the EEA, which we rely on the EU-US Data Privacy Framework to cover.",
+      "fontsTitle": "Fonts",
+      "fontsContent": "Fonts are served from our own domain. No requests are made to Google Fonts or other third-party font providers, so no IP address is transmitted to a third party to display text on the site.",
+      "noCookiesTitle": "If you refuse all non-essential cookies",
+      "noCookiesContent": "The site continues to work normally. Analytics is not loaded and the Calendly widget will not be embedded. If you click \"Book a demo\" without marketing consent, the cookie banner will reopen so you can decide.",
+      "reopen": "To change or withdraw your consent, use the \"Cookie settings\" link in the page footer."
     },
     "security": {
       "title": "Data Security",
